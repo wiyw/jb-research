@@ -1,0 +1,538 @@
+======== Start of iBoot serial output. ========
+d77fec40d6d8952:1215
+d77fec40d6d8952:1215
+d77fec40d6d8952:1215
+d77fec40d6d8952:1215
+d77fec40d6d8952:1215
+d77fec40d6d8952:1215
+d77fec40d6d8952:1215
+d77fec40d6d8952:1215
+d77fec40d6d8952:1215
+89994699affdef:139
+image <<PTR>>: bdev <<PTR>> type illb offset 0x20000 len 0xb6473
+78faf5021313e82:74
+78faf5021313e82:85
+78faf5021313e82:233
+ae71af5ee32b84:129
+ee37000f60f2e6c:128
+
+
+=Loaded LLB============================
+::
+:: 🔥🌸 Microkernel iBoot for vresearch101 Copyright 2007-2026, Apple Inc.
+::
+::	Local boot, Board 0x90 (vresearch101ap)/Rev 0x0
+::
+::	BUILD_TAG: iBoot-13822.100.791.502.1
+::
+::	UUID: 416D8202-61E4-3B16-961A-EC0B920B9029
+::
+::	BUILD_STYLE: RELEASE
+::
+::	USB_SERIAL_NUMBER: SDOM:01 CPID:FE01 CPRV:00 CPFM:03 SCEP:01 BDID:90 ECID:D232EE9D36988D03 IBFL:3D SRNM:[ZT936JYXNJ]
+::
+=Loaded LLB============================
+
+490dd6a1de0c147:139
+490dd6a1de0c147:149
+490dd6a1de0c147:150
+a3fae6c53b7baa2:107
+3974bfd3d441da3:1609
+3974bfd3d441da3:1688
+3b9107561aef41e:187
+3b9107561aef41e:254
+2dc92642a4f3ce5:39
+2dc92642a4f3ce5:39
+62039c63193986a:491
+62039c63193986a:491
+62039c63193986a:491
+62039c63193986a:491
+a60aa294185a059:983
+a60aa294185a059:986
+490dd6a1de0c147:139
+490dd6a1de0c147:149
+490dd6a1de0c147:150
+3bdace14b1a9a68:3671
+3bdace14b1a9a68:4000
+7ab90c923dae682:1384
+490dd6a1de0c147:139
+490dd6a1de0c147:149
+490dd6a1de0c147:150
+490dd6a1de0c147:139
+490dd6a1de0c147:149
+490dd6a1de0c147:150
+======== End of iBoot serial output. ========
+iBoot version: iBoot-13822.100.791.502.1
+iBoot Stage 2 version: 
+Darwin Image4 Extension Version 7.0.0: Wed Feb  4 22:47:38 PST 2026; root:AppleImage4-349.100.9~2013/AppleImage4/RELEASE_ARM64E
+AppleImage4: no legacy blob present
+AppleImage4: no legacy blob present
+AppleImage4: magazine[pdmg]: failed to read nonce slot data: 2
+AppleImage4: magazine[d1ma]: failed to read nonce slot data: 2
+AppleImage4: magazine[c1ge]: failed to read nonce slot data: 2
+AppleImage4: magazine[c1er]: failed to read nonce slot data: 2
+AppleImage4: magazine[c1ai]: failed to read nonce slot data: 2
+AppleImage4: magazine[c1al]: failed to read nonce slot data: 2
+AppleImage4: root power domain not yet available: 19
+AMFI booted with research mode
+AMFI: UDID support enabled: 2
+AMFI: queried model name from device tree: iPhone99,11
+AMFI: disabling Swift Playgrounds JIT services on iPhone devices
+AMFI: Booted in a VM
+IOResources: not registry member at registerService()
+IOResources: not registry member at registerService()
+IOServicePH::kIOMessageSystemCapabilityChange: will 0xf->0xf
+IOServicePH::systemPowerChange to 0x30
+IOServicePH::kIOMessageSystemCapabilityChange: did 0xf->0xf
+AppleS8000AES::start: registers at phys:0x0x30220000/0x0x30230000 virt:0x<ptr>/0x0x4000 / 0x<ptr>/0x0x4000
+Couldn't find sioaesdisable-offset from DeviceTree to override
+Couldn't find sioaesdisableuid1-offset from DeviceTree to override
+Couldn't find sioaesdisablegid0-offset from DeviceTree to override
+Couldn't find sioaesdisablegid1-offset from DeviceTree to override
+AppleS8000AES::start: aes-version: 3
+AppleS8000AES::start: address-width: 36
+AppleS8000AES::start: using-acg: no
+ACMTRM: initU32FromBootArg: acm_fastsim = 0xffffffff <--- not found.
+ACMTRM: initU32FromEDTProp: /defaults/insecure_hpr = 0x0 <--- not found.
+ACMTRM: isFastSimTarget: isFastSim = NO.
+AppleCredentialManager: init: inited KE[1] (ready=NO AVP=NO SIM=NO SIMT=NO USESEP=YES) -> true.
+AppleCredentialManager: probe: probed KE[1] (ready=NO) -> true (score=0).
+IOPortFamily::registerService(): [Port-Virtual@1] Registering service... (providerPath: IOService:/AppleVirtualPlatformARMPE/port-virtual-1, options: 0)
+
+IOPortTransportStateUSB::setDataRole(): [@: IOPortTransportStateUSB2] Setting data role... (dataRole: 1 [Device])
+IOPortTransportStateUSB::_updateDataRole_block_invoke(): [@: IOPortTransportStateUSB2] Updating data role... (dataRole: 0 [None] -> 1 [Device], isOverride: NO, client: NULL, m_dataRole: 1 [Device], m_dataRoleOverride: -1 [Unknown])
+IOPortTransportState::start(): [Port-Virtual@1: USB2] m_parentPort->isFeatureEnabled(kIOPortFeatureTRM): NO, this->isTRMSupported(): YES, (transportType: 2, parentPortType: 1, parentPortNumber: 1)
+IOPortTransportState::registerService(): [Port-Virtual@1: USB2] Registering service USB2@... (transportType: 2, provider: Port-Virtual@1)
+pci (build 22:47:11 Feb  4 2026), flags 0xc3008, log mode flags 0x4, log flags 0x80000001, log RCs 0xffffffff
+Warning: arc4random not implemented
+Warning: arc4random not implemented
+Warning: arc4random not implemented
+AKSAnalytics built Feb  5 2026 21:44:35
+selected analytics domain com.apple.makod LibraryAKSAnalytics startedAppleARMBootPerf: Warning: profile->magic (0x42545244) != 'BTRC'
+AppleARMSFRManifest: Starting
+AppleARMSFRManifest: Error: Failed to find property sfr-manifest-hash
+AppleARMSFRManifest: Found HASH property
+AppleARMSFRManifest: Found 6 matching hash entries
+AppleARMSFRManifest: Successfully published sfr-manifest
+[AppleLockdownMode - start] started
+AppleCredentialManager: start: starting KE[1] (ready=NO) -> true.
+[AppleLockdownMode - LDMShouldEnforceParity] restoreOS check passed
+AppleCredentialManager: initImpl: called, KE[1].
+ACMFirstResponderKernelService: init: called, .
+ACMTRM-S: init: called, starting PersistentStore service.
+ACMTRM-A: init: called, starting TRM Analytics service.
+ACMTRM-C: init: called, starting AccessoryCache service.
+ACMTRM: init: called, starting TRM service.
+ACMTRM: initU32FromBootArg: trm_default = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_enabled = 0xffffffff <--- not found.
+ACMTRM: initU32FromEDTProp: /defaults/trm-enabled = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_unification = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_all_policy_modes = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_base_system = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: hidrm_default = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: hidrm_enabled = 0xffffffff <--- not found.
+ACMTRM: initU32FromEDTProp: /defaults/hidrm-enabled = 0xffffffff <--- not found.
+ACMTRM: initU32FromEDTProp: /options/stress-rack = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_change_policy_mode = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_profile = 0xffffffff <--- not found.
+ACMTRM: initU32FromEDTProp: /defaults/trm-profile = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_analytics_period = 0xffffffff <--- not found.
+AMFI: skipping PMGRAON latch due to AVP
+AMFI: trying to get developer mode status from ACM
+ACMTRM: initU32FromBootArg: trm_acc_cache_size = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_acc_cache_expiration = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_relaxed_period_timeout = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_unlocked_period_timeout = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: usb_standard_mode_timeout = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_policy_timeout = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: usb_standard_mode_lock_timeout = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_grace_period_timeout = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_keep_enabled_during_apple_setup = 0xffffffff <--- not found.
+ACMTRM: _disableBy: [TRM ENABLED=YES] (mask=0, DISABLED BY: Def=N* Arg=N HW=N DT=N Env=N Ext=N Dev=N SEP=N SR=N | MC=N DW=N CB=N GS=N CP=N BS=N MB=N SC=N AS=N IB=N DM=N).
+ACMTRM: _disableBy: [TRM ENABLED=YES] (mask=0, DISABLED BY: Def=N Arg=N* HW=N DT=N Env=N Ext=N Dev=N SEP=N SR=N | MC=N DW=N CB=N GS=N CP=N BS=N MB=N SC=N AS=N IB=N DM=N).
+ApplePSCI - PSCI version 1.1
+ApplePSCI - started
+Failed to read AvpRtc NVRAM variable
+[ PCI configuration begin ]
+[IOPCIConfigurator::configure()] PCI configuration pcie
+ACMTRM: _disableBy: [TRM ENABLED=NO] (mask=10, DISABLED BY: Def=N Arg=N HW=N DT=Y* Env=N Ext=N Dev=N SEP=N SR=N | MC=N DW=N CB=N GS=N CP=N BS=N MB=N SC=N AS=N IB=N DM=N).
+ACMTRM: _loadDisabledByOSEnvironment: disabled by OSEnvironment: NO.
+AppleA7IOPNub: withRegistryEntry, 47: allocated nub <ptr>
+
+virtual bool AppleARMLightEmUp::start(IOService *): starting...
+APV-IOSFC: start
+virtual bool AppleSEPManager::start(IOService *): 
+virtual bool AppleSEPManager::start(IOService *): SEP memory ISNOT coherent
+[ PCI configuration end, bridges 1, devices 15 ]
+virtual bool AppleSEPManager::start(IOService *): control endpoints created
+void AppleSEPManager::_configurePowerStates(): SEP on during low power: EDT 0
+void AppleSEPManager::_configurePowerStates(): No SEP on during low power boot arg
+void AppleSEPManager::_configurePowerStates(): SEP on during low power: 0
+virtual bool AppleSEPManager::start(IOService *): PM init done
+APV-IOSFC: success
+virtual bool AppleSEPManager::start(IOService *): registered
+IOReturn AppleSEPManager::_setPowerState(unsigned long *): power state 0 -> 2
+TXM-SEP secure channel: 1 | 0
+static IOService *AppleSEPManager::getReadableNvram(): Waiting for IODTNVRAM
+static IOService *AppleSEPManager::getReadableNvram(): Got IODTNVRAM OK
+void AppleSEPManager::_loadFlagData(): Didn't find oblit-inprogress in NVRAM
+
+void AppleSEPManager::_loadFlagData(): Didn't find hardcoded TXM-SEP secure channel DVA
+
+void AppleSEPManager::_setupCPUTrace(): CPUTrace; pa=0x0, size=0x0
+
+static IOService *AppleSEPManager::getReadableNvram(): Waiting for IODTNVRAM
+static IOService *AppleSEPManager::getReadableNvram(): Got IODTNVRAM OK
+virtual void AppleSEPDebugArgs::_updateBuffer(): sep-debug-args: -testbool testalldigits=1234567890 testallhex=0x1234567890abcdef
+void AppleSEPBooter::_bootAction(void *, void *): Platform doesn't support SEPROM iBIC retrieval
+void AppleSEPBooter::_bootAction(void *, void *): SEP status: 1
+void AppleSEPBooter::_bootAction(void *, void *): SEP accepted Tz0
+void AppleSEPBooter::_bootAction(void *, void *): SEP status: 2
+void AppleSEPBooter::_bootAction(void *, void *): SEP status: 2
+IOReturn AppleSEPBooter::bootSEP(AppleSEPFirmware *, bool, AppleSEPSharedMemoryBuffer *, uint8_t *): SEP booting
+IOReturn AppleSEPBooter::bootSEP(AppleSEPFirmware *, bool, AppleSEPSharedMemoryBuffer *, uint8_t *): Shmbuf for SEP: { slave addr = 0x79ea4000, size = 0x70000 }
+AppleVirtIOUSBDeviceController@: IOUSBDeviceController::prepareDefaults: model iPhone version 99.11
+/Library/Caches/com.apple.xbs/BA6EFAC0-47AD-4A4A-821B-C5A5E68E5504/TemporaryDirectory.Vj6692/Sources/AppleVirtIOStorage/Source/AppleVirtIOStorageDevice.cpp::467:createBlockStorageDevice for fDeviceRole 2
+Creating 7 util devices
+/Library/Caches/com.apple.xbs/BA6EFAC0-47AD-4A4A-821B-C5A5E68E5504/TemporaryDirectory.Vj6692/Sources/AppleVirtIOStorage/Source/AppleVirtIOUtilStorageDevice.cpp::221:CreateUtilDevice for regionID 1 and regionIndex = 0
+[IOSA][Boot ] VendorID = 0x106b, deviceID = 0x1a0b
+/Library/Caches/com.apple.xbs/BA6EFAC0-47AD-4A4A-821B-C5A5E68E5504/TemporaryDirectory.Vj6692/Sources/AppleVirtIOStorage/Source/AppleVirtIOStorageDevice.cpp::467:createBlockStorageDevice for fDeviceRole 1
+/Library/Caches/com.apple.xbs/BA6EFAC0-47AD-4A4A-821B-C5A5E68E5504/TemporaryDirectory.Vj6692/Sources/AppleVirtIOStorage/Source/AppleVirtIOUtilStorageDevice.cpp::221:CreateUtilDevice for regionID 2 and regionIndex = 1
+apfs_module_start:3727: load: com.apple.filesystems.apfs, v2811.100.177, apfs-2811.100.177.0.1, 2026/02/04
+Registration Done
+/Library/Caches/com.apple.xbs/BA6EFAC0-47AD-4A4A-821B-C5A5E68E5504/TemporaryDirectory.Vj6692/Sources/AppleVirtIOStorage/Source/AppleVirtIOUtilStorageDevice.cpp::221:CreateUtilDevice for regionID 3 and regionIndex = 2
+/Library/Caches/com.apple.xbs/BA6EFAC0-47AD-4A4A-821B-C5A5E68E5504/TemporaryDirectory.Vj6692/Sources/AppleVirtIOStorage/Source/AppleVirtIOUtilStorageDevice.cpp::252:Driver not present yet for region = 3, not a failure
+/Library/Caches/com.apple.xbs/BA6EFAC0-47AD-4A4A-821B-C5A5E68E5504/TemporaryDirectory.Vj6692/Sources/AppleVirtIOStorage/Source/AppleVirtIOUtilStorageDevice.cpp::221:CreateUtilDevice for regionID 7 and regionIndex = 3
+/Library/Caches/com.apple.xbs/BA6EFAC0-47AD-4A4A-821B-C5A5E68E5504/TemporaryDirectory.Vj6692/Sources/AppleVirtIOStorage/Source/AppleVirtIOUtilStorageDevice.cpp::252:Driver not present yet for region = 7, not a failure
+/Library/Caches/com.apple.xbs/BA6EFAC0-47AD-4A4A-821B-C5A5E68E5504/TemporaryDirectory.Vj6692/Sources/AppleVirtIOStorage/Source/AppleVirtIOUtilStorageDevice.cpp::221:CreateUtilDevice for regionID 4 and regionIndex = 4
+/Library/Caches/com.apple.xbs/BA6EFAC0-47AD-4A4A-821B-C5A5E68E5504/TemporaryDirectory.Vj6692/Sources/AppleVirtIOStorage/Source/AppleVirtIOUtilStorageDevice.cpp::252:Driver not present yet for region = 4, not a failure
+/Library/Caches/com.apple.xbs/BA6EFAC0-47AD-4A4A-821B-C5A5E68E5504/TemporaryDirectory.Vj6692/Sources/AppleVirtIOStorage/Source/AppleVirtIOUtilStorageDevice.cpp::221:CreateUtilDevice for regionID 5 and regionIndex = 5
+/Library/Caches/com.apple.xbs/BA6EFAC0-47AD-4A4A-821B-C5A5E68E5504/TemporaryDirectory.Vj6692/Sources/AppleVirtIOStorage/Source/AppleVirtIOUtilStorageDevice.cpp::221:CreateUtilDevice for regionID 6 and regionIndex = 6
+status = 0x0
+EAN Registration done 
+void AppleSEPBooter::_bootAction(void *, void *): SEP accepted IMG4
+AppleSEPManager starting trace boot timer
+ACMTRM: _disableBy: [TRM ENABLED=NO] (mask=10, DISABLED BY: Def=N Arg=N HW=N DT=Y Env=N* Ext=N Dev=N SEP=N SR=N | MC=N DW=N CB=N GS=N CP=N BS=N MB=N SC=N AS=N IB=N DM=N).
+ACMTRM: initU32FromEDTProp: /chosen/sepfw-load-at-boot = 0x1.
+ACMTRM: isSEPAvailable: isSEPAvailable = YES.
+ACMTRM: _disableBy: [TRM ENABLED=NO] (mask=10, DISABLED BY: Def=N Arg=N HW=N DT=Y Env=N Ext=N Dev=N SEP=N* SR=N | MC=N DW=N CB=N GS=N CP=N BS=N MB=N SC=N AS=N IB=N DM=N).
+ACMTRM: _disableBy: [TRM ENABLED=NO] (mask=10, DISABLED BY: Def=N Arg=N HW=N DT=Y Env=N Ext=N Dev=N SEP=N SR=N* | MC=N DW=N CB=N GS=N CP=N BS=N MB=N SC=N AS=N IB=N DM=N).
+ACMTRM: _mapAndPublishTRM: set TRM_PolicyTimeout = 259200.
+ACMTRM: _mapAndPublishTRM: set TRM_PolicyReason = Unrestricted(0).
+ACMTRM: _mapAndPublishTRM: set TRM_RelaxedPeriodTimeout = 259200.
+ACMTRM: _mapAndPublishTRM: set TRM_UnlockedPeriodTimeout = 86400.
+ACMTRM: _mapAndPublishTRM: set HIDRM_PolicyEnabled = False.
+ACMTRM: _mapAndPublishTRM: sent kACMTRMMessage_PropertyChanged(#changes=4) while LOCKED(1), TRM: 259200/U(0) 4294967295/-(255) M=255/4294967295/4294967295 ---(255)/---(255) L=255 BS=255 R=255 RP=259200/255 UP=86400/255, CUR: U(0) -(255).
+ACMTRM: _mapAndPublishTRM: sent kACMHIDRMMessage_PropertyChanged(#changes=1) while LOCKED(1), HIDRM: DISABLED.
+ACMTRM: _notifyClientsLocalHelper: sent kIOMessageServicePropertyChange(0xe0000130) -> 0x0.
+ACMLockdownModeKernelService: init: called, .
+ACMLockdownModeKernelService: init: returning, result = true.
+AppleCredentialManager: initImpl: KE[1] INITED.
+AppleCredentialManager: initImpl: returning, KE[1] -> true.
+AppleCredentialManager: startImpl: called, KE[1].
+ACM: TRMAccCache_SetupEmpty: called, cacheSize=48 expiration=2592000.
+ACMTRM: start: security.mac.acm.root_pivot_occurred sysctl registered.
+ACMLockdownModeKernelService: start: called, .
+ACMLockdownModeKernelService: start: returning, result = true.
+AppleCredentialManager: startImpl: initializing power management.
+AppleCredentialManager: startImpl: will join SEPManager's PM tree in getSEPEndpoint().
+AppleCredentialManager: startImpl: registering notifications.
+AppleCredentialManager: waitForSEPEndpointOutsideACMCommandGate: waiting cmd=25.
+AppleCredentialManager: startImpl: KE[1] STARTED.
+AppleCredentialManager: sepManagerMatchedGated: AppleSEPManager matched.
+AppleCredentialManager: startImpl: returning, KE[1] -> true.
+AppleCredentialManager: start: started KE[1] (ready=YES) -> true.
+"AppleSEPKeyStore":pid:0,:368: starting (BUILT: Feb  5 2026 21:44:14) ("normal" variant 🌽 , 2155.100.111.0.1)
+"AppleSEPKeyStore":pid:0,:513: _sep_enabled = 1
+"AppleSEPKeyStore":pid:0,:574: ioPerfControl is enabled: 1, 1
+virtual bool CoreAnalyticsHub::start(IOService *)::150:CoreAnalyticsHub start
+virtual bool CoreAnalyticsHub::start(IOService *)::229:CoreAnalyticsHub start completed
+com.apple.AppleFSCompressionTypeZlib kmod start
+AppleUSBXHCIPCI@0c000000: AppleUSBXHCI::createPorts: ports limit reached.  Not creating the remaining 1 ports
+AppleUSB30XHCIPort@0c100000: AppleUSBHostPort::cableChangeOccurred: powering on
+AppleUSB30XHCIPort@0c200000: AppleUSBHostPort::cableChangeOccurred: powering on
+AppleUSB30XHCIPort@0c300000: AppleUSBHostPort::cableChangeOccurred: powering on
+AppleUSB30XHCIPort@0c500000: AppleUSBHostPort::cableChangeOccurred: powering on
+AppleUSB30XHCIPort@0c400000: AppleUSBHostPort::cableChangeOccurred: powering on
+AppleUSB30XHCIPort@0c600000: AppleUSBHostPort::cableChangeOccurred: powering on
+AppleUSB30XHCIPort@0c700000: AppleUSBHostPort::cableChangeOccurred: powering on
+AppleUSB30XHCIPort@0c800000: AppleUSBHostPort::cableChangeOccurred: powering on
+AppleUSB20XHCIPort@0c900000: AppleUSBHostPort::cableChangeOccurred: powering on
+AppleUSB20XHCIPort@0ca00000: AppleUSBHostPort::cableChangeOccurred: powering on
+AppleUSB20XHCIPort@0cb00000: AppleUSBHostPort::cableChangeOccurred: powering on
+AppleUSB20XHCIPort@0cc00000: AppleUSBHostPort::cableChangeOccurred: powering on
+AppleUSB20XHCIPort@0cd00000: AppleUSBHostPort::cableChangeOccurred: powering on
+AppleUSB20XHCIPort@0ce00000: AppleUSBHostPort::cableChangeOccurred: powering on
+AppleUSB20XHCIPort@0cf00000: AppleUSBHostPort::cableChangeOccurred: powering on
+com.apple.AppleFSCompressionTypeZlib load succeeded
+Setting up notifier for CoreAnalyticsHub
+IOSurfaceRoot using IOSurfaceRootParavirtMapperInterface <ptr>install_apfs_vfs_fs:8379: apfs: speculative telemetry feature ENABLED by boot-arg
+is_arv_enabled:3888: ================ ARV enabled ================
+apfs_sysctl_register:1328: done registering sysctls.
+L2TP domain init
+L2TP domain init complete
+Load request for com.apple.nke.pptp failed: -603946991
+[IOSA][Boot ] Service is registered = <ptr>
+Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOMedia</string><key>IOPropertyMatch</key><dict ID="2"><key>Partition ID</key><integer size="64" ID="3">0x1</integer></dict></dict>
+Got boot device = IOService:/AppleVirtualPlatformARMPE/arm-io/AppleVirtualPlatformIO/pcie@30000000/AppleVirtualPlatformPCIE/pci106b,1a00@6/AppleVirtIOPCITransport/AppleVirtIOStorageDevice/AppleVirtIODiskStorageDevice@1/IOBlockStorageDriver/Apple Inc. VirtBSD root: disk0s1, major 1, minor 1
+dev_init:296: disk0s1 device accelerated crypto: 0 (compiled @ Feb  4 2026 22:48:03)
+dev_init:299: disk0s1 device_handle block size 4096 block count 16777206 features 0 internal 
+virtual bool IOMobileFramebufferLegacy::start(IOService *)
+IOMFB: driver commit: 
+nx_mount:1203: disk0s1 initializing cache w/hash_size 4096 and cache size 10064
+void AppleSEPControl::_callActiveAsync(): wait for active call, mach_absolute_time: 32353070
+void AppleSEPControl::_cmsgAction(void *, void *): SEP info: 0x0
+static void AppleSEPControl::_notifyActiveAsync(thread_call_param_t, thread_call_param_t): mach_absolute_time: 32379638
+void AppleSEPManager::_notifyOSActiveGated(): SEP/OS is alive in 8 state
+bool AppleSEPManager::tryStartReseed()_block_invoke: FIPS reseed started
+nx_mount:1521: disk0s1 checkpoint search: largest xid 217, best xid 217 @ 153
+nx_mount:1548: disk0s1 stable checkpoint indices: desc 152 data 1014
+void AppleSEPManager::endReseed()_block_invoke: FIPS reseed completed
+enhanced_apfs_enabled_helper:13419: ================ enhanced apfs is enabled ================
+enhanced_apfs_enabled_helper:13419: ================ enhanced apfs is enabled ================
+enhanced_apfs_enabled_helper:13419: ================ enhanced apfs is enabled ================
+enhanced_apfs_enabled_helper:13419: ================ enhanced apfs is enabled ================
+enhanced_apfs_enabled_helper:13419: ================ enhanced apfs is enabled ================
+enhanced_apfs_enabled_helper:13419: ================ enhanced apfs is enabled ================
+enhanced_apfs_enabled_helper:13419: ================ enhanced apfs is enabled ================
+is_arv_enabled:3888: ================ ARV enabled ================
+import_iboot_forwarded_roothash:4051: importing root hash (basesystem ? 0)...
+hfs_ValidateHFSPlusVolumeHeader: unknown Volume Signature : 0
+hfs_mount: hfs_mountfs returned error=22 for device unknown-dev
+apfs_vfsop_mountroot:3111: apfs: mountroot called!
+dev_init:296: disk1 device accelerated crypto: 3 (compiled @ Feb  4 2026 22:48:03)
+dev_init:299: disk1 device_handle block size 4096 block count 16777206 features 18 internal solidstate
+nx_mount:1203: disk1 initializing cache w/hash_size 4096 and cache size 10064
+nx_mount:1521: disk1 checkpoint search: largest xid 217, best xid 217 @ 153
+nx_mount:1548: disk1 stable checkpoint indices: desc 152 data 1014
+apfs_find_named_root_snapshot_xid:2118: disk1s1 failed to retrieve default root snapshot xid: No such file or directory (2)
+apfs_vfsop_mount:2875: disk1s1 failed to find named root snapshot: No such file or directory (2)
+apfs_log_op_with_proc:3227: disk1s1 mounting volume System, requested by: kernel_task (pid 0); parent: kernel_task (pid 0)
+handle_mount:890: disk1s1 vol-uuid: 61706673-7575-6964-0001-766F6C756E00 block size: 4096 block count: 16777206 (unencrypted; flags: 0x1; features: 28.0.12)
+handle_mount:903: disk1s1 setting dev block size to 4096 from 512
+apfs_log_op_with_proc:3227: disk1s1 mount-complete volume System, requested by: kernel_task (pid 0); parent: kernel_task (pid 0)
+enhanced_apfs_enabled_helper:13419: ================ enhanced apfs is enabled ================
+is_arv_enabled:3888: ================ ARV enabled ================
+TXM [Error]: Errno: selector: 45 | 78
+AppleImage4: trap failed: set boot uuid
+AppleImage4: failed to set boot uuid in supervisor: 78
+AppleImage4: magazine[cptx]: failed to get nonce: 13
+AppleImage4: magazine[c1bt]: failed to get nonce: 6
+is_root_hash_authentication_required_ios:531: disk1s1 Release kext, booting xid: 0
+is_root_hash_authentication_required:614: disk1s1 Root Volume, root hash authentication is required
+INIT: virtual bool AppleMobileApNonce::start(IOService *):
+INIT:     AMAN starting
+SPEW: virtual bool AppleMobileApNonce::start(IOService *):
+SPEW:     start: _cryptoHashMethod=2
+SPEW: virtol AppleMobileApNonce::start(IOService *):
+AMFI: '/sbin/launchd' is adhoc signed.
+AMFI: '/sbin/launchd': unsuitable CT policy 0 for this platform/device, rejecting signature.
+AMFI: code signature validation failed.
+panic(cpu 0 caller 0xfffffe00325be338): unexpected SIGKILL of init  with reason -- namespace 9 code 0x1 description none
+Debugger message: panic
+Memory ID: 0x0
+OS release type: Not set yet
+OS version: Not set yet
+Kernel version: Darwin Kernel Version 25.4.0: Wed Feb  4 23:04:24 PST 2026; root:xnu-12377.100.591.502.1~2/RELEASE_ARM64_VRESEARCH1
+Fileset Kernelcache UUID: BCD06230CCBE8E4850FFD9C166D83CD5
+Kernel UUID: 784F88D3-2AF5-3D4A-AB00-365607646E44
+Boot session UUID: BF57DA85-A503-4BED-956D-2543BC2EA6D3
+iBoot version: iBoot-13822.100.791.502.1
+iBoot Stage 2 version: 
+secure boot?: YES
+roots installed: 0
+Paniclog version: 15
+Debug Header address: 0xfffffe0010475000
+Debug Header entry count: 3
+TXM load address: 0xfffffe00203d8000
+TXM UUID: B5296327-F14E-3430-9341-F452A4C9B571
+Debug Header kernelcache load address: 0xfffffe00303d8000
+Debug Header kernelcache UUID: BCD06230-CCBE-8E48-50FF-D9C166D83CD5
+SPTM load address: 0xfffffe00103d8000
+SPTM UUID: 456B57B5-4706-30E5-954F-4CF90404ADBC
+KernelCache slide: 0x00000000293d4000
+KernelCache base:  0xfffffe00303d8000
+Kernel slide:      0x00000000293d8000
+Kernel text base:  0xfffffe00303dc000
+Kernel text exec slide: 0x000000002b078000
+Kernel text exec base:  0xfffffe003207c000
+mach_absolute_time: 0x2121dac
+Epoch Time:        sec       usec
+  Boot    : 0x6ae66652 0x00000000
+  Sleep   : 0x00000000 0x00000000
+  Wake    : 0x00000000 0x00000000
+  Calendar: 0x6ae66652 0x0002126a
+
+Zone info:
+  Zone map: 0xfffffe1104000000 - 0xfffffe3704000000
+  . VM    : 0xfffffe1104000000 - 0xfffffe16d0000000
+  . RO    : 0xfffffe16d0000000 - 0xfffffe196a000000
+  . GEN0  : 0xfffffe196a000000 - 0xfffffe1f36000000
+  . GEN1  : 0xfffffe1f36000000 - 0xfffffe2502000000
+  . GEN2  : 0xfffffe2502000000 - 0xfffffe2ace000000
+  . GEN3  : 0xfffffe2ace000000 - 0xfffffe309a000000
+  . DATA  : 0xfffffe309a000000 - 0xfffffe3704000000
+  Metadata: 0xfffffe3a08010000 - 0xfffffe3a11810000
+  Bitmaps : 0xfffffe3a11810000 - 0xfffffe3a12fa8000
+  Extra   : 0 - 0
+
+TPIDRx_ELy = {1: 0xfffffe25041366c0  0: 0x0000000000000000  0ro: 0x0000000000000000 }
+CORE 0 is the one that panicked. Check the full backtrace for details.
+CORE 1: PC=0xfffffe003289cc74, LR=0xfffffe003289d4a0, FP=0xfffffea763f9b860
+CORE 2: PC=0xfffffe0032106984, LR=0xfffffe0032106984, FP=0xfffffea763fbfed0
+CORE 3: PC=0xfffffe003223cbf0, LR=0xfffffe003223cbec, FP=0xfffffe4f60013e50
+CORE 4: PC=0xfffffe003223cbf0, LR=0xfffffe003223cbec, FP=0xfffffe3b1412be50
+CORE 5: PC=0xfffffe003223cbf0, LR=0xfffffe003223cbec, FP=0xfffffe3b14197e50
+CORE 6: PC=0xfffffe0032106984, LR=0xfffffe0032106984, FP=0xfffffe4f60037ed0
+CORE 7: PC=0xfffffe0032106984, LR=0xfffffe0032106984, FP=0xfffffe3b141f7ed0
+Compressor Info: 0% of compressed pages limit (OK) and 0% of segments limit (OK) with 0 swapfiles and OK swap space
+Panicked task 0xfffffe2f99f40ca8: 1 pages, 1 threads: pid 1: init
+Panicked thread: 0xfffffe25041366c0, backtrace: 0xfffffe62abf972b0, tid: 428
+		  lr: 0xfffffe00320d0344  fp: 0xfffffe62abf97350
+		  lr: 0xfffffe003223a800  fp: 0xfffffe62abf973c0
+		  lr: 0xfffffe0032238c64  fp: 0xfffffe62abf97490
+		  lr: 0xfffffe0032080d40  fp: 0xfffffe62abf974a0
+		  lr: 0xfffffe00320d064c  fp: 0xfffffe62abf979c0
+		  lr: 0xfffffe00328d1324  fp: 0xfffffe62abf979e0
+		  lr: 0xfffffe00325be338  fp: 0xfffffe62abf97a90
+		  lr: 0xfffffe003258f218  fp: 0xfffffe62abf97c40
+		  lr: 0xfffffe0032595820  fp: 0xfffffe62abf97ce0
+		  lr: 0xfffffe0032597410  fp: 0xfffffe62abf97d90
+		  lr: 0xfffffe0032597c64  fp: 0xfffffe62abf97e40
+		  lr: 0xfffffe003255ad90  fp: 0xfffffe62abf97e60
+		  lr: 0xfffffe00320c4df0  fp: 0xfffffe62abf97ec0
+		  lr: 0xfffffe00320813fc  fp: 0xfffffe62abf97ed0
+		  lr: 0xfffffe0032118c14  fp: 0xfffffe62abf97f20
+		  lr: 0xfffffe003208178c  fp: 0x0000000000000000
+
+
+last started kext at 31680528: com.apple.nke.l2tp	1.9 (addr 0xfffffe00308050d0, size 4248)
+loaded kexts: (skipped, see boot kernelcache)
+
+
+** Stackshot Succeeded ** Bytes Traced 20110 (Uncompressed 59136) **
+
+Please go to https://panic.apple.com to report this panic
+[vphone] Loaded VM manifest from /Users/greyson/.vphone/VMs/test-phone/config.plist
+=== vphone-cli ===
+Variant : regular
+ROM     : /Users/greyson/.vphone/VMs/test-phone/AVPBooter.vresearch1.bin
+Disk    : /Users/greyson/.vphone/VMs/test-phone/Disk.img
+NVRAM   : /Users/greyson/.vphone/VMs/test-phone/nvram.bin
+Config  : /Users/greyson/.vphone/VMs/test-phone/config.plist
+CPU     : 8
+Memory  : 8192 MB
+Screen: 1290x2796 @ 460 PPI (scale 3.0x)
+Kernel debug stub : auto-assigned
+SEP               : enabled
+  storage         : /Users/greyson/.vphone/VMs/test-phone/SEPStorage
+  rom             : /Users/greyson/.vphone/VMs/test-phone/AVPSEPBooter.vresearch1.bin
+
+[vphone] PV=3 hardware model: isSupported = true
+[vphone] Loaded machineIdentifier from config.plist (ECID stable)
+[vphone] ECID: D232EE9D36988D03
+[vphone] Predicted UDID: 0000FE01-D232EE9D36988D03
+[vphone] Wrote UDID prediction: /Users/greyson/.vphone/VMs/test-phone/udid-prediction.txt
+[vphone] NVRAM boot-args: serial=3 debug=0x104c04
+[vphone] PL011 serial port attached (interactive)
+[vphone] Accelerator devices configured
+[vphone] USB touch screen configured
+[vphone] Entropy device configured
+[vphone] Synthetic battery configured (100%, charging)
+[vphone] Kernel GDB debug stub enabled (system-assigned port)
+[vphone] SEP coprocessor enabled (storage: /Users/greyson/.vphone/VMs/test-phone/SEPStorage)
+[vphone] Configuration validated
+[vphone] Starting...
+[vphone] VM started - booting normally
+WARNING: Trying to access an unrecognized member: VZVirtualMachine._configuration
+[location] host location forwarding ready
+[control] vphoned binary: .vphoned.signed (187584 bytes, 0ac8c42db618...)
+[touchid-bk] BiometricKit already loaded
+[battery] sync 80%, connectivity=1
+[hostctl] listening on /Users/greyson/.vphone/VMs/test-phone/vphone.sock
+[location] authorization status: 0
+[touchid-bk] unknown status %lu — treating as finger down 60
+[touchid] tap ignored (window not key or disconnected)
+[battery] sync LPM failed: not connected to vphoned
+[control] connect failed: Error Domain=NSPOSIXErrorDomain Code=54 "Connection reset by peer"
+[control] connect failed; reconnecting in 3s...
+[camera] connect failed: Error Domain=NSPOSIXErrorDomain Code=54 "Connection reset by peer". Retrying in 3s.
+[control] vphoned binary: .vphoned.signed (187584 bytes, 0ac8c42db618...)
+
+=== Host ===
+ProductName:		macOS
+ProductVersion:		27.0.1
+BuildVersion:		26A434
+model: MacBook Air
+kern.hv_vmm_present: 0
+SIP: System Integrity Protection status: unknown (Custom Configuration).
+
+Configuration:
+	Apple Internal: disabled
+	Kext Signing: enabled
+	Filesystem Protections: enabled
+	Debugging Restrictions: disabled
+	DTrace Restrictions: enabled
+	NVRAM Protections: enabled
+	BaseSystem Verification: enabled
+	Boot-arg Restrictions: enabled
+	Kernel Integrity Protections: enabled
+	Authenticated Root Requirement: enabled
+
+This is an unsupported configuration, likely to break in the future and leave your machine in an unknown state.
+allow-research-guests: Allow Research Guests status: enabled
+current kern.bootargs: 
+next-boot nvram boot-args: 
+assessment: assessments enabled
+
+=== Entitlements ===
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>com.apple.private.bmk.allow</key><true/><key>com.apple.private.virtualization</key><true/><key>com.apple.private.virtualization.security-research</key><true/><key>com.apple.security.get-task-allow</key><true/><key>com.apple.security.personal-information.location</key><true/><key>com.apple.security.virtualization</key><true/><key>com.apple.vm.networking</key><true/></dict></plist>
+
+=== Policy ===
+/Applications/vphone-cli.app/Contents/MacOS/vphone-cli: a sealed resource is missing or invalid
+
+=== Unsigned Debug Binary ===
+(skipped — debug binary not built; run 'make patcher_build' to include)
+
+=== Signed Release Binary ===
+[release_help] exit=0
+OVERVIEW: Boot a virtual iPhone or patch firmware with the Swift pipeline
+
+USAGE: vphone-cli <subcommand>
+
+OPTIONS:
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  boot (default)          Boot a virtual iPhone (PV=3)
+  patch-firmware          Patch boot-chain firmware in a VM directory using the
+                          Swift pipeline
+  patch-component         Patch a single firmware component payload and write
+                          the patched raw bytes
+  vm                      Manage vphone VM bundles
+  fw                      Firmware pipeline: prepare (download/merge IPSWs) and
+                          patch
+  restore                 DFU-restore firmware into a VM bundle (requires a
+                          running DFU boot)
+  cfw                     Custom-firmware install (host-mount; VM must be off;
+                          re-execs sudo)
+  setup                   Provision/verify the host Python environment
+                          (~/.vphone/venv)
+
+  See 'vphone-cli help <subcommand>' for detailed help.
+
+=== Signed Debug Control ===
+(skipped — debug binary not built)
+
+=== Result ===
+If unsigned debug runs but either signed binary exits 137 / signal 9,
+the host is not currently permitting the required private virtualization entitlements.
+If the signed release binary exits 0 but the signed debug control still exits 137,
+a path/CDHash-scoped amfidont bypass may already be active for this repo.
+Typical requirements for this project are:
+  1. macOS 15+ with PV=3 support
+  2. Host hardware must expose Virtualization.framework VM support (not a nested VM without virtualization availability)
+  3. SIP disabled
+  4. allow-research-guests enabled in Recovery OS
+  5. AMFI / execution policy state that permits the private entitlements
+  6. Gatekeeper / assessment configured so the signed binary is launchable

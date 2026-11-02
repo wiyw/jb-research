@@ -1,0 +1,163 @@
+## FeedbackService
+
+> `/System/Library/PrivateFrameworks/FeedbackService.framework/FeedbackService`
+
+```diff
+
+-235.0.0.0.0
+-  __TEXT.__text: 0x9701c
+-  __TEXT.__objc_methlist: 0x1420
+-  __TEXT.__const: 0xcb04
+-  __TEXT.__oslogstring: 0x14a6
+-  __TEXT.__cstring: 0x2bd2
++242.0.0.0.0
++  __TEXT.__text: 0x98c40
++  __TEXT.__objc_methlist: 0x1510
++  __TEXT.__const: 0xcb24
++  __TEXT.__oslogstring: 0x1656
++  __TEXT.__cstring: 0x2df2
+   __TEXT.__ustring: 0xd8
+   __TEXT.__gcc_except_tab: 0xb8
+-  __TEXT.__swift5_typeref: 0x2af3
++  __TEXT.__swift5_typeref: 0x2b0d
+   __TEXT.__constg_swiftt: 0x25a4
+   __TEXT.__swift5_reflstr: 0x1382
+   __TEXT.__swift5_fieldmd: 0x2790
+
+   __TEXT.__swift5_mpenum: 0x44
+   __TEXT.__swift5_proto: 0xb5c
+   __TEXT.__swift5_types: 0x380
+-  __TEXT.__swift5_capture: 0x5dc
+-  __TEXT.__swift_as_entry: 0x98
+-  __TEXT.__swift_as_ret: 0x94
+-  __TEXT.__swift_as_cont: 0x148
++  __TEXT.__swift5_capture: 0x60c
++  __TEXT.__swift_as_entry: 0x9c
++  __TEXT.__swift_as_ret: 0x98
++  __TEXT.__swift_as_cont: 0x154
+   __TEXT.__swift5_assocty: 0x168
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x2720
+-  __TEXT.__eh_frame: 0x28f8
++  __TEXT.__unwind_info: 0x2788
++  __TEXT.__eh_frame: 0x29a8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x588
+-  __DATA_CONST.__objc_classlist: 0x150
++  __DATA_CONST.__const: 0x5d8
++  __DATA_CONST.__objc_classlist: 0x158
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xbe8
++  __DATA_CONST.__objc_selrefs: 0xc70
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __DATA_CONST.__objc_superrefs: 0x70
+-  __DATA_CONST.__got: 0x438
+-  __AUTH_CONST.__const: 0x61c9
+-  __AUTH_CONST.__cfstring: 0xe40
+-  __AUTH_CONST.__objc_const: 0x2fe0
++  __DATA_CONST.__objc_superrefs: 0x78
++  __DATA_CONST.__got: 0x440
++  __AUTH_CONST.__const: 0x6290
++  __AUTH_CONST.__cfstring: 0x1020
++  __AUTH_CONST.__objc_const: 0x31a8
+   __AUTH_CONST.__auth_got: 0xbc0
+   __AUTH_CONST.__auth_ptr: 0x358
+-  __AUTH.__objc_data: 0x3f0
++  __AUTH.__objc_data: 0x440
+   __AUTH.__data: 0x110
+-  __DATA.__objc_ivar: 0x120
+-  __DATA.__data: 0x12e8
+-  __DATA.__bss: 0xb570
+-  __DATA.__common: 0x28
++  __DATA.__objc_ivar: 0x138
++  __DATA.__data: 0x1650
++  __DATA.__bss: 0xb6b0
++  __DATA.__common: 0x40
+   __DATA_DIRTY.__objc_data: 0x18d0
+-  __DATA_DIRTY.__data: 0x1a90
+-  __DATA_DIRTY.__common: 0xe8
+-  __DATA_DIRTY.__bss: 0xb6c0
++  __DATA_DIRTY.__data: 0x1740
++  __DATA_DIRTY.__bss: 0xb5a0
++  __DATA_DIRTY.__common: 0xd0
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 3898
+-  Symbols:   2102
++  Functions: 3941
++  Symbols:   2147
+   CStrings:  0
+ 
+Symbols:
++ +[FBKEnvironmentConfig configForEnvironmentName:]
++ +[FBKEnvironmentConfig internalEnvironmentsByName]
++ +[FBKEnvironmentConfig isInternalInstall]
++ +[FBKEnvironmentConfig productionConfig]
++ +[FBKEnvironmentConfig resolvedConfigForEnvironmentName:]
++ +[FBKEnvironmentConfig resolvedConfigForEnvironmentName:defaults:]
++ +[FBKSSharedConstants overrideEnvironment:]
++ +[FBKSSharedConstants usesCertificatePinning]
++ -[FBKEnvironmentConfig .cxx_destruct]
++ -[FBKEnvironmentConfig cookieName]
++ -[FBKEnvironmentConfig description]
++ -[FBKEnvironmentConfig disableCertificatePinning]
++ -[FBKEnvironmentConfig filerURL]
++ -[FBKEnvironmentConfig host]
++ -[FBKEnvironmentConfig initWithName:host:disableCertificatePinning:usesUATAuth:cookieName:filerURL:]
++ -[FBKEnvironmentConfig logDescription]
++ -[FBKEnvironmentConfig name]
++ -[FBKEnvironmentConfig usesUATAuth]
++ _FBKBoolFromPlistEntry
++ _FBKSCustomCookieNameKey
++ _FBKSCustomDisableCertificatePinningKey
++ _FBKSCustomFilerURLKey
++ _FBKSCustomHostKey
++ _FBKSCustomUsesUATAuthKey
++ _FBKSUltraChoiceEnabledKey
++ _FBKStringFromPlistEntry
++ _FBKValidateBoolField
++ _FBKValidateStringField
++ _OBJC_CLASS_$_FBKEnvironmentConfig
++ _OBJC_CLASS_$_NSUUID
++ _OBJC_IVAR_$_FBKEnvironmentConfig._cookieName
++ _OBJC_IVAR_$_FBKEnvironmentConfig._disableCertificatePinning
++ _OBJC_IVAR_$_FBKEnvironmentConfig._filerURL
++ _OBJC_IVAR_$_FBKEnvironmentConfig._host
++ _OBJC_IVAR_$_FBKEnvironmentConfig._name
++ _OBJC_IVAR_$_FBKEnvironmentConfig._usesUATAuth
++ _OBJC_METACLASS_$_FBKEnvironmentConfig
++ __OBJC_$_CLASS_METHODS_FBKEnvironmentConfig
++ __OBJC_$_INSTANCE_METHODS_FBKEnvironmentConfig
++ __OBJC_$_INSTANCE_VARIABLES_FBKEnvironmentConfig
++ __OBJC_$_PROP_LIST_FBKEnvironmentConfig
++ __OBJC_CLASS_RO_$_FBKEnvironmentConfig
++ __OBJC_METACLASS_RO_$_FBKEnvironmentConfig
++ ___40+[FBKEnvironmentConfig productionConfig]_block_invoke
++ ___50+[FBKEnvironmentConfig internalEnvironmentsByName]_block_invoke
++ ___block_descriptor_40_e5_v8?0l
++ ___block_descriptor_40_e8_32s_e15_v32?0816^B24ls32l8
++ _internalEnvironmentsByName.environments
++ _internalEnvironmentsByName.onceToken
++ _productionConfig.config
++ _productionConfig.onceToken
++ _symbolic So6NSUUIDCm
++ _symbolic So7NSArrayCm
+- +[FBKSSharedConstants overrideEnvironment:host:]
+- _FBKSDevelopmentHostKey
+- _FBKSEnvironmentDemoString
+- _FBKSEnvironmentDevelopmentString
+- _FBKSEnvironmentProductionString
+- _FBKSEnvironmentStagingDevString
+- _FBKSEnvironmentStagingString
+- __overrideHostString
+```

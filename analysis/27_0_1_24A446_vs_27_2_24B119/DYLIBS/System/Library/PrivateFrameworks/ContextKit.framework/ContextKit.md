@@ -1,0 +1,59 @@
+## ContextKit
+
+> `/System/Library/PrivateFrameworks/ContextKit.framework/ContextKit`
+
+```diff
+
+-307.0.0.0.0
+-  __TEXT.__text: 0xf3c0
+-  __TEXT.__objc_methlist: 0x104c
+-  __TEXT.__const: 0xa8
++308.0.0.0.0
++  __TEXT.__text: 0xf5ac
++  __TEXT.__objc_methlist: 0x1054
++  __TEXT.__const: 0xb0
+   __TEXT.__cstring: 0x9c3
+   __TEXT.__gcc_except_tab: 0x310
+-  __TEXT.__oslogstring: 0x937
+-  __TEXT.__unwind_info: 0x4b8
++  __TEXT.__oslogstring: 0x9a3
++  __TEXT.__unwind_info: 0x4c0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xbe0
++  __DATA_CONST.__objc_selrefs: 0xbe8
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x50
+   __DATA_CONST.__got: 0x180
+
+   __AUTH.__objc_data: 0xa0
+   __DATA.__objc_ivar: 0x1a8
+   __DATA.__data: 0x240
+-  __DATA.__bss: 0x98
++  __DATA.__bss: 0xb8
+   __DATA_DIRTY.__objc_data: 0x2d0
+   __DATA_DIRTY.__bss: 0x108
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/ContextKitCore.framework/ContextKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 465
+-  Symbols:   842
++  Functions: 467
++  Symbols:   848
+   CStrings:  0
+ 
+Symbols:
++ +[CKContextXPCClient resetConnectionFailureTrackingForTesting]
++ _clock_gettime_nsec_np
++ _kConnectionFailureRunStartNs
++ _kConsecutiveConnectionFailures
++ _kFailFastUntilNs
++ _kLastConnectionFailureNs
+```

@@ -1,0 +1,177 @@
+## EmbeddedAcousticRecognition
+
+> `/System/Library/PrivateFrameworks/EmbeddedAcousticRecognition.framework/EmbeddedAcousticRecognition`
+
+```diff
+
+-3600.73.1.0.0
+-  __TEXT.__text: 0xb83420
+-  __TEXT.__objc_methlist: 0x6e74
+-  __TEXT.__const: 0x5ec28
+-  __TEXT.__gcc_except_tab: 0xc2cec
+-  __TEXT.__cstring: 0x80287
+-  __TEXT.__oslogstring: 0x3b41
++3605.9.1.0.0
++  __TEXT.__text: 0xb84f60
++  __TEXT.__objc_methlist: 0x6edc
++  __TEXT.__const: 0x5ec98
++  __TEXT.__gcc_except_tab: 0xc3018
++  __TEXT.__cstring: 0x80537
++  __TEXT.__oslogstring: 0x3b4d
+   __TEXT.__ustring: 0xa8
+   __TEXT.__dlopen_cstrs: 0xc8
+   __TEXT.__constg_swiftt: 0x13c
+-  __TEXT.__swift5_typeref: 0x440
++  __TEXT.__swift5_typeref: 0x43f
+   __TEXT.__swift5_reflstr: 0x52
+   __TEXT.__swift5_fieldmd: 0xa4
+   __TEXT.__swift5_builtin: 0x28
+
+   __TEXT.__swift_as_ret: 0x4c
+   __TEXT.__swift_as_cont: 0x6c
+   __TEXT.__swift5_capture: 0x154
+-  __TEXT.__unwind_info: 0x3c4a0
++  __TEXT.__unwind_info: 0x3c548
+   __TEXT.__eh_frame: 0xa90
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2528
+-  __DATA_CONST.__objc_classlist: 0x588
++  __DATA_CONST.__const: 0x2530
++  __DATA_CONST.__objc_classlist: 0x590
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x68
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x20
+-  __DATA_CONST.__objc_selrefs: 0x3840
++  __DATA_CONST.__objc_selrefs: 0x3860
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x400
++  __DATA_CONST.__objc_superrefs: 0x408
+   __DATA_CONST.__objc_arraydata: 0x128
+   __DATA_CONST.__got: 0x818
+-  __AUTH_CONST.__const: 0x4ac58
+-  __AUTH_CONST.__cfstring: 0x3780
+-  __AUTH_CONST.__objc_const: 0xebb8
++  __AUTH_CONST.__const: 0x4acd8
++  __AUTH_CONST.__cfstring: 0x3820
++  __AUTH_CONST.__objc_const: 0xecd0
+   __AUTH_CONST.__weak_auth_got: 0x60
+   __AUTH_CONST.__objc_intobj: 0x2d0
+   __AUTH_CONST.__objc_arrayobj: 0x78
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_floatobj: 0x10
+   __AUTH_CONST.__objc_doubleobj: 0x20
+-  __AUTH_CONST.__auth_got: 0x2278
++  __AUTH_CONST.__auth_got: 0x2280
+   __AUTH_CONST.__auth_ptr: 0x290
+-  __AUTH.__objc_data: 0x290
+-  __AUTH.__data: 0x28
+   __AUTH.__thread_vars: 0x378
+   __AUTH.__thread_bss: 0xae8
+-  __DATA.__objc_ivar: 0xa70
+-  __DATA.__data: 0x1760
+-  __DATA.__bss: 0x28c8
+-  __DATA.__common: 0x185
+-  __DATA_DIRTY.__objc_data: 0x3520
+-  __DATA_DIRTY.__data: 0x818
++  __DATA.__objc_ivar: 0xa7c
++  __DATA.__data: 0xf90
++  __DATA.__bss: 0x28e8
++  __DATA.__common: 0x17d
++  __DATA_DIRTY.__objc_data: 0x3800
++  __DATA_DIRTY.__data: 0x1020
+   __DATA_DIRTY.__bss: 0x2e8
+-  __DATA_DIRTY.__common: 0x378
++  __DATA_DIRTY.__common: 0x380
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 40384
+-  Symbols:   60608
++  Functions: 40410
++  Symbols:   60657
+   CStrings:  0
+ 
+Symbols:
++ -[EMTPronGuide .cxx_construct]
++ -[EMTPronGuide .cxx_destruct]
++ -[EMTPronGuide initWithModelURL:error:]
++ -[EMTPronGuide pronunciationForString:error:]
++ -[_EARSpeechRecognizer isAudioSourceRemote]
++ -[_EARSpeechRecognizer setIsAudioSourceRemote:]
++ -[_EARTranscriptionProcessingPackage initWithTokens:isFinal:utteranceStartMs:utteranceStartSamples:recognitionPaused:firstResultAfterResume:commandInterpretations:performanceMarkers:voiceCommandDebugInfo:]
++ -[_EARTranscriptionProcessingPackage voiceCommandDebugInfo]
++ GCC_except_table476
++ GCC_except_table501
++ GCC_except_table667
++ GCC_except_table902
++ _EMTPronGuideErrorDomain
++ _OBJC_CLASS_$_EMTPronGuide
++ _OBJC_IVAR_$_EMTPronGuide._pronGuide
++ _OBJC_IVAR_$__EARSpeechRecognizer._isAudioSourceRemote
++ _OBJC_IVAR_$__EARTranscriptionProcessingPackage._voiceCommandDebugInfo
++ _OBJC_METACLASS_$_EMTPronGuide
++ __OBJC_$_INSTANCE_METHODS_EMTPronGuide
++ __OBJC_$_INSTANCE_VARIABLES_EMTPronGuide
++ __OBJC_CLASS_RO_$_EMTPronGuide
++ __OBJC_METACLASS_RO_$_EMTPronGuide
++ __ZGVZN6quasar9PronGuide21getSharedPronunciatorERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE15pronunciatorMap
++ __ZGVZN6quasar9PronGuide21getSharedPronunciatorERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE1m
++ __ZN12_GLOBAL__N_113errorWithCodeE17EMTPronGuideErrorP8NSString
++ __ZN12_GLOBAL__N_125errorFromExceptionMessageERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE17EMTPronGuideError
++ __ZN5kaldi6quasar14EspressoV2Plan9SetAneQosE11qos_class_t
++ __ZN5kaldi6quasar16ComputeEngineItf9SetAneQosE11qos_class_t
++ __ZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_bPb
++ __ZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bPb
++ __ZN5kaldi6quasar22CEFusedAcousticEncoder9SetAneQosE11qos_class_t
++ __ZN6quasar14RunAsyncParams9setAneQosE11qos_class_t
++ __ZN6quasar9PronGuide21getSharedPronunciatorERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZN6quasar9PronGuideC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZN6quasar9PronGuideC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZN6quasar9PronGuideD1Ev
++ __ZNK6quasar9PronGuide13pronunciationERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPb
++ __ZNSt3__110unique_ptrIN6quasar9PronGuideENS_14default_deleteIS2_EEE5resetB9foe220106EPS2_
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN6quasar9PronGuide18SharedPronunciatorEEEEEPvEENS_22__tree_node_destructorINS6_ISG_EEEEED1B9foe220106Ev
++ __ZNSt3__112__destroy_atB9foe220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN6quasar9PronGuide18SharedPronunciatorEEEEEEEvPT_
++ __ZNSt3__120__shared_ptr_emplaceIN6quasar9PronGuide18SharedPronunciatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN6quasar9PronGuide18SharedPronunciatorENS_9allocatorIS3_EEE21__on_zero_shared_implB9foe220106IS5_Li0EEEvv
++ __ZNSt3__120__shared_ptr_emplaceIN6quasar9PronGuide18SharedPronunciatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN6quasar9PronGuide18SharedPronunciatorENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN6quasar9PronGuide18SharedPronunciatorENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN6quasar9PronGuide18SharedPronunciatorEEENS_4lessIS6_EENS4_INS_4pairIKS6_SB_EEEEEixERSF_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN6quasar9PronGuide18SharedPronunciatorEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SC_EENS_4lessIS7_EEEENS5_ISH_EEE12__find_equalB9foe220106IS7_EENSF_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSS_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN6quasar9PronGuide18SharedPronunciatorEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SC_EENS_4lessIS7_EEEENS5_ISH_EEE16__construct_nodeIJRKNS_21piecewise_construct_tENS_5tupleIJRSG_EEENSR_IJEEEEEENS_10unique_ptrINS_11__tree_nodeISD_PvEENS_22__tree_node_destructorINS5_ISY_EEEEEEDpOT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN6quasar9PronGuide18SharedPronunciatorEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SC_EENS_4lessIS7_EEEENS5_ISH_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSR_SR_
++ __ZTINSt3__120__shared_ptr_emplaceIN6quasar9PronGuide18SharedPronunciatorENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN6quasar9PronGuide18SharedPronunciatorENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN6quasar9PronGuide18SharedPronunciatorENS_9allocatorIS3_EEEE
++ __ZZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bPbEN18VectorUReplaceable4copyEPPviii
++ __ZZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bPbEN18VectorUReplaceable6charAtEPKPvi
++ __ZZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bPbEN18VectorUReplaceable6lengthEPKPv
++ __ZZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bPbEN18VectorUReplaceable7extractEPPviiPt
++ __ZZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bPbEN18VectorUReplaceable7replaceEPPviiPKti
++ __ZZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bPbEN18VectorUReplaceable8char32AtEPKPvi
++ __ZZN6quasar9PronGuide21getSharedPronunciatorERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE15pronunciatorMap
++ __ZZN6quasar9PronGuide21getSharedPronunciatorERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE1m
++ _e5rt_execution_stream_set_quality_of_service
+- GCC_except_table1077
+- GCC_except_table864
+- GCC_except_table883
+- GCC_except_table994
+- __ZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_b
+- __ZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_b
+- __ZZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bEN18VectorUReplaceable4copyEPPviii
+- __ZZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bEN18VectorUReplaceable6charAtEPKPvi
+- __ZZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bEN18VectorUReplaceable6lengthEPKPv
+- __ZZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bEN18VectorUReplaceable7extractEPPviiPt
+- __ZZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bEN18VectorUReplaceable7replaceEPPviiPKti
+- __ZZN5kaldi6quasar18NNMTTransliterator13TransliterateERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_bEN18VectorUReplaceable8char32AtEPKPvi
+```

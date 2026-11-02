@@ -1,0 +1,19 @@
+## redeye_repair_archive_bin.metallib
+
+> `/System/Library/Frameworks/CoreImage.framework/redeye_repair_archive_bin.metallib`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__reflection`
+- `__TEXT.__descriptor`
+- `__TEXT.__metallib`
+
+```diff
+
+   __TEXT.__reflection: 0x36e0
+-  __TEXT.__compute: 0x112d0
++  __TEXT.__compute: 0x112e0
+   __TEXT.__descriptor: 0xdd0
+   __TEXT.__metallib: 0x1b6c30
+   Functions: 0
+```

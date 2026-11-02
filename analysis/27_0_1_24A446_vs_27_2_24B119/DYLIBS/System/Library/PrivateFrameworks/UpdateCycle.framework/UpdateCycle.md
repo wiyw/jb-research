@@ -1,0 +1,14 @@
+## UpdateCycle
+
+> `/System/Library/PrivateFrameworks/UpdateCycle.framework/UpdateCycle`
+
+```diff
+
+-9080.0.0.0.0
+-  __TEXT.__text: 0x1434
++9127.1.13.0.0
++  __TEXT.__text: 0x1444
+   __TEXT.__const: 0x40
+   __TEXT.__cstring: 0x86
+   __TEXT.__objc_stubs: 0x0
+```

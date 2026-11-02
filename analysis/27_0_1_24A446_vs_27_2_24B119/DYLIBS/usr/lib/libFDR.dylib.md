@@ -1,0 +1,52 @@
+## libFDR.dylib
+
+> `/usr/lib/libFDR.dylib`
+
+```diff
+
+-1636.0.17.0.0
+-  __TEXT.__text: 0x8b7d4
++1636.40.11.0.0
++  __TEXT.__text: 0x8bf0c
+   __TEXT.__const: 0x2000
+-  __TEXT.__cstring: 0x235d5
++  __TEXT.__cstring: 0x23771
+   __TEXT.__gcc_except_tab: 0x34
+   __TEXT.__dlopen_cstrs: 0x56
+   __TEXT.__ustring: 0x38
+-  __TEXT.__unwind_info: 0x1228
++  __TEXT.__unwind_info: 0x1220
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_methname: 0x0
+
+   __DATA_CONST.__objc_selrefs: 0x28
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x9b8
+-  __AUTH_CONST.__cfstring: 0xfba0
++  __AUTH_CONST.__cfstring: 0xfbe0
+   __AUTH_CONST.__auth_got: 0xa08
+   __AUTH_CONST.__auth_ptr: 0x0
+-  __DATA.__data: 0x160
++  __DATA.__data: 0x11
+   __DATA.__bss: 0xb8
+-  __DATA_DIRTY.__data: 0x28
++  __DATA_DIRTY.__data: 0x170
+   __DATA_DIRTY.__bss: 0x140
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libamsupport.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 4634
+-  Symbols:   1726
++  Functions: 4645
++  Symbols:   1729
+   CStrings:  0
+ 
+Symbols:
++ _AMFDRModuleCertificationWithOptionsAndPermissions
++ __AMFDRModuleCertificationWithOptions
++ __getComponentTypeForInstance
+```

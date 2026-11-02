@@ -1,0 +1,14 @@
+## fin.dylib
+
+> `/System/Library/PrivateFrameworks/TextToSpeechKonaSupport.framework/Frameworks/fin.dylib`
+
+```diff
+
+-681.0.0.0.0
+-  __TEXT.__text: 0xd2cc0
++683.2.2.0.0
++  __TEXT.__text: 0xd2cb8
+   __TEXT.__const: 0x37da
+   __TEXT.__cstring: 0xf5e
+   __TEXT.__gcc_except_tab: 0x438
+```

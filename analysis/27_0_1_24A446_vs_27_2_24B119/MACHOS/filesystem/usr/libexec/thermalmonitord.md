@@ -1,0 +1,82 @@
+## thermalmonitord
+
+> `/usr/libexec/thermalmonitord`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__info_plist`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-2083.0.0.0.0
+-  __TEXT.__text: 0x52564
+-  __TEXT.__auth_stubs: 0x13d0
+-  __TEXT.__objc_stubs: 0x4f00
++2087.40.8.0.1
++  __TEXT.__text: 0x52568
++  __TEXT.__auth_stubs: 0x13e0
++  __TEXT.__objc_stubs: 0x4f20
+   __TEXT.__objc_methlist: 0x4014
+   __TEXT.__const: 0x1560
+   __TEXT.__objc_classname: 0x1303
+   __TEXT.__objc_methtype: 0x1b05
+-  __TEXT.__objc_methname: 0x8388
+-  __TEXT.__cstring: 0x4df6
++  __TEXT.__objc_methname: 0x838f
++  __TEXT.__cstring: 0x4df1
+   __TEXT.__gcc_except_tab: 0x3ac
+-  __TEXT.__oslogstring: 0x9d54
++  __TEXT.__oslogstring: 0x9de9
+   __TEXT.__info_plist: 0x5b2
+-  __TEXT.__unwind_info: 0x1230
++  __TEXT.__unwind_info: 0x1238
+   __DATA_CONST.__const: 0x1458
+-  __DATA_CONST.__cfstring: 0x6780
++  __DATA_CONST.__cfstring: 0x6760
+   __DATA_CONST.__objc_classlist: 0x520
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x38
+
+   __DATA_CONST.__objc_dictobj: 0x730
+   __DATA_CONST.__objc_arrayobj: 0x228
+   __DATA_CONST.__objc_doubleobj: 0x40
+-  __DATA_CONST.__auth_got: 0xa00
++  __DATA_CONST.__auth_got: 0xa08
+   __DATA_CONST.__got: 0x630
+   __DATA_CONST.__auth_ptr: 0x10
+-  __DATA.__objc_const: 0xc948
+-  __DATA.__objc_selrefs: 0x1988
+-  __DATA.__objc_ivar: 0xa30
++  __DATA.__objc_const: 0xc928
++  __DATA.__objc_selrefs: 0x1990
++  __DATA.__objc_ivar: 0xa2c
+   __DATA.__objc_data: 0x3340
+   __DATA.__data: 0x370
+   __DATA.__bss: 0xb024
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 2000
+-  Symbols:   416
++  Functions: 2001
++  Symbols:   417
+   CStrings:  0
+ 
+Symbols:
++ _objc_retain_x20
+```

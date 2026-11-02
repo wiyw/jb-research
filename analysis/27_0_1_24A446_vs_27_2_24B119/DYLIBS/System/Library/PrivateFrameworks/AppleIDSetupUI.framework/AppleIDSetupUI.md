@@ -1,0 +1,152 @@
+## AppleIDSetupUI
+
+> `/System/Library/PrivateFrameworks/AppleIDSetupUI.framework/AppleIDSetupUI`
+
+```diff
+
+-128.1.1.0.0
+-  __TEXT.__text: 0x187868
+-  __TEXT.__objc_methlist: 0x26cc
+-  __TEXT.__const: 0xd7f4
+-  __TEXT.__cstring: 0x4e89
++129.125.7.1.0
++  __TEXT.__text: 0x18d8a8
++  __TEXT.__objc_methlist: 0x271c
++  __TEXT.__const: 0xd924
++  __TEXT.__cstring: 0x4f19
+   __TEXT.__gcc_except_tab: 0x58
+-  __TEXT.__constg_swiftt: 0x56a4
+-  __TEXT.__swift5_typeref: 0xef16
++  __TEXT.__constg_swiftt: 0x5718
++  __TEXT.__swift5_typeref: 0xef48
+   __TEXT.__swift5_builtin: 0x1cc
+-  __TEXT.__swift5_reflstr: 0x3ec2
+-  __TEXT.__swift5_fieldmd: 0x3588
++  __TEXT.__swift5_reflstr: 0x3fd2
++  __TEXT.__swift5_fieldmd: 0x362c
+   __TEXT.__swift5_assocty: 0xc20
+-  __TEXT.__swift5_proto: 0x4b8
+-  __TEXT.__swift5_types: 0x3b0
+-  __TEXT.__oslogstring: 0xb6ad
+-  __TEXT.__swift_as_entry: 0x458
+-  __TEXT.__swift_as_ret: 0x424
+-  __TEXT.__swift_as_cont: 0x8dc
+-  __TEXT.__swift5_capture: 0x2cd8
++  __TEXT.__swift5_proto: 0x4c0
++  __TEXT.__swift5_types: 0x3b8
++  __TEXT.__oslogstring: 0xb9ad
++  __TEXT.__swift_as_entry: 0x474
++  __TEXT.__swift_as_ret: 0x454
++  __TEXT.__swift_as_cont: 0x908
++  __TEXT.__swift5_capture: 0x2c54
+   __TEXT.__swift5_protos: 0x70
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__unwind_info: 0x56a0
+-  __TEXT.__eh_frame: 0xb0d8
++  __TEXT.__unwind_info: 0x57c0
++  __TEXT.__eh_frame: 0xb478
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x498
+-  __DATA_CONST.__objc_classlist: 0x300
++  __DATA_CONST.__objc_classlist: 0x308
+   __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x218
++  __DATA_CONST.__objc_protolist: 0x228
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1d50
+-  __DATA_CONST.__objc_protorefs: 0x120
++  __DATA_CONST.__objc_selrefs: 0x1da8
++  __DATA_CONST.__objc_protorefs: 0x128
+   __DATA_CONST.__objc_superrefs: 0x18
+   __DATA_CONST.__objc_arraydata: 0xb0
+-  __DATA_CONST.__got: 0x14f0
+-  __AUTH_CONST.__const: 0xa920
++  __DATA_CONST.__got: 0x1550
++  __AUTH_CONST.__const: 0xa838
+   __AUTH_CONST.__cfstring: 0xae0
+-  __AUTH_CONST.__objc_const: 0x11928
++  __AUTH_CONST.__objc_const: 0x11e08
+   __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH_CONST.__auth_got: 0x2520
+-  __AUTH_CONST.__auth_ptr: 0x14b0
+-  __AUTH.__objc_data: 0x5168
+-  __AUTH.__data: 0x3b20
++  __AUTH_CONST.__auth_got: 0x2530
++  __AUTH_CONST.__auth_ptr: 0x14d0
++  __AUTH.__objc_data: 0x5160
++  __AUTH.__data: 0x3c90
+   __DATA.__objc_ivar: 0x50
+-  __DATA.__data: 0x5728
++  __DATA.__data: 0x58e8
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x8168
++  __DATA.__bss: 0x8268
+   __DATA.__common: 0x308
+   __DATA_DIRTY.__data: 0x160
+   __DATA_DIRTY.__bss: 0x100
+
+   - /System/Library/PrivateFrameworks/ScreenTimeCore.framework/ScreenTimeCore
+   - /System/Library/PrivateFrameworks/ScreenTimeSettingsUI.framework/ScreenTimeSettingsUI
+   - /System/Library/PrivateFrameworks/SettingsFoundation.framework/SettingsFoundation
++  - /System/Library/PrivateFrameworks/SharingUI.framework/SharingUI
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/VisualPairing.framework/VisualPairing
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7233
+-  Symbols:   3189
++  Functions: 7302
++  Symbols:   3207
+   CStrings:  0
+ 
+Symbols:
++ _CGRectGetWidth
++ _OBJC_CLASS_$_FARestrictionsManagementSettings
++ _OBJC_CLASS_$_SFAdjustedImageView
++ __DATA__TtC14AppleIDSetupUI28AgeVerificationConfiguration
++ __IVARS__TtC14AppleIDSetupUI28AgeVerificationConfiguration
++ __METACLASS_DATA__TtC14AppleIDSetupUI28AgeVerificationConfiguration
++ __OBJC_$_INSTANCE_METHODS___AISSetupViewController(AppleIDSetupUI)
++ __OBJC_$_PROP_LIST_PRXCardContentProviding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PRXCardContentProviding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_PRXCardContentProviding
++ __OBJC_$_PROTOCOL_REFS_PRXCardContentProviding
++ __OBJC_CLASS_PROTOCOLS_$___AISSetupViewController(AppleIDSetupUI)
++ __OBJC_LABEL_PROTOCOL_$_PRXCardContentProviding
++ __OBJC_PROTOCOL_$_PRXCardContentProviding
++ _associated conformance 14AppleIDSetupUI19AgeVerificationModeOSHAASQ
++ _get_witness_table 7SwiftUI15NavigationStackVyAA0C4PathVAA4ViewPAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQOyAgAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaFRd_0_r0_lFQOy012AppleIDSetupB00C16ControllerReaderVyAgAE26interactiveDismissDisabledyQrSbFQOyAA15ModifiedContentVyAgAE7toolbarAJQrqd__yXE_tAA07ToolbarY0Rd__lFQOyAS013SignInOptionsF7Wrapper33_57A1F0F949FF19643FCF1DFD00C49E5ELLV_AA11ToolbarItemVyytAA6ButtonVyAA18DefaultButtonLabelVGGQo_AA30_SafeAreaRegionsIgnoringLayoutVG_Qo_G_AS12SignInOptionOAA012_ConditionalY0VyAgAEAY_AQQrAA10VisibilityO_AA16ToolbarPlacementVdtFQOyAS014PasswordSignInF0V_Qo_AA4TextVGQo__Qo_GAaFHPyHC
++ _symbolic Ig_
++ _symbolic _____ 14AppleIDSetupUI19AgeVerificationModeO
++ _symbolic _____ 14AppleIDSetupUI28AgeVerificationConfigurationC
++ _symbolic _____Sg 14AppleIDSetupUI28AgeVerificationConfigurationC
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic ______p 14AppleIDSetupUI16AKDeviceProtocolP
++ _symbolic ______pXp 14AppleIDSetupUI27AISSelfieFaceIDTaskProtocolP
++ _symbolic ______pXp 14AppleIDSetupUI36PASAgeVerificationControllerProtocolP
++ _symbolic _____y_____Sg_G 7SwiftUI11EnvironmentV7ContentO 012AppleIDSetupB008ProxCardD0V
++ _symbolic _____y__________y_____y_____y_____y_____y_____y___________yyt_____y_____GGQo______G_Qo_G___________y_____y______Qo______GQo__Qo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AgAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaFRd_0_r0_lFQO 012AppleIDSetupB00C16ControllerReaderV AgAE26interactiveDismissDisabledyQrSbFQO AA15ModifiedContentV AgAE7toolbarAJQrqd__yXE_tAA07ToolbarY0Rd__lFQO AS013SignInOptionsF7Wrapper33_57A1F0F949FF19643FCF1DFD00C49E5ELLV AA11ToolbarItemV AA6ButtonV AA18DefaultButtonLabelV AA30_SafeAreaRegionsIgnoringLayoutV AS12SignInOptionO AA012_ConditionalY0V AgAEAY_AQQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AS014PasswordSignInF0V AA4TextV
++ _symbolic _____y_____y___________yyt_____y_____GGQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO 012AppleIDSetupB0013SignInOptionsE7Wrapper33_57A1F0F949FF19643FCF1DFD00C49E5ELLV AA0H4ItemV AA6ButtonV AA07DefaultX5LabelV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y_____y_____y___________yyt_____y_____GGQo______G_Qo_G 14AppleIDSetupUI26NavigationControllerReaderV 05SwiftC04ViewPADE26interactiveDismissDisabledyQrSbFQO AD15ModifiedContentV AfDE7toolbar7contentQrqd__yXE_tAD07ToolbarM0Rd__lFQO AA013SignInOptionsH7Wrapper33_57A1F0F949FF19643FCF1DFD00C49E5ELLV AD0P4ItemV AD6ButtonV AD18DefaultButtonLabelV AD30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y_____y_____y_____y___________yyt_____y_____GGQo______G_Qo_G___________y_____y______Qo______GQo_ 7SwiftUI4ViewPAAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO 012AppleIDSetupB026NavigationControllerReaderV AcAE26interactiveDismissDisabledyQrSbFQO AA15ModifiedContentV AcAE7toolbar7contentQrqd__yXE_tAA07ToolbarQ0Rd__lFQO AG013SignInOptionsC7Wrapper33_57A1F0F949FF19643FCF1DFD00C49E5ELLV AA0T4ItemV AA6ButtonV AA18DefaultButtonLabelV AA30_SafeAreaRegionsIgnoringLayoutV AG0uV6OptionO AA012_ConditionalQ0V AcAEAM_AEQrAA10VisibilityO_AA0T9PlacementVdtFQO AG08PassworduvC0V AA4TextV
++ _symbolic _____y_____y_____y_____y_____y_____y___________yyt_____y_____GGQo______G_Qo_G___________y_____y______Qo______GQo__Qo_ 7SwiftUI4ViewPAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AcAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO 012AppleIDSetupB026NavigationControllerReaderV AcAE26interactiveDismissDisabledyQrSbFQO AA15ModifiedContentV AcAE7toolbarAFQrqd__yXE_tAA07ToolbarW0Rd__lFQO AO013SignInOptionsC7Wrapper33_57A1F0F949FF19643FCF1DFD00C49E5ELLV AA0Y4ItemV AA6ButtonV AA18DefaultButtonLabelV AA30_SafeAreaRegionsIgnoringLayoutV AO0Z8InOptionO AA012_ConditionalW0V AcAEAU_AMQrAA10VisibilityO_AA0Y9PlacementVdtFQO AO08Passwordz2InC0V AA4TextV
+- __INSTANCE_METHODS___AISSetupViewController
+- _get_witness_table 7SwiftUI15NavigationStackVyAA0C4PathVAA4ViewPAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQOyAgAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaFRd_0_r0_lFQOy012AppleIDSetupB00C16ControllerReaderVyAgAE26interactiveDismissDisabledyQrSbFQOyAA15ModifiedContentVyAgAE7toolbarAJQrqd__yXE_tAA07ToolbarY0Rd__lFQOyAS013SignInOptionsF7Wrapper33_57A1F0F949FF19643FCF1DFD00C49E5ELLV_AA11ToolbarItemVyytAA6ButtonVyAA18DefaultButtonLabelVGGQo_AA23_SafeAreaIgnoringLayoutVG_Qo_G_AS12SignInOptionOAA012_ConditionalY0VyAgAEAY_AQQrAA10VisibilityO_AA16ToolbarPlacementVdtFQOyAS014PasswordSignInF0V_Qo_AA4TextVGQo__Qo_GAaFHPyHC
+- _symbolic _____Sg 12AppleIDSetup19AgeAssuranceContextC
+- _symbolic ______p 12AppleIDSetup25AISScreenTimeShimProtocolP
+- _symbolic ______pSg 14AppleIDSetupUI27AISSelfieFaceIDTaskProtocolP
+- _symbolic ______pXpSg 14AppleIDSetupUI36PASAgeVerificationControllerProtocolP
+- _symbolic _____y__________y_____y_____y_____y_____y_____y___________yyt_____y_____GGQo______G_Qo_G___________y_____y______Qo______GQo__Qo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AgAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaFRd_0_r0_lFQO 012AppleIDSetupB00C16ControllerReaderV AgAE26interactiveDismissDisabledyQrSbFQO AA15ModifiedContentV AgAE7toolbarAJQrqd__yXE_tAA07ToolbarY0Rd__lFQO AS013SignInOptionsF7Wrapper33_57A1F0F949FF19643FCF1DFD00C49E5ELLV AA11ToolbarItemV AA6ButtonV AA18DefaultButtonLabelV AA23_SafeAreaIgnoringLayoutV AS12SignInOptionO AA012_ConditionalY0V AgAEAY_AQQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AS014PasswordSignInF0V AA4TextV
+- _symbolic _____y_____y___________yyt_____y_____GGQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO 012AppleIDSetupB0013SignInOptionsE7Wrapper33_57A1F0F949FF19643FCF1DFD00C49E5ELLV AA0H4ItemV AA6ButtonV AA07DefaultX5LabelV AA23_SafeAreaIgnoringLayoutV
+- _symbolic _____y_____y_____y_____y___________yyt_____y_____GGQo______G_Qo_G 14AppleIDSetupUI26NavigationControllerReaderV 05SwiftC04ViewPADE26interactiveDismissDisabledyQrSbFQO AD15ModifiedContentV AfDE7toolbar7contentQrqd__yXE_tAD07ToolbarM0Rd__lFQO AA013SignInOptionsH7Wrapper33_57A1F0F949FF19643FCF1DFD00C49E5ELLV AD0P4ItemV AD6ButtonV AD18DefaultButtonLabelV AD23_SafeAreaIgnoringLayoutV
+- _symbolic _____y_____y_____y_____y_____y___________yyt_____y_____GGQo______G_Qo_G___________y_____y______Qo______GQo_ 7SwiftUI4ViewPAAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO 012AppleIDSetupB026NavigationControllerReaderV AcAE26interactiveDismissDisabledyQrSbFQO AA15ModifiedContentV AcAE7toolbar7contentQrqd__yXE_tAA07ToolbarQ0Rd__lFQO AG013SignInOptionsC7Wrapper33_57A1F0F949FF19643FCF1DFD00C49E5ELLV AA0T4ItemV AA6ButtonV AA18DefaultButtonLabelV AA23_SafeAreaIgnoringLayoutV AG0uV6OptionO AA012_ConditionalQ0V AcAEAM_AEQrAA10VisibilityO_AA0T9PlacementVdtFQO AG08PassworduvC0V AA4TextV
+- _symbolic _____y_____y_____y_____y_____y_____y___________yyt_____y_____GGQo______G_Qo_G___________y_____y______Qo______GQo__Qo_ 7SwiftUI4ViewPAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AcAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO 012AppleIDSetupB026NavigationControllerReaderV AcAE26interactiveDismissDisabledyQrSbFQO AA15ModifiedContentV AcAE7toolbarAFQrqd__yXE_tAA07ToolbarW0Rd__lFQO AO013SignInOptionsC7Wrapper33_57A1F0F949FF19643FCF1DFD00C49E5ELLV AA0Y4ItemV AA6ButtonV AA18DefaultButtonLabelV AA23_SafeAreaIgnoringLayoutV AO0Z8InOptionO AA012_ConditionalW0V AcAEAU_AMQrAA10VisibilityO_AA0Y9PlacementVdtFQO AO08Passwordz2InC0V AA4TextV
+- _type_layout_string 14AppleIDSetupUI15ProxCardContentV
+```

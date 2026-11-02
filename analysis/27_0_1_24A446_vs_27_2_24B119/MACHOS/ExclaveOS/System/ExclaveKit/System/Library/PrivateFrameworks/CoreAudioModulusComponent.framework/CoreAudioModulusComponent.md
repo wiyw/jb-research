@@ -1,0 +1,28 @@
+## CoreAudioModulusComponent
+
+> `/System/ExclaveKit/System/Library/PrivateFrameworks/CoreAudioModulusComponent.framework/CoreAudioModulusComponent`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA.__data`
+
+```diff
+
+-95.0.0.0.0
+-  __TEXT.__text: 0x5e8c
++95.202.0.0.0
++  __TEXT.__text: 0x5dc8
+   __TEXT.__auth_stubs: 0x4f0
+   __TEXT.__const: 0x270
+   __TEXT.__gcc_except_tab: 0x84
+-  __TEXT.__cstring: 0x1280
+-  __TEXT.__oslogstring: 0x35a
++  __TEXT.__cstring: 0x122f
++  __TEXT.__oslogstring: 0x311
+   __TEXT.__unwind_info: 0x240
+   __DATA_CONST.__const: 0x570
+   __DATA_CONST.__auth_got: 0x280
+```

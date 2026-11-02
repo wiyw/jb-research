@@ -1,0 +1,1229 @@
+## HealthUI
+
+> `/System/Library/PrivateFrameworks/HealthUI.framework/HealthUI`
+
+```diff
+
+-7027.0.72.2.8
+-  __TEXT.__text: 0x471fa0
+-  __TEXT.__objc_methlist: 0x3bafc
+-  __TEXT.__const: 0x9054
+-  __TEXT.__gcc_except_tab: 0x23d4
+-  __TEXT.__cstring: 0x23f4f
+-  __TEXT.__oslogstring: 0x76a5
++7027.1.56.2.9
++  __TEXT.__text: 0x55b940
++  __TEXT.__objc_methlist: 0x3bf58
++  __TEXT.__cstring: 0x26284
++  __TEXT.__const: 0xe7e4
++  __TEXT.__gcc_except_tab: 0x23f8
++  __TEXT.__oslogstring: 0x7dfa
+   __TEXT.__ustring: 0x56
+   __TEXT.__dlopen_cstrs: 0x367
+-  __TEXT.__constg_swiftt: 0x533c
+-  __TEXT.__swift5_typeref: 0x360e
+-  __TEXT.__swift5_builtin: 0x2f8
+-  __TEXT.__swift5_reflstr: 0x3436
+-  __TEXT.__swift5_fieldmd: 0x3304
+-  __TEXT.__swift5_assocty: 0x7e8
+-  __TEXT.__swift5_proto: 0x3bc
+-  __TEXT.__swift5_types: 0x424
+-  __TEXT.__swift5_capture: 0x15d4
+-  __TEXT.__swift5_protos: 0x6c
+-  __TEXT.__swift_as_entry: 0x98
+-  __TEXT.__swift_as_ret: 0x88
+-  __TEXT.__swift_as_cont: 0x158
+-  __TEXT.__swift5_mpenum: 0x38
+-  __TEXT.__unwind_info: 0xf7d8
+-  __TEXT.__eh_frame: 0x3510
++  __TEXT.__constg_swiftt: 0x70cc
++  __TEXT.__swift5_typeref: 0x588a
++  __TEXT.__swift5_reflstr: 0x4536
++  __TEXT.__swift5_fieldmd: 0x48cc
++  __TEXT.__swift5_builtin: 0x348
++  __TEXT.__swift5_assocty: 0xd90
++  __TEXT.__swift5_proto: 0x668
++  __TEXT.__swift5_types: 0x5e0
++  __TEXT.__swift5_capture: 0x2310
++  __TEXT.__swift5_protos: 0x84
++  __TEXT.__swift_as_entry: 0x194
++  __TEXT.__swift_as_ret: 0x190
++  __TEXT.__swift_as_cont: 0x310
++  __TEXT.__swift5_mpenum: 0x40
++  __TEXT.__unwind_info: 0x12290
++  __TEXT.__eh_frame: 0x635c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x79e8
+-  __DATA_CONST.__objc_classlist: 0x2218
+-  __DATA_CONST.__objc_catlist: 0x2a8
+-  __DATA_CONST.__objc_protolist: 0x6d0
++  __DATA_CONST.__const: 0x7c80
++  __DATA_CONST.__objc_classlist: 0x2280
++  __DATA_CONST.__objc_catlist: 0x2b8
++  __DATA_CONST.__objc_protolist: 0x6e8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x18c40
+-  __DATA_CONST.__objc_protorefs: 0x190
+-  __DATA_CONST.__objc_superrefs: 0x1898
+-  __DATA_CONST.__objc_arraydata: 0x2098
+-  __DATA_CONST.__got: 0x39a8
+-  __AUTH_CONST.__const: 0x9238
+-  __AUTH_CONST.__cfstring: 0x1ec20
+-  __AUTH_CONST.__objc_const: 0x66f60
+-  __AUTH_CONST.__objc_intobj: 0x2a00
+-  __AUTH_CONST.__objc_doubleobj: 0x350
+-  __AUTH_CONST.__objc_arrayobj: 0xf78
++  __DATA_CONST.__objc_selrefs: 0x18db0
++  __DATA_CONST.__objc_protorefs: 0x198
++  __DATA_CONST.__objc_superrefs: 0x18a8
++  __DATA_CONST.__objc_arraydata: 0x21f0
++  __DATA_CONST.__got: 0x4e38
++  __AUTH_CONST.__const: 0xd320
++  __AUTH_CONST.__cfstring: 0x1fa20
++  __AUTH_CONST.__objc_const: 0x67e48
++  __AUTH_CONST.__objc_intobj: 0x2be0
++  __AUTH_CONST.__objc_doubleobj: 0x330
++  __AUTH_CONST.__objc_arrayobj: 0xfc0
+   __AUTH_CONST.__objc_dictobj: 0xc8
+-  __AUTH_CONST.__auth_got: 0x32c0
+-  __AUTH_CONST.__auth_ptr: 0xfa8
+-  __AUTH.__objc_data: 0x19058
+-  __AUTH.__data: 0x2810
+-  __DATA.__objc_ivar: 0x40ac
+-  __DATA.__data: 0x8538
+-  __DATA.__bss: 0x72d0
+-  __DATA.__common: 0x2a8
++  __AUTH_CONST.__auth_got: 0x4f58
++  __AUTH_CONST.__auth_ptr: 0x1a58
++  __AUTH.__objc_data: 0x19678
++  __AUTH.__data: 0x3be8
++  __DATA.__objc_ivar: 0x40ec
++  __DATA.__data: 0xb3c8
++  __DATA.__bss: 0xc810
++  __DATA.__common: 0x320
+   __DATA_DIRTY.__objc_data: 0x1680
+   __DATA_DIRTY.__bss: 0x58
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
++  - /System/Library/Frameworks/Charts.framework/Charts
+   - /System/Library/Frameworks/ClockKit.framework/ClockKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /System/Library/PrivateFrameworks/HealthBalance.framework/HealthBalance
+   - /System/Library/PrivateFrameworks/HealthCharts.framework/HealthCharts
+   - /System/Library/PrivateFrameworks/HealthChartsCore.framework/HealthChartsCore
++  - /System/Library/PrivateFrameworks/HealthContent.framework/HealthContent
++  - /System/Library/PrivateFrameworks/HealthContentUI.framework/HealthContentUI
+   - /System/Library/PrivateFrameworks/HealthDomains.framework/HealthDomains
+   - /System/Library/PrivateFrameworks/HealthDomainsUI.framework/HealthDomainsUI
+   - /System/Library/PrivateFrameworks/HealthFoundationUI.framework/HealthFoundationUI
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 26784
+-  Symbols:   35914
++  Functions: 30611
++  Symbols:   36649
+   CStrings:  0
+ 
+Symbols:
++ +[HKBloodPressureClassificationUtilities _locStringForCategory:key:]
++ +[HKBloodPressureClassificationUtilities _locStringForGuidelines:key:]
++ +[HKPersonHeightFormatter usesImperialUnitsForLocale:]
++ +[HKSleepComparisonDaySeries isDaySeries]
++ +[HKSleepDurationSeries isDaySeries]
++ +[HKSleepPeriodSeries isDaySeries]
++ +[HKSleepStageDaySeries isDaySeries]
++ +[HKUIMetricColors metabolismColors]
++ +[UIColor(HKAdditions) hk_bilateralLeftSideColor]
++ +[UIColor(HKAdditions) hk_healthReportKeyColor]
++ -[HKAngleDisplayTypeValueFormatter attributedStringFromValue:displayType:unit:unitController:valueFont:unitFont:formatForChart:unitFormatString:]
++ -[HKAngleDisplayTypeValueFormatter stringFromValue:displayType:unit:unitController:]
++ -[HKBilateralQuantitySample(HKDataMetadataDetailSection) _hk_formattedValueTextForQuantity:unit:displayType:unitController:]
++ -[HKBilateralQuantitySample(HKDataMetadataDetailSection) addDetailValuesToSection:]
++ -[HKCalendarScrollViewController _cellForDate:]
++ -[HKCalendarScrollViewController _setSelectedDate:]
++ -[HKCalendarScrollViewController _updateSelectedCell]
++ -[HKChartCache purgeCachedResults]
++ -[HKChartDataCacheController _identifiersForLogging:]
++ -[HKChartDataCacheController _purgeAllCaches]
++ -[HKChartDataCacheController _purgeCaches:]
++ -[HKChartDataCacheController _purgeCaches:affectedByUnitPreferenceChangeToTypes:]
++ -[HKChartDataCacheController _uniqueInteractiveChartsCaches]
++ -[HKChartDataCacheController _unitPreferencesDidChange:]
++ -[HKChartDataCacheController customChartCacheForDisplayType:key:creatingWith:]
++ -[HKChartDataCacheController dealloc]
++ -[HKCodableSleepingSampleAggregate dataSources]
++ -[HKCodableSleepingSampleAggregate hasDataSources]
++ -[HKCodableSleepingSampleAggregate setDataSources:]
++ -[HKCodableSleepingSampleAggregate setHasDataSources:]
++ -[HKCodableSummaryBilateralQuantityValue .cxx_destruct]
++ -[HKCodableSummaryBilateralQuantityValue copyTo:]
++ -[HKCodableSummaryBilateralQuantityValue copyWithZone:]
++ -[HKCodableSummaryBilateralQuantityValue dateData]
++ -[HKCodableSummaryBilateralQuantityValue description]
++ -[HKCodableSummaryBilateralQuantityValue dictionaryRepresentation]
++ -[HKCodableSummaryBilateralQuantityValue hasDateData]
++ -[HKCodableSummaryBilateralQuantityValue hasLeftValue]
++ -[HKCodableSummaryBilateralQuantityValue hasRightValue]
++ -[HKCodableSummaryBilateralQuantityValue hash]
++ -[HKCodableSummaryBilateralQuantityValue isEqual:]
++ -[HKCodableSummaryBilateralQuantityValue leftValue]
++ -[HKCodableSummaryBilateralQuantityValue mergeFrom:]
++ -[HKCodableSummaryBilateralQuantityValue readFrom:]
++ -[HKCodableSummaryBilateralQuantityValue rightValue]
++ -[HKCodableSummaryBilateralQuantityValue setDateData:]
++ -[HKCodableSummaryBilateralQuantityValue setHasDateData:]
++ -[HKCodableSummaryBilateralQuantityValue setLeftValue:]
++ -[HKCodableSummaryBilateralQuantityValue setRightValue:]
++ -[HKCodableSummaryBilateralQuantityValue writeTo:]
++ -[HKCodableSummaryDaytimeVitalsValue algorithmVersionRawValue]
++ -[HKCodableSummaryDaytimeVitalsValue hasAlgorithmVersionRawValue]
++ -[HKCodableSummaryDaytimeVitalsValue setAlgorithmVersionRawValue:]
++ -[HKCodableSummaryDaytimeVitalsValue setHasAlgorithmVersionRawValue:]
++ -[HKDataMetadataSquatCompensationSection .cxx_destruct]
++ -[HKDataMetadataSquatCompensationSection _localizedStringForCompensation:]
++ -[HKDataMetadataSquatCompensationSection cellForIndex:tableView:]
++ -[HKDataMetadataSquatCompensationSection enabledCompensations]
++ -[HKDataMetadataSquatCompensationSection initWithSample:]
++ -[HKDataMetadataSquatCompensationSection numberOfRowsInSection]
++ -[HKDataMetadataSquatCompensationSection sectionTitle]
++ -[HKDataMetadataSquatCompensationSection selectCellForIndex:navigationController:animated:]
++ -[HKDataMetadataSquatCompensationSection setEnabledCompensations:]
++ -[HKDataMetadataWorkoutActivitySection activities]
++ -[HKDataMetadataWorkoutActivitySection setActivities:]
++ -[HKDemographicsInformationWrapper referenceSexObject]
++ -[HKDemographicsInformationWrapper setReferenceSexObject:]
++ -[HKFavoritesTableViewCell initWithStyle:reuseIdentifier:isDashboardEnabledProvider:]
++ -[HKFavoritesTableViewCell isDashboardEnabledProvider]
++ -[HKHealthChartFactory _resolvedTimeScopeForTypeIdentifier:displayDateInterval:preferredTimeScope:]
++ -[HKHealthChartFactory interactiveChartForTypeIdentifier:preferredOverlay:preferredTimeScope:chartOptions:displayDateInterval:restorationUserActivity:chartSummaryTrendModel:]
++ -[HKInsulinDataSource shouldPurgeCachedResultsForUnitPreferenceChangeToTypes:]
++ -[HKInteractiveChartAnnotationView columnSpacingOverride]
++ -[HKInteractiveChartAnnotationView setColumnSpacingOverride:]
++ -[HKInteractiveChartOverlayPredicate cacheIdentity]
++ -[HKInteractiveChartOverlayPredicate initWithPredicate:name:cacheIdentity:]
++ -[HKInteractiveChartOverlayViewController _makeDistributionChartCacheForStyle:namedPredicate:]
++ -[HKInteractiveChartOverlayViewController minimumCategoricalDataAreaHeight]
++ -[HKInteractiveChartOverlayViewController setMinimumCategoricalDataAreaHeight:]
++ -[HKInteractiveChartViewController _defaultAxisRangeIncludeToday:timeScope:]
++ -[HKInteractiveChartViewController _presentInitialLollipopIfReady]
++ -[HKInteractiveChartViewController initialLollipopSelectionPending]
++ -[HKInteractiveChartViewController lollipopColumnSpacing]
++ -[HKInteractiveChartViewController setInitialLollipopSelectionPending:]
++ -[HKManualEntryValidationController absoluteRangeForQuantityType:]
++ -[HKManualEntryValidationController absoluteRangeForWorkoutMetric:]
++ -[HKManualEntryValidationController confirmationRangeForQuantityType:]
++ -[HKManualEntryValidationController confirmationRangeForWorkoutMetric:]
++ -[HKManualEntryValidationController validateWorkoutQuantity:forMetric:]
++ -[HKOverheadSquatSample(HKMetadataDetail) hk_additionalMetadataSectionsWithHealthStore:displayTypeController:unitController:subsampleDelegate:]
++ -[HKOverlayRoomAudioViewController _cacheIdentityForDevices:name:]
++ -[HKOverlayRoomCardioFitnessViewController _cardioFitnessCacheKeyWithApplicationItems:representativeDisplayType:]
++ -[HKOverlayRoomSleepViewController _prefersAmountsChart]
++ -[HKOverlayRoomSleepViewController preferredOverlay]
++ -[HKOverlayRoomSleepViewController setPreferredOverlay:]
++ -[HKPopulationNormsAbstractViewModel didCompleteLatestSampleLookup]
++ -[HKPopulationNormsAbstractViewModel setDidCompleteLatestSampleLookup:]
++ -[HKPopulationNormsChartViewController _updateGraphContent]
++ -[HKPopulationNormsGraphView(HKPopulationNormsGraphDisplaying) updateCaptionWithClassificationTitle:]
++ -[HKPopulationNormsGraphView(HKPopulationNormsGraphDisplaying) updateCaptionWithCohortBiologicalSex:]
++ -[HKQuantityDistributionDataSource shouldPurgeCachedResultsForUnitPreferenceChangeToTypes:]
++ -[HKQuantityType(ManualEntryValidation) absoluteRangeForManualEntry]
++ -[HKQuantityType(ManualEntryValidation) confirmationRangeForManualEntry]
++ -[HKRemoteCardioFitnessDataSource shouldPurgeCachedResultsForUnitPreferenceChangeToTypes:]
++ -[HKRouteView setToggleMapTypeBarButtonItem:]
++ -[HKRouteView toggleMapTypeBarButtonItem]
++ -[HKSourceAuthorizationController offersTimeBoundedOptions]
++ -[_HKAnnotationColumnLayout columnSpacingOverride]
++ -[_HKAnnotationColumnLayout setColumnSpacingOverride:]
++ -[_HKCustomCacheDisplayTypeTuple initWithCustomCache:displayType:key:]
++ -[_HKCustomCacheDisplayTypeTuple key]
++ -[_HKInteractiveChartDistributionStyleKey initWithDistributionStyle:timeScope:predicateName:unitString:]
++ -[_HKInteractiveChartDistributionStyleKey setUnitString:]
++ -[_HKInteractiveChartDistributionStyleKey unitString]
++ GCC_except_table107
++ GCC_except_table132
++ GCC_except_table142
++ GCC_except_table35
++ GCC_except_table59
++ GCC_except_table63
++ GCC_except_table67
++ GCC_except_table71
++ GCC_except_table91
++ OBJC_IVAR_$_HKCodableSleepingSampleAggregate._dataSources
++ OBJC_IVAR_$_HKCodableSummaryBilateralQuantityValue._dateData
++ OBJC_IVAR_$_HKCodableSummaryBilateralQuantityValue._has
++ OBJC_IVAR_$_HKCodableSummaryBilateralQuantityValue._leftValue
++ OBJC_IVAR_$_HKCodableSummaryBilateralQuantityValue._rightValue
++ OBJC_IVAR_$_HKCodableSummaryDaytimeVitalsValue._algorithmVersionRawValue
++ _CGContextStrokeEllipseInRect
++ _HKBilateralQuantityTypeIdentifierAnkleDorsiflexion
++ _HKBilateralQuantityTypeIdentifierElbowFlexion
++ _HKBilateralQuantityTypeIdentifierHipFlexionKneeExtension
++ _HKBilateralQuantityTypeIdentifierHipFlexionKneeFlexion
++ _HKBilateralQuantityTypeIdentifierKneeFlexion
++ _HKBilateralQuantityTypeIdentifierShoulderFlexion
++ _HKBilateralQuantityTypeIdentifierSingleLegStanceTime
++ _HKCodableSummaryBilateralQuantityValueReadFrom
++ _HKDisplayTypeIdentifierAnkleDorsiflexionMake
++ _HKDisplayTypeIdentifierElbowFlexionMake
++ _HKDisplayTypeIdentifierEthnicityMake
++ _HKDisplayTypeIdentifierFiveTimesSitToStandTimeMake
++ _HKDisplayTypeIdentifierHipCircumferenceMake
++ _HKDisplayTypeIdentifierHipFlexionKneeExtensionMake
++ _HKDisplayTypeIdentifierHipFlexionKneeFlexionMake
++ _HKDisplayTypeIdentifierKneeBasedPushUpCountMake
++ _HKDisplayTypeIdentifierKneeFlexionMake
++ _HKDisplayTypeIdentifierMedicalHistoryAllergyRecordMake
++ _HKDisplayTypeIdentifierMedicalHistoryHealthConcernRecordMake
++ _HKDisplayTypeIdentifierMedicalHistoryImmunizationRecordMake
++ _HKDisplayTypeIdentifierMedicalHistoryLabResultRecordMake
++ _HKDisplayTypeIdentifierMedicalHistoryProcedureRecordMake
++ _HKDisplayTypeIdentifierMedicalHistoryQuantitativeLabResultRecordMake
++ _HKDisplayTypeIdentifierOverheadSquatMake
++ _HKDisplayTypeIdentifierPlankTimeMake
++ _HKDisplayTypeIdentifierShoulderFlexionMake
++ _HKDisplayTypeIdentifierSingleLegStanceTimeMake
++ _HKDisplayTypeIdentifierStandardPushUpCountMake
++ _HKDisplayTypeIdentifierSurveyResponseMake
++ _HKMetadataKeyAverageSpeed
++ _HKMetadataKeyMaximumSpeed
++ _HKUIAcaciaLocalizedString
++ _HKUIAdjustedChartValue
++ _HKUIEucalyptusLocalizedString
++ _NSLocaleMeasurementSystem
++ _NSLocaleMeasurementSystemMetric
++ _OBJC_CLASS_$_HKAngleDisplayTypeValueFormatter
++ _OBJC_CLASS_$_HKBilateralQuantitySample
++ _OBJC_CLASS_$_HKBilateralQuantityType
++ _OBJC_CLASS_$_HKCardioFitnessPopulationNormsSwiftChartView
++ _OBJC_CLASS_$_HKCodableSummaryBilateralQuantityValue
++ _OBJC_CLASS_$_HKDataMetadataSquatCompensationSection
++ _OBJC_CLASS_$_HKHealthFactSampleType
++ _OBJC_CLASS_$_HKOverheadSquatSample
++ _OBJC_CLASS_$_NSFileHandle
++ _OBJC_CLASS_$_NSOrderedSet
++ _OBJC_CLASS_$__TtC8HealthUI24CategoryLevelChartSeries
++ _OBJC_CLASS_$__TtC8HealthUI27BilateralQuantityCoordinate
++ _OBJC_CLASS_$__TtC8HealthUI27BilateralQuantityLineSeries
++ _OBJC_CLASS_$__TtC8HealthUI31CategoryLevelChartDataFormatter
++ _OBJC_CLASS_$__TtC8HealthUI35BilateralQuantityChartDataFormatter
++ _OBJC_CLASS_$__TtC8HealthUI43CategoryLevelChartLoadingRoomViewController
++ _OBJC_IVAR_$_HKCalendarScrollViewController._selectedDate
++ _OBJC_IVAR_$_HKChartCache._purgeGeneration
++ _OBJC_IVAR_$_HKChartDataCacheController._memoryPressureSource
++ _OBJC_IVAR_$_HKDataMetadataSquatCompensationSection._enabledCompensations
++ _OBJC_IVAR_$_HKDataMetadataWorkoutActivitySection._activities
++ _OBJC_IVAR_$_HKDemographicsInformationWrapper._referenceSexObject
++ _OBJC_IVAR_$_HKFavoritesTableViewCell._isDashboardEnabledProvider
++ _OBJC_IVAR_$_HKInteractiveChartOverlayPredicate._cacheIdentity
++ _OBJC_IVAR_$_HKInteractiveChartOverlayViewController._minimumCategoricalDataAreaHeight
++ _OBJC_IVAR_$_HKInteractiveChartViewController._currentValueViewDidUpdate
++ _OBJC_IVAR_$_HKInteractiveChartViewController._initialLollipopSelectionPending
++ _OBJC_IVAR_$_HKOverlayRoomSleepViewController._preferredOverlay
++ _OBJC_IVAR_$_HKPopulationNormsAbstractViewModel._didCompleteLatestSampleLookup
++ _OBJC_IVAR_$_HKRouteView._toggleMapTypeBarButtonItem
++ _OBJC_IVAR_$__HKAnnotationColumnLayout._columnSpacingOverride
++ _OBJC_IVAR_$__HKCustomCacheDisplayTypeTuple._key
++ _OBJC_IVAR_$__HKInteractiveChartDistributionStyleKey._unitString
++ _OBJC_METACLASS_$_HKAngleDisplayTypeValueFormatter
++ _OBJC_METACLASS_$_HKCardioFitnessPopulationNormsSwiftChartView
++ _OBJC_METACLASS_$_HKCodableSummaryBilateralQuantityValue
++ _OBJC_METACLASS_$_HKDataMetadataSquatCompensationSection
++ _OBJC_METACLASS_$__TtC8HealthUI24CategoryLevelChartSeries
++ _OBJC_METACLASS_$__TtC8HealthUI27BilateralQuantityCoordinate
++ _OBJC_METACLASS_$__TtC8HealthUI27BilateralQuantityLineSeries
++ _OBJC_METACLASS_$__TtC8HealthUI31CategoryLevelChartDataFormatter
++ _OBJC_METACLASS_$__TtC8HealthUI35BilateralQuantityChartDataFormatter
++ _OBJC_METACLASS_$__TtC8HealthUI43CategoryLevelChartLoadingRoomViewController
++ __DATA_HKCardioFitnessPopulationNormsSwiftChartView
++ __DATA__TtC8HealthUI24CategoryLevelChartSeries
++ __DATA__TtC8HealthUI24WasabiVideoPlaybackState
++ __DATA__TtC8HealthUI26WasabiVideoDescriptorStore
++ __DATA__TtC8HealthUI27BilateralQuantityCoordinate
++ __DATA__TtC8HealthUI27BilateralQuantityLineSeries
++ __DATA__TtC8HealthUI27WasabiPresentationAuthority
++ __DATA__TtC8HealthUI29WasabiPlaceholderContentStore
++ __DATA__TtC8HealthUI31CategoryLevelChartDataFormatter
++ __DATA__TtC8HealthUI35BilateralQuantityChartDataFormatter
++ __DATA__TtC8HealthUI38CardioFitnessPopulationNormsChartModel
++ __DATA__TtC8HealthUI43CategoryLevelChartLoadingRoomViewController
++ __DATA__TtCO8HealthUI10WasabiFlow9OnDismiss
++ __INSTANCE_METHODS_HKCardioFitnessPopulationNormsSwiftChartView
++ __INSTANCE_METHODS__TtC8HealthUI24CategoryLevelChartSeries
++ __INSTANCE_METHODS__TtC8HealthUI27BilateralQuantityCoordinate
++ __INSTANCE_METHODS__TtC8HealthUI27BilateralQuantityLineSeries
++ __INSTANCE_METHODS__TtC8HealthUI31CategoryLevelChartDataFormatter
++ __INSTANCE_METHODS__TtC8HealthUI35BilateralQuantityChartDataFormatter
++ __INSTANCE_METHODS__TtC8HealthUI43CategoryLevelChartLoadingRoomViewController
++ __IVARS_HKCardioFitnessPopulationNormsSwiftChartView
++ __IVARS__TtC8HealthUI24WasabiVideoPlaybackState
++ __IVARS__TtC8HealthUI26WasabiVideoDescriptorStore
++ __IVARS__TtC8HealthUI27BilateralQuantityCoordinate
++ __IVARS__TtC8HealthUI27WasabiPresentationAuthority
++ __IVARS__TtC8HealthUI31CategoryLevelChartDataFormatter
++ __IVARS__TtC8HealthUI35BilateralQuantityChartDataFormatter
++ __IVARS__TtC8HealthUI38CardioFitnessPopulationNormsChartModel
++ __IVARS__TtC8HealthUI43CategoryLevelChartLoadingRoomViewController
++ __IVARS__TtCO8HealthUI10WasabiFlow9OnDismiss
++ __METACLASS_DATA_HKCardioFitnessPopulationNormsSwiftChartView
++ __METACLASS_DATA__TtC8HealthUI24CategoryLevelChartSeries
++ __METACLASS_DATA__TtC8HealthUI24WasabiVideoPlaybackState
++ __METACLASS_DATA__TtC8HealthUI26WasabiVideoDescriptorStore
++ __METACLASS_DATA__TtC8HealthUI27BilateralQuantityCoordinate
++ __METACLASS_DATA__TtC8HealthUI27BilateralQuantityLineSeries
++ __METACLASS_DATA__TtC8HealthUI27WasabiPresentationAuthority
++ __METACLASS_DATA__TtC8HealthUI29WasabiPlaceholderContentStore
++ __METACLASS_DATA__TtC8HealthUI31CategoryLevelChartDataFormatter
++ __METACLASS_DATA__TtC8HealthUI35BilateralQuantityChartDataFormatter
++ __METACLASS_DATA__TtC8HealthUI38CardioFitnessPopulationNormsChartModel
++ __METACLASS_DATA__TtC8HealthUI43CategoryLevelChartLoadingRoomViewController
++ __METACLASS_DATA__TtCO8HealthUI10WasabiFlow9OnDismiss
++ __ManualEntryRange
++ __OBJC_$_CATEGORY_HKBilateralQuantitySample_$_HKDataMetadataDetailSection
++ __OBJC_$_CATEGORY_HKOverheadSquatSample_$_HKMetadataDetail
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_HKBilateralQuantitySample_$_HKDataMetadataDetailSection
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_HKOverheadSquatSample_$_HKMetadataDetail
++ __OBJC_$_CLASS_METHODS_HKSleepDurationSeries
++ __OBJC_$_INSTANCE_METHODS_HKAngleDisplayTypeValueFormatter
++ __OBJC_$_INSTANCE_METHODS_HKCodableSummaryBilateralQuantityValue
++ __OBJC_$_INSTANCE_METHODS_HKDataMetadataSquatCompensationSection
++ __OBJC_$_INSTANCE_METHODS_HKPopulationNormsGraphView(HKPopulationNormsGraphDisplaying)
++ __OBJC_$_INSTANCE_VARIABLES_HKCodableSummaryBilateralQuantityValue
++ __OBJC_$_INSTANCE_VARIABLES_HKDataMetadataSquatCompensationSection
++ __OBJC_$_PROP_LIST_HKCodableSummaryBilateralQuantityValue
++ __OBJC_$_PROP_LIST_HKDataMetadataSquatCompensationSection
++ __OBJC_$_PROP_LIST_HKSleepChartCacheIdentifying
++ __OBJC_$_PROTOCOL_CLASS_METHODS_HKSleepSeries
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKPopulationNormsGraphDisplaying
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKSleepChartCacheIdentifying
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HKChartCacheDataSource
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKPopulationNormsGraphDisplaying
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKSleepChartCacheIdentifying
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKSleepSeries
++ __OBJC_$_PROTOCOL_REFS_HKPopulationNormsGraphDisplaying
++ __OBJC_$_PROTOCOL_REFS_HKSleepChartCacheIdentifying
++ __OBJC_$_PROTOCOL_REFS_HKSleepSeries
++ __OBJC_CLASS_PROTOCOLS_$_HKCodableSummaryBilateralQuantityValue
++ __OBJC_CLASS_PROTOCOLS_$_HKPopulationNormsGraphView(HKPopulationNormsGraphDisplaying)
++ __OBJC_CLASS_PROTOCOLS_$_HKSleepChartDataSource
++ __OBJC_CLASS_PROTOCOLS_$_HKSleepDurationSeries
++ __OBJC_CLASS_PROTOCOLS_$_HKSleepPeriodSeries
++ __OBJC_CLASS_RO_$_HKAngleDisplayTypeValueFormatter
++ __OBJC_CLASS_RO_$_HKCodableSummaryBilateralQuantityValue
++ __OBJC_CLASS_RO_$_HKDataMetadataSquatCompensationSection
++ __OBJC_LABEL_PROTOCOL_$_HKPopulationNormsGraphDisplaying
++ __OBJC_LABEL_PROTOCOL_$_HKSleepChartCacheIdentifying
++ __OBJC_LABEL_PROTOCOL_$_HKSleepSeries
++ __OBJC_METACLASS_RO_$_HKAngleDisplayTypeValueFormatter
++ __OBJC_METACLASS_RO_$_HKCodableSummaryBilateralQuantityValue
++ __OBJC_METACLASS_RO_$_HKDataMetadataSquatCompensationSection
++ __OBJC_PROTOCOL_$_HKPopulationNormsGraphDisplaying
++ __OBJC_PROTOCOL_$_HKSleepChartCacheIdentifying
++ __OBJC_PROTOCOL_$_HKSleepSeries
++ __OBJC_PROTOCOL_REFERENCE_$_HKSleepSeries
++ __PROPERTIES_HKCardioFitnessPopulationNormsSwiftChartView
++ __PROPERTIES__TtC8HealthUI27BilateralQuantityCoordinate
++ __PROTOCOLS_HKCardioFitnessPopulationNormsSwiftChartView
++ __PROTOCOLS__TtC8HealthUI27BilateralQuantityCoordinate
++ __PROTOCOL_HKPopulationNormsGraphDisplaying
++ __PROTOCOL_INSTANCE_METHODS_HKPopulationNormsGraphDisplaying
++ __PROTOCOL_METHOD_TYPES_HKPopulationNormsGraphDisplaying
++ __PROTOCOL_PROTOCOLS_HKPopulationNormsGraphDisplaying
++ ___100-[HKOverlayRoomSleepViewController _installUpdateObserversForGoalsAndSchedulesWithApplicationItems:]_block_invoke
++ ___56-[HKChartDataCacheController _unitPreferencesDidChange:]_block_invoke
++ ___82-[HKChartDataCacheController initWithHealthStore:unitController:updateController:]_block_invoke
++ ___83-[HKOverlayRoomCardioFitnessViewController primaryDisplayTypeWithApplicationItems:]_block_invoke
++ ___94-[HKInteractiveChartOverlayViewController _makeDistributionChartCacheForStyle:namedPredicate:]_block_invoke
++ ___95-[HKInteractiveChartOverlayViewController _overlayChartCacheForDataSource:templateDisplayType:]_block_invoke
++ ___block_descriptor_40_e8_32bs_e19_"HKChartCache"8?0ls32l8
++ ___block_descriptor_40_e8_32s_e19_"HKChartCache"8?0ls32l8
++ ___block_descriptor_41_e8_32w_e18_"NSString"16?0q8lw32l8
++ ___block_descriptor_48_e8_32s40bs_e30_v24?0"HKSample"8"NSError"16ls32l8s40l8
++ ___block_descriptor_48_e8_32s40s_e19_"HKChartCache"8?0ls32l8s40l8
++ ___block_descriptor_56_e8_32s40s_e19_"HKChartCache"8?0ls32l8s40l8
++ ___block_descriptor_64_e8_32s40s48w_e51_v32?0"HKChartCacheFetchOperation"816"NSError"24lw48l8s32l8s40l8
++ ___block_descriptor_88_e8_32s40s48s56s64s72w_e5_v8?0lw72l8s32l8s40l8s48l8s56l8s64l8
++ ___isPlatformVersionAtLeast
++ ___swift_allocate_boxed_opaque_existential_1Tm
++ ___swift_closure_destructor.10Tm
++ ___swift_closure_destructor.15Tm
++ ___swift_closure_destructor.42Tm
++ ___swift_closure_destructor.67Tm
++ ___swift_closure_destructor.8Tm
++ ___swift_exist.box.addr_destructor
++ ___swift_memcpy112_8
++ ___swift_memcpy144_8
++ ___swift_memcpy176_8
++ ___swift_memcpy184_8
++ ___swift_memcpy185_8
++ ___swift_memcpy192_8
++ ___swift_memcpy200_8
++ ___swift_memcpy208_8
++ ___swift_memcpy41_8
++ ___swift_memcpy56_8
++ ___swift_memcpy72_8
++ ___swift_memcpy73_8
++ ___swift_memcpy80_8
++ ___unnamed_19
++ ___unnamed_6
++ __availability_version_check
++ __dispatch_source_type_memorypressure
++ __initializeAvailabilityCheck
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAVFoundation_$_HealthUI
++ _associated conformance 8HealthUI018CategoryLevelChartD0VSHAASQ
++ _associated conformance 8HealthUI10WasabiFlowO09PresentedD0Vs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 8HealthUI10WasabiFlowO16PushedControllerVSHAASQ
++ _associated conformance 8HealthUI10WasabiFlowO16PushedControllerVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 8HealthUI10WasabiFlowO16VideoDestinationVAC0F0AA7ContentAcFP_05SwiftB04View
++ _associated conformance 8HealthUI10WasabiFlowO16VideoDestinationVSHAASQ
++ _associated conformance 8HealthUI10WasabiFlowO16VideoDestinationVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 8HealthUI10WasabiFlowO17PresentationStyleOSHAASQ
++ _associated conformance 8HealthUI10WasabiFlowO17PushedDestinationVSHAASQ
++ _associated conformance 8HealthUI10WasabiFlowO21ControllerDestinationVAC0F0AA7ContentAcFP_05SwiftB04View
++ _associated conformance 8HealthUI10WasabiFlowO21ControllerDestinationVSHAASQ
++ _associated conformance 8HealthUI10WasabiFlowO21ControllerDestinationVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 8HealthUI10WasabiFlowO8SourceIDOSHAASQ
++ _associated conformance 8HealthUI10ZoomSource33_6481106881FEFA973D8760FCA2EFAB2BLLV05SwiftB012ViewModifierAA4BodyAeFP_AE0J0
++ _associated conformance 8HealthUI13BilateralSideOSHAASQ
++ _associated conformance 8HealthUI13OverlayHeaderV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 8HealthUI13WasabiTypeKeyVSHAASQ
++ _associated conformance 8HealthUI14ControllerRoom025_A71AB9B3B1B64A5A2225D349H6E9D45ELLV05SwiftB04ViewAA4BodyAeFP_AeF
++ _associated conformance 8HealthUI15PageControlDotsV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 8HealthUI15WasabiVideoFlowV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 8HealthUI15WasabiVideoTileV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 8HealthUI15WasabiVideoTileV0D13ConfigurationO11UniformKindOSHAASQ
++ _associated conformance 8HealthUI15WasabiVideoTileV15SubcategoryItemVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 8HealthUI16HostedController025_A71AB9B3B1B64A5A2225D349H6E9D45ELLV05SwiftB006UIViewD13RepresentableAaE4View
++ _associated conformance 8HealthUI16HostedController025_A71AB9B3B1B64A5A2225D349H6E9D45ELLV05SwiftB04ViewAA4BodyAeFP_AeF
++ _associated conformance 8HealthUI16VisibilityReader33_7BC0B851F0F68B11155960A0596C4CC1LLV05SwiftB012ViewModifierAA4BodyAeFP_AE0N0
++ _associated conformance 8HealthUI17DomainOverlayViewV05SwiftB00E0AA4BodyAdEP_AdE
++ _associated conformance 8HealthUI17WasabiVideoPlayerV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 8HealthUI18ImpressionModifier33_A0B0436B7581B9EB2ABF63C97C473BC2LLV05SwiftB004ViewD0AA4BodyAeFP_AE0O0
++ _associated conformance 8HealthUI18OverlayLayoutStyleOSHAASQ
++ _associated conformance 8HealthUI18WasabiActionButtonVyxG05SwiftB04ViewAA4BodyAeFP_AeF
++ _associated conformance 8HealthUI18WasabiVideoSection33_A19EA2984A968D191D1382EE42AB1F27LLV05SwiftB04ViewAA4BodyAeFP_AeF
++ _associated conformance 8HealthUI19WasabiActionOutcomeOSHAASQ
++ _associated conformance 8HealthUI19WasabiVideoCarouselV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 8HealthUI19WasabiVideoCarouselV4ItemVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 8HealthUI20AnalyticsRecorderKeyV05SwiftB0025UITraitBridgedEnvironmentE0AaD0iE0
++ _associated conformance 8HealthUI20NextButtonLabelStyle33_328009600784A261C07D573E8D6E3BCCLLV05SwiftB00eF0AA4BodyAeFP_AE4View
++ _associated conformance 8HealthUI20OverlayCardContainerVyxG05SwiftB04ViewAA4BodyAeFP_AeF
++ _associated conformance 8HealthUI20WasabiEndOfVideoGridV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 8HealthUI20WasabiFlowBackActionV9DismissalVSHAASQ
++ _associated conformance 8HealthUI20WasabiThumbnailErrorOSHAASQ
++ _associated conformance 8HealthUI20WasabiThumbnailImageV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 8HealthUI20WasabiVideoThumbnailV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 8HealthUI21AnalyticsActionFieldsVSHAASQ
++ _associated conformance 8HealthUI21AnalyticsFieldContextVSHAASQ
++ _associated conformance 8HealthUI21AnimatedBandIndicator33_2103E804C3B60DA84F365359EA34D697LLV05SwiftB04ViewAA4BodyAeFP_AeF
++ _associated conformance 8HealthUI22WasabiThumbnailContent33_FD4D3B724D5D41E832FF40FAD833B457LLV05SwiftB04ViewAA4BodyAeFP_AeF
++ _associated conformance 8HealthUI23CategoryLevelChartEntryVSHAASQ
++ _associated conformance 8HealthUI23WasabiActionEnvironmentVyxG05SwiftB04ViewAA4BodyAeFP_AeF
++ _associated conformance 8HealthUI24AnalyticsFieldContextKeyV05SwiftB0025UITraitBridgedEnvironmentF0AaD0jF0
++ _associated conformance 8HealthUI24WasabiCategoryCompletionOSHAASQ
++ _associated conformance 8HealthUI25CardioFitnessNormsCaptionV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 8HealthUI25ClassificationOverlayViewV05SwiftB00E0AA4BodyAdEP_AdE
++ _associated conformance 8HealthUI25ClassificationOverlayViewV0D4TypeOSHAASQ
++ _associated conformance 8HealthUI25ClassificationOverlayViewV17ContributingValueVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 8HealthUI25HKTraitWasabiFlowStackKeyV05SwiftB0025UITraitBridgedEnvironmentG0AaD0kG0
++ _associated conformance 8HealthUI25WasabiFileHandleThumbnailV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 8HealthUI25WasabiIdentifierThumbnailV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 8HealthUI26CardioFitnessAgeThresholdsVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 8HealthUI26WasabiVideoTileButtonStyleV05SwiftB00fG0AA4BodyAdEP_AD4View
++ _associated conformance 8HealthUI29WasabiPlaceholderContentStoreC0D5ErrorOSHAASQ
++ _associated conformance 8HealthUI29WasabiVideoNavigationControlsV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 8HealthUI29WasabiVideoThumbnailContainerVyxG05SwiftB04ViewAA4BodyAeFP_AeF
++ _associated conformance 8HealthUI30WasabiFlowActionImplementationVAA0ceF0AA0E0AaDP_AA0cE5Model
++ _associated conformance 8HealthUI31AnalyticsImpressionableModifier33_A0B9FB5D5C5B5F35EB5395474A067A73LLV05SwiftB004ViewE0AA4BodyAeFP_AE0Q0
++ _associated conformance 8HealthUI31HKTraitWasabiActionPerformerKeyV05SwiftB0025UITraitBridgedEnvironmentG0AaD0kG0
++ _associated conformance 8HealthUI36WasabiVideoThumbnailContainerExampleV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 8HealthUI37CardioFitnessPopulationNormsChartViewV05SwiftB00H0AA4BodyAdEP_AdE
++ _associated conformance 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3RowOSHAASQ
++ _associated conformance 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3RowOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 8HealthUI42BalanceOverlaySectionContainerSegmentIndexOSHAASQ
++ _associated conformance So12UIFontWeightaSHSCSQ
++ _associated conformance So12UIFontWeightas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So12UIFontWeightas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So24UIFontDescriptorTraitKeyaSHSCSQ
++ _associated conformance So24UIFontDescriptorTraitKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So24UIFontDescriptorTraitKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So33HKBilateralQuantityTypeIdentifieraSHSCSQ
++ _associated conformance So33HKBilateralQuantityTypeIdentifieras20_SwiftNewtypeWrapperSCSY
++ _associated conformance So33HKBilateralQuantityTypeIdentifieras20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _dispatch_resume
++ _dispatch_source_cancel
++ _dispatch_source_create
++ _dispatch_source_set_event_handler
++ _fclose
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _get_enum_tag_for_layout_string 15HealthContentUI10AsyncStateOySo7UIImageCG
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy06HealthB018AnalyticsRecording_pSg_G
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy06HealthB019WasabiPerformActionV_G
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy06HealthB021AnalyticsFieldContextV_G
++ _get_enum_tag_for_layout_string 8HealthUI10WasabiFlowO5Stack_pSg
++ _get_enum_tag_for_layout_string 8HealthUI10WasabiFlowO8SourceIDO
++ _get_enum_tag_for_layout_string 8HealthUI10WasabiFlowO8SourceIDOSg
++ _get_enum_tag_for_layout_string 8HealthUI18AnalyticsRecording_pSg
++ _get_enum_tag_for_layout_string 8HealthUI19WasabiVideoCarouselV4ItemVAA21AnalyticsActionFieldsVSgIegnr_Sg
++ _get_enum_tag_for_layout_string 8HealthUI21AnalyticsActionFieldsVSg
++ _get_enum_tag_for_layout_string 8HealthUI21WasabiDispatchOutcomeO
++ _get_enum_tag_for_layout_string 8HealthUI22WasabiActionPerforming_pSg
++ _get_enum_tag_for_layout_string 8HealthUI24CategoryLevelChartSource_pSg
++ _get_enum_tag_for_layout_string 8HealthUI25BalanceDayStateCoordinateC0F4TypeO
++ _get_enum_tag_for_layout_string IeghH_Sg
++ _get_enum_tag_for_layout_string s6ResultOySo7UIImageCs5Error_pG
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOQr
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOqd0__AaBHC
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC
++ _get_witness_table 15HealthContentUI20AsyncVideoPlayerViewVyAA0e8FallbackG0VG05SwiftC00G0HPyHC
++ _get_witness_table 15HealthContentUI22VideoThumbnailCarouselVy0aC006WasabiE5ImageV05SwiftC008ModifiedB0VyAIyAIyAG4ViewPAGE11buttonStyleyQrqd__AG015PrimitiveButtonM0Rd__lFQOyAD0g6ActionO0VyAA0dE0VyAFGG_AG05PlainoM0VQo_AG011_ForegroundM8ModifierVyAG5ColorVGGAG022_EnvironmentBackgroundmS0VyAZGGAG023AccessibilityAttachmentS0VGGAgJHPyHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy06HealthB0023AnalyticsImpressionableF033_A0B9FB5D5C5B5F35EB5395474A067A73LLVGAF010ImpressionF001_j10B0436B7581K18EB2ABF63C97C473BC2LLVGAA0E0HPAjaOHPyHC_AmA0eF0HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE11buttonStyleyQrqd__AA06ButtonG0Rd__lFQOy06HealthB0012WasabiActionH0VyACyAA012_ConditionalD0VyACyACy0idB020VideoThumbnailBannerVyAH0jN5ImageVGAA011_ForegroundG8ModifierVyAA5ColorVGGAA022_EnvironmentBackgroundgR0VyAVGGAM0mN4TileVyAQGGAA01_uR0VyACyAM0mN13HeadlineProbeVAA14_PaddingLayoutVGGGG_AH0jmvhG0VQo_AA023AccessibilityAttachmentR0VGAaDHPqd0__AaDHD3_A17_HO_A19_AA0eR0HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE16onGeometryChange3for2of6actionQrqd__m_qd__AA0G5ProxyVcyqd___qd__tctSQRd__lFQOyACyAA01_e9Modifier_D0Vy06HealthB0010ImpressionM033_A0B0436B7581B9EB2ABF63C97C473BC2LLVGAN16VisibilityReader33_7BC0B851F0F68B11155960A0596C4CC1LLVG_So6CGRectVAXSQ12CoreGraphicsyHCg0_Qo_AA08_OverlayM0VyACyACyAA06_ShapeE0VyAA22ContainerRelativeShapeVAA5ColorVGAA14_OpacityEffectVGAA017_AllowsHitTestingM0VGSgGGAaDHPqd0__AaDHD4_AZHO_A15_AA0eM0HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyACyACyAA6HStackVyAA7ForEachVySnySiGSiACyAA6ZStackVyAA05TupleD0VyACyACyAA7CapsuleVAA12_FrameLayoutVGAA24_ForegroundStyleModifierVyAA08AnyShapeU0VGG_ACyACyAwA13_OffsetEffectVGAYyAA012HierarchicalxU0VGGSgQPGGAA05_ClipZ0VyATGGGGAA010_AnimationV0VySiGGA19_ySdSgGG_Qo_AA0i10AttachmentV0VGAaDHPqd__AaDHD2_A25_HO_A27_AA0eV0HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAeAE15sensoryFeedback_7trigger9conditionQrAA07SensoryM0V_qd__Sbqd___qd__tctSQRd__lFQOyAeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyAE6ChartsE12chartOverlay9alignment7contentQrAA9AlignmentV_qd__AR10ChartProxyVctAaDRd__lFQOyAeRE0V10YAxisLabel8positionAT7spacingAUQrAR18AnnotationPositionV_AWSg12CoreGraphics7CGFloatVSgqd__yXEtAaDRd__lFQOyAeRE0V10XAxisLabelA_ATA0_AUQrA2__A3_A7_qd__yXEtAaDRd__lFQOyAeRE0V5YAxisAUQrqd__yXE_tAR04AxisD0Rd__lFQOyAeRE0V5XAxisAUQrqd__yXE_tARA10_Rd__lFQOyAeRE0V10XSelection5valueQrAA7BindingVyqd__SgG_tAR9PlottableRd__lFQOyAeRE0V6YScale6domain4typeQrqd___AR9ScaleTypeVSgtAR11ScaleDomainRd__lFQOyAeRE0V6XScaleA20_A21_Qrqd___A24_tARA25_Rd__lFQOyAR5ChartVyAA05TupleD0VyAA7ForEachVySnySiGSiA32_ySay06HealthB026CardioFitnessAgeThresholdsVGSiAR05ChartD0PARE0F6HiddenyQrSbFQOyA39_ARE15foregroundStyleyQrqd__AA10ShapeStyleRd__lFQOyAR8AreaMarkV_AA5ColorVQo__Qo_GG_A32_ySaySiGSiA39_AREA40_yQrSbFQOyA39_ARE9lineStyleyQrAA11StrokeStyleVFQOyA39_AREA41_yQrqd__AAA42_Rd__lFQOyAR8RuleMarkV_A46_Qo__Qo__Qo_GA32_yA51_SiA32_yA37_SiA39_AREA40_yQrSbFQOyA39_AREA52_yQrA54_FQOyA39_AREA41_yQrqd__AAA42_Rd__lFQOyAR8LineMarkV_A46_Qo__Qo__Qo_GGAR12BuilderTupleVyA39_AREA40_yQrSbFQOyA39_ARE10annotationA_ATA0_18overflowResolutionAUQrA2__AWA7_AR28AnnotationOverflowResolutionVqd__yXEtAaDRd__lFQOyA39_AREA52_yQrA54_FQOyA39_AREA41_yQrqd__AAA42_Rd__lFQOyA39_ARE6offset1x1yQrA6__A6_tFQOyA56__Qo__A46_Qo__Qo__ACyAA06_ShapeE0VyAA9RectangleVA46_GAA12_FrameLayoutVGQo__Qo__A39_AREA40_yQrSbFQOyA39_AREA70_A_ATA0_A71_AUQrA2__AWA7_A73_qd__yXEtAaDRd__lFQOyA79__ACyA34_25CardioFitnessNormsCaptionVAA20_TransactionModifierVGQo__Qo_QPGSgQPGG_SNySiGQo__SNySdGQo__SiQo__AR9AxisMarksVyA69_yAR8AxisMarkPAREA41_yQrqd__AAA42_Rd__lFQOyAR8AxisTickV_A46_Qo_Sg_AR14AxisValueLabelVyAA4TextVSgGQPGGQo__A107_yA119_GQo__A117_Qo__A117_Qo__ACyACyAA14GeometryReaderVyACyACyAA6ZStackVyA34_21AnimatedBandIndicator33_2103E804C3B60DA84F365359EA34D697LLVSgGA86_GAA05_MaskZ6EffectVyACyACyA83_A86_GAA13_OffsetEffectVGGGSgGAA25_AllowsHitTestingModifierVGAA0I18AttachmentModifierVGQo_AA14_PaddingLayoutVG_SiSgQo__A157_Qo__Qo_A151_GAaDHPqd__AaDHD2_A160_HO_A151_AA0E8ModifierHPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE22containerRelativeFrame_9alignment_QrAA4AxisO3SetV_AA9AlignmentV12CoreGraphics7CGFloatVAP_AItctFQOyAA6ZStackVyAA05TupleD0Vy06HealthB015PageControlDotsV_AA6HStackVyATyACyACyACyAeAE11buttonStyleyQrqd__AA015PrimitiveButtonX0Rd__lFQOyACyACyACyAA0Z0VyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGGAA32_EnvironmentKeyTransformModifierVySbGGAA14_OpacityEffectVGAA31AccessibilityAttachmentModifierVG_AA05GlasszX0VQo_A5_yAA0T4SizeOGGA5_yAA0Z11BorderShapeVGGA20_G_AA6SpacerVACyACyACyAeAEAZyQrqd__AAA_Rd__lFQOyACyACyACyA1_yACyAeAE05labelX0yQrqd__AA05LabelX0Rd__lFQOyAA5LabelVyAA4TextVA3_G_AU04Nextz5LabelX033_328009600784A261C07D573E8D6E3BCCLLVQo_A9_GGA14_GA17_GA20_G_A23_Qo_A27_GA31_GA20_GQPGGQPGG_Qo_AA18_AnimationModifierVySiGGAaDHPqd__AaDHD2_A60_HO_A63_AA0E8ModifierHPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE4boldyQrSbFQOyACyAA0E8ThatFitsVyAA05TupleD0VyAA6HStackVyAJyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAN5ScaleOGG_AA4TextVQPGG_AA6VStackVyAWGQPGGAPyAA4FontVSgGG_Qo_AA016_ForegroundStyleO0VyAA5ColorVGGAaDHPqd__AaDHD2_A7_HO_A12_AA0eO0HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AA7BindingVySbGqd__yXEqd_0_yXEtAaDRd__AaDRd_0_r0_lFQOyAeAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAeAEAopQ_Qrqd___SbyyctSQRd__lFQOyAeAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyAeAEAR_3forQrAA10VisibilityO_AA0U9PlacementVdtFQOyAeAE11safeAreaBar4edge9alignment7spacingASQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaDRd__lFQOyAA14GeometryReaderVyACyACyACyACyAeAE15navigationTitleyQrqd__SyRd__lFQOy06HealthB029WasabiVideoThumbnailContainerVyACyA13_20WasabiEndOfVideoGridVAA24_BackgroundStyleModifierVyAA5ColorVGGG_SSQo_016HealthFoundationB033_NavigationTitleAlignmentModifierVGAA012_EnvironmentM15WritingModifierVyAA10EdgeInsetsVGGA31_ySo6CGSizeVSgGGAA16_FlexFrameLayoutVGG_A13_29WasabiVideoNavigationControlsVSgQo__Qo__AaTPAAE12defaultGlassyQrAA6_GlassVSgFQOyAA05TupleuD0VyAA0U4ItemVyytAA6ButtonVyAA18DefaultButtonLabelVGG_A58_yyt013HealthDomainsB022WasabiTapToRadarButtonVyAA7SectionVyAA4TextVA60_yAA5LabelVyA71_AA5ImageVGGAA05EmptyE0VGGGA58_yytACyA60_yA75_GAA31AccessibilityAttachmentModifierVGGtG_Qo_Qo__SiQo__06HealthD018VideoPlaybackStateOQo__A60_yA71_GA71_Qo_AA20_TransactionModifierVGAaDHPqd0__AaDHD4_A97_HO_A99_AA0E8ModifierHPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA05TupleD0VyACyAA4TextVAA31AccessibilityAttachmentModifierVG_AA4GridVyAA7ForEachVySaySiGSiAA0K3RowVyAGyACyAA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonQ0Rd__lFQOy06HealthB0012WasabiActionS0VyACyACyAA6ZStackVyAGyACyACyAX0U14ThumbnailImageVAA16_FlexFrameLayoutVGAA11_ClipEffectVyAA9RectangleVGG_AA14LinearGradientVACyACyAEyAGyAA6SpacerV_A2iCyAA6HStackVyAGyACyAA0Y0VAA022_EnvironmentKeyWritingJ0VyAA4FontVSgGG_AIQPGGAA14_PaddingLayoutVGQPGGAA011_ForegroundqJ0VyAA5ColorVGGA30_GQPGGAA18_AspectRatioLayoutVGA7_yAA16RoundedRectangleVGGG_AA05PlainsQ0VQo_AKG_A54_SgQPGGGGQPGGA30_GAaTHPA61_AaTHPyHC_A30_AA0oJ0HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA24ButtonStyleConfigurationV5LabelVAA12_ScaleEffectVGAA18_AnimationModifierVySbGGAA4ViewHPAjaOHPAgaOHPyHC_AiA0mL0HPyHCHC_AmaPHPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewP016HealthFoundationB0E21videoThumbnailArtworkyQrSo7UIImageCSgFQOyAA6ZStackVyAA05TupleD0VyAA012_ConditionalD0VyALyANyAA5ColorV_AA08ProgressE0VyAA05EmptyE0VAVGQPGGARG_ACyACyAA5ImageVAA18_AspectRatioLayoutVGAA21_TraitWritingModifierVyAA010TransitionV3KeyVGGSgQPGG_Qo_AA010_AnimationX0VyAJGGAA033_AccessibilityIgnoresInvertColorseX0VGAaDHPA17_AaDHPqd__AaDHD2_A13_HO_A16_AA0eX0HPyHCHC_A19_AAA21_HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6ZStackVyAA05TupleD0VyACyAA10_ShapeViewVyAA7CapsuleVAA5ColorVGAA12_FrameLayoutVG_AQSgQPGGAA09_PositionL0VGAA18_AnimationModifierVySiGGAA0H0HPAwAA0_HPAtAA0_HPyHC_AvA0hO0HPyHCHC_AzAA1_HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6VStackVyAA05TupleD0VyAA4TextV_ACyACyAA6HStackVyAGyAI_AIQPGGAA30_EnvironmentKeyWritingModifierVySiSgGGAOy12CoreGraphics7CGFloatVGGSgAIQPGGAOyAA0G9AlignmentOGGAA14_PaddingLayoutVGA4_GAA026_InsettableBackgroundShapeL0VyAA5ColorVAA16RoundedRectangleVGGAA4ViewHPA6_AAA15_HPA5_AAA15_HPA2_AAA15_HPAzAA15_HPyHC_A1_AA0yL0HPyHCHC_A4_AAA16_HPyHCHC_A4_AAA16_HPyHCHC_A13_AAA16_HPyHCHC
++ _get_witness_table 7SwiftUI15NavigationStackVyAA0C4PathVAA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAgAE15navigationTitleyQrAA18LocalizedStringKeyVFQOy06HealthB029WasabiVideoThumbnailContainerVyAA08ModifiedJ0VyAgAE22containerRelativeFrame_5count4span7spacing9alignmentQrAA4AxisO3SetV_S2i12CoreGraphics7CGFloatVAA9AlignmentVtFQOyARyARyAA6VStackVyAA05TupleJ0VyA6_yA8_yAA4TextV_A10_QPGG_ARyAA5LabelVyA10_ARyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGGGAA012_EnvironmentO15WritingModifierVyAA4FontVSgGGAA6SpacerVARyARyAgAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAA6ButtonVyARyA10_AA05_FlexX6LayoutVGG_AA28BorderedProminentButtonStyleVQo_A25_yAA11ControlSizeOGGA25_yA20_SgGGQPGGAA14_PaddingLayoutVGA38_G_Qo_AA24_BackgroundStyleModifierVyA20_GGG_Qo__AA0I4ItemVyytA36_yAA18DefaultButtonLabelVGGQo_GAaFHPyHC
++ _get_witness_table 7SwiftUI19_ConditionalContentVy06HealthB0015WasabiThumbnailD033_FD4D3B724D5D41E832FF40FAD833B457LLVAA4ViewPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOyAD0f10FileHandleG0V_APQo_GAaHHPAgaHHPyHC_qd0__AaHHD3_ASHOHC
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE23matchedTransitionSource2id2inQrqd___AA9NamespaceV2IDVtSHRd__lFQOyAA01_e9Modifier_D0Vy06HealthB004ZoomH033_6481106881FEFA973D8760FCA2EFAB2BLLVG_AO10WasabiFlowO0hL0OQo_ASGAaDHPqd0__AaDHD3_AXHO_AsaDHPyHCHC
++ _get_witness_table 7SwiftUI4ViewRzAaBRd__r__lqd0__AaBHD3_AaBPAAE15fullScreenCover11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySbGG_AMyqd__AA01_op7WritingR0VySbGGQo_HO
++ _get_witness_table 7SwiftUI4ViewRzAaBRd__r__lqd0__AaBHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySbGG_AMyqd__AA01_mn7WritingP0VySbGGQo_HO
++ _get_witness_table 7SwiftUI4ViewRzAaBRd__r__lqd0__AaBHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySbGG_AMyqd__AA01_mn7WritingP0VySbGGQo_HOTm
++ _get_witness_table 7SwiftUI4ViewRzl06HealthB023WasabiActionEnvironmentVyxGAaBHPyHC
++ _get_witness_table 7SwiftUI4ViewRzlAA14GeometryReaderVyAA15ModifiedContentVyAaBPAAE22scrollEdgeEffectHidden_3forQrSb_AA0I0O3SetVtFQOyAgAE29navigationBarTitleDisplayModeyQrAA010NavigationO4ItemV0pqR0OFQOyAFyAFyAgAE0H8DisabledyQrSbFQOyAA06ScrollC0VyAA6VStackVyAA05TupleG0Vy06HealthB018WasabiVideoSection33_A19EA2984A968D191D1382EE42AB1F27LLV_AFyxAA14_PaddingLayoutVGQPGGG_Qo_AA24_BackgroundStyleModifierVyAA5ColorVGGAA30_SafeAreaRegionsIgnoringLayoutVG_Qo__Qo_AA30_EnvironmentKeyWritingModifierVyAA0I6InsetsVGGGAaBHPyHC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyAA6ButtonVyxG06HealthB010ZoomSource33_6481106881FEFA973D8760FCA2EFAB2BLLVGAaBHPAgaBHPyHC_AkA0C8ModifierHPyHCHC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyAaBPAAE15fullScreenCover4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQOyAeAE5sheetAghIQrAM_ANqd_0_qd__ctsAORd__AaBRd_0_r0_lFQOyADyxAA32_EnvironmentKeyTransformModifierVySbGG_06HealthB010WasabiFlowO09PresentedV0VAA03AnyC0VQo__AYA_Qo_AA01_pq7WritingS0VyAU0U16ActionPerforming_pSgGGARyAW5Stack_pSgGGAaBHPA7_AaBHPqd0__AaBHD4_A1_HO_A6_AA0cS0HPyHCHC_A10_AAA12_HPyHCHC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyxAA30_EnvironmentKeyWritingModifierVy06HealthB018AnalyticsRecording_pSgGGAFyAG0K12FieldContextVGGAaBHPAkaBHPxAaBHD1__AjA0cI0HPyHCHC_AnaPHPyHCHC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx06HealthB016VisibilityReader33_7BC0B851F0F68B11155960A0596C4CC1LLVGAaBHPxAaBHD1__AhA0C8ModifierHPyHCHC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx06HealthB018ImpressionModifier33_A0B0436B7581B9EB2ABF63C97C473BC2LLVGAaBHPxAaBHD1__AhA0cH0HPyHCHC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx06HealthB031AnalyticsImpressionableModifier33_A0B9FB5D5C5B5F35EB5395474A067A73LLVGAaBHPxAaBHD1__AhA0cI0HPyHCHC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy06HealthB018OverlayLayoutStyleOGGAaBHPxAaBHD1__AjA0cI0HPyHCHC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySbGGAaBHPxAaBHD1__AgA0cI0HPyHCHC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVy06HealthB021AnalyticsFieldContextVGGAaBHPxAaBHD1__AjA0cI0HPyHCHC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySbGGAaBHPxAaBHD1__AgA0cI0HPyHCHC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySbGGAaBHPxAaBHD1__AgA0cI0HPyHCHCTm
++ _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAA08ModifiedE0VyAFyAFyAA6VStackVyxGAA14_PaddingLayoutVGAA010_FlexFrameI0VGAA34_InsettableBackgroundShapeModifierVyAA0M5StyleVAA16RoundedRectangleVGGAFyAFyAA14GeometryReaderVyAaBPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQOyAzAE0U14BounceBehavior_A0_QrAA0X14BounceBehaviorV_A6_tFQOyAA0xC0VyAOG_Qo__Qo_GANGAA01_mpO0VyASGGGAaBHPAwaBHPAoaBHPAlaBHPAiaBHPyHC_AkA0cO0HPyHCHC_AnAA22_HPyHCHC_AvAA22_HPyHCHC_A20_AaBHPA16_AaBHPA15_AaBHPyHC_AnAA22_HPyHCHC_A19_AAA22_HPyHCHCHC
++ _get_witness_table 7SwiftUI4ViewRzs12IdentifiableRd__AaBRd_0_r_0_lqd0__AaBHD4_AaBPAAE15fullScreenCover4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__ctsACRd__AaBRd_0_r0_lFQOyAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySbGG_qd__AOyqd_0_AA01_op7WritingR0VySbGGQo_HO
++ _get_witness_table 7SwiftUI4ViewRzs12IdentifiableRd__AaBRd_0_r_0_lqd0__AaBHD4_AaBPAAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__ctsACRd__AaBRd_0_r0_lFQOyAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySbGG_qd__AOyqd_0_AA01_mn7WritingP0VySbGGQo_HO
++ _get_witness_table 7SwiftUI4ViewRzs12IdentifiableRd__AaBRd_0_r_0_lqd0__AaBHD4_AaBPAAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__ctsACRd__AaBRd_0_r0_lFQOyAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySbGG_qd__AOyqd_0_AA01_mn7WritingP0VySbGGQo_HOTm
++ _get_witness_table 7SwiftUI6HStackVyAA12TupleContentVyAA08ModifiedE0VyAGyAA4ViewPAAE4boldyQrSbFQOyAGyAA23LabelStyleConfigurationV5TitleVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGG_Qo_AA16_FixedSizeLayoutVGAA06_TraitoP0VyAA010TransitionuN0VGGSg_AL4IconVQPGGAaHHPyHC
++ _get_witness_table 8HealthUI10WasabiFlowO11DestinationRzl05SwiftB015ModifiedContentVy0H0QzAE30_EnvironmentKeyWritingModifierVyAC17PresentationStyleOSgGGAE4ViewHPxAcDHD1_AieQHA0__AoE0oL0HPyHCHC
++ _get_witness_table 8HealthUI14ControllerRoom025_A71AB9B3B1B64A5A2225D349H6E9D45ELLV05SwiftB04ViewHPyHC
++ _get_witness_table 8HealthUI15WasabiVideoFlowV05SwiftB04ViewHPyHC
++ _get_witness_table 8HealthUI20OverlayCardContainerVy05SwiftB012TupleContentVyAA0C6HeaderV_AD08ModifiedH0VyAJyAD4TextVAD16_FixedSizeLayoutVGAD08_PaddingN0VGQPGGAD4ViewHPyHC
++ _get_witness_table 8HealthUI20OverlayCardContainerVy05SwiftB019_ConditionalContentVyAFyAD05TupleH0VyAA0C6HeaderV_AD08ModifiedH0VyAD4TextVAD14_PaddingLayoutVGALyALy0a7DomainsB026ClassificationLevelDiagramVyAR0pqR5EntryVGAD32_EnvironmentKeyTransformModifierVySbGGAPGAQSgQPGAHyAJ_ALyAD12ViewThatFitsVyAHyAD6HStackVyAHyAN_ANSgQPGG_AD6VStackVyA8_GQPGGAPGA0_A1_QPGGAFyAHyAJ_AqLyA7_APGA1_QPGAHyAJ_AQA18_A0_ALyALyA4_yAHyA11_yAD7ForEachVySaySi6offset_AA0pcX0V17ContributingValueV7elementtGSSAHyAD7DividerVSg_AFyALyALyA11_yAHyA6_yAHyALyAD5ImageVAD016_ForegroundStyleW0VyAD5ColorVGG_ANQPGG_ANQPGGAPGAPGALyALyA6_yAHyA41__AD6SpacerVANQPGGAPGAPGGQPGGG_A55_QPGGAD01_tu7WritingW0VyAD4FontVSgGGAPGA1_QPGGGGAD0X0HPyHC
++ _get_witness_table 8HealthUI25WasabiIdentifierThumbnailV05SwiftB04ViewHPyHC
++ _get_witness_table 9HealthKit21SleepAverageProvidingRzlAA0C10DaySummaryV7MetricsVAaBHPyHC
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE12visualEffectyQrqd__AA011EmptyVisualE0V_AA13GeometryProxyVtYbcAA0gE0Rd__lFQOyAA15ModifiedContentVyAKyAKyAKyAcAE22containerRelativeFrame_5count4span7spacing9alignmentQrAA4AxisO3SetV_S2i12CoreGraphics7CGFloatVAA9AlignmentVtFQOy06HealthB017WasabiVideoPlayerV_Qo_AA05_ClipE0VyAA9RectangleVGGAA25_AllowsHitTestingModifierVGAA16_OverlayModifierVyAKyAA5ColorVA9_GGGA12_yAKyAA6VStackVyAA05TupleK0VyAA6SpacerV_AKyAKyAKyAKyAKyAcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAcAE10labelStyleyQrqd__AA10LabelStyleRd__lFQOyAcAE4boldyQrSbFQOyAA6ButtonVyAA5LabelVyAA4TextVAA5ImageVGG_Qo__AA22TitleAndIconLabelStyleVQo__AA16GlassButtonStyleVQo_AA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGGA47_yA14_SgGGAA31AccessibilityAttachmentModifierVGAA08_OpacityE0VGA9_GQPGGAA14_PaddingLayoutVGGG_AaIPAAE05scaleE0_6anchorQrAW_AA9UnitPointVtFQOyAF_Qo_Qo_HO
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOy06HealthB022WasabiThumbnailContent33_FD4D3B724D5D41E832FF40FAD833B457LLV_SOSgQo_HO
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOy06HealthB025WasabiFileHandleThumbnailV_AJQo_HO
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE0d16ScrollVisibilityE09threshold_QrSd_ySbctFQOyAA15ModifiedContentVyAJyAA01_c9Modifier_L0Vy06HealthB00I6Reader33_7BC0B851F0F68B11155960A0596C4CC1LLVGAA017_AppearanceActionM0VGASG_Qo__SbQo_HO
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA6VStackVyAA12TupleContentVyAA08ModifiedL0VyAMyAMyAMyAA6ZStackVyAKyAMyAA06_ShapeC0VyAA6CircleVAA5ColorVGAA12_FrameLayoutVG_AA012_ConditionalL0VyAMyAMyAMyAA5ImageVAA012_AspectRatioS0VGAXGAA24_ForegroundStyleModifierVyAUGGSgAMyAMyAMyAcAE13symbolVariantyQrAA14SymbolVariantsVFQOyA1__Qo_AA022_EnvironmentKeyWritingZ0VyAA19SymbolRenderingModeVSgGGA8_GA16_yAA4FontVSgGGSgGQPGGAA0g10AttachmentZ0VGAXGAA08_PaddingS0VGA37_G_AMyAMyAMyAMyAMyAcAE4boldyQrSbFQOyAMyAA4TextVA16_yA42_4CaseOSgGG_Qo_A26_GA8_GA16_yAA13TextAlignmentOGGA37_GAXGQPGG_Qo_HO
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAcAE7toolbar_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQOyAcAE29navigationBarTitleDisplayModeyQrAA010NavigationO4ItemV0pqR0OFQOyAcAE0nP0yQrqd__SyRd__lFQOyAA15ModifiedContentVy06HealthB016HostedController33_A71AB9B3B1B64A5A2225D349B1E9D45ELLVAA30_SafeAreaRegionsIgnoringLayoutVG_SSQo__Qo__Qo_Sg_Qo_HO
++ _initializeAvailabilityCheck
++ _keypath_get_selector_startDate
++ _keypath_get_selector_title
++ _keypath_setTm
++ _malloc
++ _rewind
++ _sscanf
++ _swift_getDynamicType
++ _swift_getFunctionTypeMetadata2
++ _swift_initStaticObject
++ _swift_release_x12
++ _swift_retain_x10
++ _symbolic $s7SwiftUI10LabelStyleP
++ _symbolic $s7SwiftUI11ButtonStyleP
++ _symbolic $s7SwiftUI12ViewModifierP
++ _symbolic $s7SwiftUI29UIViewControllerRepresentableP
++ _symbolic $s8HealthUI10WasabiFlowO11DestinationP
++ _symbolic $s8HealthUI10WasabiFlowO5StackP
++ _symbolic $s8HealthUI17WasabiActionModelP
++ _symbolic $s8HealthUI18AnalyticsRecordingP
++ _symbolic $s8HealthUI22WasabiActionPerformingP
++ _symbolic $s8HealthUI24CategoryLevelChartSourceP
++ _symbolic $s8HealthUI26SleepChartPointConfiguringP
++ _symbolic $s8HealthUI26WasabiActionImplementationP
++ _symbolic $s8HealthUI32HKPopulationNormsGraphDisplayingP
++ _symbolic 5Level______5Scale_____QZ 13HealthDomains14ClassificationP AA0C5LevelP
++ _symbolic 6Action_____Qz 8HealthUI26WasabiActionImplementationP
++ _symbolic 7Content_____Qz 8HealthUI10WasabiFlowO11DestinationP
++ _symbolic SDyS2iG
++ _symbolic SDySSScTySo7UIImageCSg_____GG s5NeverO
++ _symbolic SDySSScTy_____Sg_____GG 13HealthContent15VideoDescriptorV s5NeverO
++ _symbolic SDySSSo7UIImageCG
++ _symbolic SDySS_____G 13HealthContent15VideoDescriptorV
++ _symbolic SDySo7NSValueCSaySo8NSNumberCGGSg
++ _symbolic SDy__________G 13HealthBalance016VitalsDaySummaryD5StateO 0A2UI0bdF6SeriesC13drawPillStyle011_A9F9BC7B55L20D8E7317635B9EC49B775LL20withBlockCoordinates8axisRect22zoomLevelConfiguration14pointTransform7context23seriesRenderingDelegateySo07HKGraphhV14CoordinateListC_So6CGRectVSo29HKGraphZoomLevelConfigurationCSo17CGAffineTransformVSo12CGContextRefaSo25HKSeriesRenderingDelegate_ptF14HighlightPathsL_V
++ _symbolic SDy__________G 13HealthBalance26VitalsMetricEvaluationTypeO 0A2UI0B6SeriesC21drawDistributionStyle33_E62A3A859E1953CD5B02CC62EDA065DELL20withBlockCoordinates8axisRect22zoomLevelConfiguration14pointTransform13renderContext22secondaryRenderContext23seriesRenderingDelegate08selectedD0ySo07HKGraphhV14CoordinateListC_So6CGRectVSo29HKGraphZoomLevelConfigurationCSo17CGAffineTransformVSo12CGContextRefaSo07HKGraphH22SecondaryRenderContextCSo25HKSeriesRenderingDelegate_pAD0c27InteractiveChartsSelectabledF0OSgtF5PathsL_V
++ _symbolic SDy__________G 8HealthUI13WasabiTypeKeyV AA03AnyC20ActionImplementationV
++ _symbolic SDy__________Gz_Xx 13HealthBalance016VitalsDaySummaryD5StateO 0A2UI0bdF6SeriesC13drawPillStyle011_A9F9BC7B55L20D8E7317635B9EC49B775LL20withBlockCoordinates8axisRect22zoomLevelConfiguration14pointTransform7context23seriesRenderingDelegateySo07HKGraphhV14CoordinateListC_So6CGRectVSo29HKGraphZoomLevelConfigurationCSo17CGAffineTransformVSo12CGContextRefaSo25HKSeriesRenderingDelegate_ptF14HighlightPathsL_V
++ _symbolic SDy__________Gz_Xx 13HealthBalance26VitalsMetricEvaluationTypeO 0A2UI0B6SeriesC21drawDistributionStyle33_E62A3A859E1953CD5B02CC62EDA065DELL20withBlockCoordinates8axisRect22zoomLevelConfiguration14pointTransform13renderContext22secondaryRenderContext23seriesRenderingDelegate08selectedD0ySo07HKGraphhV14CoordinateListC_So6CGRectVSo29HKGraphZoomLevelConfigurationCSo17CGAffineTransformVSo12CGContextRefaSo07HKGraphH22SecondaryRenderContextCSo25HKSeriesRenderingDelegate_pAD0c27InteractiveChartsSelectabledF0OSgtF5PathsL_V
++ _symbolic SSSg______pIgrzo_ s5ErrorP
++ _symbolic SaySo12HKSampleTypeCG
++ _symbolic Say_____G 8HealthUI018CategoryLevelChartD0V
++ _symbolic Say_____G 8HealthUI15WasabiVideoTileV0D13ConfigurationO
++ _symbolic Say_____G 8HealthUI15WasabiVideoTileV15SubcategoryItemV
++ _symbolic Say_____G 8HealthUI19WasabiVideoCarouselV4ItemV
++ _symbolic Say_____G 8HealthUI25BalanceDayStateCoordinateC0dE5PointV
++ _symbolic Say_____G 8HealthUI25ClassificationOverlayViewV17ContributingValueV
++ _symbolic Say_____G 8HealthUI26CardioFitnessAgeThresholdsV
++ _symbolic Say_____G 8HealthUI27BilateralQuantityCoordinateC
++ _symbolic Say_____G 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3RowO
++ _symbolic Say_____G13subcategories_t 8HealthUI15WasabiVideoTileV15SubcategoryItemV
++ _symbolic Say_____Gz_Xx 8HealthUI27BilateralQuantityCoordinateC
++ _symbolic Say______pG 8HealthUI17WasabiActionModelP
++ _symbolic SdSg
++ _symbolic Si6offset______7elementt 8HealthUI25ClassificationOverlayViewV17ContributingValueV
++ _symbolic Si______SgtIeAgHr_ 13HealthContent15VideoDescriptorV
++ _symbolic Si__________y_____Sg______y_____yAFy_____yABy_____yAByAFy__________y_____GG______QPGG_ANQPGG_____GASGAFyAFyAHyAByAP______ANQPGGASGASGGQPGIegynr_ 8HealthUI25ClassificationOverlayViewV17ContributingValueV 05SwiftB012TupleContentV AF7DividerV AF012_ConditionalJ0V AF08ModifiedJ0V AF6VStackV AF6HStackV AF5ImageV AF24_ForegroundStyleModifierV AF5ColorV AF4TextV AF14_PaddingLayoutV AF6SpacerV
++ _symbolic So10HKQuantityC______Sg5levelt 13HealthDomains21ClassificationLevelIDV
++ _symbolic So12NSFileHandleCSg
++ _symbolic So13HKHealthStoreC______pSgIeghnr_ 8HealthUI24CategoryLevelChartSourceP
++ _symbolic So16UINavigationItemC
++ _symbolic So16UIViewControllerCSg______pSg______tYbScMYcc 8HealthUI10WasabiFlowO5StackP AA24AnalyticsHostEnvironmentV
++ _symbolic So23UIActivityIndicatorViewC
++ _symbolic So25HKBilateralQuantitySampleC
++ _symbolic So31HKLevelCategoryTimePeriodSeriesC
++ _symbolic So7UIImageCSgIeAgHr_
++ _symbolic So8NSNumberC
++ _symbolic _____ 10Foundation21NSKeyValueObservationC
++ _symbolic _____ 13HealthContent18VideoPlaybackStateO
++ _symbolic _____ 13HealthContent25VideoExperienceIdentifierV
++ _symbolic _____ 13HealthDomains17AnyClassificationV
++ _symbolic _____ 13HealthDomains17ClassificationSetV
++ _symbolic _____ 13HealthDomains17MeasureIdentifierV
++ _symbolic _____ 13HealthDomains20ContributingQuantityV
++ _symbolic _____ 13HealthDomains23ContributingLabQuantityV
++ _symbolic _____ 13HealthDomains25ContributingQuantityRangeV
++ _symbolic _____ 13HealthDomains26DomainClassificationResultV
++ _symbolic _____ 15HealthContentUI17VideoPlaybackItemO
++ _symbolic _____ 15HealthContentUI33VideoPlaybackControlConfigurationO
++ _symbolic _____ 15HealthContentUI39PlaybackControlsVisibilityConfigurationO
++ _symbolic _____ 15HealthUtilities15DependencyStoreC
++ _symbolic _____ 6Charts10ChartProxyV
++ _symbolic _____ 7SwiftUI10EdgeInsetsV
++ _symbolic _____ 7SwiftUI11ControlSizeO
++ _symbolic _____ 7SwiftUI13DismissActionV
++ _symbolic _____ 7SwiftUI14NavigationPathV
++ _symbolic _____ 7SwiftUI17ButtonBorderShapeV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV06HealthB0E16__Key_isOccluded33_6B63039C9E2DC2317045855EA4541EDDLLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV06HealthB0E22__Key_wasabiPlayerSize33_A19EA2984A968D191D1382EE42AB1F27LLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV06HealthB0E24__Key_overlayLayoutStyle33_9388C60F6EF972A1FC6E2042E3963EE8LLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV06HealthB0E32__Key_wasabiPlayerSafeAreaInsets33_A19EA2984A968D191D1382EE42AB1F27LLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV06HealthB0E33__Key_wasabiFlowPresentationStyle33_BBC73D98CF50A33F0139DFCD9113BF0FLLV
++ _symbolic _____ 7SwiftUI9NamespaceV
++ _symbolic _____ 7SwiftUI9NamespaceV2IDV
++ _symbolic _____ 8HealthUI018CategoryLevelChartD0V
++ _symbolic _____ 8HealthUI10WasabiFlowO
++ _symbolic _____ 8HealthUI10WasabiFlowO09PresentedD0V
++ _symbolic _____ 8HealthUI10WasabiFlowO16PushedControllerV
++ _symbolic _____ 8HealthUI10WasabiFlowO16VideoDestinationV
++ _symbolic _____ 8HealthUI10WasabiFlowO17PresentationStyleO
++ _symbolic _____ 8HealthUI10WasabiFlowO17PushedDestinationV
++ _symbolic _____ 8HealthUI10WasabiFlowO21ControllerDestinationV
++ _symbolic _____ 8HealthUI10WasabiFlowO6ActionV
++ _symbolic _____ 8HealthUI10WasabiFlowO8SourceIDO
++ _symbolic _____ 8HealthUI10WasabiFlowO9OnDismissC
++ _symbolic _____ 8HealthUI10ZoomSource33_6481106881FEFA973D8760FCA2EFAB2BLLV
++ _symbolic _____ 8HealthUI13BalanceSeriesC21drawDistributionStyle33_E62A3A859E1953CD5B02CC62EDA065DELL20withBlockCoordinates8axisRect22zoomLevelConfiguration14pointTransform13renderContext22secondaryRenderContext23seriesRenderingDelegate14selectedMetricySo07HKGraphdR14CoordinateListC_So6CGRectVSo011HKGraphZoomwX0CSo08CGAffineZ0VSo12CGContextRefaSo07HKGraphD22SecondaryRenderContextCSo25HKSeriesRenderingDelegate_pAA43VitalsInteractiveChartsSelectableMetricTypeOSgtF5PathsL_V
++ _symbolic _____ 8HealthUI13BilateralSideO
++ _symbolic _____ 8HealthUI13OverlayHeaderV
++ _symbolic _____ 8HealthUI13WasabiTypeKeyV
++ _symbolic _____ 8HealthUI14ControllerRoom025_A71AB9B3B1B64A5A2225D349H6E9D45ELLV
++ _symbolic _____ 8HealthUI15ImpressionDebugO
++ _symbolic _____ 8HealthUI15PageControlDotsV
++ _symbolic _____ 8HealthUI15WasabiVideoFlowV
++ _symbolic _____ 8HealthUI15WasabiVideoTileV
++ _symbolic _____ 8HealthUI15WasabiVideoTileV0D13ConfigurationO
++ _symbolic _____ 8HealthUI15WasabiVideoTileV0D13ConfigurationO11UniformKindO
++ _symbolic _____ 8HealthUI15WasabiVideoTileV15SubcategoryItemV
++ _symbolic _____ 8HealthUI16BloodPressureRow33_D22E6D7F9D34E171B2C9834281B61299LLV
++ _symbolic _____ 8HealthUI16HostedController025_A71AB9B3B1B64A5A2225D349H6E9D45ELLV
++ _symbolic _____ 8HealthUI16PlaceholderVideo33_E1BDE4ACEF6A18F518FD89C23BFE63CELLO
++ _symbolic _____ 8HealthUI16PlaceholderVideo33_E1BDE4ACEF6A18F518FD89C23BFE63CELLO4ReelV
++ _symbolic _____ 8HealthUI16VisibilityReader33_7BC0B851F0F68B11155960A0596C4CC1LLV
++ _symbolic _____ 8HealthUI17DomainOverlayViewV
++ _symbolic _____ 8HealthUI17WasabiEmptyActionV
++ _symbolic _____ 8HealthUI17WasabiVideoPlayerV
++ _symbolic _____ 8HealthUI18ImpressionModifier33_A0B0436B7581B9EB2ABF63C97C473BC2LLV
++ _symbolic _____ 8HealthUI18OverlayLayoutStyleO
++ _symbolic _____ 8HealthUI18WasabiActionButtonV
++ _symbolic _____ 8HealthUI18WasabiVideoContentV
++ _symbolic _____ 8HealthUI18WasabiVideoSection33_A19EA2984A968D191D1382EE42AB1F27LLV
++ _symbolic _____ 8HealthUI19WasabiActionOutcomeO
++ _symbolic _____ 8HealthUI19WasabiPerformActionV
++ _symbolic _____ 8HealthUI19WasabiVideoCarouselV
++ _symbolic _____ 8HealthUI19WasabiVideoCarouselV4ItemV
++ _symbolic _____ 8HealthUI20AnalyticsRecorderKeyV
++ _symbolic _____ 8HealthUI20BandIndicatorSegment33_2103E804C3B60DA84F365359EA34D697LLV
++ _symbolic _____ 8HealthUI20NextButtonLabelStyle33_328009600784A261C07D573E8D6E3BCCLLV
++ _symbolic _____ 8HealthUI20OverlayCardContainerV
++ _symbolic _____ 8HealthUI20WasabiCompoundActionV
++ _symbolic _____ 8HealthUI20WasabiEndOfVideoGridV
++ _symbolic _____ 8HealthUI20WasabiFlowBackActionV
++ _symbolic _____ 8HealthUI20WasabiFlowBackActionV9DismissalV
++ _symbolic _____ 8HealthUI20WasabiThumbnailErrorO
++ _symbolic _____ 8HealthUI20WasabiThumbnailImageV
++ _symbolic _____ 8HealthUI20WasabiVideoThumbnailV
++ _symbolic _____ 8HealthUI21AnalyticsActionFieldsV
++ _symbolic _____ 8HealthUI21AnalyticsFieldContextV
++ _symbolic _____ 8HealthUI21AnimatedBandIndicator33_2103E804C3B60DA84F365359EA34D697LLV
++ _symbolic _____ 8HealthUI21BalanceDayStateSeriesC13drawPillStyle011_A9F9BC7B55J20D8E7317635B9EC49B775LL20withBlockCoordinates8axisRect22zoomLevelConfiguration14pointTransform7context23seriesRenderingDelegateySo07HKGraphfT14CoordinateListC_So6CGRectVSo011HKGraphZoomyZ0CSo17CGAffineTransformVSo12CGContextRefaSo25HKSeriesRenderingDelegate_ptF14HighlightPathsL_V
++ _symbolic _____ 8HealthUI21WasabiDispatchOutcomeO
++ _symbolic _____ 8HealthUI22HKTraitWasabiFlowStackV
++ _symbolic _____ 8HealthUI22WasabiActionDispatcherV
++ _symbolic _____ 8HealthUI22WasabiThumbnailContent33_FD4D3B724D5D41E832FF40FAD833B457LLV
++ _symbolic _____ 8HealthUI23CategoryLevelChartEntryV
++ _symbolic _____ 8HealthUI23WasabiActionEnvironmentV
++ _symbolic _____ 8HealthUI24AnalyticsFieldContextKeyV
++ _symbolic _____ 8HealthUI24AnalyticsHostEnvironmentV
++ _symbolic _____ 8HealthUI24CategoryLevelChartSeriesC
++ _symbolic _____ 8HealthUI24HKTraitAnalyticsRecorderV
++ _symbolic _____ 8HealthUI24WasabiCategoryCompletionO
++ _symbolic _____ 8HealthUI24WasabiVideoPlaybackStateC
++ _symbolic _____ 8HealthUI25CardioFitnessNormsCaptionV
++ _symbolic _____ 8HealthUI25ClassificationOverlayViewV
++ _symbolic _____ 8HealthUI25ClassificationOverlayViewV0D4TypeO
++ _symbolic _____ 8HealthUI25ClassificationOverlayViewV17ContributingValueV
++ _symbolic _____ 8HealthUI25ClassificationOverlayViewV18ContributingDetail33_D22E6D7F9D34E171B2C9834281B61299LLO
++ _symbolic _____ 8HealthUI25HKTraitWasabiFlowStackKeyV
++ _symbolic _____ 8HealthUI25WasabiFileHandleThumbnailV
++ _symbolic _____ 8HealthUI25WasabiIdentifierThumbnailV
++ _symbolic _____ 8HealthUI26CardioFitnessAgeThresholdsV
++ _symbolic _____ 8HealthUI26WasabiCategoryRequirementsO
++ _symbolic _____ 8HealthUI26WasabiVideoDescriptorStoreC
++ _symbolic _____ 8HealthUI26WasabiVideoTileButtonStyleV
++ _symbolic _____ 8HealthUI27BilateralQuantityAggregatorV
++ _symbolic _____ 8HealthUI27BilateralQuantityCoordinateC
++ _symbolic _____ 8HealthUI27BilateralQuantityLineSeriesC
++ _symbolic _____ 8HealthUI27WasabiPresentationAuthorityC
++ _symbolic _____ 8HealthUI28HKTraitAnalyticsFieldContextV
++ _symbolic _____ 8HealthUI28HKTraitWasabiActionPerformerV
++ _symbolic _____ 8HealthUI29AnyWasabiActionImplementationV
++ _symbolic _____ 8HealthUI29BilateralQuantityDataProviderV
++ _symbolic _____ 8HealthUI29WasabiPlaceholderContentStoreC
++ _symbolic _____ 8HealthUI29WasabiPlaceholderContentStoreC0D5ErrorO
++ _symbolic _____ 8HealthUI29WasabiVideoNavigationControlsV
++ _symbolic _____ 8HealthUI29WasabiVideoThumbnailContainerV
++ _symbolic _____ 8HealthUI29WasabiVideoThumbnailContainerV9ViewModelV
++ _symbolic _____ 8HealthUI30CategoryLevelChartDataProviderV
++ _symbolic _____ 8HealthUI30CategoryVideoSubcategoryPickerO
++ _symbolic _____ 8HealthUI30ClassificationLevelChartSourceV
++ _symbolic _____ 8HealthUI30WasabiFlowActionImplementationV
++ _symbolic _____ 8HealthUI31AnalyticsImpressionableModifier33_A0B9FB5D5C5B5F35EB5395474A067A73LLV
++ _symbolic _____ 8HealthUI31CategoryLevelChartConfigurationV
++ _symbolic _____ 8HealthUI31CategoryLevelChartDataFormatterC
++ _symbolic _____ 8HealthUI31HKTraitWasabiActionPerformerKeyV
++ _symbolic _____ 8HealthUI31WasabiEmptyActionImplementationV
++ _symbolic _____ 8HealthUI32CategoryLevelChartSourceRegistryO
++ _symbolic _____ 8HealthUI34WasabiCompoundActionImplementationV
++ _symbolic _____ 8HealthUI34WasabiFlowBackActionImplementationV
++ _symbolic _____ 8HealthUI35BilateralQuantityChartConfigurationV
++ _symbolic _____ 8HealthUI35BilateralQuantityChartDataFormatterC
++ _symbolic _____ 8HealthUI36WasabiVideoThumbnailContainerExampleV
++ _symbolic _____ 8HealthUI37CardioFitnessPopulationNormsChartViewV
++ _symbolic _____ 8HealthUI38CardioFitnessPopulationNormsChartModelC
++ _symbolic _____ 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3RowO
++ _symbolic _____ 8HealthUI42BalanceOverlaySectionContainerSegmentIndexO
++ _symbolic _____ 8HealthUI42VitalsInteractiveChartsChartContextBuilderV
++ _symbolic _____ 8HealthUI43CategoryLevelChartLoadingRoomViewControllerC
++ _symbolic _____ 8HealthUI44HKCardioFitnessPopulationNormsSwiftChartViewC
++ _symbolic _____ 8HealthUI47HKSettingsAuthorizationTypeDetailViewControllerC3RowO
++ _symbolic _____ 9HealthKit15SleepDaySummaryV7MetricsV
++ _symbolic _____ So12UIFontWeighta
++ _symbolic _____ So15HKBiologicalSexV
++ _symbolic _____ So24UIFontDescriptorTraitKeya
++ _symbolic _____ So33HKBilateralQuantityTypeIdentifiera
++ _symbolic _____ s11AnyHashableV
++ _symbolic _____Sg 12CoreGraphics7CGFloatV
++ _symbolic _____Sg 13HealthContent25VideoExperienceIdentifierV
++ _symbolic _____Sg 7SwiftUI19SymbolRenderingModeV
++ _symbolic _____Sg 7SwiftUI22UserInterfaceSizeClassO
++ _symbolic _____Sg 7SwiftUI4AxisO
++ _symbolic _____Sg 7SwiftUI9NamespaceV2IDV
++ _symbolic _____Sg 8HealthUI10WasabiFlowO09PresentedD0V
++ _symbolic _____Sg 8HealthUI10WasabiFlowO17PresentationStyleO
++ _symbolic _____Sg 8HealthUI10WasabiFlowO8SourceIDO
++ _symbolic _____Sg 8HealthUI15WasabiVideoTileV0D13ConfigurationO
++ _symbolic _____Sg 8HealthUI21AnalyticsActionFieldsV
++ _symbolic _____Sg 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3RowO
++ _symbolic _____Sg 8HealthUI42BalanceOverlaySectionContainerSegmentIndexO
++ _symbolic _____Sg So6CGSizeV
++ _symbolic _____Sg s8DurationV
++ _symbolic _____SgIeAgHr_ 13HealthContent15VideoDescriptorV
++ _symbolic _____SgXw 8HealthUI43CategoryLevelChartLoadingRoomViewControllerC
++ _symbolic _____SgXwz_Xx 8HealthUI43CategoryLevelChartLoadingRoomViewControllerC
++ _symbolic _____Sg_____cSg 8HealthUI21AnalyticsActionFieldsV AA19WasabiVideoCarouselV4ItemV
++ _symbolic _____So13HKHealthStoreC______pSgIeghngr_ 13HealthDomains17MeasureIdentifierV 0A2UI24CategoryLevelChartSourceP
++ _symbolic ___________p______tYaYbScMYcc 8HealthUI19WasabiActionOutcomeO AA0cD5ModelP AA21AnalyticsFieldContextV
++ _symbolic ___________p______tYaYbScMYcc 8HealthUI21WasabiDispatchOutcomeO AA0C11ActionModelP AA21AnalyticsFieldContextV
++ _symbolic ______p 13HealthContent0B5StoreP
++ _symbolic ______p 13HealthDomains14DomainRegistryP
++ _symbolic ______p 13HealthDomains7MeasureP
++ _symbolic ______p 15HealthDomainsUI06DomainC0P
++ _symbolic ______p 15HealthDomainsUI07MeasureC0P
++ _symbolic ______p 8HealthUI10WasabiFlowO11DestinationP
++ _symbolic ______p 8HealthUI17WasabiActionModelP
++ _symbolic ______p 8HealthUI22WasabiActionPerformingP
++ _symbolic ______p 8HealthUI24CategoryLevelChartSourceP
++ _symbolic ______p 8HealthUI36InteractiveChartRepresentableMeasureP
++ _symbolic ______p2in_t 8HealthUI22WasabiActionPerformingP
++ _symbolic ______p7measure______14classification_____0B3Set______p8domainUIt 13HealthDomains7MeasureP AA17AnyClassificationV AA0E3SetV 0aB2UI06DomainG0P
++ _symbolic ______p8domainUI______6resultSay_____G13subcategories_____10completionSb10isPregnantt 15HealthDomainsUI06DomainC0P 0aB00D20ClassificationResultV 0aC015WasabiVideoTileV15SubcategoryItemV AG0G18CategoryCompletionO
++ _symbolic ______p8domainUI______6result_____4kindSay_____G13subcategories_____10completionSb10isPregnantt 15HealthDomainsUI06DomainC0P 0aB00D20ClassificationResultV 0aC015WasabiVideoTileV0H13ConfigurationO11UniformKindO AI15SubcategoryItemV AG0G18CategoryCompletionO
++ _symbolic ______p8domainUI_t 15HealthDomainsUI06DomainC0P
++ _symbolic ______pSg 8HealthUI10WasabiFlowO5StackP
++ _symbolic ______pSg 8HealthUI18AnalyticsRecordingP
++ _symbolic ______pSg 8HealthUI22WasabiActionPerformingP
++ _symbolic ______pSg 8HealthUI24CategoryLevelChartSourceP
++ _symbolic ______pSgSo13HKHealthStoreCYbc 8HealthUI24CategoryLevelChartSourceP
++ _symbolic _____x_____y8Response_____Qz______pGIeghgnn_ 8HealthUI29WasabiPlaceholderContentStoreC s6ResultOsRi_zRi0_zrlE 0aE00E7RequestP s5ErrorP
++ _symbolic _____x_____y8Response_____Qz______pGSbIeghgnny_ 8HealthUI29WasabiPlaceholderContentStoreC s6ResultOsRi_zRi0_zrlE 0aE00E7RequestP s5ErrorP
++ _symbolic _____y7Content_____Qz_____y_____SgGG 7SwiftUI15ModifiedContentV 06HealthB010WasabiFlowO11DestinationP AA30_EnvironmentKeyWritingModifierV AF17PresentationStyleO
++ _symbolic _____yAAyAAyAAy_____y_____y______AAyAAy_____yACyAD_ADQPGG_____ySiSgGGAHy_____GGSgADQPGGAHy_____GG_____GAUG_____y__________GG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA6HStackV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA0G9AlignmentO AA14_PaddingLayoutV AA026_InsettableBackgroundShapeL0V AA5ColorV AA16RoundedRectangleV
++ _symbolic _____yAAy__________G_____ySbGG 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA12_ScaleEffectV AA18_AnimationModifierV
++ _symbolic _____yAAy_____y_____yAAy_____y__________G_____G_AISgQPGG_____G_____ySiGG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA10_ShapeViewV AA7CapsuleV AA5ColorV AA12_FrameLayoutV AA09_PositionL0V AA18_AnimationModifierV
++ _symbolic _____yAAy_____y_____yAAyx_____ySbGG___________Qo__AeFQo______y______pSgGGABy______pSgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE15fullScreenCover4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaDRd_0_r0_lFQO AeAE5sheetAghIQrAM_ANqd_0_qd__ctsAORd__AaDRd_0_r0_lFQO AA32_EnvironmentKeyTransformModifierV 06HealthB010WasabiFlowO09PresentedV0V AA03AnyE0V AA01_pq7WritingS0V AS0U16ActionPerformingP AU5StackP
++ _symbolic _____yAAy_____y_____y_____y_____yAByACy___________y_____AGGQPGGAEG_AAyAAy__________G_____y_____GGSgQPGG_Qo______ySo7UIImageCSgGG_____G 7SwiftUI15ModifiedContentV AA4ViewP016HealthFoundationB0E21videoThumbnailArtworkyQrSo7UIImageCSgFQO AA6ZStackV AA05TupleD0V AA012_ConditionalD0V AA5ColorV AA08ProgressE0V AA05EmptyE0V AA5ImageV AA18_AspectRatioLayoutV AA21_TraitWritingModifierV AA010TransitionV3KeyV AA010_AnimationX0V AA033_AccessibilityIgnoresInvertColorseX0V
++ _symbolic _____yAAyx_____y______pSgGGABy_____GG 7SwiftUI15ModifiedContentV AA30_EnvironmentKeyWritingModifierV 06HealthB018AnalyticsRecordingP AF0J12FieldContextV
++ _symbolic _____ySSSgG 7SwiftUI9LazyStateV
++ _symbolic _____ySSSg_G ScS12ContinuationV
++ _symbolic _____ySbG 7SwiftUI10AppStorageV
++ _symbolic _____yScTyyt_____GSgG 7SwiftUI9LazyStateV s5NeverO
++ _symbolic _____ySiG 7SwiftUI7BindingV
++ _symbolic _____ySiSgG 7SwiftUI9LazyStateV
++ _symbolic _____ySo16UIViewControllerCSgG 7SwiftUI9LazyStateV
++ _symbolic _____ySo7UIImageCG 15HealthContentUI10AsyncStateO
++ _symbolic _____y_____G 13HealthDomains18ClassificationTypeV AA16StressAssessmentV
++ _symbolic _____y_____G 13HealthDomains18ClassificationTypeV AA23MentalOutlookAssessmentV
++ _symbolic _____y_____G 15HealthContentUI20AsyncVideoPlayerViewV AA0e8FallbackG0V
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 06HealthB0013AnalyticsHostC0V
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 06HealthB018OverlayLayoutStyleO
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 06HealthB019WasabiPerformActionV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 06HealthB021AnalyticsFieldContextV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA10EdgeInsetsV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA13DismissActionV
++ _symbolic _____y_____G 7SwiftUI5StateV 06HealthB0019WasabiVideoPlaybackC0C
++ _symbolic _____y_____G 7SwiftUI5StateV 06HealthB026WasabiVideoDescriptorStoreC
++ _symbolic _____y_____G 7SwiftUI7BindingV 13HealthContent18VideoPlaybackStateO
++ _symbolic _____y_____G 7SwiftUI8BindableV 06HealthB024WasabiVideoPlaybackStateC
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 06HealthB0019WasabiVideoPlaybackD0C
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 06HealthB027WasabiPresentationAuthorityC
++ _symbolic _____y_____GXDXMT 8HealthUI29MeasureClassificationObserverC 0A7Domains16StressAssessmentV
++ _symbolic _____y_____GXDXMT 8HealthUI29MeasureClassificationObserverC 0A7Domains23MentalOutlookAssessmentV
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE So31HKGraphSeriesDataPointPathRangea
++ _symbolic _____y_____SgG 7SwiftUI11EnvironmentV AA22UserInterfaceSizeClassO
++ _symbolic _____y_____SgG 7SwiftUI11EnvironmentV AA4AxisO
++ _symbolic _____y_____SgG 7SwiftUI11EnvironmentV So6CGSizeV
++ _symbolic _____y______SOSgQo_ 7SwiftUI4ViewPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQO 06HealthB022WasabiThumbnailContent33_FD4D3B724D5D41E832FF40FAD833B457LLV
++ _symbolic _____y______SSSgQo_ 7SwiftUI4ViewPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQO 06HealthB025WasabiFileHandleThumbnailV
++ _symbolic _____y___________pGIeghn_ s6ResultOsRi_zRi0_zrlE 16HealthChartsCore0bC4DataV s5ErrorP
++ _symbolic _____y__________yACyACy_____y_____y_____yABGG______Qo______y_____GG_____yAKGG_____GG 15HealthContentUI22VideoThumbnailCarouselV 0aC006WasabiE5ImageV 05SwiftC008ModifiedB0V AG4ViewPAGE11buttonStyleyQrqd__AG015PrimitiveButtonM0Rd__lFQO AD0g6ActionO0V AA0dE0V AG05PlainoM0V AG011_ForegroundM8ModifierV AG5ColorV AG022_EnvironmentBackgroundmS0V AG023AccessibilityAttachmentS0V
++ _symbolic _____y__________y______SSSgQo_G 7SwiftUI19_ConditionalContentV 06HealthB0015WasabiThumbnailD033_FD4D3B724D5D41E832FF40FAD833B457LLV AA4ViewPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQO AD0f10FileHandleG0V
++ _symbolic _____y__________y_____y_____y_____y_____yADyADy_____y_____yAEyAFy______AGQPGG_ADy_____yAgDy__________y_____GGG_____y_____SgGG_____ADyADy_____y_____yADyAG_____GG______Qo_AQy_____GGAQyAMSgGGQPGG_____GAXG_Qo______yAMGGG_Qo_______yytAWy_____GGQo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AgAE15navigationTitleyQrAA18LocalizedStringKeyVFQO 06HealthB029WasabiVideoThumbnailContainerV AA08ModifiedJ0V AgAE22containerRelativeFrame_5count4span7spacing9alignmentQrAA4AxisO3SetV_S2i12CoreGraphics7CGFloatVAA9AlignmentVtFQO AA6VStackV AA05TupleJ0V AA4TextV AA5LabelV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA012_EnvironmentO15WritingModifierV AA4FontV AA6SpacerV AgAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA05_FlexX6LayoutV AA28BorderedProminentButtonStyleV AA11ControlSizeO AA14_PaddingLayoutV AA24_BackgroundStyleModifierV AA0I4ItemV AA18DefaultButtonLabelV
++ _symbolic _____y______pG 15HealthUtilities10DependencyV 0A7Domains14DomainRegistryP
++ _symbolic _____y______pSgG 7SwiftUI11EnvironmentV 06HealthB010WasabiFlowO5StackP
++ _symbolic _____y______pSgG 7SwiftUI11EnvironmentV 06HealthB018AnalyticsRecordingP
++ _symbolic _____y______pSgG 7SwiftUI11EnvironmentV 06HealthB022WasabiActionPerformingP
++ _symbolic _____y_____yAAyAAyAAy_____y______Qo______y_____GG_____G_____yAAy_____AHGGGAJyAAy_____y_____y______AAyAAyAAyAAyAAy_____y_____y_____y_____y_____y__________GG_Qo_______Qo_______Qo______y_____GGA1_yAKSgGG_____G_____GAHGQPGG_____GGG______y______Qo_Qo_ 7SwiftUI4ViewPAAE12visualEffectyQrqd__AA011EmptyVisualE0V_AA13GeometryProxyVtYbcAA0gE0Rd__lFQO AA15ModifiedContentV AcAE22containerRelativeFrame_5count4span7spacing9alignmentQrAA4AxisO3SetV_S2i12CoreGraphics7CGFloatVAA9AlignmentVtFQO 06HealthB017WasabiVideoPlayerV AA05_ClipE0V AA9RectangleV AA25_AllowsHitTestingModifierV AA16_OverlayModifierV AA5ColorV AA6VStackV AA05TupleK0V AA6SpacerV AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AcAE10labelStyleyQrqd__AA10LabelStyleRd__lFQO AcAE4boldyQrSbFQO AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA22TitleAndIconLabelStyleV AA16GlassButtonStyleV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA31AccessibilityAttachmentModifierV AA08_OpacityE0V AA14_PaddingLayoutV AaIPAAE05scaleE0_6anchorQrAW_AA9UnitPointVtFQO AF
++ _symbolic _____y_____yAAyAAy_____y_____ySnySiGSiAAy_____y_____yAAyAAy__________G_____y_____GG_AAyAAyAI_____GAJy_____GGSgQPGG_____yAGGGGG_____ySiGGA_ySdSgGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6HStackV AA7ForEachV AA6ZStackV AA05TupleD0V AA7CapsuleV AA12_FrameLayoutV AA24_ForegroundStyleModifierV AA08AnyShapeU0V AA13_OffsetEffectV AA012HierarchicalxU0V AA05_ClipZ0V AA010_AnimationV0V AA0i10AttachmentV0V
++ _symbolic _____y_____yAAy_____y_____G_____G______AGSQ12CoreGraphicsyHCg0_Qo______yAAyAAy_____y__________G_____G_____GSgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE16onGeometryChange3for2of6actionQrqd__m_qd__AA0G5ProxyVcyqd___qd__tctSQRd__lFQO AA01_e9Modifier_D0V 06HealthB0010ImpressionM033_A0B0436B7581B9EB2ABF63C97C473BC2LLV AN16VisibilityReader33_7BC0B851F0F68B11155960A0596C4CC1LLV So6CGRectV AA08_OverlayM0V AA06_ShapeE0V AA22ContainerRelativeShapeV AA5ColorV AA14_OpacityEffectV AA017_AllowsHitTestingM0V
++ _symbolic _____y_____yAAy_____y_____y_____yACyAAy__________y_____GG______QPGG______yAKGQPGGAFy_____SgGG_Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE4boldyQrSbFQO AA0E8ThatFitsV AA05TupleD0V AA6HStackV AA5ImageV AA30_EnvironmentKeyWritingModifierV AN5ScaleO AA4TextV AA6VStackV AA4FontV AA016_ForegroundStyleO0V AA5ColorV
++ _symbolic _____y_____yAByABy_____yxG_____G_____G_____y__________GGAByABy_____y_____y_____y_____yAHG_Qo__Qo_GAGG_____yAJGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6VStackV AA14_PaddingLayoutV AA010_FlexFrameH0V AA34_InsettableBackgroundShapeModifierV AA0L5StyleV AA16RoundedRectangleV AA14GeometryReaderV AA4ViewPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AuAE0U14BounceBehavior_AWQrAA0X14BounceBehaviorV_A1_tFQO AA0xT0V AA01_loN0V
++ _symbolic _____y_____yABy_____y___________y__________GAEyAEy_____y_____G_____ySbGGAGGAHSgQPGACyAD_AEy_____yACy_____yACyAF_AFSgQPGG______yAUGQPGGAGGAoPQPGGAByACyAD_AhEyAtGGAPQPGACyAD_AHA2_AoEyAEyARyACyAWy_____ySaySi6offset______7elementtGSSACy_____Sg_AByAEyAEyAWyACyASyACyAEy__________y_____GG_AFQPGG_AFQPGGAGGAGGAEyAEyASyACyA17_______AFQPGGAGGAGGGQPGGG_A30_QPGG_____y_____SgGGAGGAPQPGGGG 8HealthUI20OverlayCardContainerV 05SwiftB019_ConditionalContentV AD05TupleH0V AA0C6HeaderV AD08ModifiedH0V AD4TextV AD14_PaddingLayoutV 0a7DomainsB026ClassificationLevelDiagramV AQ0pqR5EntryV AD32_EnvironmentKeyTransformModifierV AD12ViewThatFitsV AD6HStackV AD6VStackV AD7ForEachV AA0pcX0V17ContributingValueV AD7DividerV AD5ImageV AD016_ForegroundStyleW0V AD5ColorV AD6SpacerV AD01_tu7WritingW0V AD4FontV
++ _symbolic _____y_____ySo7UIImageCGG 7SwiftUI9LazyStateV 013HealthContentB005AsyncD0O
++ _symbolic _____y_____y_____GG 7SwiftUI9LazyStateV 013HealthContentB005AsyncD0O 0eF015VideoDescriptorV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 06HealthB0023AnalyticsImpressionableF033_A0B9FB5D5C5B5F35EB5395474A067A73LLV AF010ImpressionF001_j10B0436B7581K18EB2ABF63C97C473BC2LLV
++ _symbolic _____y_____y___________yADy__________G_____GQPGG 8HealthUI20OverlayCardContainerV 05SwiftB012TupleContentV AA0C6HeaderV AD08ModifiedH0V AD4TextV AD16_FixedSizeLayoutV AD08_PaddingN0V
++ _symbolic _____y_____y_____yAAy__________G______y_____ySaySiGSi_____yACyAAy_____y_____yAAyAAy_____yACyAAyAAy__________G_____y_____GG______AAyAAyAByACy______A2dAy_____yACyAAy__________y_____SgGG_ADQPGG_____GQPGG_____y_____GGA3_GQPGG_____GAPy_____GGG______Qo_AEG_A22_SgQPGGGGQPGGA3_G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA31AccessibilityAttachmentModifierV AA4GridV AA7ForEachV AA0K3RowV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonQ0Rd__lFQO 06HealthB0012WasabiActionS0V AA6ZStackV AV0U14ThumbnailImageV AA16_FlexFrameLayoutV AA11_ClipEffectV AA9RectangleV AA14LinearGradientV AA6SpacerV AA6HStackV AA0Y0V AA022_EnvironmentKeyWritingJ0V AA4FontV AA14_PaddingLayoutV AA011_ForegroundqJ0V AA5ColorV AA18_AspectRatioLayoutV AA16RoundedRectangleV AA05PlainsQ0V
++ _symbolic _____y_____y_____yAAy_____yAAyAAy_____y_____G_____y_____GG_____yAHGG_____yAEGG_____yAAy__________GGGG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA06ButtonG0Rd__lFQO 06HealthB0012WasabiActionH0V AA012_ConditionalD0V 0idB020VideoThumbnailBannerV AH0jN5ImageV AA011_ForegroundG8ModifierV AA5ColorV AA022_EnvironmentBackgroundgR0V AM0mN4TileV AA01_uR0V AM0mN13HeadlineProbeV AA14_PaddingLayoutV AH0jmvhG0V AA023AccessibilityAttachmentR0V
++ _symbolic _____y_____y_____yAAy_____y_____G_____GAEG_Qo__SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE0d16ScrollVisibilityE09threshold_QrSd_ySbctFQO AA15ModifiedContentV AA01_c9Modifier_L0V 06HealthB00I6Reader33_7BC0B851F0F68B11155960A0596C4CC1LLV AA017_AppearanceActionM0V
++ _symbolic _____y_____y_____yACy_____yACy__________y_____SgGG_Qo______G_____y_____GGSg______QPGG 7SwiftUI6HStackV AA12TupleContentV AA08ModifiedE0V AA4ViewPAAE4boldyQrSbFQO AA23LabelStyleConfigurationV5TitleV AA30_EnvironmentKeyWritingModifierV AA4FontV AA16_FixedSizeLayoutV AA06_TraitoP0V AA010TransitionuN0V AL4IconV
++ _symbolic _____y_____y_____y_____G______Qo_ADG 7SwiftUI19_ConditionalContentV AA4ViewPAAE23matchedTransitionSource2id2inQrqd___AA9NamespaceV2IDVtSHRd__lFQO AA01_e9Modifier_D0V 06HealthB004ZoomH033_6481106881FEFA973D8760FCA2EFAB2BLLV AO10WasabiFlowO0hL0O
++ _symbolic _____y_____y_____y_____yAAy_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____ySnySiGSiADySay_____GSi_____y_____y___________Qo__Qo_GG_ADySaySiGSi_____y_____y_____y______AIQo__Qo__Qo_GADyANSiADyAGSi_____y_____y_____y______AIQo__Qo__Qo_GG_____y_____y_____y_____y_____y_____yAO_Qo__AIQo__Qo__AAy_____y_____AIG_____GQo__Qo_______y_____yA1__AAy__________GQo__Qo_QPGSgQPGG_SNySiGQo__SNySdGQo__SiQo_______yAZy_____y______AIQo_Sg______y_____SgGQPGGQo__A23_yA30_GQo__A28_Qo__A28_Qo__AAyAAy_____yAAyAAy_____y_____SgGA5_G_____yAAyAAyA3_A5_G_____GGGSgG_____G_____GQo______G_SiSgQo__A59_Qo__Qo_A54_G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE15sensoryFeedback_7trigger9conditionQrAA07SensoryM0V_qd__Sbqd___qd__tctSQRd__lFQO AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AE6ChartsE12chartOverlay9alignment7contentQrAA9AlignmentV_qd__AR10ChartProxyVctAaDRd__lFQO AeRE0V10YAxisLabel8positionAT7spacingAUQrAR18AnnotationPositionV_AWSg12CoreGraphics7CGFloatVSgqd__yXEtAaDRd__lFQO AeRE0V10XAxisLabelA_ATA0_AUQrA2__A3_A7_qd__yXEtAaDRd__lFQO AeRE0V5YAxisAUQrqd__yXE_tAR04AxisD0Rd__lFQO AeRE0V5XAxisAUQrqd__yXE_tARA10_Rd__lFQO AeRE0V10XSelection5valueQrAA7BindingVyqd__SgG_tAR9PlottableRd__lFQO AeRE0V6YScale6domain4typeQrqd___AR9ScaleTypeVSgtAR11ScaleDomainRd__lFQO AeRE0V6XScaleA20_A21_Qrqd___A24_tARA25_Rd__lFQO AR5ChartV AA05TupleD0V AA7ForEachV 06HealthB026CardioFitnessAgeThresholdsV AR05ChartD0PARE0F6HiddenyQrSbFQO A37_ARE15foregroundStyleyQrqd__AA10ShapeStyleRd__lFQO AR8AreaMarkV AA5ColorV A37_AREA38_yQrSbFQO A37_ARE9lineStyleyQrAA11StrokeStyleVFQO A37_AREA39_yQrqd__AAA40_Rd__lFQO AR8RuleMarkV A37_AREA38_yQrSbFQO A37_AREA45_yQrA47_FQO A37_AREA39_yQrqd__AAA40_Rd__lFQO AR8LineMarkV AR12BuilderTupleV A37_AREA38_yQrSbFQO A37_ARE10annotationA_ATA0_18overflowResolutionAUQrA2__AWA7_AR28AnnotationOverflowResolutionVqd__yXEtAaDRd__lFQO A37_AREA45_yQrA47_FQO A37_AREA39_yQrqd__AAA40_Rd__lFQO A37_ARE6offset1x1yQrA6__A6_tFQO AA06_ShapeE0V AA9RectangleV AA12_FrameLayoutV A37_AREA38_yQrSbFQO A37_AREA54_A_ATA0_A55_AUQrA2__AWA7_A57_qd__yXEtAaDRd__lFQO A33_25CardioFitnessNormsCaptionV AA20_TransactionModifierV AR9AxisMarksV AR8AxisMarkPAREA39_yQrqd__AAA40_Rd__lFQO AR8AxisTickV AR14AxisValueLabelV AA4TextV AA14GeometryReaderV AA6ZStackV A33_21AnimatedBandIndicator33_2103E804C3B60DA84F365359EA34D697LLV AA05_MaskZ6EffectV AA13_OffsetEffectV AA25_AllowsHitTestingModifierV AA0I18AttachmentModifierV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____yAByABy_____y_____y_____y_____y______AByx_____GQPGGG_Qo______y_____GG_____G_Qo__Qo______y_____GGG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA4ViewPAAE22scrollEdgeEffectHidden_3forQrSb_AA0I0O3SetVtFQO AgAE29navigationBarTitleDisplayModeyQrAA010NavigationO4ItemV0pqR0OFQO AgAE0H8DisabledyQrSbFQO AA06ScrollG0V AA6VStackV AA05TupleF0V 06HealthB018WasabiVideoSection33_A19EA2984A968D191D1382EE42AB1F27LLV AA14_PaddingLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA30_SafeAreaRegionsIgnoringLayoutV AA30_EnvironmentKeyWritingModifierV AA0I6InsetsV
++ _symbolic _____y_____y_____y_____yACyACyACy_____yAByACy_____y__________G_____G______yACyACyACy__________GAIG_____yAGGGSgACyACyACy_____yAL_Qo______y_____SgGGAQGAUy_____SgGGSgGQPGG_____GAIG_____GA10_G_ACyACyACyACyACy_____yACy_____AUy_____SgGG_Qo_A1_GAQGAUy_____GGA10_GAIGQPGG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA12TupleContentV AA08ModifiedL0V AA6ZStackV AA06_ShapeC0V AA6CircleV AA5ColorV AA12_FrameLayoutV AA012_ConditionalL0V AA5ImageV AA012_AspectRatioS0V AA24_ForegroundStyleModifierV AcAE13symbolVariantyQrAA14SymbolVariantsVFQO AA022_EnvironmentKeyWritingZ0V AA19SymbolRenderingModeV AA4FontV AA0g10AttachmentZ0V AA08_PaddingS0V AcAE4boldyQrSbFQO AA4TextV A19_4CaseO AA13TextAlignmentO
++ _symbolic _____y_____y_____y_____y___________yACyAAyAAyAAy_____yAAyAAyAAy_____yAAy__________y_____SgGGG_____ySbGG_____G_____G______Qo_AHy_____GGAHy_____GGASG______AAyAAyAAy_____yAAyAAyAAyAFyAAy_____y_____y_____AGG______Qo_AKGGAOGAQGASG_AUQo_AXGA_GASGQPGGQPGG_Qo______ySiGG 7SwiftUI15ModifiedContentV AA4ViewPAAE22containerRelativeFrame_9alignment_QrAA4AxisO3SetV_AA9AlignmentV12CoreGraphics7CGFloatVAP_AItctFQO AA6ZStackV AA05TupleD0V 06HealthB015PageControlDotsV AA6HStackV AeAE11buttonStyleyQrqd__AA015PrimitiveButtonX0Rd__lFQO AA0Z0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA32_EnvironmentKeyTransformModifierV AA14_OpacityEffectV AA31AccessibilityAttachmentModifierV AA05GlasszX0V AA0T4SizeO AA0Z11BorderShapeV AA6SpacerV AeAEAZyQrqd__AAA_Rd__lFQO AeAE05labelX0yQrqd__AA05LabelX0Rd__lFQO AA5LabelV AA4TextV AU04Nextz5LabelX033_328009600784A261C07D573E8D6E3BCCLLV AA18_AnimationModifierV
++ _symbolic _____y_____y_____y_____y_____y__________G_SSQo__Qo__Qo_Sg_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AcAE7toolbar_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationO4ItemV0pqR0OFQO AcAE0nP0yQrqd__SyRd__lFQO AA15ModifiedContentV 06HealthB016HostedController33_A71AB9B3B1B64A5A2225D349B1E9D45ELLV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____yAAyAAyAAyAAy_____y_____yAAy__________y_____GGG_SSQo______G_____y_____GGAMy_____SgGG_____GG______SgQo__Qo_______y_____y_____yyt_____y_____GG_A1_yyt_____y_____y_____A2_y_____yA8______GG_____GGGA1_yytAAyA2_yA10_G_____GGtG_Qo_Qo__SiQo_______Qo__A2_yA8_GA8_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE5alert_11isPresented7actions7messageQrAA18LocalizedStringKeyV_AA7BindingVySbGqd__yXEqd_0_yXEtAaDRd__AaDRd_0_r0_lFQO AeAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AeAEAopQ_Qrqd___SbyyctSQRd__lFQO AeAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AeAEAR_3forQrAA10VisibilityO_AA0U9PlacementVdtFQO AeAE11safeAreaBar4edge9alignment7spacingASQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaDRd__lFQO AA14GeometryReaderV AeAE15navigationTitleyQrqd__SyRd__lFQO 06HealthB029WasabiVideoThumbnailContainerV A13_20WasabiEndOfVideoGridV AA24_BackgroundStyleModifierV AA5ColorV 016HealthFoundationB033_NavigationTitleAlignmentModifierV AA012_EnvironmentM15WritingModifierV AA10EdgeInsetsV So6CGSizeV AA16_FlexFrameLayoutV A13_29WasabiVideoNavigationControlsV AaTPAAE12defaultGlassyQrAA6_GlassVSgFQO AA05TupleuD0V AA0U4ItemV AA6ButtonV AA18DefaultButtonLabelV 013HealthDomainsB022WasabiTapToRadarButtonV AA7SectionV AA4TextV AA5LabelV AA5ImageV AA05EmptyE0V AA31AccessibilityAttachmentModifierV 06HealthD018VideoPlaybackStateO AA20_TransactionModifierV
++ _symbolic _____y_____yxG_____G 7SwiftUI15ModifiedContentV AA6ButtonV 06HealthB010ZoomSource33_6481106881FEFA973D8760FCA2EFAB2BLLV
++ _symbolic _____y_____yx_____ySbGG_AAyqd_______ySbGGQo_ 7SwiftUI4ViewPAAE15fullScreenCover11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA15ModifiedContentV AA32_EnvironmentKeyTransformModifierV AA01_op7WritingR0V
++ _symbolic _____y_____yx_____ySbGG_AAyqd_______ySbGGQo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA15ModifiedContentV AA32_EnvironmentKeyTransformModifierV AA01_mn7WritingP0V
++ _symbolic _____y_____yx_____ySbGG_qd__AAyqd_0______ySbGGQo_ 7SwiftUI4ViewPAAE15fullScreenCover4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQO AA15ModifiedContentV AA32_EnvironmentKeyTransformModifierV AA01_op7WritingR0V
++ _symbolic _____y_____yx_____ySbGG_qd__AAyqd_0______ySbGGQo_ 7SwiftUI4ViewPAAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQO AA15ModifiedContentV AA32_EnvironmentKeyTransformModifierV AA01_mn7WritingP0V
++ _symbolic _____yxG 8HealthUI18WasabiActionButtonV
++ _symbolic _____yxG 8HealthUI20OverlayCardContainerV
++ _symbolic _____yxG 8HealthUI23WasabiActionEnvironmentV
++ _symbolic _____yxG 8HealthUI29MeasureClassificationObserverC
++ _symbolic _____yxG 8HealthUI29WasabiVideoThumbnailContainerV
++ _symbolic _____yx_G 8HealthUI29WasabiVideoThumbnailContainerV9ViewModelV
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 06HealthB016VisibilityReader33_7BC0B851F0F68B11155960A0596C4CC1LLV
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 06HealthB018ImpressionModifier33_A0B0436B7581B9EB2ABF63C97C473BC2LLV
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 06HealthB031AnalyticsImpressionableModifier33_A0B9FB5D5C5B5F35EB5395474A067A73LLV
++ _symbolic _____yx_____ySbGG 7SwiftUI15ModifiedContentV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____yx_____ySbGG 7SwiftUI15ModifiedContentV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____yx_____y_____GG 7SwiftUI15ModifiedContentV AA30_EnvironmentKeyWritingModifierV 06HealthB018OverlayLayoutStyleO
++ _symbolic _____yx_____y_____GG 7SwiftUI15ModifiedContentV AA32_EnvironmentKeyTransformModifierV 06HealthB021AnalyticsFieldContextV
++ _symbolic qd0__
++ _symbolic qd_0_
++ _symbolic qd__Iegr_
++ _symbolic qd__qd_0_Iegnr_
++ _symbolic ySbYbScMYcc
++ _symbolic ySbc
++ _symbolic ypXp
++ _symbolic yt
++ _symbolic yyYaYbScMYccSg
++ _symbolic yyYbScMYcc
++ _symbolic yyYbScMYccSg
++ _type_layout_string 7SwiftUI4ViewRzl06HealthB029WasabiVideoThumbnailContainerV0C5ModelVyx_G
++ _type_layout_string 8HealthUI018CategoryLevelChartD0V
++ _type_layout_string 8HealthUI10WasabiFlowO09PresentedD0V
++ _type_layout_string 8HealthUI10WasabiFlowO16PushedControllerV
++ _type_layout_string 8HealthUI10WasabiFlowO16VideoDestinationV
++ _type_layout_string 8HealthUI10WasabiFlowO17PushedDestinationV
++ _type_layout_string 8HealthUI10WasabiFlowO21ControllerDestinationV
++ _type_layout_string 8HealthUI10WasabiFlowO6ActionV
++ _type_layout_string 8HealthUI10WasabiFlowO8SourceIDO
++ _type_layout_string 8HealthUI10ZoomSource33_6481106881FEFA973D8760FCA2EFAB2BLLV
++ _type_layout_string 8HealthUI13BalanceSeriesC21drawDistributionStyle33_E62A3A859E1953CD5B02CC62EDA065DELL20withBlockCoordinates8axisRect22zoomLevelConfiguration14pointTransform13renderContext22secondaryRenderContext23seriesRenderingDelegate14selectedMetricySo07HKGraphdR14CoordinateListC_So6CGRectVSo011HKGraphZoomwX0CSo08CGAffineZ0VSo12CGContextRefaSo07HKGraphD22SecondaryRenderContextCSo25HKSeriesRenderingDelegate_pAA43VitalsInteractiveChartsSelectableMetricTypeOSgtF5PathsL_V
++ _type_layout_string 8HealthUI13OverlayHeaderV
++ _type_layout_string 8HealthUI13WasabiTypeKeyV
++ _type_layout_string 8HealthUI15PageControlDotsV
++ _type_layout_string 8HealthUI16HostedController025_A71AB9B3B1B64A5A2225D349H6E9D45ELLV
++ _type_layout_string 8HealthUI17WasabiEmptyActionV
++ _type_layout_string 8HealthUI18WasabiVideoContentV
++ _type_layout_string 8HealthUI19WasabiPerformActionV
++ _type_layout_string 8HealthUI19WasabiVideoCarouselV
++ _type_layout_string 8HealthUI19WasabiVideoCarouselV4ItemV
++ _type_layout_string 8HealthUI20BandIndicatorSegment33_2103E804C3B60DA84F365359EA34D697LLV
++ _type_layout_string 8HealthUI20NextButtonLabelStyle33_328009600784A261C07D573E8D6E3BCCLLV
++ _type_layout_string 8HealthUI20WasabiCompoundActionV
++ _type_layout_string 8HealthUI20WasabiEndOfVideoGridV
++ _type_layout_string 8HealthUI20WasabiFlowBackActionV
++ _type_layout_string 8HealthUI20WasabiFlowBackActionV9DismissalV
++ _type_layout_string 8HealthUI21AnalyticsActionFieldsV
++ _type_layout_string 8HealthUI21AnalyticsFieldContextV
++ _type_layout_string 8HealthUI21AnimatedBandIndicator33_2103E804C3B60DA84F365359EA34D697LLV
++ _type_layout_string 8HealthUI21BalanceDayStateSeriesC13drawPillStyle011_A9F9BC7B55J20D8E7317635B9EC49B775LL20withBlockCoordinates8axisRect22zoomLevelConfiguration14pointTransform7context23seriesRenderingDelegateySo07HKGraphfT14CoordinateListC_So6CGRectVSo011HKGraphZoomyZ0CSo17CGAffineTransformVSo12CGContextRefaSo25HKSeriesRenderingDelegate_ptF14HighlightPathsL_V
++ _type_layout_string 8HealthUI21WasabiDispatchOutcomeO
++ _type_layout_string 8HealthUI22WasabiActionDispatcherV
++ _type_layout_string 8HealthUI22WasabiThumbnailContent33_FD4D3B724D5D41E832FF40FAD833B457LLV
++ _type_layout_string 8HealthUI24AnalyticsHostEnvironmentV
++ _type_layout_string 8HealthUI25BalanceDayStateCoordinateC0F4TypeO
++ _type_layout_string 8HealthUI25CardioFitnessNormsCaptionV
++ _type_layout_string 8HealthUI25ClassificationOverlayViewV17ContributingValueV
++ _type_layout_string 8HealthUI26CardioFitnessAgeThresholdsV
++ _type_layout_string 8HealthUI29AnyWasabiActionImplementationV
++ _type_layout_string 8HealthUI30CategoryLevelChartDataProviderV
++ _type_layout_string 8HealthUI30WasabiFlowActionImplementationV
++ _type_layout_string 8HealthUI31AnalyticsImpressionableModifier33_A0B9FB5D5C5B5F35EB5395474A067A73LLV
++ _type_layout_string 8HealthUI31CategoryLevelChartConfigurationV
++ _type_layout_string 8HealthUI35BilateralQuantityChartConfigurationV
++ _type_layout_string So12UIFontWeighta
+- +[HKHeightDesignationProvider heightDesignationFromViewHeight:]
+- +[HKInteractiveChartOverlaySleepViewController _shouldAdjustTimezones]
+- +[HKInteractiveChartOverlaySleepViewController _shouldUseDefaultAlignmentForDayComparison]
+- +[HKInteractiveChartOverlaySleepViewController _shouldUseUpdatedComparisonCharts]
+- +[HKInteractiveChartOverlaySleepViewController _shouldUseUpdatedQuery]
+- +[HKOverlayRoomSleepViewController _useUpdatedSleepComparisonCharts]
+- +[HKSleepComparisonDayAxis _shouldUseUpdatedQuery]
+- +[HKSleepComparisonDayAxis normalizesToSleepInterval]
+- +[HKSleepComparisonDayChartPoint _shouldNormalizeToSleepInterval]
+- +[HKSleepComparisonDayChartPoint _shouldUseUpdatedQuery]
+- +[HKSleepComparisonDaySeries _shouldUseUpdatedQuery]
+- +[HKSleepComparisonDaySeries normalizesSeriesData]
+- +[HKSleepDayAxis normalizesToSleepInterval]
+- +[HKSleepPeriodChartPoint _shouldAdjustTimezones]
+- +[HKSleepPeriodChartPoint _shouldClampToSleepDayBoundary]
+- +[HKSleepPeriodChartPoint _shouldUseUpdatedQuery]
+- +[HKSleepStageChartPoint _shouldClampToSleepDayBoundary]
+- +[HKSleepStageChartPoint _shouldUseUpdatedQuery]
+- +[HKSleepStageDayAxis normalizesToSleepInterval]
+- +[HKSleepStageDayChartPoint _shouldAdjustTimezones]
+- +[HKSleepStageDaySeries normalizesSeriesData]
+- +[HKSleepUtilities _shouldSetAxisBounds]
+- +[HKWidthDesignationProvider widthDesignationFromViewWidth:]
+- +[_HKSleepComparisonContext _useUpdatedSleepComparisonCharts]
+- -[HKChartDataCacheController _removeCustomCachesForDisplayTypeIdentifier:]
+- -[HKChartDataCacheController addCustomChartCache:forDisplayType:]
+- -[HKChartDataCacheController removeCachesForDisplayTypeIdentifier:]
+- -[HKCodableSleepingSampleAggregate containsVEData]
+- -[HKCodableSleepingSampleAggregate hasContainsVEData]
+- -[HKCodableSleepingSampleAggregate setContainsVEData:]
+- -[HKCodableSleepingSampleAggregate setHasContainsVEData:]
+- -[HKCodableSummaryDaytimeVitalsValue context]
+- -[HKCodableSummaryDaytimeVitalsValue hasContext]
+- -[HKCodableSummaryDaytimeVitalsValue setContext:]
+- -[HKCodableSummaryDaytimeVitalsValueContext copyTo:]
+- -[HKCodableSummaryDaytimeVitalsValueContext copyWithZone:]
+- -[HKCodableSummaryDaytimeVitalsValueContext description]
+- -[HKCodableSummaryDaytimeVitalsValueContext dictionaryRepresentation]
+- -[HKCodableSummaryDaytimeVitalsValueContext hasIsExerciseCessationSignalActive]
+- -[HKCodableSummaryDaytimeVitalsValueContext hash]
+- -[HKCodableSummaryDaytimeVitalsValueContext isEqual:]
+- -[HKCodableSummaryDaytimeVitalsValueContext isExerciseCessationSignalActive]
+- -[HKCodableSummaryDaytimeVitalsValueContext mergeFrom:]
+- -[HKCodableSummaryDaytimeVitalsValueContext readFrom:]
+- -[HKCodableSummaryDaytimeVitalsValueContext setHasIsExerciseCessationSignalActive:]
+- -[HKCodableSummaryDaytimeVitalsValueContext setIsExerciseCessationSignalActive:]
+- -[HKCodableSummaryDaytimeVitalsValueContext writeTo:]
+- -[HKFavoritesTableViewCell initWithStyle:reuseIdentifier:]
+- -[HKHealthChartFactory _resolvedTimeScopeForTypeIdentifier:displayDateInterval:]
+- -[HKHealthChartFactory interactiveChartForTypeIdentifier:preferredOverlay:chartOptions:displayDateInterval:restorationUserActivity:chartSummaryTrendModel:]
+- -[HKInteractiveChartOverlayPredicate initWithPredicate:name:]
+- -[HKInteractiveChartOverlaySleepViewController _isSleepSeries:]
+- -[HKInteractiveChartOverlaySleepViewController defaultAlignmentForTimeScope:]
+- -[HKInteractiveChartViewController _defaultAxisRangeIncludeToday:]
+- -[HKManualEntryValidationController validateWorkoutDistance:]
+- -[HKManualEntryValidationController validateWorkoutEnergyBurned:]
+- -[HKPopulationNormsAbstractViewModel sampleQueryQueue]
+- -[HKPopulationNormsAbstractViewModel setUserHasDataPointAvailable:]
+- -[HKPopulationNormsAbstractViewModel userHasDataPointAvailable]
+- -[HKRouteView setToggleMapTypeButton:]
+- -[HKRouteView toggleMapTypeButton]
+- -[HKWorkoutRouteViewController viewWillLayoutSubviews]
+- -[_HKCustomCacheDisplayTypeTuple initWithCustomCache:displayType:]
+- -[_HKInteractiveChartDistributionStyleKey initWithDistributionStyle:timeScope:predicateName:]
+- GCC_except_table105
+- GCC_except_table131
+- GCC_except_table141
+- GCC_except_table34
+- GCC_except_table40
+- GCC_except_table58
+- GCC_except_table62
+- GCC_except_table70
+- GCC_except_table89
+- OBJC_IVAR_$_HKCodableSleepingSampleAggregate._containsVEData
+- OBJC_IVAR_$_HKCodableSummaryDaytimeVitalsValue._context
+- OBJC_IVAR_$_HKCodableSummaryDaytimeVitalsValueContext._has
+- OBJC_IVAR_$_HKCodableSummaryDaytimeVitalsValueContext._isExerciseCessationSignalActive
+- _HKCodableSummaryDaytimeVitalsValueContextReadFrom
+- _OBJC_CLASS_$_HKCodableSummaryDaytimeVitalsValueContext
+- _OBJC_CLASS_$__HKTaskCompletionCounter
+- _OBJC_IVAR_$_HKPopulationNormsAbstractViewModel._sampleQueryQueue
+- _OBJC_IVAR_$_HKPopulationNormsAbstractViewModel._userHasDataPointAvailable
+- _OBJC_IVAR_$_HKRouteView._toggleMapTypeButton
+- _OBJC_METACLASS_$_HKCodableSummaryDaytimeVitalsValueContext
+- _OBJC_METACLASS_$_HKHeightDesignationProvider
+- _OBJC_METACLASS_$_HKWidthDesignationProvider
+- __INSTANCE_METHODS__TtC8HealthUI33IndicatorClassificationCoordinate
+- __INSTANCE_METHODS__TtC8HealthUI37IndicatorClassificationOverlayContext
+- __INSTANCE_METHODS__TtC8HealthUI38IndicatorMostRecentLevelOverlayContext
+- __INSTANCE_METHODS__TtC8HealthUI41IndicatorClassificationChartDataFormatter
+- __IVARS__TtC8HealthUI33IndicatorClassificationCoordinate
+- __IVARS__TtC8HealthUI37IndicatorClassificationOverlayContext
+- __IVARS__TtC8HealthUI38IndicatorMostRecentLevelOverlayContext
+- __IVARS__TtC8HealthUI41IndicatorClassificationChartDataFormatter
+- __OBJC_$_CLASS_METHODS_HKHeightDesignationProvider
+- __OBJC_$_CLASS_METHODS_HKInteractiveChartOverlaySleepViewController
+- __OBJC_$_CLASS_METHODS_HKSleepComparisonDayAxis
+- __OBJC_$_CLASS_METHODS_HKSleepDayAxis
+- __OBJC_$_CLASS_METHODS_HKSleepStageDayAxis
+- __OBJC_$_CLASS_METHODS_HKWidthDesignationProvider
+- __OBJC_$_CLASS_METHODS__HKSleepComparisonContext
+- __OBJC_$_INSTANCE_METHODS_HKCodableSummaryDaytimeVitalsValueContext
+- __OBJC_$_INSTANCE_METHODS_HKPopulationNormsGraphView
+- __OBJC_$_INSTANCE_VARIABLES_HKCodableSummaryDaytimeVitalsValueContext
+- __OBJC_$_PROP_LIST_HKCodableSummaryDaytimeVitalsValueContext
+- __OBJC_$_PROP_LIST_HKPopulationNormsGraphView
+- __OBJC_$_PROTOCOL_CLASS_METHODS_HKSleepDayNormalizableSeries
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HKSleepDayNormalizableSeries
+- __OBJC_CLASS_PROTOCOLS_$_HKCodableSummaryDaytimeVitalsValueContext
+- __OBJC_CLASS_RO_$_HKCodableSummaryDaytimeVitalsValueContext
+- __OBJC_CLASS_RO_$_HKHeightDesignationProvider
+- __OBJC_CLASS_RO_$_HKWidthDesignationProvider
+- __OBJC_LABEL_PROTOCOL_$_HKSleepDayNormalizableSeries
+- __OBJC_METACLASS_RO_$_HKCodableSummaryDaytimeVitalsValueContext
+- __OBJC_METACLASS_RO_$_HKHeightDesignationProvider
+- __OBJC_METACLASS_RO_$_HKWidthDesignationProvider
+- __OBJC_PROTOCOL_$_HKSleepDayNormalizableSeries
+- __OBJC_PROTOCOL_REFERENCE_$_HKSleepDayNormalizableSeries
+- __PROPERTIES__TtC8HealthUI33IndicatorClassificationCoordinate
+- __PROTOCOLS__TtC8HealthUI33IndicatorClassificationCoordinate
+- ___59-[HKPopulationNormsAbstractViewModel userLatestSampleValue]_block_invoke
+- ___63-[HKInteractiveChartOverlaySleepViewController _isSleepSeries:]_block_invoke
+- ___80-[HKPopulationNormsAbstractViewModel prepareUserCharacteristicCacheWithHandler:]_block_invoke_2
+- ___DaytimeMetrics_isAvailable
+- ___VitalsEnhancements_isAvailable
+- ___block_descriptor_32_e22_B16?0"HKChartCache"8l
+- ___block_descriptor_40_e8_32s_e22_B16?0"HKChartCache"8ls32l8
+- ___block_descriptor_40_e8_32s_e8_B16?0#8ls32l8
+- ___block_descriptor_41_e8_32s_e18_"NSString"16?0q8ls32l8
+- ___block_descriptor_48_e8_32s40s_e30_v24?0"HKSample"8"NSError"16ls32l8s40l8
+- ___block_descriptor_56_e8_32s40s48w_e51_v32?0"HKChartCacheFetchOperation"816"NSError"24lw48l8s32l8s40l8
+- ___swift_closure_destructor.14Tm
+- ___unnamed_7
+- _associated conformance 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3Row33_9BE20E9F5759C0A877E43F07F0B85A10LLOSHAASQ
+- _associated conformance 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3Row33_9BE20E9F5759C0A877E43F07F0B85A10LLOs12CaseIterableAA8AllCasessAGP_Sl
+- _associated conformance 8HealthUI47HKSettingsAuthorizationTypeDetailViewControllerC3Row028_F3C021AC8A66450D0B9C3955705J3CEALLOSHAASQ
+- _associated conformance 8HealthUI47HKSettingsAuthorizationTypeDetailViewControllerC3Row028_F3C021AC8A66450D0B9C3955705J3CEALLOs12CaseIterableAA8AllCasessAGP_Sl
+- _associated conformance So18HKWidthDesignationVSL8HealthUISQ
+- _associated conformance So19HKHeightDesignationVSL8HealthUISQ
+- _associated conformance So27HKLevelOverlaySeriesOptionsVs10SetAlgebraSCSQ
+- _associated conformance So27HKLevelOverlaySeriesOptionsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
+- _associated conformance So27HKLevelOverlaySeriesOptionsVs9OptionSetSCSY
+- _associated conformance So27HKLevelOverlaySeriesOptionsVs9OptionSetSCs0F7Algebra
+- _flat unique 8HealthUI46IndicatorMostRecentLevelOverlayContextDelegate_px0F0AaBPRts_XP
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA6VStackVyAA12TupleContentVyAA08ModifiedL0VyAMyAMyAMyAA6ZStackVyAKyAMyAA06_ShapeC0VyAA6CircleVAA5ColorVGAA12_FrameLayoutVG_AA012_ConditionalL0VyAMyAMyAMyAA5ImageVAA012_AspectRatioS0VGAXGAA24_ForegroundStyleModifierVyAUGGSgAMyAMyA1_A8_GAA022_EnvironmentKeyWritingZ0VyAA4FontVSgGGSgGQPGGAA0g10AttachmentZ0VGAXGAA08_PaddingS0VGA28_G_AMyAMyAMyAMyAMyAcAE4boldyQrSbFQOyAMyAA4TextVA13_yA33_4CaseOSgGG_Qo_A17_GA8_GA13_yAA13TextAlignmentOGGA28_GAXGQPGG_Qo_HO
+- _symbolic $s8HealthUI28IndicatorClassificationValueP
+- _symbolic $s8HealthUI46IndicatorMostRecentLevelOverlayContextDelegateP
+- _symbolic 5Level_____Qyd__ 8HealthUI46IndicatorMostRecentLevelOverlayContextDelegateP
+- _symbolic 5Level_____Qz 8HealthUI46IndicatorMostRecentLevelOverlayContextDelegateP
+- _symbolic 5Level______5Scale_____QZ 8HealthUI46IndicatorMostRecentLevelOverlayContextDelegateP 0A7Domains014ClassificationF0P
+- _symbolic 5Scale_____Qz 13HealthDomains19ClassificationLevelP
+- _symbolic SDy__________G 13HealthBalance26VitalsMetricEvaluationTypeO 0A2UI0B6SeriesC32drawDistributionStyleWithChanges33_E62A3A859E1953CD5B02CC62EDA065DELL20withBlockCoordinates8axisRect22zoomLevelConfiguration14pointTransform13renderContext22secondaryRenderContext23seriesRenderingDelegate08selectedD0ySo07HKGraphhX14CoordinateListC_So6CGRectVSo29HKGraphZoomLevelConfigurationCSo17CGAffineTransformVSo12CGContextRefaSo07HKGraphH22SecondaryRenderContextCSo25HKSeriesRenderingDelegate_pAD0c27InteractiveChartsSelectabledF0OSgtF5PathsL_V
+- _symbolic SDy__________Gz_Xx 13HealthBalance26VitalsMetricEvaluationTypeO 0A2UI0B6SeriesC32drawDistributionStyleWithChanges33_E62A3A859E1953CD5B02CC62EDA065DELL20withBlockCoordinates8axisRect22zoomLevelConfiguration14pointTransform13renderContext22secondaryRenderContext23seriesRenderingDelegate08selectedD0ySo07HKGraphhX14CoordinateListC_So6CGRectVSo29HKGraphZoomLevelConfigurationCSo17CGAffineTransformVSo12CGContextRefaSo07HKGraphH22SecondaryRenderContextCSo25HKSeriesRenderingDelegate_pAD0c27InteractiveChartsSelectabledF0OSgtF5PathsL_V
+- _symbolic Say_____G 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3Row33_9BE20E9F5759C0A877E43F07F0B85A10LLO
+- _symbolic Say_____G 8HealthUI47HKSettingsAuthorizationTypeDetailViewControllerC3Row028_F3C021AC8A66450D0B9C3955705J3CEALLO
+- _symbolic So16HKUIMetricColorsC
+- _symbolic _____ 13HealthDomains20ClassificationStatusO
+- _symbolic _____ 8HealthUI13BalanceSeriesC32drawDistributionStyleWithChanges33_E62A3A859E1953CD5B02CC62EDA065DELL20withBlockCoordinates8axisRect22zoomLevelConfiguration14pointTransform13renderContext22secondaryRenderContext23seriesRenderingDelegate14selectedMetricySo07HKGraphdT14CoordinateListC_So6CGRectVSo011HKGraphZoomyZ0CSo17CGAffineTransformVSo12CGContextRefaSo07HKGraphD22SecondaryRenderContextCSo25HKSeriesRenderingDelegate_pAA43VitalsInteractiveChartsSelectableMetricTypeOSgtF5PathsL_V
+- _symbolic _____ 8HealthUI26OverlayClassificationLevelV
+- _symbolic _____ 8HealthUI33IndicatorClassificationCoordinateC
+- _symbolic _____ 8HealthUI37IndicatorClassificationOverlayContextC
+- _symbolic _____ 8HealthUI38IndicatorMostRecentLevelOverlayContextC
+- _symbolic _____ 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3Row33_9BE20E9F5759C0A877E43F07F0B85A10LLO
+- _symbolic _____ 8HealthUI41IndicatorClassificationChartDataFormatterC
+- _symbolic _____ 8HealthUI47HKSettingsAuthorizationTypeDetailViewControllerC3Row028_F3C021AC8A66450D0B9C3955705J3CEALLO
+- _symbolic _____ So27HKLevelOverlaySeriesOptionsV
+- _symbolic _____Sg 8HealthUI25BalanceDayStateCoordinateC0dE5PointV
+- _symbolic _____Sg 8HealthUI40HKAuthorizationTimeBoundedViewControllerC3Row33_9BE20E9F5759C0A877E43F07F0B85A10LLO
+- _symbolic _____xXjSgXw l8HealthUI46IndicatorMostRecentLevelOverlayContextDelegate_px0F0Rts_XPXG
+- _symbolic _____y5Scale_____QzG 12HealthCharts24ClassificationChartScaleO 0A7Domains0C5LevelP
+- _symbolic _____y_____y_____y_____yACyACyACy_____yAByACy_____y__________G_____G______yACyACyACy__________GAIG_____yAGGGSgACyACyAlQG_____y_____SgGGSgGQPGG_____GAIG_____GA5_G_ACyACyACyACyACy_____yACy_____AUy_____SgGG_Qo_AXGAQGAUy_____GGA5_GAIGQPGG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA12TupleContentV AA08ModifiedL0V AA6ZStackV AA06_ShapeC0V AA6CircleV AA5ColorV AA12_FrameLayoutV AA012_ConditionalL0V AA5ImageV AA012_AspectRatioS0V AA24_ForegroundStyleModifierV AA022_EnvironmentKeyWritingZ0V AA4FontV AA0g10AttachmentZ0V AA08_PaddingS0V AcAE4boldyQrSbFQO AA4TextV A14_4CaseO AA13TextAlignmentO
+- _symbolic _____yxG 12HealthCharts24ClassificationChartScaleO
+- _type_layout_string 8HealthUI13BalanceSeriesC32drawDistributionStyleWithChanges33_E62A3A859E1953CD5B02CC62EDA065DELL20withBlockCoordinates8axisRect22zoomLevelConfiguration14pointTransform13renderContext22secondaryRenderContext23seriesRenderingDelegate14selectedMetricySo07HKGraphdT14CoordinateListC_So6CGRectVSo011HKGraphZoomyZ0CSo17CGAffineTransformVSo12CGContextRefaSo07HKGraphD22SecondaryRenderContextCSo25HKSeriesRenderingDelegate_pAA43VitalsInteractiveChartsSelectableMetricTypeOSgtF5PathsL_V
+- _type_layout_string 8HealthUI30StandardDateDataEntryValidatorV
+- _type_layout_string So27HKLevelOverlaySeriesOptionsV
+```

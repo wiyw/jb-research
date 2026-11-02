@@ -1,0 +1,199 @@
+## SiriFindMy
+
+> `/System/Library/PrivateFrameworks/SiriFindMy.framework/SiriFindMy`
+
+```diff
+
+-3600.18.7.0.0
+-  __TEXT.__text: 0x184bcc
++3605.19.1.0.0
++  __TEXT.__text: 0x16d52c
+   __TEXT.__objc_methlist: 0x17e0
+-  __TEXT.__const: 0x141b8
+-  __TEXT.__swift5_typeref: 0x7ad8
+-  __TEXT.__swift5_fieldmd: 0x4e88
+-  __TEXT.__constg_swiftt: 0x5b84
+-  __TEXT.__swift5_builtin: 0x294
+-  __TEXT.__swift5_reflstr: 0x3ac8
+-  __TEXT.__swift5_assocty: 0xb58
+-  __TEXT.__oslogstring: 0x74c5
++  __TEXT.__const: 0x15148
++  __TEXT.__swift5_typeref: 0x7d88
++  __TEXT.__swift5_fieldmd: 0x5160
++  __TEXT.__constg_swiftt: 0x5ee8
++  __TEXT.__swift5_builtin: 0x2a8
++  __TEXT.__swift5_reflstr: 0x3c48
++  __TEXT.__swift5_assocty: 0xbf0
++  __TEXT.__oslogstring: 0x7b35
+   __TEXT.__swift5_protos: 0x118
+-  __TEXT.__swift5_proto: 0xe44
+-  __TEXT.__swift5_types: 0x5f0
+-  __TEXT.__cstring: 0x2823
+-  __TEXT.__swift5_capture: 0x1d24
+-  __TEXT.__swift5_mpenum: 0x74
+-  __TEXT.__swift_as_entry: 0x590
+-  __TEXT.__swift_as_ret: 0x90c
+-  __TEXT.__swift_as_cont: 0xb1c
+-  __TEXT.__unwind_info: 0x67c8
+-  __TEXT.__eh_frame: 0xb23c
++  __TEXT.__swift5_proto: 0xf3c
++  __TEXT.__swift5_types: 0x634
++  __TEXT.__cstring: 0x2953
++  __TEXT.__swift5_mpenum: 0x84
++  __TEXT.__swift5_capture: 0x1864
++  __TEXT.__swift_as_entry: 0x5d4
++  __TEXT.__swift_as_ret: 0x6f4
++  __TEXT.__swift_as_cont: 0x8b8
++  __TEXT.__unwind_info: 0x6a10
++  __TEXT.__eh_frame: 0xc09c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x1b0
+   __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1408
++  __DATA_CONST.__objc_selrefs: 0x1420
+   __DATA_CONST.__objc_protorefs: 0x58
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xe630
++  __AUTH_CONST.__const: 0xe548
+   __AUTH_CONST.__objc_const: 0x4ca8
+-  __AUTH_CONST.__auth_got: 0x26f8
+-  __AUTH_CONST.__auth_ptr: 0x1c80
+-  __AUTH.__objc_data: 0x1e18
+-  __AUTH.__data: 0x29e0
+-  __DATA.__data: 0x5118
+-  __DATA.__bss: 0x18a80
+-  __DATA.__common: 0x510
++  __AUTH_CONST.__auth_got: 0x27e0
++  __AUTH_CONST.__auth_ptr: 0x1cf0
++  __AUTH.__objc_data: 0x1e20
++  __AUTH.__data: 0x2ba0
++  __DATA.__data: 0x5588
++  __DATA.__bss: 0x1a980
++  __DATA.__common: 0x528
+   __DATA_DIRTY.__objc_data: 0xa8
+   __DATA_DIRTY.__data: 0xcd0
+   __DATA_DIRTY.__common: 0x60
+
+   - /System/Library/PrivateFrameworks/FMIPCore.framework/FMIPCore
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
++  - /System/Library/PrivateFrameworks/LinkServices.framework/LinkServices
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 10633
+-  Symbols:   3040
++  Functions: 10493
++  Symbols:   3108
+   CStrings:  0
+ 
+Symbols:
++ _OBJC_CLASS_$_LNEnvironment
++ _OBJC_CLASS_$_NSUserActivity
++ ___swift_closure_destructor.14Tm
++ ___unnamed_15
++ _associated conformance 10SiriFindMy0B15FriendFlowErrorOSHAASQ
++ _associated conformance 10SiriFindMy25DisambiguationImageSourceO10CodingKeys33_1587CF942235B8261FA087E0776D26C6LLOSHAASQ
++ _associated conformance 10SiriFindMy25DisambiguationImageSourceO10CodingKeys33_1587CF942235B8261FA087E0776D26C6LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 10SiriFindMy25DisambiguationImageSourceO10CodingKeys33_1587CF942235B8261FA087E0776D26C6LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10SiriFindMy25DisambiguationImageSourceO13UrlCodingKeys33_1587CF942235B8261FA087E0776D26C6LLOSHAASQ
++ _associated conformance 10SiriFindMy25DisambiguationImageSourceO13UrlCodingKeys33_1587CF942235B8261FA087E0776D26C6LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 10SiriFindMy25DisambiguationImageSourceO13UrlCodingKeys33_1587CF942235B8261FA087E0776D26C6LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10SiriFindMy25DisambiguationImageSourceO15EmojiCodingKeys33_1587CF942235B8261FA087E0776D26C6LLOSHAASQ
++ _associated conformance 10SiriFindMy25DisambiguationImageSourceO15EmojiCodingKeys33_1587CF942235B8261FA087E0776D26C6LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 10SiriFindMy25DisambiguationImageSourceO15EmojiCodingKeys33_1587CF942235B8261FA087E0776D26C6LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10SiriFindMy8SnippetsO16PunchoutLocationO16FriendCodingKeys33_7CEF940B04D294FF41E99D4AD69FE73BLLOSHAASQ
++ _associated conformance 10SiriFindMy8SnippetsO16PunchoutLocationO16FriendCodingKeys33_7CEF940B04D294FF41E99D4AD69FE73BLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 10SiriFindMy8SnippetsO16PunchoutLocationO16FriendCodingKeys33_7CEF940B04D294FF41E99D4AD69FE73BLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10SiriFindMy8SnippetsO18DisambiguationItemV9SelectionO0A11XCodingKeys33_AAF5E1D62B6BAE72AE3F7923D3A33BE6LLOy_x__Gs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 10SiriFindMy8SnippetsO18DisambiguationItemV9SelectionO0A11XCodingKeys33_AAF5E1D62B6BAE72AE3F7923D3A33BE6LLOy_x__Gs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 10SiriFindMy8SnippetsO18DisambiguationItemV9SelectionO10CodingKeys33_AAF5E1D62B6BAE72AE3F7923D3A33BE6LLOy_x__GSHAASQ
++ _associated conformance 10SiriFindMy8SnippetsO18DisambiguationItemV9SelectionO10CodingKeys33_AAF5E1D62B6BAE72AE3F7923D3A33BE6LLOy_x__Gs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 10SiriFindMy8SnippetsO18DisambiguationItemV9SelectionO10CodingKeys33_AAF5E1D62B6BAE72AE3F7923D3A33BE6LLOy_x__Gs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10SiriFindMy8SnippetsO18DisambiguationItemV9SelectionO17LinwoodCodingKeys33_AAF5E1D62B6BAE72AE3F7923D3A33BE6LLOy_x__GSHAASQ
++ _associated conformance 10SiriFindMy8SnippetsO18DisambiguationItemV9SelectionO17LinwoodCodingKeys33_AAF5E1D62B6BAE72AE3F7923D3A33BE6LLOy_x__Gs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 10SiriFindMy8SnippetsO18DisambiguationItemV9SelectionO17LinwoodCodingKeys33_AAF5E1D62B6BAE72AE3F7923D3A33BE6LLOy_x__Gs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10SiriFindMy8SnippetsO21CarPlayFriendLocationV15DirectionsStyleOSHAASQ
++ _associated conformance 10SiriFindMy8SnippetsO26DisambiguateItemCodingKeys33_1587CF942235B8261FA087E0776D26C6LLOSHAASQ
++ _associated conformance 10SiriFindMy8SnippetsO26DisambiguateItemCodingKeys33_1587CF942235B8261FA087E0776D26C6LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 10SiriFindMy8SnippetsO26DisambiguateItemCodingKeys33_1587CF942235B8261FA087E0776D26C6LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10SiriFindMy8SnippetsO28DisambiguatePersonCodingKeys33_1587CF942235B8261FA087E0776D26C6LLOSHAASQ
++ _associated conformance 10SiriFindMy8SnippetsO28DisambiguatePersonCodingKeys33_1587CF942235B8261FA087E0776D26C6LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 10SiriFindMy8SnippetsO28DisambiguatePersonCodingKeys33_1587CF942235B8261FA087E0776D26C6LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _objc_retain_x9
++ _symbolic $s18AppIntentsServices0A20IntentRepresentationP
++ _symbolic Si5index_t
++ _symbolic _____ 10SiriFindMy0B15FriendFlowErrorO
++ _symbolic _____ 10SiriFindMy0B6FriendO21ConfirmIntentStrategyV
++ _symbolic _____ 10SiriFindMy0bC9AppTargetO
++ _symbolic _____ 10SiriFindMy25DisambiguationImageSourceO
++ _symbolic _____ 10SiriFindMy25DisambiguationImageSourceO10CodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____ 10SiriFindMy25DisambiguationImageSourceO13UrlCodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____ 10SiriFindMy25DisambiguationImageSourceO15EmojiCodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____ 10SiriFindMy29PlaySoundIntentRepresentationV
++ _symbolic _____ 10SiriFindMy30OpenModuleIntentRepresentationV
++ _symbolic _____ 10SiriFindMy30OpenPersonIntentRepresentationV
++ _symbolic _____ 10SiriFindMy8SnippetsO16PunchoutLocationO16FriendCodingKeys33_7CEF940B04D294FF41E99D4AD69FE73BLLO
++ _symbolic _____ 10SiriFindMy8SnippetsO18DisambiguationItemV9SelectionO
++ _symbolic _____ 10SiriFindMy8SnippetsO18DisambiguationItemV9SelectionO0A11XCodingKeys33_AAF5E1D62B6BAE72AE3F7923D3A33BE6LLO
++ _symbolic _____ 10SiriFindMy8SnippetsO18DisambiguationItemV9SelectionO10CodingKeys33_AAF5E1D62B6BAE72AE3F7923D3A33BE6LLO
++ _symbolic _____ 10SiriFindMy8SnippetsO18DisambiguationItemV9SelectionO17LinwoodCodingKeys33_AAF5E1D62B6BAE72AE3F7923D3A33BE6LLO
++ _symbolic _____ 10SiriFindMy8SnippetsO21CarPlayFriendLocationV15DirectionsStyleO
++ _symbolic _____ 10SiriFindMy8SnippetsO26DisambiguateItemCodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____ 10SiriFindMy8SnippetsO28DisambiguatePersonCodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____Sg 10SiriFindMy25DisambiguationImageSourceO
++ _symbolic _____Sg 13SiriUtilities11DeviceIdiomO
++ _symbolic _____Sg 18AppIntentsServices18SnippetEnvironmentV
++ _symbolic _____Sg 22UniformTypeIdentifiers6UTTypeV
++ _symbolic _____Sg_ABt 10SiriFindMy25DisambiguationImageSourceO
++ _symbolic _____Sg_ABt 13SiriUtilities11DeviceIdiomO
++ _symbolic ______AAt 10SiriFindMy25DisambiguationImageSourceO
++ _symbolic ______p 18AppIntentsServices0A20IntentRepresentationP
++ _symbolic ______pSg 18AppIntentsServices0A20IntentRepresentationP
++ _symbolic _____y_____G 18AppIntentsServices0A19IntentSuccessResultV s5NeverO
++ _symbolic _____y_____G 18AppIntentsServices12IntentOutputV s5NeverO
++ _symbolic _____y_____G 18AppIntentsServices15IntentParameterC 10SiriFindMy24ItemEntityRepresentationC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10SiriFindMy25DisambiguationImageSourceO10CodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10SiriFindMy25DisambiguationImageSourceO13UrlCodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10SiriFindMy25DisambiguationImageSourceO15EmojiCodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10SiriFindMy8SnippetsO16PunchoutLocationO16FriendCodingKeys33_7CEF940B04D294FF41E99D4AD69FE73BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10SiriFindMy8SnippetsO26DisambiguateItemCodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10SiriFindMy8SnippetsO28DisambiguatePersonCodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10SiriFindMy25DisambiguationImageSourceO10CodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10SiriFindMy25DisambiguationImageSourceO13UrlCodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10SiriFindMy25DisambiguationImageSourceO15EmojiCodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10SiriFindMy8SnippetsO16PunchoutLocationO16FriendCodingKeys33_7CEF940B04D294FF41E99D4AD69FE73BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10SiriFindMy8SnippetsO26DisambiguateItemCodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10SiriFindMy8SnippetsO28DisambiguatePersonCodingKeys33_1587CF942235B8261FA087E0776D26C6LLO
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
++ _symbolic _____y_x_G 10SiriFindMy8SnippetsO18DisambiguationItemV9SelectionO
++ _type_layout_string 10SiriFindMy0B6FriendO21ConfirmIntentStrategyV
++ _type_layout_string 10SiriFindMy29PlaySoundIntentRepresentationV
++ _type_layout_string 10SiriFindMy30OpenModuleIntentRepresentationV
++ _type_layout_string 10SiriFindMy30OpenPersonIntentRepresentationV
+- _OUTLINED_FUNCTION_136
+- _OUTLINED_FUNCTION_137
+- ___swift_closure_destructor.102Tm
+- ___swift_closure_destructor.12Tm
+- ___swift_closure_destructor.8Tm
+- ___swift_memcpy104_8
+- ___unnamed_3
+- _associated conformance 10SiriFindMy14LocationSourceO16StewieCodingKeys33_936A703E0FBD9A384F2AC03DBCF7BEDBLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 10SiriFindMy14LocationSourceO16StewieCodingKeys33_936A703E0FBD9A384F2AC03DBCF7BEDBLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _get_enum_tag_for_layout_string 10Foundation4DataV15_RepresentationO
+- _get_enum_tag_for_layout_string 10Foundation4DataVSg
+- _symbolic _____ 10SiriFindMy14LocationSourceO16StewieCodingKeys33_936A703E0FBD9A384F2AC03DBCF7BEDBLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10SiriFindMy14LocationSourceO16StewieCodingKeys33_936A703E0FBD9A384F2AC03DBCF7BEDBLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10SiriFindMy14LocationSourceO16StewieCodingKeys33_936A703E0FBD9A384F2AC03DBCF7BEDBLLO
+- _type_layout_string 10SiriFindMy8SnippetsO15PlaySoundResultV
+- _type_layout_string 10SiriFindMy8SnippetsO6DeviceV
+```

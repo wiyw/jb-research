@@ -1,0 +1,17 @@
+## CoreMaterial3D
+
+> `/System/Library/PrivateFrameworks/CoreMaterial3D.framework/CoreMaterial3D`
+
+```diff
+
+-22.0.3.0.0
+-  __TEXT.__text: 0x4d090
++22.40.1.0.0
++  __TEXT.__text: 0x4d09c
+   __TEXT.__objc_methlist: 0xb7c
+   __TEXT.__const: 0x32c8
+   __TEXT.__swift5_typeref: 0xdd2
+Symbols:
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy14CoreMaterial3D23FragmentOutputAttributeO3key_ShySiG5valuetG_Tg504$s14fg22D8MaterialC25constructj112Indices33_3E31D9015C2EA99D0DF1225C98D279DELL17entryPointBuilder11geomBatches04surfT0AC0eF0VAA05EntryqR0Vz_Says10e35SliceVyAA0C8FunctionCGGARtKFSbAA014hI37E0O3key_ShySiG5valuet_AtU_AvWttXEfU0_Tf1nnc_nTm
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF14CoreMaterial3D23FragmentOutputAttributeO3key_ShySiG5valuet_Tg504$s14ef22D8MaterialC25constructi152Indices33_3E31D9015C2EA99D0DF1225C98D279DELL17entryPointBuilder11geomBatches04surfT0AC0eF0VAA05EntryqR0Vz_Says10ArraySliceVyAA0C8FunctionCGGARtKFSbAA014gH37E0O3key_ShySiG5valuet_AtU_AvWttXEfU0_Tf1cn_nTm
+```

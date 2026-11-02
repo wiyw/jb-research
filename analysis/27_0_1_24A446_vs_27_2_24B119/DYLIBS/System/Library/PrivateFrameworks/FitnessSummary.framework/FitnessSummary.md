@@ -1,0 +1,54 @@
+## FitnessSummary
+
+> `/System/Library/PrivateFrameworks/FitnessSummary.framework/FitnessSummary`
+
+```diff
+
+-2027.0.146.1.4
+-  __TEXT.__text: 0x18354
++2027.1.69.0.0
++  __TEXT.__text: 0x188e8
+   __TEXT.__const: 0xde4
+   __TEXT.__swift5_typeref: 0x2ade
+   __TEXT.__swift5_reflstr: 0x2f7
+   __TEXT.__swift5_assocty: 0x90
+   __TEXT.__swift5_capture: 0x1ec
+-  __TEXT.__cstring: 0xaa
++  __TEXT.__cstring: 0xea
+   __TEXT.__oslogstring: 0x85
+   __TEXT.__constg_swiftt: 0x3d8
+   __TEXT.__swift5_fieldmd: 0x390
+   __TEXT.__swift5_proto: 0x40
+   __TEXT.__swift5_types: 0x30
+-  __TEXT.__unwind_info: 0x458
++  __TEXT.__unwind_info: 0x480
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x5f8
+   __AUTH_CONST.__objc_const: 0x120
+-  __AUTH_CONST.__auth_got: 0x748
++  __AUTH_CONST.__auth_got: 0x760
+   __AUTH_CONST.__auth_ptr: 0x378
+   __AUTH.__data: 0x98
+-  __DATA.__data: 0x40
++  __DATA.__data: 0xa0
+   __DATA.__bss: 0x80
+   __DATA_DIRTY.__data: 0xc30
+   __DATA_DIRTY.__bss: 0x800
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 384
+-  Symbols:   331
++  Functions: 397
++  Symbols:   333
+   CStrings:  0
+ 
+Symbols:
++ _objc_retain_x24
++ _swift_release_x27
+```

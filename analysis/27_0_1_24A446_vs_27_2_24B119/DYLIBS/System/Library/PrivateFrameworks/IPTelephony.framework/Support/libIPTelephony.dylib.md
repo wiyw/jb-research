@@ -1,0 +1,101 @@
+## libIPTelephony.dylib
+
+> `/System/Library/PrivateFrameworks/IPTelephony.framework/Support/libIPTelephony.dylib`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
+```diff
+
+-2765.0.1.0.0
+-  __TEXT.__text: 0x4abc60
++2774.0.0.0.0
++  __TEXT.__text: 0x4abec4
+   __TEXT.__init_offsets: 0x1a8
+   __TEXT.__objc_methlist: 0x74c
+-  __TEXT.__const: 0x1f9fc
+-  __TEXT.__gcc_except_tab: 0x41f04
++  __TEXT.__const: 0x1f9ec
++  __TEXT.__gcc_except_tab: 0x41f10
+   __TEXT.__cstring: 0x14117
+-  __TEXT.__oslogstring: 0x4cdca
+-  __TEXT.__unwind_info: 0x181e0
++  __TEXT.__oslogstring: 0x4ccb8
++  __TEXT.__unwind_info: 0x181f8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __AUTH_CONST.__objc_const: 0xb80
+   __AUTH_CONST.__weak_auth_got: 0x28
+   __AUTH_CONST.__objc_intobj: 0x60
+-  __AUTH_CONST.__auth_got: 0x16b8
++  __AUTH_CONST.__auth_got: 0x16b0
+   __AUTH_CONST.__auth_ptr: 0x0
+-  __AUTH.__objc_data: 0x140
++  __AUTH.__objc_data: 0xf0
+   __DATA.__objc_ivar: 0x4c
+   __DATA.__data: 0x2c8
+-  __DATA.__common: 0xc0
++  __DATA.__common: 0xa8
+   __DATA.__bss: 0x14
+-  __DATA_DIRTY.__objc_data: 0xf0
++  __DATA_DIRTY.__objc_data: 0x140
+   __DATA_DIRTY.__data: 0x2d0
+   __DATA_DIRTY.__bss: 0xda8
+-  __DATA_DIRTY.__common: 0x8e0
++  __DATA_DIRTY.__common: 0x900
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprotobuf-lite.dylib
+   - /usr/lib/libxml2.2.dylib
+-  Functions: 16439
+-  Symbols:   24910
++  Functions: 16440
++  Symbols:   24908
+   CStrings:  0
+ 
+Symbols:
++ __ZN15SipTcpTransport16handleSystemWakeEv
++ __ZN18IPTelephonyManager4initEv
++ __ZN18IPTelephonyManager9dumpStateEv
++ __ZN25SipInsecureTransportGroup16handleSystemWakeEv
++ __ZNKSt3__110__function6__funcIZNK3ims12ClientHandle9dumpStateERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_E3$_0FvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZNK3ims12ClientHandle9dumpStateERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_E3$_0FvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZNK3ims12ClientHandle9dumpStateERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_E3$_0FvvEE7__cloneEPNS0_6__baseISD_EE
++ __ZNKSt3__110__function6__funcIZNK3ims12ClientHandle9dumpStateERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_E3$_0FvvEE7__cloneEv
++ __ZNSt3__110__function6__funcIZNK3ims12ClientHandle9dumpStateERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_E3$_0FvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK3ims12ClientHandle9dumpStateERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_E3$_0FvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZNK3ims12ClientHandle9dumpStateERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_E3$_0FvvEED0Ev
++ __ZNSt3__110__function6__funcIZNK3ims12ClientHandle9dumpStateERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_E3$_0FvvEED1Ev
++ __ZNSt3__110__function6__funcIZNK3ims12ClientHandle9dumpStateERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_E3$_0FvvEEclEv
++ __ZTINSt3__110__function6__funcIZNK3ims12ClientHandle9dumpStateERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_E3$_0FvvEEE
++ __ZTIZNK3ims12ClientHandle9dumpStateERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_E3$_0
++ __ZTSNSt3__110__function6__funcIZNK3ims12ClientHandle9dumpStateERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_E3$_0FvvEEE
++ __ZTSZNK3ims12ClientHandle9dumpStateERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_E3$_0
++ __ZTVNSt3__110__function6__funcIZNK3ims12ClientHandle9dumpStateERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_E3$_0FvvEEE
+- __ZN18IPTelephonyManager14createManagersEv
+- __ZN18IPTelephonyManager25initDumpStateNotificationEv
+- __ZN3ctu2os12StateCapture6createEPKcRKN8dispatch5queueERKNSt3__18functionIFNS_2cf11CFSharedRefIKvEE14os_state_api_tEEE
+- __ZNKSt3__110__function6__funcIZN18IPTelephonyManager25initDumpStateNotificationEvE3$_0FN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN18IPTelephonyManager25initDumpStateNotificationEvE3$_0FN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN18IPTelephonyManager25initDumpStateNotificationEvE3$_0FN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEE7__cloneEPNS0_6__baseISA_EE
+- __ZNKSt3__110__function6__funcIZN18IPTelephonyManager25initDumpStateNotificationEvE3$_0FN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEE7__cloneEv
+- __ZNSt3__110__function12__value_funcIFN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEED2B9fqe220106Ev
+- __ZNSt3__110__function6__funcIZN18IPTelephonyManager25initDumpStateNotificationEvE3$_0FN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN18IPTelephonyManager25initDumpStateNotificationEvE3$_0FN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEE7destroyEv
+- __ZNSt3__110__function6__funcIZN18IPTelephonyManager25initDumpStateNotificationEvE3$_0FN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEED0Ev
+- __ZNSt3__110__function6__funcIZN18IPTelephonyManager25initDumpStateNotificationEvE3$_0FN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEED1Ev
+- __ZNSt3__110__function6__funcIZN18IPTelephonyManager25initDumpStateNotificationEvE3$_0FN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEEclEOS9_
+- __ZTINSt3__110__function6__baseIFN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEEE
+- __ZTINSt3__110__function6__funcIZN18IPTelephonyManager25initDumpStateNotificationEvE3$_0FN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEEE
+- __ZTIZN18IPTelephonyManager25initDumpStateNotificationEvE3$_0
+- __ZTSNSt3__110__function6__baseIFN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEEE
+- __ZTSNSt3__110__function6__funcIZN18IPTelephonyManager25initDumpStateNotificationEvE3$_0FN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEEE
+- __ZTSZN18IPTelephonyManager25initDumpStateNotificationEvE3$_0
+- __ZTVNSt3__110__function6__funcIZN18IPTelephonyManager25initDumpStateNotificationEvE3$_0FN3ctu2cf11CFSharedRefIKvEE14os_state_api_tEEE
+```

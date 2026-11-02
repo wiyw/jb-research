@@ -1,0 +1,126 @@
+## AppleCameraISPExclaveKitServices
+
+> `/System/Library/PrivateFrameworks/AppleCameraISPExclaveKitServices.framework/AppleCameraISPExclaveKitServices`
+
+```diff
+
+-20.77.1.0.0
+-  __TEXT.__text: 0x30f50
+-  __TEXT.__const: 0x2fa
+-  __TEXT.__gcc_except_tab: 0x8c8
+-  __TEXT.__oslogstring: 0x434e
+-  __TEXT.__cstring: 0x8896
++20.111.0.0.0
++  __TEXT.__text: 0x378ec
++  __TEXT.__const: 0x37a
++  __TEXT.__gcc_except_tab: 0x9a4
++  __TEXT.__oslogstring: 0x4a2e
++  __TEXT.__cstring: 0x9f36
+   __TEXT.__swift5_typeref: 0x2e
+   __TEXT.__constg_swiftt: 0x48
+   __TEXT.__swift5_fieldmd: 0x10
+   __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0x9a8
++  __TEXT.__unwind_info: 0xaa0
+   __TEXT.__eh_frame: 0x70
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+-  __DATA_CONST.__const: 0x1128
++  __DATA_CONST.__const: 0x13e0
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x8
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x48
+-  __AUTH_CONST.__cfstring: 0x5e0
++  __AUTH_CONST.__cfstring: 0x620
+   __AUTH_CONST.__objc_const: 0x90
+   __AUTH_CONST.__weak_auth_got: 0x28
+-  __AUTH_CONST.__auth_got: 0x588
++  __AUTH_CONST.__auth_got: 0x598
+   __AUTH_CONST.__auth_ptr: 0x0
+   __AUTH.__data: 0x98
+-  __DATA.__data: 0x118bd0
++  __DATA.__data: 0x118cd8
+   __DATA.__common: 0x98
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 1176
+-  Symbols:   772
++  Functions: 1310
++  Symbols:   831
+   CStrings:  0
+ 
+Symbols:
++ __Z34ispExclaveKitCommandChInitScanModeP20sExclaveKitIspCmdHdr
++ __Z35ispExclaveKitCommandChRunPerceptionP20sExclaveKitIspCmdHdr
++ __Z37ispExclaveKitCommandChGetGmcAnalyticsP20sExclaveKitIspCmdHdr
++ __Z40isNewSharedMemoryReplayBufferDumpSkipRawP21ISPExclaveKitDefaults
++ __Z40isNewSharedMemoryReplayBufferDumpSkipYuvP21ISPExclaveKitDefaults
++ __Z41ispExclaveKitCommandChPerceptionConfigSetP20sExclaveKitIspCmdHdr
++ __Z42_ispExclaveKitCommandChPerceptionConfigSetj
++ __Z46ispExclaveKitCommandChRunLightSourceEstimationP20sExclaveKitIspCmdHdr
++ __Z47ispExclaveKitCommandChRunPerceptionWithObjectIDP20sExclaveKitIspCmdHdr
++ __Z49ispExclaveKitCommandChRunDeviceProximityDetectionP20sExclaveKitIspCmdHdr
++ __Z52ispExclaveKitCommandChLightSourceEstimationConfigSetP20sExclaveKitIspCmdHdr
++ __Z55ispExclaveKitCommandChDeviceProximityDetectionConfigSetP20sExclaveKitIspCmdHdr
++ __Z56_ispExclaveKitCommandChDeviceProximityDetectionConfigSetj
++ __Z58ispExclaveKitCommandChLightSourceEstimationConfigSetFinishj
++ __ZN28ISPExclaveKitFileServiceBase24_allocateLocalTempBufferEm
++ ____Z34ispExclaveKitCommandChInitScanModeP20sExclaveKitIspCmdHdr_block_invoke
++ ____Z35ispExclaveKitCommandChRunPerceptionP20sExclaveKitIspCmdHdr_block_invoke
++ ____Z37ispExclaveKitCommandChGetGmcAnalyticsP20sExclaveKitIspCmdHdr_block_invoke
++ ____Z42_ispExclaveKitCommandChPerceptionConfigSetj_block_invoke
++ ____Z46ispExclaveKitCommandChRunLightSourceEstimationP20sExclaveKitIspCmdHdr_block_invoke
++ ____Z47ispExclaveKitCommandChRunPerceptionWithObjectIDP20sExclaveKitIspCmdHdr_block_invoke
++ ____Z49ispExclaveKitCommandChRunDeviceProximityDetectionP20sExclaveKitIspCmdHdr_block_invoke
++ ____Z56_ispExclaveKitCommandChDeviceProximityDetectionConfigSetj_block_invoke
++ ____Z58ispExclaveKitCommandChLightSourceEstimationConfigSetFinishj_block_invoke
++ ____ZL16decodeAnstResultI26sExclaveKitIspCmdChRunAnstEbP61applecamera_anstmodule_ispexclavecorechrunkitanstresultv150_sPT__block_invoke
++ ____ZL16decodeAnstResultI38sExclaveKitIspCmdChRunAnst__DeprecatedEbP61applecamera_anstmodule_ispexclavecorechrunkitanstresultv150_sPT__block_invoke
++ ____ZL30_ispExclaveKitCommandChRunAnstI26sExclaveKitIspCmdChRunAnstE27eIspExclaveKitCmdHandlerErrPT__block_invoke
++ ____ZL30_ispExclaveKitCommandChRunAnstI38sExclaveKitIspCmdChRunAnst__DeprecatedE27eIspExclaveKitCmdHandlerErrPT__block_invoke
++ ___applecamera_perceptionmodule_perceptioncroptypes__v_raw_encode_block_invoke
++ ___applecamera_perceptionmodule_perceptioncroptypes__v_visit_block_invoke
++ _applecamera_attentionawarenessmodule_ekattentionawareness_getgmcanalytics
++ _applecamera_attentionawarenessmodule_ekattentionawareness_getgmcanalytics__result_get_success
++ _applecamera_attentionawarenessmodule_ekattentionawareness_initscanmode
++ _applecamera_attentionawarenessmodule_ekattentionawareness_initscanmode__result_get_success
++ _applecamera_attentionawarenessmodule_ekgmcanalyticsoutput__decode
++ _applecamera_deviceproximitydetectionmodule_detecteddevicev2__raw_decode
++ _applecamera_deviceproximitydetectionmodule_ekdeviceproximitydetection__init
++ _applecamera_deviceproximitydetectionmodule_ekdeviceproximitydetection_run
++ _applecamera_deviceproximitydetectionmodule_ekdeviceproximitydetection_run__result_get_success
++ _applecamera_deviceproximitydetectionmodule_ekdeviceproximitydetection_setconfiguration
++ _applecamera_deviceproximitydetectionmodule_ekdeviceproximitydetection_setconfiguration__result_get_success
++ _applecamera_ntkeklightsourceestimationmodule_ispexclavecorechrunkitlightsourceestimationresult__decode
++ _applecamera_ntkeklightsourceestimationmodule_ntkeklightsourceestimation__init
++ _applecamera_ntkeklightsourceestimationmodule_ntkeklightsourceestimation_channelrunlightsourceestimation
++ _applecamera_ntkeklightsourceestimationmodule_ntkeklightsourceestimation_channelrunlightsourceestimation__result_get_success
++ _applecamera_ntkeklightsourceestimationmodule_ntkeklightsourceestimation_channelsetlightsourceestimationals
++ _applecamera_perceptionmodule_ekperception__init
++ _applecamera_perceptionmodule_ekperception_runperception
++ _applecamera_perceptionmodule_ekperception_runperception__result_get_success
++ _applecamera_perceptionmodule_ekperception_setperceptioncroptypes
++ _applecamera_perceptionmodule_ekperception_setperceptioncroptypes__result_get_success
++ _applecamera_perceptionmodule_perceptioncroptypes__v_assign_unowned
++ _applecamera_perceptionmodule_perceptioncroptypes__v_count
++ _applecamera_perceptionmodule_perceptioncroptypes__v_visit
++ _applecamera_perceptionmodule_perceptionreturninfo_detectionserror__get
++ _applecamera_perceptionmodule_perceptionreturninfo_frameskipped__get
++ _applecamera_perceptionmodule_perceptionreturninfo_frameskippedbydecimation__get
++ _applecamera_perceptionmodule_perceptionreturninfo_queuefull__get
++ _applecamera_perceptionmodule_perceptionreturninfo_queueingfailed__get
++ _applecamera_perceptionmodule_perceptionreturninfo_sharedmemorymappingissue__get
++ _applecamera_perceptionmodule_perceptionreturninfo_success__get
++ _memset_pattern16
++ _usleep
+- GCC_except_table13
+- GCC_except_table17
+- ____Z29ispExclaveKitCommandChRunAnstP20sExclaveKitIspCmdHdr_block_invoke
+- ____ZL16decodeAnstResultP61applecamera_anstmodule_ispexclavecorechrunkitanstresultv150_sP26sExclaveKitIspCmdChRunAnst_block_invoke
+```

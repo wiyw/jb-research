@@ -1,0 +1,19 @@
+## CoreEmoji
+
+> `/System/Library/PrivateFrameworks/CoreEmoji.framework/CoreEmoji`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
+```diff
+
+-284.0.0.0.0
++285.1.2.0.0
+   __TEXT.__text: 0x276a8
+-  __TEXT.__const: 0x2dbc
++  __TEXT.__const: 0x2dcc
+   __TEXT.__cstring: 0x4242
+   __TEXT.__gcc_except_tab: 0x1b94
+   __TEXT.__ustring: 0x76
+```

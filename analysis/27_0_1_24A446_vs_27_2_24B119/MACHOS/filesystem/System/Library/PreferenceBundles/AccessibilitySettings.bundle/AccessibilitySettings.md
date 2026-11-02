@@ -1,0 +1,996 @@
+## AccessibilitySettings
+
+> `/System/Library/PreferenceBundles/AccessibilitySettings.bundle/AccessibilitySettings`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_dictobj`
+
+```diff
+
+-1859.2.0.0.0
+-  __TEXT.__text: 0x1d3854
+-  __TEXT.__auth_stubs: 0x5bd0
+-  __TEXT.__objc_stubs: 0x26040
+-  __TEXT.__objc_methlist: 0x15ea4
++1862.3.4.0.0
++  __TEXT.__text: 0x1d8fc8
++  __TEXT.__auth_stubs: 0x5d40
++  __TEXT.__objc_stubs: 0x26740
++  __TEXT.__objc_methlist: 0x15efc
+   __TEXT.__dlopen_cstrs: 0x17a
+-  __TEXT.__objc_methname: 0x364a9
+-  __TEXT.__const: 0x632a
+-  __TEXT.__constg_swiftt: 0x2204
+-  __TEXT.__swift5_typeref: 0xa41a
+-  __TEXT.__cstring: 0x19597
+-  __TEXT.__objc_classname: 0x4c2d
+-  __TEXT.__swift5_fieldmd: 0xfa8
+-  __TEXT.__swift5_reflstr: 0x9bd
+-  __TEXT.__swift5_builtin: 0xdc
+-  __TEXT.__swift5_assocty: 0x910
+-  __TEXT.__swift5_capture: 0x9ac
+-  __TEXT.__swift5_proto: 0x1ec
+-  __TEXT.__swift5_types: 0x1f0
+-  __TEXT.__objc_methtype: 0x5b6a
+-  __TEXT.__oslogstring: 0x3c79
++  __TEXT.__objc_methname: 0x36939
++  __TEXT.__const: 0x683a
++  __TEXT.__constg_swiftt: 0x23d4
++  __TEXT.__swift5_typeref: 0xa93a
++  __TEXT.__cstring: 0x19863
++  __TEXT.__objc_classname: 0x4d4d
++  __TEXT.__swift5_fieldmd: 0x1110
++  __TEXT.__swift5_reflstr: 0xa9d
++  __TEXT.__swift5_builtin: 0xf0
++  __TEXT.__swift5_assocty: 0x928
++  __TEXT.__swift5_capture: 0x9f0
++  __TEXT.__swift5_proto: 0x204
++  __TEXT.__swift5_types: 0x208
++  __TEXT.__objc_methtype: 0x5ba7
++  __TEXT.__oslogstring: 0x3def
+   __TEXT.__swift_as_entry: 0x5c
+   __TEXT.__swift_as_cont: 0xa4
+   __TEXT.__swift_as_ret: 0x50
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__gcc_except_tab: 0x41e0
++  __TEXT.__gcc_except_tab: 0x43e4
+   __TEXT.__ustring: 0x36
+-  __TEXT.__unwind_info: 0x6b68
++  __TEXT.__unwind_info: 0x6cf8
+   __TEXT.__eh_frame: 0x161c
+-  __DATA_CONST.__const: 0x6ce0
+-  __DATA_CONST.__cfstring: 0x1d520
+-  __DATA_CONST.__objc_classlist: 0xf58
++  __DATA_CONST.__const: 0x7250
++  __DATA_CONST.__cfstring: 0x1d780
++  __DATA_CONST.__objc_classlist: 0xf90
+   __DATA_CONST.__objc_catlist: 0x50
+   __DATA_CONST.__objc_protolist: 0x290
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __DATA_CONST.__objc_superrefs: 0xb20
++  __DATA_CONST.__objc_superrefs: 0xb40
+   __DATA_CONST.__objc_doubleobj: 0x1e0
+-  __DATA_CONST.__objc_arraydata: 0x1388
+-  __DATA_CONST.__objc_arrayobj: 0x7b0
+-  __DATA_CONST.__objc_intobj: 0x1a70
++  __DATA_CONST.__objc_arraydata: 0x13c8
++  __DATA_CONST.__objc_arrayobj: 0x7f8
++  __DATA_CONST.__objc_intobj: 0x1bf0
+   __DATA_CONST.__objc_dictobj: 0xac8
+   __DATA_CONST.__objc_floatobj: 0x10
+-  __DATA_CONST.__auth_got: 0x2df8
+-  __DATA_CONST.__got: 0x2a30
+-  __DATA_CONST.__auth_ptr: 0xaa0
+-  __DATA.__objc_const: 0x1f008
+-  __DATA.__objc_selrefs: 0xd0e8
+-  __DATA.__objc_ivar: 0xdf0
+-  __DATA.__objc_data: 0xabe8
+-  __DATA.__data: 0x5cf0
+-  __DATA.__bss: 0x4100
++  __DATA_CONST.__auth_got: 0x2eb0
++  __DATA_CONST.__got: 0x2aa8
++  __DATA_CONST.__auth_ptr: 0xac0
++  __DATA.__objc_const: 0x1f5c8
++  __DATA.__objc_selrefs: 0xd1d8
++  __DATA.__objc_ivar: 0xe10
++  __DATA.__objc_data: 0xafb8
++  __DATA.__data: 0x5fe0
++  __DATA.__bss: 0x4430
+   __DATA.__common: 0x28
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 9946
+-  Symbols:   20235
++  Functions: 10083
++  Symbols:   20426
+   CStrings:  0
+ 
+Symbols:
++ +[AXLiveRecognitionFeedbackController descriptionForFeedbackSpecifier:]
++ -[ASTCustomizeMouseButtonsController _updateEditButtonItem]
++ -[AVSTableCell accessibilityLabel]
++ -[AXColorCircle gradientColors]
++ -[AXColorCircle setGradientColors:]
++ -[AXLiveRecognitionFeedbackController getValueSelectedBlock]
++ -[AXLiveRecognitionFeedbackController setValueSelectedBlock]
++ -[AXLiveRecognitionFeedbackController specifiers]
++ -[AXLiveRecognitionFeedbackController tableView:didSelectRowAtIndexPath:]
++ -[AXLiveRecognitionFeedbackController tableView:willDisplayCell:forRowAtIndexPath:]
++ -[AXRemoteScreenController .cxx_destruct]
++ -[AXRemoteScreenController dealloc]
++ -[AXRemoteScreenController observerToken]
++ -[AXRemoteScreenController setObserverToken:]
++ -[AXRemoteScreenController specifiers]
++ -[AXRemoteScreenController twiceRemtoeScreenValue:]
++ -[AXRemoteScreenController twiceRemtoeScreenValue:specifier:]
++ -[AXRemoteScreenController viewDidLoad]
++ -[AXSiriSettingsController _typeToSiriGroupTitle]
++ -[AXVoiceOverAdditionalLanguagesController usageContext]
++ -[ClarityUIAdminPasscodeSetupController axLastPasscodeIntrinsicHeight]
++ -[ClarityUIAdminPasscodeSetupController setAxLastPasscodeIntrinsicHeight:]
++ -[ClarityUIAdminPasscodeSetupController viewDidLayoutSubviews]
++ -[ClarityUIAdminPasscodeSetupController viewIsAppearing:]
++ -[ClarityUIAppSelectionController _presentMigrationRequiredAlert]
++ -[ClarityUIAppSelectionTableViewDataSource _requiresMigrationForApplicationWithIdentifier:]
++ -[ClarityUIIconSettingsButton _applyPreviewAspectConstraint]
++ -[ClarityUIIconSettingsButton aspectRatioDidChangeHandler]
++ -[ClarityUIIconSettingsButton setAspectRatioDidChangeHandler:]
++ -[ClarityUILayoutSetupTableCell _remeasureRow]
++ -[ClarityUILockScreenSettingsController viewWillTransitionToSize:withTransitionCoordinator:]
++ -[ClarityUISingleOnboardingController viewWillTransitionToSize:withTransitionCoordinator:]
++ -[ClarityUISingleOnboardingTableController viewWillTransitionToSize:withTransitionCoordinator:]
++ -[DetectorsController _hasCustomDetectors]
++ -[LiveCaptionsFontFamilyAllFontsController specifiers]
++ -[LiveCaptionsFontFamilyAllFontsController tableView:didSelectRowAtIndexPath:]
++ -[LiveCaptionsFontFamilyAllFontsController viewDidLoad]
++ -[LiveCaptionsFontFamilyController .cxx_destruct]
++ -[LiveCaptionsFontFamilyController _specifierWithTitle:fontFamily:isBold:]
++ -[LiveCaptionsFontFamilyController specifiers]
++ -[LiveCaptionsFontFamilyController tableView:didSelectRowAtIndexPath:]
++ -[LiveCaptionsFontFamilyController tableView:willDisplayCell:forRowAtIndexPath:]
++ -[LiveCaptionsFontFamilyController viewDidLoad]
++ -[LiveCaptionsFontFamilyController viewWillAppear:]
++ -[LiveTranscriptionAppearanceController dealloc]
++ -[LiveTranscriptionAppearanceController fontFamilySpecifier]
++ -[LiveTranscriptionAppearanceController init]
++ -[LiveTranscriptionAppearanceController liveCaptionsFontFamilyDisplayName:]
++ -[LiveTranscriptionAppearanceController setFontFamilySpecifier:]
++ -[LiveTranscriptionAppearanceController updateFontFamily]
++ -[LiveTranscriptionAppearanceController viewWillAppear:]
++ -[UIViewController(ClarityUI) clarityUI_refreshDevicePreviewsAfterTransitionWithCoordinator:]
++ -[VOSCommandManager(VoiceOverCustomCommandsExtras) _resolveBindingConflictsForCommand:withGesture:keyboardShortcut:resolver:presentationController:passesRemaining:completion:]
++ -[VoiceOverLiveRecognitionActivitiesController _newActivity]
++ -[VoiceOverLiveRecognitionActivitiesController _synchronizeActivitiesRotorItem]
++ -[VoiceOverLiveRecognitionController _feedbackDescription:]
++ -[VoiceOverLiveRecognitionController _feedbackSpecifierNamed:specifierID:feedbackTypes:getter:setter:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController _addAskSpecifiers:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController _askAvailable]
++ -[VoiceOverLiveRecognitionCustomizeActivityController _canSaveActivityNamed:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController _commitAskQuestionTextField]
++ -[VoiceOverLiveRecognitionCustomizeActivityController _currentActivityName]
++ -[VoiceOverLiveRecognitionCustomizeActivityController _feedbackDescription:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController _feedbackSpecifierNamed:specifierID:feedbackTypes:getter:setter:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController _reloadSpecifiersPreservingActivityName]
++ -[VoiceOverLiveRecognitionCustomizeActivityController _syncPendingActivityNameFromTextField]
++ -[VoiceOverLiveRecognitionCustomizeActivityController _updateSaveButtonEnabled]
++ -[VoiceOverLiveRecognitionCustomizeActivityController askAllowsFollowUpQuestions:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController askAutomaticCaptureEnabled:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController askEnabled:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController askQuestionText:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController askUseDefaultQuestion:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController askVolumeButtonRecaptureEnabled:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController pendingActivityName]
++ -[VoiceOverLiveRecognitionCustomizeActivityController setAskAllowsFollowUpQuestions:specifier:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController setAskAutomaticCapture:specifier:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController setAskEnabled:specifier:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController setAskQuestionText:specifier:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController setAskUseDefaultQuestion:specifier:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController setAskVolumeButtonRecapture:specifier:]
++ -[VoiceOverLiveRecognitionCustomizeActivityController setPendingActivityName:]
++ GCC_except_table1014
++ GCC_except_table1055
++ GCC_except_table1091
++ GCC_except_table1092
++ GCC_except_table1094
++ GCC_except_table1161
++ GCC_except_table1267
++ GCC_except_table1318
++ GCC_except_table1333
++ GCC_except_table1334
++ GCC_except_table1336
++ GCC_except_table1364
++ GCC_except_table1370
++ GCC_except_table1396
++ GCC_except_table1398
++ GCC_except_table1425
++ GCC_except_table1468
++ GCC_except_table1475
++ GCC_except_table1639
++ GCC_except_table1703
++ GCC_except_table1705
++ GCC_except_table1714
++ GCC_except_table1764
++ GCC_except_table1767
++ GCC_except_table1838
++ GCC_except_table1870
++ GCC_except_table1921
++ GCC_except_table1976
++ GCC_except_table2002
++ GCC_except_table2075
++ GCC_except_table2130
++ GCC_except_table2177
++ GCC_except_table2185
++ GCC_except_table2229
++ GCC_except_table2232
++ GCC_except_table2234
++ GCC_except_table2296
++ GCC_except_table2297
++ GCC_except_table2302
++ GCC_except_table2321
++ GCC_except_table2390
++ GCC_except_table2417
++ GCC_except_table2545
++ GCC_except_table2584
++ GCC_except_table2617
++ GCC_except_table2622
++ GCC_except_table2670
++ GCC_except_table2696
++ GCC_except_table2705
++ GCC_except_table2719
++ GCC_except_table2821
++ GCC_except_table2846
++ GCC_except_table2854
++ GCC_except_table2875
++ GCC_except_table2900
++ GCC_except_table2962
++ GCC_except_table2971
++ GCC_except_table2979
++ GCC_except_table3059
++ GCC_except_table3080
++ GCC_except_table3086
++ GCC_except_table3137
++ GCC_except_table3189
++ GCC_except_table3203
++ GCC_except_table3217
++ GCC_except_table3229
++ GCC_except_table3230
++ GCC_except_table3231
++ GCC_except_table3319
++ GCC_except_table3345
++ GCC_except_table3387
++ GCC_except_table3389
++ GCC_except_table3405
++ GCC_except_table3437
++ GCC_except_table348
++ GCC_except_table3487
++ GCC_except_table3555
++ GCC_except_table3598
++ GCC_except_table3674
++ GCC_except_table3677
++ GCC_except_table3688
++ GCC_except_table370
++ GCC_except_table3779
++ GCC_except_table3890
++ GCC_except_table396
++ GCC_except_table3964
++ GCC_except_table397
++ GCC_except_table399
++ GCC_except_table4007
++ GCC_except_table4036
++ GCC_except_table4086
++ GCC_except_table4117
++ GCC_except_table4120
++ GCC_except_table4209
++ GCC_except_table4262
++ GCC_except_table4267
++ GCC_except_table429
++ GCC_except_table4293
++ GCC_except_table4330
++ GCC_except_table4341
++ GCC_except_table4353
++ GCC_except_table4410
++ GCC_except_table4443
++ GCC_except_table4558
++ GCC_except_table4590
++ GCC_except_table4648
++ GCC_except_table4686
++ GCC_except_table4717
++ GCC_except_table4755
++ GCC_except_table477
++ GCC_except_table4773
++ GCC_except_table479
++ GCC_except_table481
++ GCC_except_table483
++ GCC_except_table4834
++ GCC_except_table4836
++ GCC_except_table485
++ GCC_except_table487
++ GCC_except_table489
++ GCC_except_table491
++ GCC_except_table4910
++ GCC_except_table493
++ GCC_except_table4993
++ GCC_except_table4998
++ GCC_except_table5001
++ GCC_except_table501
++ GCC_except_table5033
++ GCC_except_table5075
++ GCC_except_table5118
++ GCC_except_table5224
++ GCC_except_table5241
++ GCC_except_table5314
++ GCC_except_table5316
++ GCC_except_table5326
++ GCC_except_table5369
++ GCC_except_table5444
++ GCC_except_table5576
++ GCC_except_table5686
++ GCC_except_table5688
++ GCC_except_table5690
++ GCC_except_table5692
++ GCC_except_table5696
++ GCC_except_table5698
++ GCC_except_table5700
++ GCC_except_table5702
++ GCC_except_table5704
++ GCC_except_table5706
++ GCC_except_table5708
++ GCC_except_table5717
++ GCC_except_table5719
++ GCC_except_table5721
++ GCC_except_table5723
++ GCC_except_table5727
++ GCC_except_table5729
++ GCC_except_table5731
++ GCC_except_table5733
++ GCC_except_table5735
++ GCC_except_table5737
++ GCC_except_table5739
++ GCC_except_table5741
++ GCC_except_table5743
++ GCC_except_table5756
++ GCC_except_table5768
++ GCC_except_table5801
++ GCC_except_table5869
++ GCC_except_table5879
++ GCC_except_table5932
++ GCC_except_table5933
++ GCC_except_table5936
++ GCC_except_table5937
++ GCC_except_table5976
++ GCC_except_table5981
++ GCC_except_table6049
++ GCC_except_table6174
++ GCC_except_table6377
++ GCC_except_table6380
++ GCC_except_table6401
++ GCC_except_table6553
++ GCC_except_table6625
++ GCC_except_table6741
++ GCC_except_table6813
++ GCC_except_table6853
++ GCC_except_table6890
++ GCC_except_table6990
++ GCC_except_table7014
++ GCC_except_table7017
++ GCC_except_table7127
++ GCC_except_table7132
++ GCC_except_table7164
++ GCC_except_table7181
++ GCC_except_table7214
++ GCC_except_table723
++ GCC_except_table7240
++ GCC_except_table7245
++ GCC_except_table7249
++ GCC_except_table7252
++ GCC_except_table7254
++ GCC_except_table7273
++ GCC_except_table7328
++ GCC_except_table7373
++ GCC_except_table7376
++ GCC_except_table7383
++ GCC_except_table807
++ GCC_except_table810
++ GCC_except_table866
++ GCC_except_table931
++ GCC_except_table969
++ OBJC_IVAR_$_AXColorCircle._gradientColors
++ OBJC_IVAR_$_AXRemoteScreenController._observerToken
++ OBJC_IVAR_$_AXSiriSettingsController._typeToSiriSpecifier
++ OBJC_IVAR_$_AXSiriSettingsController._typeToSiriVoiceSpecifier
++ OBJC_IVAR_$_ClarityUIAdminPasscodeSetupController._axLastPasscodeIntrinsicHeight
++ OBJC_IVAR_$_ClarityUIIconSettingsButton._aspectRatioDidChangeHandler
++ OBJC_IVAR_$_ClarityUIIconSettingsButton._previewAspectConstraint
++ OBJC_IVAR_$_ClarityUIIconSettingsButton._previewView
++ OBJC_IVAR_$_LiveCaptionsFontFamilyController._currentFontFamily
++ OBJC_IVAR_$_LiveTranscriptionAppearanceController._fontFamilySpecifier
++ OBJC_IVAR_$_VoiceOverLiveRecognitionCustomizeActivityController._pendingActivityName
++ _AXCaptionAddExtraUserFont
++ _AXDeviceSupportsHaptics
++ _AXInvertColorsSettingsEventSourceSettingsApp
++ _AXNameForDetectionMode
++ _BSFloatEqualToFloat
++ _CGColorSpaceCreateDeviceRGB
++ _CGColorSpaceRelease
++ _CGContextDrawConicGradient
++ _CGContextRestoreGState
++ _CGContextSaveGState
++ _CGGradientCreateWithColors
++ _CGGradientRelease
++ _ClarityUIHasMultipleIntegratedDisplays.hasMultiple
++ _ClarityUIHasMultipleIntegratedDisplays.onceToken
++ _ClarityUIPreviewDisplayForScreen
++ _OBJC_CLASS_$_AXLiveRecognitionFeedbackController
++ _OBJC_CLASS_$_AXRemoteScreenController
++ _OBJC_CLASS_$_AXVoiceOverAdditionalLanguagesController
++ _OBJC_CLASS_$_ClarityOnboardingPreviewHostingView
++ _OBJC_CLASS_$_FBSDisplayMonitor
++ _OBJC_CLASS_$_LiveCaptionsFontFamilyAllFontsController
++ _OBJC_CLASS_$_LiveCaptionsFontFamilyController
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_METACLASS_$_AXLiveRecognitionFeedbackController
++ _OBJC_METACLASS_$_AXRemoteScreenController
++ _OBJC_METACLASS_$_AXVoiceOverAdditionalLanguagesController
++ _OBJC_METACLASS_$_ClarityOnboardingPreviewHostingView
++ _OBJC_METACLASS_$_LTUITranslateSettingsDownloadController
++ _OBJC_METACLASS_$_LiveCaptionsFontFamilyAllFontsController
++ _OBJC_METACLASS_$_LiveCaptionsFontFamilyController
++ __AXSLiveTranscriptionCopyFontFamily
++ __AXSLiveTranscriptionSetFontFamily
++ __AXSTwiceRemoteScreenPlatform
++ __CLASS_METHODS_ClarityOnboardingPreviewHostingView
++ __DATA_ClarityOnboardingPreviewHostingView
++ __DATA__TtC21AccessibilitySettings33ClarityOnboardingPreviewFormState
++ __INSTANCE_METHODS_ClarityOnboardingPreviewHostingView
++ __IVARS_ClarityOnboardingPreviewHostingView
++ __IVARS__TtC21AccessibilitySettings33ClarityOnboardingPreviewFormState
++ __METACLASS_DATA_ClarityOnboardingPreviewHostingView
++ __METACLASS_DATA__TtC21AccessibilitySettings33ClarityOnboardingPreviewFormState
++ __OBJC_$_CLASS_METHODS_AXLiveRecognitionFeedbackController
++ __OBJC_$_INSTANCE_METHODS_AXLiveRecognitionFeedbackController
++ __OBJC_$_INSTANCE_METHODS_AXRemoteScreenController
++ __OBJC_$_INSTANCE_METHODS_AXVoiceOverAdditionalLanguagesController
++ __OBJC_$_INSTANCE_METHODS_LiveCaptionsFontFamilyAllFontsController
++ __OBJC_$_INSTANCE_METHODS_LiveCaptionsFontFamilyController
++ __OBJC_$_INSTANCE_VARIABLES_AXRemoteScreenController
++ __OBJC_$_INSTANCE_VARIABLES_LiveCaptionsFontFamilyController
++ __OBJC_$_PROP_LIST_AXLiveRecognitionFeedbackController
++ __OBJC_$_PROP_LIST_AXRemoteScreenController
++ __OBJC_CLASS_RO_$_AXLiveRecognitionFeedbackController
++ __OBJC_CLASS_RO_$_AXRemoteScreenController
++ __OBJC_CLASS_RO_$_AXVoiceOverAdditionalLanguagesController
++ __OBJC_CLASS_RO_$_LiveCaptionsFontFamilyAllFontsController
++ __OBJC_CLASS_RO_$_LiveCaptionsFontFamilyController
++ __OBJC_METACLASS_RO_$_AXLiveRecognitionFeedbackController
++ __OBJC_METACLASS_RO_$_AXRemoteScreenController
++ __OBJC_METACLASS_RO_$_AXVoiceOverAdditionalLanguagesController
++ __OBJC_METACLASS_RO_$_LiveCaptionsFontFamilyAllFontsController
++ __OBJC_METACLASS_RO_$_LiveCaptionsFontFamilyController
++ __PROPERTIES_ClarityOnboardingAdminPreviewView
++ __PROPERTIES_ClarityOnboardingPreviewHostingView
++ ___102-[VoiceOverLiveRecognitionController _feedbackSpecifierNamed:specifierID:feedbackTypes:getter:setter:]_block_invoke
++ ___119-[VoiceOverLiveRecognitionCustomizeActivityController _feedbackSpecifierNamed:specifierID:feedbackTypes:getter:setter:]_block_invoke
++ ___175-[VOSCommandManager(VoiceOverCustomCommandsExtras) _resolveBindingConflictsForCommand:withGesture:keyboardShortcut:resolver:presentationController:passesRemaining:completion:]_block_invoke
++ ___39-[AXRemoteScreenController viewDidLoad]_block_invoke
++ ___48-[VoiceOverLiveRecognitionController specifiers]_block_invoke
++ ___48-[VoiceOverLiveRecognitionController specifiers]_block_invoke_10
++ ___48-[VoiceOverLiveRecognitionController specifiers]_block_invoke_11
++ ___48-[VoiceOverLiveRecognitionController specifiers]_block_invoke_12
++ ___48-[VoiceOverLiveRecognitionController specifiers]_block_invoke_2
++ ___48-[VoiceOverLiveRecognitionController specifiers]_block_invoke_3
++ ___48-[VoiceOverLiveRecognitionController specifiers]_block_invoke_4
++ ___48-[VoiceOverLiveRecognitionController specifiers]_block_invoke_5
++ ___48-[VoiceOverLiveRecognitionController specifiers]_block_invoke_6
++ ___48-[VoiceOverLiveRecognitionController specifiers]_block_invoke_7
++ ___48-[VoiceOverLiveRecognitionController specifiers]_block_invoke_8
++ ___48-[VoiceOverLiveRecognitionController specifiers]_block_invoke_9
++ ___54-[LiveCaptionsFontFamilyAllFontsController specifiers]_block_invoke
++ ___71-[ClarityUIIconSettingsButton initWithTitle:preferenceValue:hasShadow:]_block_invoke
++ ___71-[ClarityUIIconSettingsButton initWithTitle:preferenceValue:hasShadow:]_block_invoke_2
++ ___73-[ClarityUILayoutSetupTableCell initWithStyle:reuseIdentifier:hasShadow:]_block_invoke
++ ___77-[AXNamedItemsListController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke
++ ___89-[VoiceOverLiveRecognitionCustomizeActivityController _addDetectorPreferencesSpecifiers:]_block_invoke
++ ___89-[VoiceOverLiveRecognitionCustomizeActivityController _addDetectorPreferencesSpecifiers:]_block_invoke_10
++ ___89-[VoiceOverLiveRecognitionCustomizeActivityController _addDetectorPreferencesSpecifiers:]_block_invoke_11
++ ___89-[VoiceOverLiveRecognitionCustomizeActivityController _addDetectorPreferencesSpecifiers:]_block_invoke_12
++ ___89-[VoiceOverLiveRecognitionCustomizeActivityController _addDetectorPreferencesSpecifiers:]_block_invoke_2
++ ___89-[VoiceOverLiveRecognitionCustomizeActivityController _addDetectorPreferencesSpecifiers:]_block_invoke_3
++ ___89-[VoiceOverLiveRecognitionCustomizeActivityController _addDetectorPreferencesSpecifiers:]_block_invoke_4
++ ___89-[VoiceOverLiveRecognitionCustomizeActivityController _addDetectorPreferencesSpecifiers:]_block_invoke_5
++ ___89-[VoiceOverLiveRecognitionCustomizeActivityController _addDetectorPreferencesSpecifiers:]_block_invoke_6
++ ___89-[VoiceOverLiveRecognitionCustomizeActivityController _addDetectorPreferencesSpecifiers:]_block_invoke_7
++ ___89-[VoiceOverLiveRecognitionCustomizeActivityController _addDetectorPreferencesSpecifiers:]_block_invoke_8
++ ___89-[VoiceOverLiveRecognitionCustomizeActivityController _addDetectorPreferencesSpecifiers:]_block_invoke_9
++ ___93-[UIViewController(ClarityUI) clarityUI_refreshDevicePreviewsAfterTransitionWithCoordinator:]_block_invoke
++ ____ClarityUIHasMultipleIntegratedDisplays_block_invoke
++ ___block_descriptor_104_e8_32s40s48s56s64s72s80s88bs_e17_v16?0"NSError"8ls32l8s40l8s88l8s48l8s56l8s64l8s72l8s80l8
++ ___block_descriptor_32_e15_v16?0"NSSet"8l
++ ___block_descriptor_40_e8_32w_e12_"NSSet"8?0lw32l8
++ ___block_descriptor_40_e8_32w_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8lw32l8
++ ___block_descriptor_56_e8_32s40bs48w_e15_v16?0"NSSet"8ls40l8w48l8s32l8
++ ___block_descriptor_96_e8_32s40s48s56s64s72s80bs88bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8
++ ___swift_memcpy2_1
++ __swift_closure_destructor.194Tm
++ _associated conformance 21AccessibilitySettings28ClarityOnboardingPreviewFormOSHAASQ
++ _associated conformance 21AccessibilitySettings30ClarityOnboardingDisplayCutoutV7SwiftUI12ViewModifierAA4BodyAdEP_AD0I0
++ _associated conformance 21AccessibilitySettings32ClarityOnboardingPreviewRotationOSHAASQ
++ _kAXSLiveTranscriptionFontFamilyDidChangeNotification
++ _liveCaptionsFontFamilyUpdated
++ _objc_msgSend$_addAskSpecifiers:
++ _objc_msgSend$_applyPreviewAspectConstraint
++ _objc_msgSend$_askAvailable
++ _objc_msgSend$_canSaveActivityNamed:
++ _objc_msgSend$_commitAskQuestionTextField
++ _objc_msgSend$_currentActivityName
++ _objc_msgSend$_feedbackSpecifierNamed:specifierID:feedbackTypes:getter:setter:
++ _objc_msgSend$_hasCustomDetectors
++ _objc_msgSend$_newActivity
++ _objc_msgSend$_presentMigrationRequiredAlert
++ _objc_msgSend$_reloadSpecifiersPreservingActivityName
++ _objc_msgSend$_remeasureRow
++ _objc_msgSend$_requiresMigrationForApplicationWithIdentifier:
++ _objc_msgSend$_resolveBindingConflictsForCommand:withGesture:keyboardShortcut:resolver:presentationController:passesRemaining:completion:
++ _objc_msgSend$_specifierWithTitle:fontFamily:isBold:
++ _objc_msgSend$_syncPendingActivityNameFromTextField
++ _objc_msgSend$_synchronizeActivitiesRotorItem
++ _objc_msgSend$_typeToSiriGroupTitle
++ _objc_msgSend$_updateEditButtonItem
++ _objc_msgSend$_updateSaveButtonEnabled
++ _objc_msgSend$addClip
++ _objc_msgSend$alwaysConnectedIdentities
++ _objc_msgSend$ask
++ _objc_msgSend$askAllowsFollowUpQuestions
++ _objc_msgSend$askAutomaticCaptureEnabled
++ _objc_msgSend$askDefaultQuestionText
++ _objc_msgSend$askPreferredInputType
++ _objc_msgSend$askUseDefaultQuestion
++ _objc_msgSend$askVolumeButtonRecaptureEnabled
++ _objc_msgSend$aspectRatioDidChangeHandler
++ _objc_msgSend$axLastPasscodeIntrinsicHeight
++ _objc_msgSend$cachedCellForSpecifier:
++ _objc_msgSend$clarityUI_refreshDevicePreviewsAfterTransitionWithCoordinator:
++ _objc_msgSend$classicInvertColorsEnabled
++ _objc_msgSend$descriptionForFeedbackSpecifier:
++ _objc_msgSend$displayConfiguration
++ _objc_msgSend$gradientColors
++ _objc_msgSend$identity
++ _objc_msgSend$intrinsicContentSize
++ _objc_msgSend$isExternal
++ _objc_msgSend$isFirstResponder
++ _objc_msgSend$isMainDisplay
++ _objc_msgSend$multiplier
++ _objc_msgSend$pendingActivityName
++ _objc_msgSend$prepareForAppReplacementSourceLookup
++ _objc_msgSend$removeAllCustomActions
++ _objc_msgSend$requiresMigrationForBundleIdentifier:
++ _objc_msgSend$setAsk:
++ _objc_msgSend$setAskAllowsFollowUpQuestions:
++ _objc_msgSend$setAskAutomaticCaptureEnabled:
++ _objc_msgSend$setAskDefaultQuestionText:
++ _objc_msgSend$setAskPreferredInputType:
++ _objc_msgSend$setAskUseDefaultQuestion:
++ _objc_msgSend$setAskVolumeButtonRecaptureEnabled:
++ _objc_msgSend$setAspectRatioDidChangeHandler:
++ _objc_msgSend$setAxLastPasscodeIntrinsicHeight:
++ _objc_msgSend$setClassicInvertColorsEnabled:source:completion:
++ _objc_msgSend$setDesignSizeDidChangeHandler:
++ _objc_msgSend$setGradientColors:
++ _objc_msgSend$setPendingActivityName:
++ _objc_msgSend$smartInvertColorsEnabled
++ _objc_msgSend$updatePreviewsInView:
++ _swift_dynamicCastClass
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic _____ 21AccessibilitySettings28ClarityOnboardingPreviewFormO
++ _symbolic _____ 21AccessibilitySettings30ClarityOnboardingDisplayCutoutV
++ _symbolic _____ 21AccessibilitySettings32ClarityOnboardingPreviewRotationO
++ _symbolic _____ 21AccessibilitySettings33ClarityOnboardingPreviewFormStateC
++ _symbolic _____ 21AccessibilitySettings35ClarityOnboardingPreviewHostingViewC
++ _symbolic _____ So6CGSizeV
++ _symbolic _____SgXw 21AccessibilitySettings35ClarityOnboardingPreviewHostingViewC
++ _symbolic _____yAAyAAyAAyAAyAAy__________G_____y_____GG_____G_____y_____yAF__________GGG_____GACG 7SwiftUI15ModifiedContentV 21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsV AA12_FrameLayoutV AA11_ClipEffectV AA22UnevenRoundedRectangleV AA07_ShadowP0V AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyY0V AA06_ScaleP0V
++ _symbolic _____yAAyAAyAAyAAy__________G_____y_____GG_____G_____y_____yAF__________GGG_____G 7SwiftUI15ModifiedContentV 21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsV AA12_FrameLayoutV AA11_ClipEffectV AA22UnevenRoundedRectangleV AA07_ShadowP0V AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyY0V AA06_ScaleP0V
++ _symbolic _____yAAyAAyAAy__________G_____y_____GG_____G_____y_____yAF__________GGG 7SwiftUI15ModifiedContentV 21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsV AA12_FrameLayoutV AA11_ClipEffectV AA22UnevenRoundedRectangleV AA07_ShadowP0V AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyY0V
++ _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA22UnevenRoundedRectangleV
++ _symbolic _____yAAyAAy__________G_____G_____y_____GGSg 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA22UnevenRoundedRectangleV
++ _symbolic _____yAAyAAy__________G_____y_____GG_____G 7SwiftUI15ModifiedContentV 21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsV AA12_FrameLayoutV AA11_ClipEffectV AA22UnevenRoundedRectangleV AA07_ShadowP0V
++ _symbolic _____yAAyAAy__________G_____y_____y_______________GGG_____G 7SwiftUI15ModifiedContentV 21AccessibilitySettings33ClarityOnboardingDeviceLockScreenV AA12_FrameLayoutV AA16_OverlayModifierV AA15StrokeShapeViewV AA22UnevenRoundedRectangleV AA5ColorV AA05EmptyR0V AA0e10AttachmentO0V
++ _symbolic _____yAAyAAy_____y_____yAAy__________G______y_____ySnySiGSi_____GAHySaySSGSSAJGGQPGG_____GAQG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV AA012_ConditionalD0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingI0V AA14_OpacityEffectV
++ _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV 21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsV AA12_FrameLayoutV AA11_ClipEffectV AA22UnevenRoundedRectangleV
++ _symbolic _____yAAy__________G_____y_____y_______________GGG 7SwiftUI15ModifiedContentV 21AccessibilitySettings33ClarityOnboardingDeviceLockScreenV AA12_FrameLayoutV AA16_OverlayModifierV AA15StrokeShapeViewV AA22UnevenRoundedRectangleV AA5ColorV AA05EmptyR0V
++ _symbolic _____yAAy__________y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedE0V
++ _symbolic _____yAAy__________y_____GG_____y_____GG_AAyAAyAAy__________G_____GAIGSgAAy_____y_____yAAy_____ANG_AAy_____yARyASyAAyAAyAK_____y_____SgGG_____G_AAy_____A_GSgA3_QPGG_Qo_ANGAT_____QPGG_____Gt 7SwiftUI15ModifiedContentV AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedE0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameQ0V AA6VStackV AA05TupleD0V AA6SpacerV AA4ViewPAAE15dynamicTypeSizeyQrAA07DynamicxY0OFQO AA022_EnvironmentKeyWritingH0V AA4FontV 21AccessibilitySettings011PreviewTextgH0V AA4TextV A7_30ClarityLockScreenPreviewButtonV AA08_PaddingQ0V
++ _symbolic _____yAAy__________y_____GG_____y_____GG_AAyAAyAAy_____y_____yAAy__________G______y_____ySnySiGSi_____GAQySaySSGSSASGGQPGG_____GAZG_____GAAyAAyAKyALyAO_AAy_____yAWGAZGQPGGAZGA1_Gt 7SwiftUI15ModifiedContentV AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedE0V AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV AA012_ConditionalD0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingR0V AA08_OpacityK0V AA9LazyVGridV
++ _symbolic _____yAAy__________y_____GG_____y_____GG_AAyAAy_____y_____yAAy__________G______QPGG_____GASGt 7SwiftUI15ModifiedContentV AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedE0V AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV 21AccessibilitySettings34ClarityOnboardingAdminSettingGroupV AA08_PaddingR0V
++ _symbolic _____yAAy_____y_____yAAyAAy__________y_____GG_____y_____GG_AAyAAyAAy_____yACyAAy__________G______y_____ySnySiGSi_____GARySaySSGSSATGGQPGG_____GA_G_____GAAyAAyAMyACyAP_AAy_____yAXGA_GQPGGA_GA2_GQPGG_____G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedG0V AA6VStackV AA6SpacerV AA12_FrameLayoutV AA012_ConditionalD0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingS0V AA08_OpacityM0V AA9LazyVGridV A0_0yZ13DisplayCutoutV AA017_AppearanceActionJ0V
++ _symbolic _____yAAy_____y_____yAAyAAy__________y_____GG_____y_____GG_AAyAAy_____yACyAAy__________G______QPGG_____GATGQPGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedG0V AA6VStackV AA6SpacerV AA12_FrameLayoutV 21AccessibilitySettings34ClarityOnboardingAdminSettingGroupV AA08_PaddingS0V AA08_OverlayJ0V AX0vw10BackButtonG0V AX0vW13DisplayCutoutV
++ _symbolic _____yAAy_____y_____yAAy__________G_AAy_____y_____y_____ySnySiGSi_____GAIySaySSGSSAKGGG_____GQPGGAQG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV AA9LazyVGridV AA012_ConditionalD0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingI0V AA14_OpacityEffectV
++ _symbolic _____yAAy_____y_____yAAy__________G______QPGG_____GAJG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV 21AccessibilitySettings34ClarityOnboardingAdminSettingGroupV AA08_PaddingI0V
++ _symbolic _____yAAy_____y_____yAAy__________G______y_____ySnySiGSi_____GAHySaySSGSSAJGGQPGG_____GAQG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV AA012_ConditionalD0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingI0V
++ _symbolic _____y_____G 7SwiftUI13_StrokedShapeV AA22UnevenRoundedRectangleV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 21AccessibilitySettings30ClarityOnboardingDisplayCutoutV
++ _symbolic _____y___________y_____yADy__________y_____GG_____y_____GG_ADyADyADy__________G_____GALGSgADy_____yACyADy_____AQG_ADy_____yAUyACyADyADyAN_____y_____SgGG_____G_ADy_____A1_GSgA5_QPGG_Qo_AQGAV_____QPGG_____GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedK0V AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA6VStackV AA6SpacerV AA0D0PAAE15dynamicTypeSizeyQrAA15DynamicTypeSizeOFQO AA022_EnvironmentKeyWritingN0V AA4FontV 21AccessibilitySettings011PreviewTextmN0V AA4TextV A13_30ClarityLockScreenPreviewButtonV AA08_PaddingG0V
++ _symbolic _____y___________y_____yADy__________y_____GG_____y_____GG_ADyADyADy_____yACyADy__________G______y_____ySnySiGSi_____GASySaySSGSSAUGGQPGG_____GA0_G_____GADyADyANyACyAQ_ADy_____yAYGA0_GQPGGA0_GA3_GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedK0V AA6VStackV AA6SpacerV AA06_FrameG0V AA012_ConditionalI0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingG0V AA08_OpacityQ0V AA9LazyVGridV
++ _symbolic _____y___________y_____yADy__________y_____GG_____y_____GG_ADyADy_____yACyADy__________G______QPGG_____GAUGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedK0V AA6VStackV AA6SpacerV AA06_FrameG0V 21AccessibilitySettings34ClarityOnboardingAdminSettingGroupV AA08_PaddingG0V
++ _symbolic _____y_____yAAyAAyAAyAAyAAyAAy__________G_____y_____GG_____G_____y_____yAG__________GGG_____GADGG_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV 21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsV AA12_FrameLayoutV AA11_ClipEffectV AA22UnevenRoundedRectangleV AA07_ShadowR0V AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA9EmptyViewV AA06_ScaleR0V AA0g10AttachmentX0V
++ _symbolic _____y_____yAAyAAyAAy__________G_____GADGG_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV 21AccessibilitySettings33ClarityOnboardingDeviceBackgroundV AA12_FrameLayoutV AA12_ScaleEffectV AA0G18AttachmentModifierV
++ _symbolic _____y_____yAByAByAByAByABy__________G_____y_____GG_____G_____y_____yAG__________GGG_____GADGG 7SwiftUI14GeometryReaderV AA15ModifiedContentV 21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsV AA12_FrameLayoutV AA11_ClipEffectV AA22UnevenRoundedRectangleV AA07_ShadowR0V AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA9EmptyViewV AA06_ScaleR0V
++ _symbolic _____y_____yAByAByABy__________y_____GG_____G_____GAJGSgG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV AA6CircleV AA016_ForegroundStyleD0V AA5ColorV AA12_FrameLayoutV AA08_PaddingL0V
++ _symbolic _____y_____yAByABy__________G_____GADGG 7SwiftUI14GeometryReaderV AA15ModifiedContentV 21AccessibilitySettings33ClarityOnboardingDeviceBackgroundV AA12_FrameLayoutV AA12_ScaleEffectV
++ _symbolic _____y_____y_____G_____G 7SwiftUI10_ShapeViewV AA08_StrokedC0V AA22UnevenRoundedRectangleV AA5ColorV
++ _symbolic _____y_____y_____G_____yAAyAAyAAyAAy__________y_____GG_____G_____GAMGSgGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 21AccessibilitySettings30ClarityOnboardingDisplayCutoutV AA08_OverlayF0V AA6CircleV AA016_ForegroundStyleF0V AA5ColorV AA12_FrameLayoutV AA08_PaddingS0V
++ _symbolic _____y_____y_______________GG 7SwiftUI16_OverlayModifierV AA15StrokeShapeViewV AA22UnevenRoundedRectangleV AA5ColorV AA05EmptyG0V
++ _symbolic _____y_____y_____yAAyAAy__________y_____GG_____y_____GG_AAyAAyAAy__________G_____GAKGSgAAy_____yACyAAy_____APG_AAy_____yATyACyAAyAAyAM_____y_____SgGG_____G_AAy_____A0_GSgA4_QPGG_Qo_APGAU_____QPGG_____GQPGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedG0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameS0V AA6VStackV AA6SpacerV AA4ViewPAAE15dynamicTypeSizeyQrAA07DynamicyZ0OFQO AA022_EnvironmentKeyWritingJ0V AA4FontV 21AccessibilitySettings011PreviewTextiJ0V AA4TextV A9_30ClarityLockScreenPreviewButtonV AA08_PaddingS0V A9_30ClarityOnboardingDisplayCutoutV
++ _symbolic _____y_____y_____yAAyAAy__________y_____GG_____y_____GG_AAyAAyAAy_____yACyAAy__________G______y_____ySnySiGSi_____GARySaySSGSSATGGQPGG_____GA_G_____GAAyAAyAMyACyAP_AAy_____yAXGA_GQPGGA_GA2_GQPGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedG0V AA6VStackV AA6SpacerV AA12_FrameLayoutV AA012_ConditionalD0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingS0V AA08_OpacityM0V AA9LazyVGridV A0_0yZ13DisplayCutoutV
++ _symbolic _____y_____y_____yAAyAAy__________y_____GG_____y_____GG_AAyAAy_____yACyAAy__________G______QPGG_____GATGQPGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedG0V AA6VStackV AA6SpacerV AA12_FrameLayoutV 21AccessibilitySettings34ClarityOnboardingAdminSettingGroupV AA08_PaddingS0V AA08_OverlayJ0V AX0vw10BackButtonG0V
++ _symbolic _____y_____y_____yAAy__________G_AAy_____yAByACyAAyAAy__________y_____SgGG_____G_AAy_____AMGSgAQQPGG_Qo_AEGAD_____QPGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV AA4ViewPAAE15dynamicTypeSizeyQrAA07DynamiclM0OFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV 21AccessibilitySettings016PreviewTextStyleS0V AA0X0V AW017ClarityLockScreenW6ButtonV AA08_PaddingI0V
++ _symbolic _____y_____y_____yAAy__________G_AAy_____y_____y_____ySnySiGSi_____GAIySaySSGSSAKGGG_____GQPGGAQG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV AA9LazyVGridV AA012_ConditionalD0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingI0V
++ _symbolic _____y_____y_____yACy__________y_____GG_____y_____GG_ACyACyACy__________G_____GAKGSgACy_____yAByACy_____APG_ACy_____yATyAByACyACyAM_____y_____SgGG_____G_ACy_____A0_GSgA4_QPGG_Qo_APGAU_____QPGG_____GQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedG0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameS0V AA6VStackV AA6SpacerV AA4ViewPAAE15dynamicTypeSizeyQrAA07DynamicyZ0OFQO AA022_EnvironmentKeyWritingJ0V AA4FontV 21AccessibilitySettings011PreviewTextiJ0V AA4TextV A9_30ClarityLockScreenPreviewButtonV AA08_PaddingS0V
++ _symbolic _____y_____y_____yACy__________y_____GG_____y_____GG_ACyACyACy_____yAByACy__________G______y_____ySnySiGSi_____GARySaySSGSSATGGQPGG_____GA_G_____GACyACyAMyAByAP_ACy_____yAXGA_GQPGGA_GA2_GQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedG0V AA6VStackV AA6SpacerV AA12_FrameLayoutV AA012_ConditionalE0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingS0V AA08_OpacityM0V AA9LazyVGridV
++ _symbolic _____y_____y_____yACy__________y_____GG_____y_____GG_ACyACy_____yAByACy__________G______QPGG_____GATGQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA013UnevenRoundedG0V AA6VStackV AA6SpacerV AA12_FrameLayoutV 21AccessibilitySettings34ClarityOnboardingAdminSettingGroupV AA08_PaddingS0V
++ _symbolic _____y_____y_____y_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA08_StrokedE0V AA22UnevenRoundedRectangleV AA5ColorV AA19_BackgroundModifierV AA05EmptyF0V
++ _type_layout_string 21AccessibilitySettings30ClarityOnboardingDisplayCutoutV
++ _type_layout_string 21AccessibilitySettings33ClarityOnboardingDeviceBackgroundV
++ _type_layout_string 21AccessibilitySettings33ClarityOnboardingDeviceLockScreenV
++ get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy21AccessibilitySettings30ClarityOnboardingDisplayCutoutVGAA08_OverlayF0VyACyACyACyACyAA6CircleVAA016_ForegroundStyleF0VyAA5ColorVGGAA12_FrameLayoutVGAA08_PaddingS0VGAXGSgGGAA0E0HPAiAA2_HPyHC_A0_AA0eF0HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyAA14GeometryReaderVyACyACyACy21AccessibilitySettings33ClarityOnboardingDeviceBackgroundVAA12_FrameLayoutVGAA12_ScaleEffectVGAJGGAA0G18AttachmentModifierVGAA4ViewHPApaTHPyHC_ArA0sR0HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyAA14GeometryReaderVyACyACyACyACyACyACy21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsVAA12_FrameLayoutVGAA11_ClipEffectVyAA22UnevenRoundedRectangleVGGAA07_ShadowR0VGAA16_OverlayModifierVyAA15StrokeShapeViewVyAoA5ColorVAA9EmptyViewVGGGAA06_ScaleR0VGAJGGAA0g10AttachmentX0VGAA4ViewHPA8_AAA12_HPyHC_A10_AA04ViewX0HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA05TupleD0VyACyACyAA9RectangleVAA24_ForegroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA013UnevenRoundedG0VGG_ACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameS0VGATGSgACyAA6VStackVyAGyACyAA6SpacerVA0_G_ACyAA4ViewPAAE15dynamicTypeSizeyQrAA07DynamicyZ0OFQOyA5_yAGyACyACyAwA022_EnvironmentKeyWritingJ0VyAA4FontVSgGG21AccessibilitySettings011PreviewTextiJ0VG_ACyAA4TextVA23_GSgA28_QPGG_Qo_A0_GA7_A21_30ClarityLockScreenPreviewButtonVQPGGAA08_PaddingS0VGQPGGA21_30ClarityOnboardingDisplayCutoutVGAAA9_HPA41_AAA9_HPyHC_A43_AA0wJ0HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA6ZStackVyAA05TupleD0VyACyACyAA9RectangleVAA24_ForegroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA013UnevenRoundedG0VGG_ACyACyAA6VStackVyAGyACyAA6SpacerVAA12_FrameLayoutVG_21AccessibilitySettings34ClarityOnboardingAdminSettingGroupVQPGGAA08_PaddingS0VGA7_GQPGGAA08_OverlayJ0VyA1_0vw10BackButtonG0VGGA1_0vW13DisplayCutoutVGAA4ViewHPA17_AAA21_HPA11_AAA21_HPyHC_A16_AA04ViewJ0HPyHCHC_A19_AAA22_HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA6ZStackVyAA05TupleD0VyACyACyAA9RectangleVAA24_ForegroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA013UnevenRoundedG0VGG_ACyACyACyAA6VStackVyAGyACyAA6SpacerVAA12_FrameLayoutVG_AA012_ConditionalD0VyAA7ForEachVySnySiGSi21AccessibilitySettings33ClarityOnboardingPreviewAppButtonVGA4_ySaySSGSSA8_GGQPGGAA08_PaddingS0VGA16_GAA08_OpacityM0VGACyACyAWyAGyA0__ACyAA9LazyVGridVyA12_GA16_GQPGGA16_GA20_GQPGGA6_0yZ13DisplayCutoutVGAA017_AppearanceActionJ0VGAA4ViewHPA34_AAA38_HPA31_AAA38_HPyHC_A33_AA04ViewJ0HPyHCHC_A36_AAA39_HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACy21AccessibilitySettings33ClarityOnboardingDeviceLockScreenVAA12_FrameLayoutVGAA16_OverlayModifierVyAA15StrokeShapeViewVyAA22UnevenRoundedRectangleVAA5ColorVAA05EmptyR0VGGGAA0e10AttachmentO0VGAA0R0HPAvaZHPAiaZHPAfaZHPyHC_AhA0rO0HPyHCHC_AuAA_HPyHCHC_AxAA_HPyHCHC
+- -[AXDisplayController displayFilterUIClient]
+- -[AXDisplayController setDisplayFilterUIClient:]
+- -[AXSiriSettingsController isTypeToSiriEnabled:]
+- -[AXSiriSettingsController setTypeToSiriEnabled:specifier:]
+- -[AXSystemActionPickerController identifier]
+- -[AXSystemActionPickerController setIdentifier:]
+- -[AXVoiceOverImageDescriptionsController _showAdditionalLanguagesViewController:]
+- -[VoiceOverLiveRecognitionController _showLiveRecognitionActivitiesViewController:]
+- -[VoiceOverLiveRecognitionController doorsBrailleEnabled:]
+- -[VoiceOverLiveRecognitionController doorsHapticsEnabled:]
+- -[VoiceOverLiveRecognitionController doorsSoundEnabled:]
+- -[VoiceOverLiveRecognitionController doorsSpeechEnabled:]
+- -[VoiceOverLiveRecognitionController furnitureBrailleEnabled:]
+- -[VoiceOverLiveRecognitionController furnitureHapticsEnabled:]
+- -[VoiceOverLiveRecognitionController furnitureSoundEnabled:]
+- -[VoiceOverLiveRecognitionController furnitureSpeechEnabled:]
+- -[VoiceOverLiveRecognitionController peopleBrailleEnabled:]
+- -[VoiceOverLiveRecognitionController peopleHapticsEnabled:]
+- -[VoiceOverLiveRecognitionController peopleSoundsEnabled:]
+- -[VoiceOverLiveRecognitionController peopleSpeechEnabled:]
+- -[VoiceOverLiveRecognitionController pointAndSpeakBrailleEnabled:]
+- -[VoiceOverLiveRecognitionController pointAndSpeakHapticsEnabled:]
+- -[VoiceOverLiveRecognitionController pointAndSpeakSoundsEnabled:]
+- -[VoiceOverLiveRecognitionController pointAndSpeakSpeechEnabled:]
+- -[VoiceOverLiveRecognitionController scenesBrailleEnabled:]
+- -[VoiceOverLiveRecognitionController scenesSpeechEnabled:]
+- -[VoiceOverLiveRecognitionController setDoorsBrailleEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setDoorsHapticsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setDoorsSoundsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setDoorsSpeechEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setFurnitureBrailleEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setFurnitureHapticsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setFurnitureSoundsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setFurnitureSpeechEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setPeopleBrailleEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setPeopleHapticsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setPeopleSoundsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setPeopleSpeechEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setPointAndSpeakBrailleEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setPointAndSpeakHapticsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setPointAndSpeakSoundsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setPointAndSpeakSpeechEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setScenesBrailleEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setScenesSpeechEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setTextBrailleEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController setTextSpeechEnabled:specifier:]
+- -[VoiceOverLiveRecognitionController textBrailleEnabled:]
+- -[VoiceOverLiveRecognitionController textSpeechEnabled:]
+- -[VoiceOverLiveRecognitionController updateFeedbacks:withType:addFeedback:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController doorsBrailleEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController doorsHapticsEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController doorsSoundEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController doorsSpeechEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController furnitureBrailleEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController furnitureHapticsEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController furnitureSoundEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController furnitureSpeechEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController peopleBrailleEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController peopleHapticsEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController peopleSoundsEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController peopleSpeechEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController pointAndSpeakBrailleEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController pointAndSpeakHapticsEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController pointAndSpeakSoundsEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController pointAndSpeakSpeechEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController scenesBrailleEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController scenesSpeechEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setDoorsBrailleEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setDoorsHapticsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setDoorsSoundsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setDoorsSpeechEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setFurnitureBrailleEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setFurnitureHapticsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setFurnitureSoundsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setFurnitureSpeechEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setPeopleBrailleEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setPeopleHapticsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setPeopleSoundsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setPeopleSpeechEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setPointAndSpeakBrailleEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setPointAndSpeakHapticsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setPointAndSpeakSoundsEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setPointAndSpeakSpeechEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setScenesBrailleEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setScenesSpeechEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setTextBrailleEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController setTextSpeechEnabled:specifier:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController textBrailleEnabled:]
+- -[VoiceOverLiveRecognitionCustomizeActivityController textSpeechEnabled:]
+- -[VoiceOverRotorSettingsController _showLiveRecognitionRotorViewController:]
+- -[VoiceOverRotorSettingsController _showRecognitionRotorViewController:]
+- GCC_except_table1028
+- GCC_except_table1069
+- GCC_except_table1105
+- GCC_except_table1106
+- GCC_except_table1108
+- GCC_except_table1175
+- GCC_except_table1281
+- GCC_except_table1332
+- GCC_except_table1347
+- GCC_except_table1348
+- GCC_except_table1350
+- GCC_except_table1378
+- GCC_except_table1384
+- GCC_except_table1409
+- GCC_except_table1411
+- GCC_except_table1438
+- GCC_except_table1481
+- GCC_except_table1488
+- GCC_except_table1651
+- GCC_except_table1715
+- GCC_except_table1717
+- GCC_except_table1726
+- GCC_except_table1776
+- GCC_except_table1779
+- GCC_except_table1850
+- GCC_except_table1882
+- GCC_except_table1933
+- GCC_except_table1988
+- GCC_except_table2014
+- GCC_except_table2087
+- GCC_except_table2142
+- GCC_except_table2190
+- GCC_except_table2198
+- GCC_except_table2242
+- GCC_except_table2245
+- GCC_except_table2247
+- GCC_except_table2309
+- GCC_except_table2310
+- GCC_except_table2315
+- GCC_except_table2347
+- GCC_except_table2403
+- GCC_except_table2430
+- GCC_except_table2558
+- GCC_except_table2597
+- GCC_except_table2630
+- GCC_except_table2635
+- GCC_except_table2683
+- GCC_except_table2718
+- GCC_except_table2722
+- GCC_except_table2732
+- GCC_except_table2834
+- GCC_except_table2859
+- GCC_except_table2867
+- GCC_except_table2888
+- GCC_except_table2911
+- GCC_except_table2969
+- GCC_except_table2978
+- GCC_except_table2986
+- GCC_except_table3066
+- GCC_except_table3087
+- GCC_except_table3093
+- GCC_except_table3142
+- GCC_except_table3193
+- GCC_except_table3208
+- GCC_except_table3222
+- GCC_except_table3234
+- GCC_except_table3235
+- GCC_except_table3236
+- GCC_except_table3324
+- GCC_except_table3347
+- GCC_except_table3373
+- GCC_except_table3375
+- GCC_except_table3391
+- GCC_except_table3423
+- GCC_except_table3473
+- GCC_except_table352
+- GCC_except_table3541
+- GCC_except_table3584
+- GCC_except_table3664
+- GCC_except_table3667
+- GCC_except_table3678
+- GCC_except_table3769
+- GCC_except_table387
+- GCC_except_table3879
+- GCC_except_table388
+- GCC_except_table390
+- GCC_except_table3952
+- GCC_except_table3995
+- GCC_except_table4024
+- GCC_except_table4074
+- GCC_except_table4107
+- GCC_except_table4110
+- GCC_except_table4199
+- GCC_except_table420
+- GCC_except_table4252
+- GCC_except_table4257
+- GCC_except_table4283
+- GCC_except_table4320
+- GCC_except_table4331
+- GCC_except_table4343
+- GCC_except_table4400
+- GCC_except_table4433
+- GCC_except_table4548
+- GCC_except_table4580
+- GCC_except_table463
+- GCC_except_table4638
+- GCC_except_table4676
+- GCC_except_table468
+- GCC_except_table470
+- GCC_except_table4707
+- GCC_except_table474
+- GCC_except_table4745
+- GCC_except_table476
+- GCC_except_table4763
+- GCC_except_table478
+- GCC_except_table480
+- GCC_except_table482
+- GCC_except_table484
+- GCC_except_table4903
+- GCC_except_table492
+- GCC_except_table4986
+- GCC_except_table4991
+- GCC_except_table4994
+- GCC_except_table5019
+- GCC_except_table5068
+- GCC_except_table5111
+- GCC_except_table5217
+- GCC_except_table5234
+- GCC_except_table5307
+- GCC_except_table5309
+- GCC_except_table5319
+- GCC_except_table5362
+- GCC_except_table5437
+- GCC_except_table5569
+- GCC_except_table5679
+- GCC_except_table5681
+- GCC_except_table5683
+- GCC_except_table5685
+- GCC_except_table5689
+- GCC_except_table5691
+- GCC_except_table5693
+- GCC_except_table5695
+- GCC_except_table5697
+- GCC_except_table5699
+- GCC_except_table5701
+- GCC_except_table5703
+- GCC_except_table5705
+- GCC_except_table5707
+- GCC_except_table5716
+- GCC_except_table5720
+- GCC_except_table5722
+- GCC_except_table5724
+- GCC_except_table5726
+- GCC_except_table5728
+- GCC_except_table5730
+- GCC_except_table5732
+- GCC_except_table5734
+- GCC_except_table5736
+- GCC_except_table5749
+- GCC_except_table5761
+- GCC_except_table5794
+- GCC_except_table5917
+- GCC_except_table5918
+- GCC_except_table5921
+- GCC_except_table5922
+- GCC_except_table5961
+- GCC_except_table5966
+- GCC_except_table6033
+- GCC_except_table6354
+- GCC_except_table6357
+- GCC_except_table6378
+- GCC_except_table6528
+- GCC_except_table6601
+- GCC_except_table6717
+- GCC_except_table6788
+- GCC_except_table6828
+- GCC_except_table6865
+- GCC_except_table6965
+- GCC_except_table6989
+- GCC_except_table6992
+- GCC_except_table7102
+- GCC_except_table7107
+- GCC_except_table7139
+- GCC_except_table714
+- GCC_except_table7156
+- GCC_except_table7189
+- GCC_except_table7215
+- GCC_except_table7220
+- GCC_except_table7224
+- GCC_except_table7227
+- GCC_except_table7229
+- GCC_except_table7248
+- GCC_except_table7303
+- GCC_except_table7348
+- GCC_except_table7351
+- GCC_except_table7358
+- GCC_except_table798
+- GCC_except_table801
+- GCC_except_table857
+- GCC_except_table981
+- OBJC_IVAR_$_AXDisplayController._displayFilterUIClient
+- OBJC_IVAR_$_AXSiriSettingsController._typeToSiriSwitchSpecifier
+- OBJC_IVAR_$_AXSystemActionPickerController._identifier
+- __146-[VOSCommandManager(VoiceOverCustomCommandsExtras) applyAction:toCommand:withGesture:keyboardShortcut:resolver:presentationController:completion:]_block_invoke_7
+- __AXSInvertColorsEnabledGlobal
+- ___57-[AXDisplayController setClassicInvertEnabled:specifier:]_block_invoke
+- ___57-[AXDisplayController setClassicInvertEnabled:specifier:]_block_invoke_2
+- ___block_descriptor_104_e8_32s40s48s56s64s72s80bs88bs96r_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s80l8s88l8s72l8r96l8
+- ___swift_memcpy10_8
+- _objc_msgSend$classicInvertColors
+- _objc_msgSend$setButtonMap:
+- _objc_msgSend$setClassicInvertColors:
+- _objc_msgSend$shouldBeShownInSettingsReturningAvailabilityStatus:
+- _objc_msgSend$translateSettingsDownloadControllerWithUsageContext:
+- _objc_msgSend$updateFeedbacks:withType:addFeedback:
+- _symbolic _____yAAyAAyAAyAAyAAy__________G_____y_____GG_____G_____y_____yAF__________GGG_____GACG 7SwiftUI15ModifiedContentV 21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsV AA12_FrameLayoutV AA11_ClipEffectV AA16RoundedRectangleV AA07_ShadowP0V AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyX0V AA06_ScaleP0V
+- _symbolic _____yAAyAAyAAyAAy__________G_____y_____GG_____G_____y_____yAF__________GGG_____G 7SwiftUI15ModifiedContentV 21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsV AA12_FrameLayoutV AA11_ClipEffectV AA16RoundedRectangleV AA07_ShadowP0V AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyX0V AA06_ScaleP0V
+- _symbolic _____yAAyAAyAAy__________G_____y_____GG_____G_____y_____yAF__________GGG 7SwiftUI15ModifiedContentV 21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsV AA12_FrameLayoutV AA11_ClipEffectV AA16RoundedRectangleV AA07_ShadowP0V AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyX0V
+- _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____yAAyAAy__________G_____G_____y_____GGSg 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____yAAyAAy__________G_____y_____GG_____G 7SwiftUI15ModifiedContentV 21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsV AA12_FrameLayoutV AA11_ClipEffectV AA16RoundedRectangleV AA07_ShadowP0V
+- _symbolic _____yAAyAAy__________G_____y_____y_______________GGG_____G 7SwiftUI15ModifiedContentV 21AccessibilitySettings33ClarityOnboardingDeviceLockScreenV AA12_FrameLayoutV AA16_OverlayModifierV AA15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA05EmptyR0V AA0e10AttachmentO0V
+- _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 21AccessibilitySettings33ClarityOnboardingDeviceBackgroundV AA12_FrameLayoutV AA0E18AttachmentModifierV
+- _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV 21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsV AA12_FrameLayoutV AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____yAAy__________G_____y_____y_______________GGG 7SwiftUI15ModifiedContentV 21AccessibilitySettings33ClarityOnboardingDeviceLockScreenV AA12_FrameLayoutV AA16_OverlayModifierV AA15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA05EmptyR0V
+- _symbolic _____yAAy__________y_____GG_____y_____GG_AAyAAyAAy__________G_____GAIGSg_____y_____yAAy_____ANG_AAy_____yARyASyAAyAAyAK_____y_____SgGG_____G_AAy_____A_GSgA3_QPGG_Qo_ANGAT_____QPGGt 7SwiftUI15ModifiedContentV AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA07RoundedE0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameP0V AA6VStackV AA05TupleD0V AA6SpacerV AA4ViewPAAE15dynamicTypeSizeyQrAA07DynamicwX0OFQO AA022_EnvironmentKeyWritingH0V AA4FontV 21AccessibilitySettings011PreviewTextgH0V AA4TextV A7_30ClarityLockScreenPreviewButtonV
+- _symbolic _____yAAy__________y_____GG_____y_____GG_AAyAAy_____y_____yAAy__________G______y_____ySnySiGSi_____GAQySaySSGSSASGGQPGG_____G_____GAAyAKyALyAO_AAy_____yAWGAZGQPGGA0_Gt 7SwiftUI15ModifiedContentV AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA07RoundedE0V AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV AA012_ConditionalD0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingQ0V AA08_OpacityK0V AA9LazyVGridV
+- _symbolic _____yAAy__________y_____GG_____y_____GG_AAy_____y_____yAAy__________G______QPGG_____Gt 7SwiftUI15ModifiedContentV AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA07RoundedE0V AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV 21AccessibilitySettings34ClarityOnboardingAdminSettingGroupV AA08_PaddingQ0V
+- _symbolic _____yAAy_____y_____yAAy__________G______y_____ySnySiGSi_____GAHySaySSGSSAJGGQPGG_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV AA012_ConditionalD0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingI0V AA14_OpacityEffectV
+- _symbolic _____y_____GSg 7SwiftUI14_UIHostingViewC 21AccessibilitySettings030ClarityLockScreenDevicePreviewD0V
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 21AccessibilitySettings33ClarityOnboardingDeviceBackgroundV AA12_FrameLayoutV
+- _symbolic _____y___________y_____yADy__________y_____GG_____y_____GG_ADyADyADy__________G_____GALGSg_____yACyADy_____AQG_ADy_____yAUyACyADyADyAN_____y_____SgGG_____G_ADy_____A1_GSgA5_QPGG_Qo_AQGAV_____QPGGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA07RoundedK0V AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA6VStackV AA6SpacerV AA0D0PAAE15dynamicTypeSizeyQrAA07DynamicZ4SizeOFQO AA022_EnvironmentKeyWritingN0V AA4FontV 21AccessibilitySettings011PreviewTextmN0V AA4TextV A13_30ClarityLockScreenPreviewButtonV
+- _symbolic _____y___________y_____yADy__________y_____GG_____y_____GG_ADyADy_____yACyADy__________G______y_____ySnySiGSi_____GASySaySSGSSAUGGQPGG_____G_____GADyANyACyAQ_ADy_____yAYGA0_GQPGGA2_GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA07RoundedK0V AA6VStackV AA6SpacerV AA06_FrameG0V AA012_ConditionalI0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingG0V AA08_OpacityQ0V AA9LazyVGridV
+- _symbolic _____y___________y_____yADy__________y_____GG_____y_____GG_ADy_____yACyADy__________G______QPGG_____GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA07RoundedK0V AA6VStackV AA6SpacerV AA06_FrameG0V 21AccessibilitySettings34ClarityOnboardingAdminSettingGroupV AA08_PaddingG0V
+- _symbolic _____y_____yAAyAAyAAyAAyAAyAAy__________G_____y_____GG_____G_____y_____yAG__________GGG_____GADGG_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV 21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsV AA12_FrameLayoutV AA11_ClipEffectV AA16RoundedRectangleV AA07_ShadowR0V AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyZ0V AA06_ScaleR0V AA0g10AttachmentW0V
+- _symbolic _____y_____yAByAByAByAByABy__________G_____y_____GG_____G_____y_____yAG__________GGG_____GADGG 7SwiftUI14GeometryReaderV AA15ModifiedContentV 21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsV AA12_FrameLayoutV AA11_ClipEffectV AA16RoundedRectangleV AA07_ShadowR0V AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyZ0V AA06_ScaleR0V
+- _symbolic _____y_____y_______________GG 7SwiftUI16_OverlayModifierV AA15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA05EmptyG0V
+- _symbolic _____y_____y_____yAAyAAy__________y_____GG_____y_____GG_AAyAAy_____yACyAAy__________G______y_____ySnySiGSi_____GARySaySSGSSATGGQPGG_____G_____GAAyAMyACyAP_AAy_____yAXGA_GQPGGA1_GQPGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA07RoundedG0V AA6VStackV AA6SpacerV AA12_FrameLayoutV AA012_ConditionalD0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingR0V AA08_OpacityM0V AA9LazyVGridV AA017_AppearanceActionJ0V
+- _symbolic _____y_____y_____yAAyAAy__________y_____GG_____y_____GG_AAy_____yACyAAy__________G______QPGG_____GQPGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA07RoundedG0V AA6VStackV AA6SpacerV AA12_FrameLayoutV 21AccessibilitySettings34ClarityOnboardingAdminSettingGroupV AA08_PaddingR0V AA08_OverlayJ0V AX0uv10BackButtonG0V
+- _symbolic _____y_____y_____yAAy__________G_AAy_____y_____y_____ySnySiGSi_____GAIySaySSGSSAKGGG_____GQPGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA12_FrameLayoutV AA9LazyVGridV AA012_ConditionalD0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingI0V AA14_OpacityEffectV
+- _symbolic _____y_____y_____yACy__________y_____GG_____y_____GG_ACyACyACy__________G_____GAKGSg_____yAByACy_____APG_ACy_____yATyAByACyACyAM_____y_____SgGG_____G_ACy_____A0_GSgA4_QPGG_Qo_APGAU_____QPGGQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA07RoundedG0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameR0V AA6VStackV AA6SpacerV AA4ViewPAAE15dynamicTypeSizeyQrAA07DynamicxY0OFQO AA022_EnvironmentKeyWritingJ0V AA4FontV 21AccessibilitySettings011PreviewTextiJ0V AA4TextV A9_30ClarityLockScreenPreviewButtonV
+- _symbolic _____y_____y_____yACy__________y_____GG_____y_____GG_ACyACy_____yAByACy__________G______y_____ySnySiGSi_____GARySaySSGSSATGGQPGG_____G_____GACyAMyAByAP_ACy_____yAXGA_GQPGGA1_GQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA07RoundedG0V AA6VStackV AA6SpacerV AA12_FrameLayoutV AA012_ConditionalE0V AA7ForEachV 21AccessibilitySettings33ClarityOnboardingPreviewAppButtonV AA08_PaddingR0V AA08_OpacityM0V AA9LazyVGridV
+- _symbolic _____y_____y_____yACy__________y_____GG_____y_____GG_ACy_____yAByACy__________G______QPGG_____GQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA07RoundedG0V AA6VStackV AA6SpacerV AA12_FrameLayoutV 21AccessibilitySettings34ClarityOnboardingAdminSettingGroupV AA08_PaddingR0V
+- _symbolic _____y_____y_____y__________G_ACy_____yAAyAByACyACy__________y_____SgGG_____G_ACy_____AMGSgAQQPGG_Qo_AEGAD_____QPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA6SpacerV AA12_FrameLayoutV AA4ViewPAAE15dynamicTypeSizeyQrAA07DynamiclM0OFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV 21AccessibilitySettings016PreviewTextStyleS0V AA0X0V AW017ClarityLockScreenW6ButtonV
+- get_witness_table 7SwiftUI15ModifiedContentVyAA14GeometryReaderVyACyACyACyACyACyACy21AccessibilitySettings40ClarityOnboardingDeviceBackgroundAndAppsVAA12_FrameLayoutVGAA11_ClipEffectVyAA16RoundedRectangleVGGAA07_ShadowR0VGAA16_OverlayModifierVyAA15StrokeShapeViewVyAoA5ColorVAA05EmptyZ0VGGGAA06_ScaleR0VGAJGGAA0g10AttachmentW0VGAA0Z0HPA8_AAA12_HPyHC_A10_AA0zW0HPyHCHC
+- get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA05TupleD0VyACyACyAA9RectangleVAA24_ForegroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA07RoundedG0VGG_ACyAA6VStackVyAGyACyAA6SpacerVAA12_FrameLayoutVG_21AccessibilitySettings34ClarityOnboardingAdminSettingGroupVQPGGAA08_PaddingR0VGQPGGAA08_OverlayJ0VyA1_0uv10BackButtonG0VGGAA4ViewHPA10_AAA17_HPyHC_A15_AA04ViewJ0HPyHCHC
+- get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA05TupleD0VyACyACyAA9RectangleVAA24_ForegroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA07RoundedG0VGG_ACyACyAA6VStackVyAGyACyAA6SpacerVAA12_FrameLayoutVG_AA012_ConditionalD0VyAA7ForEachVySnySiGSi21AccessibilitySettings33ClarityOnboardingPreviewAppButtonVGA4_ySaySSGSSA8_GGQPGGAA08_PaddingR0VGAA08_OpacityM0VGACyAWyAGyA0__ACyAA9LazyVGridVyA12_GA16_GQPGGA19_GQPGGAA017_AppearanceActionJ0VGAA4ViewHPA29_AAA33_HPyHC_A31_AA04ViewJ0HPyHCHC
+- get_witness_table 7SwiftUI15ModifiedContentVyACy21AccessibilitySettings33ClarityOnboardingDeviceBackgroundVAA12_FrameLayoutVGAA0E18AttachmentModifierVGAA4ViewHPAiaMHPAfaMHPyHC_AhA0oN0HPyHCHC_AkaNHPyHCHC
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACy21AccessibilitySettings33ClarityOnboardingDeviceLockScreenVAA12_FrameLayoutVGAA16_OverlayModifierVyAA15StrokeShapeViewVyAA16RoundedRectangleVAA5ColorVAA05EmptyR0VGGGAA0e10AttachmentO0VGAA0R0HPAvaZHPAiaZHPAfaZHPyHC_AhA0rO0HPyHCHC_AuAA_HPyHCHC_AxAA_HPyHCHC
+- get_witness_table 7SwiftUI6ZStackVyAA12TupleContentVyAA08ModifiedE0VyAGyAA9RectangleVAA24_ForegroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA07RoundedG0VGG_AGyAGyAGyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameR0VGATGSgAA6VStackVyAEyAGyAA6SpacerVA0_G_AGyAA4ViewPAAE15dynamicTypeSizeyQrAA07DynamicxY0OFQOyA5_yAEyAGyAGyAwA022_EnvironmentKeyWritingJ0VyAA4FontVSgGG21AccessibilitySettings011PreviewTextiJ0VG_AGyAA4TextVA23_GSgA28_QPGG_Qo_A0_GA7_A21_30ClarityLockScreenPreviewButtonVQPGGQPGGAAA9_HPyHC
+```

@@ -1,0 +1,14 @@
+## Tightbeam
+
+> `/System/Library/PrivateFrameworks/Tightbeam.framework/Tightbeam`
+
+```diff
+
+-631.0.5.0.0
+-  __TEXT.__text: 0x3f254
++631.40.4.0.0
++  __TEXT.__text: 0x3f258
+   __TEXT.__const: 0x2428
+   __TEXT.__cstring: 0x55ab
+   __TEXT.__oslogstring: 0xe2b
+```

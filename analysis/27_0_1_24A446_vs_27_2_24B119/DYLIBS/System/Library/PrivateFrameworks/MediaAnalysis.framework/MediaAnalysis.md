@@ -1,0 +1,396 @@
+## MediaAnalysis
+
+> `/System/Library/PrivateFrameworks/MediaAnalysis.framework/MediaAnalysis`
+
+```diff
+
+-435.79.1.5.0
+-  __TEXT.__text: 0x46ac70
++460.14.1.2.0
++  __TEXT.__text: 0x4738c4
+   __TEXT.__delay_stubs: 0xc0
+-  __TEXT.__delay_helper: 0xa4
+-  __TEXT.__objc_methlist: 0x22b90
+-  __TEXT.__const: 0x16608
+-  __TEXT.__gcc_except_tab: 0x647d0
+-  __TEXT.__cstring: 0x1fda3
+-  __TEXT.__oslogstring: 0x30bab
++  __TEXT.__delay_helper: 0x284
++  __TEXT.__objc_methlist: 0x22d80
++  __TEXT.__const: 0x16648
++  __TEXT.__gcc_except_tab: 0x6554c
++  __TEXT.__cstring: 0x20631
++  __TEXT.__oslogstring: 0x3166b
+   __TEXT.__dlopen_cstrs: 0x4b8
+   __TEXT.__ustring: 0x40
+   __TEXT.__swift5_typeref: 0x9dc
+
+   __TEXT.__swift_as_ret: 0x90
+   __TEXT.__swift_as_cont: 0xd8
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x133c0
++  __TEXT.__unwind_info: 0x13590
+   __TEXT.__eh_frame: 0x1a20
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x7b50
+-  __DATA_CONST.__objc_classlist: 0x15b8
++  __DATA_CONST.__const: 0x7ba8
++  __DATA_CONST.__objc_classlist: 0x15c0
+   __DATA_CONST.__objc_catlist: 0x1c8
+   __DATA_CONST.__objc_protolist: 0x140
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x10
+-  __DATA_CONST.__objc_selrefs: 0xf050
++  __DATA_CONST.__objc_selrefs: 0xf190
+   __DATA_CONST.__objc_protorefs: 0x60
+-  __DATA_CONST.__objc_superrefs: 0xfa0
+-  __DATA_CONST.__objc_arraydata: 0x12c0
+-  __DATA_CONST.__got: 0x2548
++  __DATA_CONST.__objc_superrefs: 0xfa8
++  __DATA_CONST.__objc_arraydata: 0x12e8
++  __DATA_CONST.__got: 0x2568
+   __AUTH_CONST.__const: 0x63a8
+-  __AUTH_CONST.__cfstring: 0x1d500
+-  __AUTH_CONST.__objc_const: 0x41a30
++  __AUTH_CONST.__cfstring: 0x1db00
++  __AUTH_CONST.__objc_const: 0x41df8
+   __AUTH_CONST.__weak_auth_got: 0x80
+-  __AUTH_CONST.__objc_floatobj: 0x2f0
+-  __AUTH_CONST.__objc_arrayobj: 0xcf0
++  __AUTH_CONST.__objc_floatobj: 0x300
++  __AUTH_CONST.__objc_arrayobj: 0xd20
+   __AUTH_CONST.__objc_doubleobj: 0x490
+-  __AUTH_CONST.__objc_intobj: 0x38b8
++  __AUTH_CONST.__objc_intobj: 0x3930
+   __AUTH_CONST.__objc_dictobj: 0xc8
+-  __AUTH_CONST.__auth_got: 0x2568
++  __AUTH_CONST.__auth_got: 0x2578
+   __AUTH_CONST.__auth_ptr: 0x0
+-  __AUTH.__objc_data: 0x2f0
+-  __AUTH.__data: 0x118
++  __AUTH.__objc_data: 0x50
+   __AUTH.__thread_vars: 0x30
+   __AUTH.__thread_bss: 0x10
+-  __DATA.__objc_ivar: 0x3690
+-  __DATA.__data: 0x1efc
+-  __DATA.__bss: 0x30d9
++  __DATA.__objc_ivar: 0x36e0
++  __DATA.__data: 0xec0
++  __DATA.__bss: 0x30c9
+   __DATA.__common: 0x3c1
+-  __DATA_DIRTY.__objc_data: 0xdc28
+-  __DATA_DIRTY.__data: 0x2b0
+-  __DATA_DIRTY.__bss: 0x758
++  __DATA_DIRTY.__objc_data: 0xdf18
++  __DATA_DIRTY.__data: 0x1408
++  __DATA_DIRTY.__bss: 0x778
+   __DATA_DIRTY.__common: 0x30
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 16454
+-  Symbols:   28100
++  Functions: 16539
++  Symbols:   28223
+   CStrings:  0
+ 
+Symbols:
++ +[PHPhotoLibrary(MediaAnalysis) mad_isInitialAnalysisPass]
++ +[VCPMovieAssetWriter assetWriterWithURL:andTrack:andBitrate:withOutputSize:enableAudio:enableStyle:hasStyleApplied:enableTextureStyle:]
++ -[MADHKSVClip generativeMetrics]
++ -[MADHKSVClip setGenerativeMetrics:]
++ -[MADHKSVGenerativeMetrics copyWithZone:]
++ -[MADHKSVGenerativeMetrics pccProcessingDurationMilliseconds]
++ -[MADHKSVGenerativeMetrics pccVideoCaptionDurationMilliseconds]
++ -[MADHKSVGenerativeMetrics pccVideoDecodeDurationMilliseconds]
++ -[MADHKSVGenerativeMetrics pccVideoEmbeddingDurationMilliseconds]
++ -[MADHKSVGenerativeMetrics pccVideoGatingDurationMilliseconds]
++ -[MADHKSVGenerativeMetrics setPccProcessingDurationMilliseconds:]
++ -[MADHKSVGenerativeMetrics setPccVideoCaptionDurationMilliseconds:]
++ -[MADHKSVGenerativeMetrics setPccVideoDecodeDurationMilliseconds:]
++ -[MADHKSVGenerativeMetrics setPccVideoEmbeddingDurationMilliseconds:]
++ -[MADHKSVGenerativeMetrics setPccVideoGatingDurationMilliseconds:]
++ -[MADServicePhotosVideoAsset isPhotosAsset]
++ -[MADServiceVideoAsset isPhotosAsset]
++ -[MADServiceVideoSafetyProcessingTask storeSafetyClassificationResults]
++ -[MADSharedTextTokenizer tokenIDsForText:offsets:]
++ -[MADTextTokenizationTask processInput:resource:computeOffsets:tokenIDs:tokenOffsets:error:]
++ -[MADTextureStyleMetaAnalyzer .cxx_destruct]
++ -[MADTextureStyleMetaAnalyzer initWithRequestAnalyses:formatDescription:]
++ -[MADTextureStyleMetaAnalyzer privateResults]
++ -[MADTextureStyleMetaAnalyzer processMetadataGroup:flags:]
++ -[PHAsset(MediaAnalysisTUProcessing) mad_hasContentClassificationPassport]
++ -[VCPFullAnalysisURLProcessingTask dealloc]
++ -[VCPHomeKitAnalysisSession processWithVideoFragments:previousAnalysis:captionFrameCount:embeddingOnly:clientPrompt:clientLocale:faceMetadata:captionOverride:decodeTargetMaxResolution:completionHandler:]
++ -[VCPHomeKitAnalysisSession requestGenerativeProcessingWithClipID:previousAnalysis:fragmentTimeRange:embeddingOnly:clientPrompt:clientLocale:completionHandler:]
++ -[VCPHomeMaintenanceTask _runResidentMaintenanceWithResults:error:]
++ -[VCPMediaAnalysisService submitDatabaseRestoreFastPassProcessingWithCompletionHandler:]
++ -[VCPMediaAnalysisService submitPhotosFaceFastPassProcessingForPhotoLibraryURL:withCompletionHandler:]
++ -[VCPMediaAnalysisService submitPhotosSceneFastPassProcessingForPhotoLibraryURL:withCompletionHandler:]
++ -[VCPMediaAnalysisService submitPhotosTUFastPassProcessingForPhotoLibraryURL:withCompletionHandler:]
++ -[VCPMovieAnalyzer initWithPHAsset:withPausedAnalysis:forAnalysisTypes:downloadedResourceURL:]
++ -[VCPMovieAssetWriter addSkinPixelBuffer:withTime:withAttachment:]
++ -[VCPMovieAssetWriter addTextureStyleInfoData:timerange:]
++ -[VCPMovieAssetWriter initWithURL:andTrack:andBitrate:withOutputSize:enableAudio:enableStyle:hasStyleApplied:enableTextureStyle:]
++ -[VCPMovieAssetWriter popSkinSample]
++ -[VCPMovieAssetWriter pushSkinSample:]
++ -[VCPMovieAssetWriter setupSkinTrack]
++ -[VCPVideoInterpolator createMetadataItem:identifier:timerange:]
++ -[VCPVideoInterpolator createSkinTrackDecoder:timerange:]
++ -[VCPVideoInterpolator createTextureStyleInfoMetadata:timerange:]
++ -[VCPVideoInterpolator deserializeMetadata:faceROIs:]
++ -[VCPVideoInterpolator enableTextureStyle]
++ -[VCPVideoInterpolator faceROIRect:fromDictionary:]
++ -[VCPVideoInterpolator findIntraFrameList:into:]
++ -[VCPVideoInterpolator hasIntraFrameAtEndBoundary]
++ -[VCPVideoInterpolator interpolateSkinMap]
++ GCC_except_table249
++ GCC_except_table276
++ GCC_except_table294
++ GCC_except_table303
++ GCC_except_table312
++ GCC_except_table325
++ GCC_except_table328
++ GCC_except_table331
++ GCC_except_table334
++ GCC_except_table337
++ GCC_except_table340
++ GCC_except_table343
++ GCC_except_table346
++ GCC_except_table356
++ GCC_except_table365
++ GCC_except_table374
++ GCC_except_table392
++ GCC_except_table401
++ GCC_except_table410
++ GCC_except_table437
++ GCC_except_table441
++ GCC_except_table444
++ GCC_except_table453
++ GCC_except_table455
++ GCC_except_table462
++ GCC_except_table464
++ GCC_except_table467
++ GCC_except_table470
++ GCC_except_table473
++ GCC_except_table476
++ GCC_except_table480
++ GCC_except_table493
++ GCC_except_table496
++ GCC_except_table499
++ GCC_except_table502
++ GCC_except_table505
++ GCC_except_table508
++ GCC_except_table509
++ GCC_except_table513
++ GCC_except_table516
++ GCC_except_table519
++ GCC_except_table521
++ GCC_except_table522
++ GCC_except_table525
++ GCC_except_table527
++ GCC_except_table528
++ GCC_except_table530
++ GCC_except_table531
++ GCC_except_table534
++ GCC_except_table535
++ GCC_except_table536
++ GCC_except_table538
++ GCC_except_table539
++ GCC_except_table541
++ GCC_except_table542
++ _CMFormatDescriptionGetExtension
++ _MediaAnalysisMetaTSInfoResultsKey
++ _MediaAnalysisMetaTSResultsKey
++ _NSClassFromString
++ _OBJC_CLASS_$_MADTextureStyleMetaAnalyzer
++ _OBJC_CLASS_$_PNAssetCurationUtilities$loadHelper_x8
++ _OBJC_CLASS_$_PNPersonClusterManager$loadHelper_x8
++ _OBJC_CLASS_$_PNPersonPromoter$loadHelper_x25
++ _OBJC_CLASS_$_PNPersonPromoter$loadHelper_x8
++ _OBJC_CLASS_$_PNPersonPromoter$loadHelper_x8$for$_MADPersonPromoterHasProcessedForLibrary+4
++ _OBJC_IVAR_$_MADHKSVClip._generativeMetrics
++ _OBJC_IVAR_$_MADHKSVGenerativeMetrics._pccProcessingDurationMilliseconds
++ _OBJC_IVAR_$_MADHKSVGenerativeMetrics._pccVideoCaptionDurationMilliseconds
++ _OBJC_IVAR_$_MADHKSVGenerativeMetrics._pccVideoDecodeDurationMilliseconds
++ _OBJC_IVAR_$_MADHKSVGenerativeMetrics._pccVideoEmbeddingDurationMilliseconds
++ _OBJC_IVAR_$_MADHKSVGenerativeMetrics._pccVideoGatingDurationMilliseconds
++ _OBJC_IVAR_$_MADTextureStyleMetaAnalyzer._results
++ _OBJC_IVAR_$_VCPFullAnalysisURLProcessingTask._started
++ _OBJC_IVAR_$_VCPMovieAssetWriter._enableTextureStyle
++ _OBJC_IVAR_$_VCPMovieAssetWriter._skinDequeueSemaphore
++ _OBJC_IVAR_$_VCPMovieAssetWriter._skinEnqueueSemaphore
++ _OBJC_IVAR_$_VCPMovieAssetWriter._skinInput
++ _OBJC_IVAR_$_VCPMovieAssetWriter._skinQueue
++ _OBJC_IVAR_$_VCPMovieAssetWriter._skinsampleQueue
++ _OBJC_IVAR_$_VCPMovieAssetWriter._textureStyleInfoAdaptor
++ _OBJC_IVAR_$_VCPVideoInterpolator._enableTextureStyle
++ _OBJC_IVAR_$_VCPVideoInterpolator._previousTextureStyleMetadata
++ _OBJC_IVAR_$_VCPVideoInterpolator._stylesMetadataInterpolator
++ _OBJC_IVAR_$_VCPVideoInterpolator._textureStyleMetadata
++ _OBJC_IVAR_$_VCPVideoInterpolator._videoOutputTimeline
++ _OBJC_METACLASS_$_MADTextureStyleMetaAnalyzer
++ _PNPersonPromoterVersion$loadHelper_x8
++ _VCPAnalyticsField17246HKSVProcessingConsecutiveIndex
++ _VCPAnalyticsField17246HKSVProcessingCountPreviousRequestsPendingWhenAdmitted
++ _VCPAnalyticsField17246HKSVProcessingDidGlobalLastClipIDMismatchPredecessor
++ _VCPAnalyticsField17246HKSVProcessingDidLapseConsecutiveWindow
++ _VCPAnalyticsField17246HKSVProcessingFragmentTotalDurationMilliseconds
++ _VCPAnalyticsField17246HKSVProcessingPendingPredecessorElapsedMilliseconds
++ _VCPAnalyticsField17246HKSVProcessingPreviousConsecutiveStatus
++ _VCPAnalyticsField17246HKSVProcessingPreviousOSStatus
++ _VCPAnalyticsField17246HKSVProcessingRetryCount
++ _VCPAnalyticsField17246HKSVProcessingRetryDelayBucket
++ _VCPAnalyticsFieldNumberOfAssetsThumbnailSufficient
++ _VCPAnalyticsFieldNumberOfAssetsThumbnailTooSmall
++ _VCPAnalyticsFieldTimeFetchingFullInSeconds
++ _VCPAnalyticsFieldTimeFetchingGatingInSeconds
++ _VCPAnalyticsFieldTimePreparingFullInSeconds
++ _VCPAnalyticsFieldTimePreparingGatingInSeconds
++ _VCPAnalyticsFieldTimePublishingFullInSeconds
++ _VCPAnalyticsFieldTimePublishingGatingInSeconds
++ __OBJC_$_INSTANCE_METHODS_MADTextureStyleMetaAnalyzer
++ __OBJC_$_INSTANCE_VARIABLES_MADTextureStyleMetaAnalyzer
++ __OBJC_CLASS_RO_$_MADTextureStyleMetaAnalyzer
++ __OBJC_METACLASS_RO_$_MADTextureStyleMetaAnalyzer
++ __ZL17shapeElementCountP7NSArrayIP8NSNumberE
++ __ZN5Darts15DoubleArrayImplIvvivE10copy_arrayEPKvm
++ __ZNK5Darts15DoubleArrayImplIvvivE8validateEi
++ __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEE7__cloneEPNS0_6__baseISH_EE
++ __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEE7__cloneEv
++ __ZNKSt3__18functionIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS4_iEENS_9allocatorIS7_EEEEiEEclES4_SB_i
++ __ZNSt3__110__function12__value_funcIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEiEE4swapB9fqe220106ERSE_
++ __ZNSt3__110__function12__value_funcIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEiEED2B9fqe220106Ev
++ __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEE7destroyEv
++ __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEED0Ev
++ __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEED1Ev
++ __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEEclEOS8_OSG_Oi
++ __ZTINSt3__110__function6__baseIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEiEEE
++ __ZTINSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEEE
++ __ZTSNSt3__110__function6__baseIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEiEEE
++ __ZTSNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEEE
++ __ZTVNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEEE
++ __ZZ58+[PHPhotoLibrary(MediaAnalysis) mad_isInitialAnalysisPass]E21isInitialAnalysisPass
++ __ZZ58+[PHPhotoLibrary(MediaAnalysis) mad_isInitialAnalysisPass]E4once
++ ___100-[VCPMediaAnalysisService submitPhotosTUFastPassProcessingForPhotoLibraryURL:withCompletionHandler:]_block_invoke
++ ___100-[VCPMediaAnalysisService submitPhotosTUFastPassProcessingForPhotoLibraryURL:withCompletionHandler:]_block_invoke_2
++ ___102-[VCPMediaAnalysisService submitPhotosFaceFastPassProcessingForPhotoLibraryURL:withCompletionHandler:]_block_invoke
++ ___102-[VCPMediaAnalysisService submitPhotosFaceFastPassProcessingForPhotoLibraryURL:withCompletionHandler:]_block_invoke_2
++ ___103-[VCPMediaAnalysisService submitPhotosSceneFastPassProcessingForPhotoLibraryURL:withCompletionHandler:]_block_invoke
++ ___103-[VCPMediaAnalysisService submitPhotosSceneFastPassProcessingForPhotoLibraryURL:withCompletionHandler:]_block_invoke_2
++ ___160-[VCPHomeKitAnalysisSession requestGenerativeProcessingWithClipID:previousAnalysis:fragmentTimeRange:embeddingOnly:clientPrompt:clientLocale:completionHandler:]_block_invoke
++ ___160-[VCPHomeKitAnalysisSession requestGenerativeProcessingWithClipID:previousAnalysis:fragmentTimeRange:embeddingOnly:clientPrompt:clientLocale:completionHandler:]_block_invoke_2
++ ___160-[VCPHomeKitAnalysisSession requestGenerativeProcessingWithClipID:previousAnalysis:fragmentTimeRange:embeddingOnly:clientPrompt:clientLocale:completionHandler:]_block_invoke_3
++ ___203-[VCPHomeKitAnalysisSession processWithVideoFragments:previousAnalysis:captionFrameCount:embeddingOnly:clientPrompt:clientLocale:faceMetadata:captionOverride:decodeTargetMaxResolution:completionHandler:]_block_invoke
++ ___203-[VCPHomeKitAnalysisSession processWithVideoFragments:previousAnalysis:captionFrameCount:embeddingOnly:clientPrompt:clientLocale:faceMetadata:captionOverride:decodeTargetMaxResolution:completionHandler:]_block_invoke_2
++ ___50-[MADSharedTextTokenizer tokenIDsForText:offsets:]_block_invoke
++ ___58+[PHPhotoLibrary(MediaAnalysis) mad_isInitialAnalysisPass]_block_invoke
++ ___67-[VCPHomeMaintenanceTask _runResidentMaintenanceWithResults:error:]_block_invoke
++ ___88-[VCPMediaAnalysisService submitDatabaseRestoreFastPassProcessingWithCompletionHandler:]_block_invoke
++ ___88-[VCPMediaAnalysisService submitDatabaseRestoreFastPassProcessingWithCompletionHandler:]_block_invoke_2
++ ___block_descriptor_105_ea8_32s40s48s56s64s72s80s88bs_e5_v8?0ls32l8s88l8s40l8s48l8s56l8s64l8s72l8s80l8
++ ___block_descriptor_129_ea8_32s40s48s56s64s72bs_e5_v8?0ls32l8s72l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_48_ea8_32s40bs_e17_v16?0"NSError"8ls32l8s40l8
++ ___block_descriptor_64_ea8_32s40s48r56r_e34_v24?0"NSDictionary"8"NSError"16ls32l8r48l8r56l8s40l8
++ ___block_descriptor_64_ea8_32s40s48r56r_e5_v8?0ls32l8s40l8r48l8r56l8
++ _dlopenHelper$PhotosIntelligence
++ _dlopenHelperFlag$PhotosIntelligence
++ _kCMITextureStylesPersonInputDataKey_faceID
++ _kCMITextureStylesPersonInputDataKey_faceROI
++ _kVTCompressionPropertyKey_MaximumRealTimeFrameRate
++ _kVTProfileLevel_HEVC_Monochrome_AutoLevel
+- +[PHAssetResourceManager(MediaAnalysis) vcp_inMemoryDownload:withTaskID:toData:cancel:]
+- +[VCPHomeKitAnalysisSession requestHistogramCalculationForPixelBuffer:normalizedBoundingBox:error:]
+- +[VCPHomeKitAnalysisSession sessionWithProperties:andResultsHandler:]
+- +[VCPMovieAssetWriter assetWriterWithURL:andTrack:andBitrate:withOutputSize:enableAudio:enableStyle:hasStyleApplied:]
+- -[MADServiceVideoSafetyProcessingTask storeSafetyClassificationResultsForSharedAsset]
+- -[MADTextTokenizationTask processInput:resource:tokenIDs:error:]
+- -[VCPHomeKitAnalysisSession processWithVideoAnalyzerFragmentResult:completionHandler:]
+- -[VCPHomeKitAnalysisSession processWithVideoFragments:previousAnalysis:captionFrameCount:embeddingOnly:clientPrompt:clientLocale:faceMetadata:completionHandler:]
+- -[VCPHomeKitAnalysisSession requestGenerativeProcessingWithClipID:previousAnalysis:fragmentSequenceRange:embeddingOnly:clientPrompt:completionHandler:]
+- -[VCPHomeKitAnalysisSession requestGenerativeProcessingWithPreviousAnalysis:fragmentRange:embeddingOnly:clientPrompt:completionHandler:]
+- -[VCPMADResourceManager reserveBudgetNormalized:]
+- -[VCPMovieAssetWriter initWithURL:andTrack:andBitrate:withOutputSize:enableAudio:enableStyle:hasStyleApplied:]
+- -[VCPVideoInterpolator deserializeMetadata:]
+- -[VCPVideoInterpolator findIntraFrameList:]
+- GCC_except_table265
+- GCC_except_table271
+- GCC_except_table282
+- GCC_except_table300
+- GCC_except_table309
+- GCC_except_table326
+- GCC_except_table327
+- GCC_except_table332
+- GCC_except_table336
+- GCC_except_table341
+- GCC_except_table344
+- GCC_except_table345
+- GCC_except_table353
+- GCC_except_table362
+- GCC_except_table371
+- GCC_except_table389
+- GCC_except_table398
+- GCC_except_table407
+- GCC_except_table416
+- GCC_except_table439
+- GCC_except_table445
+- GCC_except_table448
+- GCC_except_table449
+- GCC_except_table451
+- GCC_except_table454
+- GCC_except_table457
+- GCC_except_table460
+- GCC_except_table465
+- GCC_except_table466
+- GCC_except_table468
+- GCC_except_table477
+- GCC_except_table482
+- GCC_except_table485
+- GCC_except_table486
+- GCC_except_table488
+- GCC_except_table494
+- GCC_except_table497
+- GCC_except_table503
+- GCC_except_table504
+- GCC_except_table515
+- GCC_except_table517
+- __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEE7__cloneEPNS0_6__baseISH_EE
+- __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEE7__cloneEv
+- __ZNKSt3__18functionIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS4_iEENS_9allocatorIS7_EEEEEEclES4_SB_
+- __ZNSt3__110__function12__value_funcIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEEE4swapB9fqe220106ERSE_
+- __ZNSt3__110__function12__value_funcIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEEED2B9fqe220106Ev
+- __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEE7destroyEv
+- __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEED0Ev
+- __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEED1Ev
+- __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEEclEOS8_OSG_
+- __ZTINSt3__110__function6__baseIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEEEE
+- __ZTINSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEEE
+- __ZTSNSt3__110__function6__baseIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEEEE
+- __ZTSNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEEE
+- __ZTVNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEEE
+- ___161-[VCPHomeKitAnalysisSession processWithVideoFragments:previousAnalysis:captionFrameCount:embeddingOnly:clientPrompt:clientLocale:faceMetadata:completionHandler:]_block_invoke
+- ___161-[VCPHomeKitAnalysisSession processWithVideoFragments:previousAnalysis:captionFrameCount:embeddingOnly:clientPrompt:clientLocale:faceMetadata:completionHandler:]_block_invoke_2
+- ___29-[VCPHomeMaintenanceTask run]_block_invoke
+- ___69+[VCPHomeKitAnalysisSession sessionWithProperties:andResultsHandler:]_block_invoke
+- ___87+[PHAssetResourceManager(MediaAnalysis) vcp_inMemoryDownload:withTaskID:toData:cancel:]_block_invoke
+- ___block_descriptor_40_e8_32s_e16_v16?0"NSData"8ls32l8
+- ___block_descriptor_40_e8_32s_e8_v16?0d8ls32l8
+- ___block_descriptor_48_ea8_32s40bs_e62_v32?0"MADHKSVClip"8"MADHKSVGenerativeMetrics"16"NSError"24ls32l8s40l8
+- ___block_descriptor_64_e8_32s40s_e17_v16?0"NSError"8ls32l8s40l8
+- ___block_descriptor_64_ea8_32s40s48s56bs_e5_v8?0ls56l8s32l8s40l8s48l8
+- ___block_descriptor_72_ea8_32s40s48r56r64r_e34_v24?0"NSDictionary"8"NSError"16ls32l8s40l8r48l8r56l8r64l8
+- ___block_descriptor_93_ea8_32s40s48s56s64s72s80bs_e5_v8?0ls32l8s80l8s40l8s48l8s56l8s64l8s72l8
+```

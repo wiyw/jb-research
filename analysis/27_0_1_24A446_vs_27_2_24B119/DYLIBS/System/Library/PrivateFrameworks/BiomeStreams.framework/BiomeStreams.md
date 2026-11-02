@@ -1,0 +1,295 @@
+## BiomeStreams
+
+> `/System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams`
+
+```diff
+
+-250.0.0.3.0
+-  __TEXT.__text: 0x3f73f0
+-  __TEXT.__objc_methlist: 0x14edc
+-  __TEXT.__const: 0xad134
+-  __TEXT.__cstring: 0x311f3
+-  __TEXT.__gcc_except_tab: 0x125c
+-  __TEXT.__oslogstring: 0xbe20
++259.0.0.0.0
++  __TEXT.__text: 0x3f9504
++  __TEXT.__objc_methlist: 0x15074
++  __TEXT.__const: 0xad174
++  __TEXT.__cstring: 0x31313
++  __TEXT.__gcc_except_tab: 0x12ec
++  __TEXT.__oslogstring: 0xc180
+   __TEXT.__dlopen_cstrs: 0x632
+-  __TEXT.__constg_swiftt: 0xb2b8
+-  __TEXT.__swift5_typeref: 0x54f0
++  __TEXT.__constg_swiftt: 0xb338
++  __TEXT.__swift5_typeref: 0x54e6
+   __TEXT.__swift5_builtin: 0xf0
+-  __TEXT.__swift5_reflstr: 0x6e31
+-  __TEXT.__swift5_fieldmd: 0xbb70
+-  __TEXT.__swift5_capture: 0x2a4
++  __TEXT.__swift5_reflstr: 0x6e41
++  __TEXT.__swift5_fieldmd: 0xbba8
+   __TEXT.__swift5_assocty: 0xbf8
++  __TEXT.__swift5_capture: 0x254
+   __TEXT.__swift5_proto: 0x1f68
+-  __TEXT.__swift5_types: 0x844
++  __TEXT.__swift5_types: 0x84c
+   __TEXT.__swift5_mpenum: 0x44
+   __TEXT.__swift5_protos: 0x40
+-  __TEXT.__unwind_info: 0xc428
+-  __TEXT.__eh_frame: 0xd880
++  __TEXT.__unwind_info: 0xc4d8
++  __TEXT.__eh_frame: 0xd858
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2a8c8
+-  __DATA_CONST.__objc_classlist: 0xe88
++  __DATA_CONST.__const: 0x2a970
++  __DATA_CONST.__objc_classlist: 0xea0
+   __DATA_CONST.__objc_catlist: 0x28
+-  __DATA_CONST.__objc_protolist: 0x1c0
++  __DATA_CONST.__objc_protolist: 0x1c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6070
++  __DATA_CONST.__objc_selrefs: 0x6150
+   __DATA_CONST.__objc_protorefs: 0x80
+-  __DATA_CONST.__objc_superrefs: 0x978
+-  __DATA_CONST.__objc_arraydata: 0x108
+-  __DATA_CONST.__got: 0x1080
+-  __AUTH_CONST.__const: 0x12d90
+-  __AUTH_CONST.__cfstring: 0x9540
+-  __AUTH_CONST.__objc_const: 0x4d450
++  __DATA_CONST.__objc_superrefs: 0x980
++  __DATA_CONST.__objc_arraydata: 0xf8
++  __DATA_CONST.__got: 0x1098
++  __AUTH_CONST.__const: 0x12cd0
++  __AUTH_CONST.__cfstring: 0x95a0
++  __AUTH_CONST.__objc_const: 0x4d6f0
+   __AUTH_CONST.__objc_intobj: 0x78
+   __AUTH_CONST.__objc_arrayobj: 0x48
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH_CONST.__auth_got: 0x12b8
++  __AUTH_CONST.__auth_got: 0x12c8
+   __AUTH_CONST.__auth_ptr: 0x918
+-  __AUTH.__objc_data: 0x7b90
+-  __AUTH.__data: 0x134a0
++  __AUTH.__objc_data: 0x7398
++  __AUTH.__data: 0x13498
+   __AUTH.__thread_vars: 0x348
+   __AUTH.__thread_data: 0xf4
+   __AUTH.__thread_bss: 0x458
+-  __DATA.__objc_ivar: 0x184c
+-  __DATA.__data: 0x9d10
++  __DATA.__objc_ivar: 0x1858
++  __DATA.__data: 0x9dc0
+   __DATA.__bss: 0x3d890
+   __DATA.__common: 0x1c10
+-  __DATA_DIRTY.__objc_data: 0x1670
+-  __DATA_DIRTY.__data: 0x1d8
++  __DATA_DIRTY.__objc_data: 0x1eb8
++  __DATA_DIRTY.__data: 0x298
+   __DATA_DIRTY.__bss: 0x4d0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/ProactiveSupport.framework/ProactiveSupport
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
++  - /System/Library/PrivateFrameworks/TCC.framework/TCC
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 21934
+-  Symbols:   44665
++  Functions: 21977
++  Symbols:   44750
+   CStrings:  0
+ 
+Symbols:
++ +[BMStreamBase(PeriodicMaintenance_Private) _atLeastOneSegmentFileInDirectory:fileManager:]
++ -[BMComputeSourceChangeReporter .cxx_destruct]
++ -[BMComputeSourceChangeReporter _clientForStream:error:]
++ -[BMComputeSourceChangeReporter initWithAccount:]
++ -[BMComputeSourceChangeReporter init]
++ -[BMComputeSourceChangeReporter streamDeletionWithStreamIdentifier:remoteName:error:]
++ -[BMComputeSourceChangeReporter streamPrunedWithStreamIdentifier:remoteName:error:]
++ -[BMComputeSourceChangeReporter streamUpdatedWithStreamIdentifier:remoteName:error:]
++ -[BMComputeSourceClient eventsPrunedForAccount:remoteName:reason:error:]
++ -[BMComputeSourceClient sendEvent:account:remoteName:timestamp:signpostID:sendFullEvent:completion:]
++ -[BMComputeSourceClient streamUpdatedForAccount:remoteName:error:]
++ -[BMComputeSourceServer _sendEventWithStreamIdentifier:timestamp:signpostID:eventData:eventDataVersion:account:remoteName:acknowledgement:]
++ -[BMComputeSourceServer sendEventWithStreamIdentifier:timestamp:signpostID:eventData:eventDataVersion:account:remoteName:acknowledgement:]
++ -[BMComputeSubscriptionSubstreamManager _repopulateSubscriptionSubstreamForStream:]
++ -[BMComputeSubscriptionSubstreamManager _resetSubscriptionSubstreamOnUnrealisticFutureFrameForStream:]
++ -[BMComputeSubscriptionSubstreamManager resetSubscriptionSubstreamsOnUnrealisticFutureFrame]
++ -[BMPruner resetStream]
++ -[BMSource sendEvent:timestamp:completion:]
++ -[BMStoreSource _writeEvent:timestamp:signpostID:notifyCompute:completion:]
++ -[BMStoreSource sendEvent:timestamp:completion:]
++ -[BMStoreStream _resetStreamWithConfig:eventDataClass:]
++ -[BMStoreStream resetStream]
++ -[BMStreamBase(PeriodicMaintenance_Private) _executePruningPolicyOnSubscriptionSubstream]
++ -[BMStreamBase(PeriodicMaintenance_Private) _pruneDisabledSubstreams]
++ -[BMStreamBase(PeriodicMaintenance_Private) _pruneEmptyRemotesNotRecentlyModified]
++ -[BMStreamBase(PeriodicMaintenance_Private) _resetMainUnitOnUnrealisticFutureFrame]
++ -[BMStreamBase(PeriodicMaintenance_Private) _resetTombstoneSubstoreOnUnrealisticFutureFrameWithConfig:]
++ -[BMStreamBase(PeriodicMaintenance_Private) _resetTombstoneSubstoresOnUnrealisticFutureFrame]
++ -[BMStreamBase(PeriodicMaintenance_Private) executePruningPolicyForAccount:includeStorageCleanup:]
++ -[BMStreamVirtualTable initWithStream:useCase:schema:publisherBlockWithOptions:acceptPublisherOptions:]
++ -[BPSBiomeStorePublisher _invalidBookmarkError:]
++ -[BPSBiomeStorePublisher validateBookmarkValue:]
++ _$s12BiomeStreams11LibraryBaseP33expeditedPruningStreamIdentifiersST_pSS7ElementRts_XPvgZ
++ _$s12BiomeStreams11LibraryBaseP33expeditedPruningStreamIdentifiersST_pSS7ElementRts_XPvgZTj
++ _$s12BiomeStreams11LibraryBaseP33expeditedPruningStreamIdentifiersST_pSS7ElementRts_XPvgZTq
++ _$s12BiomeStreams11LibraryBasePAAE11streamBasesST_pSo08BMStreamD0C7ElementRts_XPvgZTm
++ _$s12BiomeStreams11LibraryBasePAAE33expeditedPruningStreamIdentifiersST_pSS7ElementRts_XPvgZ
++ _$s12BiomeStreams11LibraryBasePAAE33expeditedPruningStreamIdentifiersST_pSS7ElementRts_XPvpZMV
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO02bmD11StreamBasesAF0kL6LookupCSgvsZTm
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO15lockedLibraries_WZTm
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO16StreamBaseLookupC6lookupySo08BMStreamK0CSo0N10IdentifieraKcvpWvd
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO16StreamBaseLookupCMF
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO16StreamBaseLookupCMa
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO16StreamBaseLookupCMf
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO16StreamBaseLookupCMm
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO16StreamBaseLookupCMn
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO16StreamBaseLookupCN
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO16StreamBaseLookupCfD
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO17StreamBasesLookupC6lookupST_pSo12BMStreamBaseC7ElementSTRts_XPycvpWvd
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO17StreamBasesLookupCMF
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO17StreamBasesLookupCMa
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO17StreamBasesLookupCMf
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO17StreamBasesLookupCMm
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO17StreamBasesLookupCMn
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO17StreamBasesLookupCN
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO17StreamBasesLookupCfD
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO25lockedBMLibraryStreamBase2os21OSAllocatedUnfairLockVyAF0lM6LookupCSgGvpZ
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO25lockedBMLibraryStreamBase_WZ
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO25lockedBMLibraryStreamBase_Wz
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO26lockedBMLibraryStreamBases2os21OSAllocatedUnfairLockVyAF0lM6LookupCSgGvpZ
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO26lockedBMLibraryStreamBases_WZ
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO26lockedBMLibraryStreamBases_Wz
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO33expeditedPruningStreamIdentifiersST_pSS7ElementSTRts_XPvgZSaySSGAA0D4Base_pXpcfU_
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO33expeditedPruningStreamIdentifiersST_pSS7ElementSTRts_XPvgZTm
++ _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLOAA0D4BaseA2aGP33expeditedPruningStreamIdentifiersST_pSS7ElementRts_XPvgZTW
++ _$sSaySSGSayxGSTsWL
++ _$sSdySdSgxcSyRzlufcSbSpySdGXEfU_SbSPys4Int8VGXEfU_
++ _$sSdySdSgxcSyRzlufcSbSpySdGXEfU_SbSPys4Int8VGXEfU_TA
++ _$sSo18BMStreamIdentifieraABSYSCWlTm
++ _$ss11_StringGutsV16_slowWithCStringyxxSPys4Int8VGq_YKXEq_YKs5ErrorR_r0_lFAFq_xRi_zRi0_zRi__Ri0__r0_lysAG_pxIsgyrzr_ABxsAG_psAG_pRs_r0_lIetMggrzo_Tpq5Sb_Tg507$sSPys4f5VGxs5G34_pIgyrzo_ACxsAD_pIegyrzr_lTRSb_TG5AFSbsAG_pIgyrzo_Tf1cn_n
++ _$ss12LazySequenceVys07FlattenB0Vys0a3MapB0VySay12BiomeStreams11LibraryBase_pXpGSaySSGGGGAByxGSTsWL
++ _$ss12LazySequenceVys07FlattenB0Vys0a3MapB0VySay12BiomeStreams11LibraryBase_pXpGSaySSGGGGMR
++ _$ss12LazySequenceVys07FlattenB0Vys0a3MapB0VySay12BiomeStreams11LibraryBase_pXpGSaySSGGGGMd
++ _$ss13ManagedBufferCy12BiomeStreams14UnifiedLibraryO0F033_850BEB6472663B017EAF49437FB662E4LLO16StreamBaseLookupCSgSo16os_unfair_lock_sVGMR
++ _$ss13ManagedBufferCy12BiomeStreams14UnifiedLibraryO0F033_850BEB6472663B017EAF49437FB662E4LLO16StreamBaseLookupCSgSo16os_unfair_lock_sVGMd
++ _$ss13ManagedBufferCy12BiomeStreams14UnifiedLibraryO0F033_850BEB6472663B017EAF49437FB662E4LLO17StreamBasesLookupCSgSo16os_unfair_lock_sVGMR
++ _$ss13ManagedBufferCy12BiomeStreams14UnifiedLibraryO0F033_850BEB6472663B017EAF49437FB662E4LLO17StreamBasesLookupCSgSo16os_unfair_lock_sVGMd
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVySSSiG_s5NeverOTg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxr12_YKXEfU_s17_kl10VySSSiG_s5M4OTG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAnLIsgyrzr_Tf1nc_n
++ _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5ErrorRd__lFADs13_UnsafeBitsetVqd__YKXEfU_SS_Sis5NeverOTG5TA
++ _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5ErrorRd__lFADs13_UnsafeBitsetVqd__YKXEfU_SS_Sis5NeverOTg5
++ _BMUseCaseSync
++ _OBJC_CLASS_$_BMComputeSourceChangeReporter
++ _OBJC_CLASS_$_BMFrameStore
++ _OBJC_IVAR_$_BMComputeSourceChangeReporter._account
++ _OBJC_IVAR_$_BMComputeSourceChangeReporter._clientsByStream
++ _OBJC_IVAR_$_BMComputeSourceChangeReporter._lock
++ _OBJC_METACLASS_$_BMComputeSourceChangeReporter
++ _TCCAccessCopyBundleIdentifiersDisabledForService
++ __DATA__TtCOO12BiomeStreams14UnifiedLibraryP33_850BEB6472663B017EAF49437FB662E47Library16StreamBaseLookup
++ __DATA__TtCOO12BiomeStreams14UnifiedLibraryP33_850BEB6472663B017EAF49437FB662E47Library17StreamBasesLookup
++ __IVARS__TtCOO12BiomeStreams14UnifiedLibraryP33_850BEB6472663B017EAF49437FB662E47Library16StreamBaseLookup
++ __IVARS__TtCOO12BiomeStreams14UnifiedLibraryP33_850BEB6472663B017EAF49437FB662E47Library17StreamBasesLookup
++ __METACLASS_DATA__TtCOO12BiomeStreams14UnifiedLibraryP33_850BEB6472663B017EAF49437FB662E47Library16StreamBaseLookup
++ __METACLASS_DATA__TtCOO12BiomeStreams14UnifiedLibraryP33_850BEB6472663B017EAF49437FB662E47Library17StreamBasesLookup
++ __OBJC_$_CLASS_METHODS_BMStreamBase(Tombstones_Project|Tombstones|PeriodicMaintenance|PeriodicMaintenance_Private|Subscriptions_Project|Subscriptions)
++ __OBJC_$_INSTANCE_METHODS_BMComputeSourceChangeReporter
++ __OBJC_$_INSTANCE_METHODS_BMStreamBase(Tombstones_Project|Tombstones|PeriodicMaintenance|PeriodicMaintenance_Private|Subscriptions_Project|Subscriptions)
++ __OBJC_$_INSTANCE_VARIABLES_BMComputeSourceChangeReporter
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_BMViewEventReporter
++ __OBJC_$_PROTOCOL_METHOD_TYPES_BMViewEventReporter
++ __OBJC_CLASS_PROTOCOLS_$_BMComputeSourceChangeReporter
++ __OBJC_CLASS_RO_$_BMComputeSourceChangeReporter
++ __OBJC_LABEL_PROTOCOL_$_BMViewEventReporter
++ __OBJC_METACLASS_RO_$_BMComputeSourceChangeReporter
++ __OBJC_PROTOCOL_$_BMViewEventReporter
++ ___100-[BMComputeSourceClient sendEvent:account:remoteName:timestamp:signpostID:sendFullEvent:completion:]_block_invoke
++ ___100-[BMComputeSourceClient sendEvent:account:remoteName:timestamp:signpostID:sendFullEvent:completion:]_block_invoke_2
++ ___139-[BMComputeSourceServer _sendEventWithStreamIdentifier:timestamp:signpostID:eventData:eventDataVersion:account:remoteName:acknowledgement:]_block_invoke
++ ___48-[BMStoreSource sendEvent:timestamp:completion:]_block_invoke
++ ___48-[BMStoreSource sendEvent:timestamp:completion:]_block_invoke_2
++ ___66-[BMComputeSourceClient streamUpdatedForAccount:remoteName:error:]_block_invoke
++ ___72-[BMComputeSourceClient eventsPrunedForAccount:remoteName:reason:error:]_block_invoke
++ ___89-[BMStreamBase(PeriodicMaintenance_Private) _executePruningPolicyOnSubscriptionSubstream]_block_invoke
++ ___89-[BMStreamBase(PeriodicMaintenance_Private) _executePruningPolicyOnSubscriptionSubstream]_block_invoke_2
++ ___89-[BMStreamBase(PeriodicMaintenance_Private) _executePruningPolicyOnSubscriptionSubstream]_block_invoke_3
++ ___89-[BMStreamBase(PeriodicMaintenance_Private) _executePruningPolicyOnSubscriptionSubstream]_block_invoke_4
++ ___98-[BMStreamBase(PeriodicMaintenance_Private) executePruningPolicyForAccount:includeStorageCleanup:]_block_invoke
++ ___block_descriptor_48_e8_32bs40r_e5_v8?0lr40l8s32l8
++ ___block_descriptor_48_e8_32s40r_e17_v16?0"NSError"8lr40l8s32l8
++ ___block_descriptor_48_e8_32s40r_e17_v16?0"NSError"8ls32l8r40l8
++ ___block_descriptor_56_e8_32s40bs_e5_v8?0ls32l8s40l8
++ __os_feature_enabled_impl
++ _executePruningPolicyForAccount:includeStorageCleanup:.onceToken
++ _kTCCServiceSiriAccess
++ _swift_retain_x10
++ _symbolic So12BMStreamBaseC_____Kc So18BMStreamIdentifiera
++ _symbolic _____ 12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO16StreamBaseLookupC
++ _symbolic _____ 12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO17StreamBasesLookupC
++ _symbolic _____So12BMStreamBaseCXjyc lST_px7ElementRts_XPXGMq
++ _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 12BiomeStreams14UnifiedLibraryO0F033_850BEB6472663B017EAF49437FB662E4LLO16StreamBaseLookupC So16os_unfair_lock_sV
++ _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 12BiomeStreams14UnifiedLibraryO0F033_850BEB6472663B017EAF49437FB662E4LLO17StreamBasesLookupC So16os_unfair_lock_sV
++ _symbolic _____y_____y_____ySay______pXpGSaySSGGGG s12LazySequenceV s07FlattenB0V s0a3MapB0V 12BiomeStreams11LibraryBaseP
+- +[BMStreamBase(PeriodicMaintenance) _atLeastOneSegmentFileInDirectory:fileManager:]
+- -[BMStreamBase(PeriodicMaintenance) _executePruningPolicyOnSubscriptionSubstream]
+- -[BMStreamBase(PeriodicMaintenance) _pruneDisabledSubstreams]
+- -[BMStreamBase(PeriodicMaintenance) _pruneEmptyRemotesNotRecentlyModified]
+- -[BPSBiomeStorePublisher validateBookmark:]
+- _$s12BiomeStreams13StorableValueOACSQAAWlTm
+- _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO02bmD14StreamBaseFuncSo08BMStreamL0CSo0N10IdentifieraKcSgvgZ
+- _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO02bmD14StreamBaseFuncSo08BMStreamL0CSo0N10IdentifieraKcSgvsZ
+- _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO02bmD14StreamBaseFuncSo08BMStreamL0CSo0N10IdentifieraKcSgvsZyALzYbXEfU_
+- _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO02bmD15StreamBasesFuncST_pSo12BMStreamBaseC7ElementSTRts_XPycSgvgZ
+- _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO02bmD15StreamBasesFuncST_pSo12BMStreamBaseC7ElementSTRts_XPycSgvsZ
+- _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO02bmD15StreamBasesFuncST_pSo12BMStreamBaseC7ElementSTRts_XPycSgvsZyALzYbXEfU_
+- _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO13dataArtifactsST_pAA0D8ArtifactO04DataL0_pXp7ElementSTRts_XPvgZ
+- _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO29lockedBMLibraryStreamBaseFunc2os21OSAllocatedUnfairLockVySo08BMStreamM0CSo0S10IdentifieraKcSgGvpZ
+- _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO29lockedBMLibraryStreamBaseFunc_WZ
+- _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO29lockedBMLibraryStreamBaseFunc_Wz
+- _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO30lockedBMLibraryStreamBasesFunc2os21OSAllocatedUnfairLockVyST_pSo12BMStreamBaseC7ElementSTRts_XPycSgGvpZ
+- _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO30lockedBMLibraryStreamBasesFunc_WZ
+- _$s12BiomeStreams14UnifiedLibraryO0D033_850BEB6472663B017EAF49437FB662E4LLO30lockedBMLibraryStreamBasesFunc_Wz
+- _$sSo18BMStreamIdentifieraSo0A4BaseCs5Error_pIeggozo_AbDsAE_pIegnrzo_TRTA
+- _$sSo18BMStreamIdentifieraSo0A4BaseCs5Error_pIeggozo_AbDsAE_pIegnrzo_TRTATm
+- _$sSo18BMStreamIdentifieraSo0A4BaseCs5Error_pIegnrzo_AbDsAE_pIeggozo_TR
+- _$sSo18BMStreamIdentifieraSo0A4BaseCs5Error_pIegnrzo_AbDsAE_pIeggozo_TRTA
+- _$ss11_StringGutsV16_slowWithCStringyxxSPys4Int8VGq_YKXEq_YKs5ErrorR_r0_lFAFq_xRi_zRi0_zRi__Ri0__r0_lysAG_pxIsgyrzr_ABxsAG_psAG_pRs_r0_lIetMggrzo_Tpq5Sb_Tg5024$sSdySdSgxcSyRzlufcSbSpyj6GXEfU_n5SPys4F7VGXEfU_SpySdGTf1cn_n
+- _$ss13ManagedBufferCyST_pSo12BMStreamBaseC7ElementSTRts_XPycSgSo16os_unfair_lock_sVGMR
+- _$ss13ManagedBufferCyST_pSo12BMStreamBaseC7ElementSTRts_XPycSgSo16os_unfair_lock_sVGMd
+- _$ss13ManagedBufferCySo12BMStreamBaseCSo0C10IdentifieraKcSgSo16os_unfair_lock_sVGMR
+- _$ss13ManagedBufferCySo12BMStreamBaseCSo0C10IdentifieraKcSgSo16os_unfair_lock_sVGMd
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVySSSiG_s5NeverOTg506$ss17_kl51V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5i12Rd__lFADs13_ab19Vqd__YKXEfU_SS_Sis5M4OTG5ALxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lySSSiANIsgnndzr_Tf1nc_n
+- __OBJC_$_CLASS_METHODS_BMStreamBase(Tombstones_Project|Tombstones|PeriodicMaintenance|Subscriptions_Project|Subscriptions)
+- __OBJC_$_INSTANCE_METHODS_BMStreamBase(Tombstones_Project|Tombstones|PeriodicMaintenance|Subscriptions_Project|Subscriptions)
+- ___122-[BMComputeSourceServer sendEventWithStreamIdentifier:timestamp:signpostID:eventData:eventDataVersion:account:remoteName:]_block_invoke
+- ___37-[BMStoreSource sendEvent:timestamp:]_block_invoke
+- ___37-[BMStoreSource sendEvent:timestamp:]_block_invoke_2
+- ___66-[BMComputeSourceClient eventsPrunedForAccount:remoteName:reason:]_block_invoke
+- ___68-[BMStreamBase(PeriodicMaintenance) executePruningPolicyForAccount:]_block_invoke
+- ___81-[BMStreamBase(PeriodicMaintenance) _executePruningPolicyOnSubscriptionSubstream]_block_invoke
+- ___81-[BMStreamBase(PeriodicMaintenance) _executePruningPolicyOnSubscriptionSubstream]_block_invoke_2
+- ___81-[BMStreamBase(PeriodicMaintenance) _executePruningPolicyOnSubscriptionSubstream]_block_invoke_3
+- ___81-[BMStreamBase(PeriodicMaintenance) _executePruningPolicyOnSubscriptionSubstream]_block_invoke_4
+- ___89-[BMComputeSourceClient sendEvent:account:remoteName:timestamp:signpostID:sendFullEvent:]_block_invoke
+- _executePruningPolicyForAccount:.onceToken
+- _swift_retain_x1
+- _symbolic _____So12BMStreamBaseC______pIeggozo_ So18BMStreamIdentifiera s5ErrorP
+- _symbolic _____So12BMStreamBaseC______pIegnrzo_ So18BMStreamIdentifiera s5ErrorP
+- _symbolic _____ySo12BMStreamBaseC_____KcSg_____G s13ManagedBufferCsRi__rlE So18BMStreamIdentifiera So16os_unfair_lock_sV
+- _symbolic _____y_____So12BMStreamBaseCXjycSg_____G s13ManagedBufferCsRi__rlE lST_px7ElementRts_XPXGMq So16os_unfair_lock_sV
+```

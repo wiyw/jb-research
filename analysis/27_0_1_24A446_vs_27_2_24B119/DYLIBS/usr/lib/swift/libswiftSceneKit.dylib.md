@@ -1,0 +1,13 @@
+## libswiftSceneKit.dylib
+
+> `/usr/lib/swift/libswiftSceneKit.dylib`
+
+```diff
+
+ 1.2.0.0.0
+-  __TEXT.__text: 0x1d70
++  __TEXT.__text: 0x1d78
+   __TEXT.__const: 0x188
+   __TEXT.__swift5_typeref: 0x68
+   __TEXT.__constg_swiftt: 0x6c
+```

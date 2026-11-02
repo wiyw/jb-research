@@ -1,0 +1,338 @@
+## ScreenTimeSettingsFoundation
+
+> `/System/Library/PrivateFrameworks/ScreenTimeSettingsFoundation.framework/ScreenTimeSettingsFoundation`
+
+```diff
+
+-97.0.104.0.0
+-  __TEXT.__text: 0x1df04c
+-  __TEXT.__objc_methlist: 0x688
+-  __TEXT.__const: 0x7700
+-  __TEXT.__swift5_typeref: 0x4df0
+-  __TEXT.__swift5_fieldmd: 0x2248
+-  __TEXT.__constg_swiftt: 0x39e8
+-  __TEXT.__swift5_reflstr: 0x2378
++97.1.14.0.0
++  __TEXT.__text: 0x21047c
++  __TEXT.__objc_methlist: 0x6a8
++  __TEXT.__const: 0x8050
++  __TEXT.__swift5_typeref: 0x5542
++  __TEXT.__swift5_fieldmd: 0x25f0
++  __TEXT.__constg_swiftt: 0x3d5c
++  __TEXT.__swift5_reflstr: 0x26f8
+   __TEXT.__swift5_builtin: 0xdc
+-  __TEXT.__cstring: 0x2953
+-  __TEXT.__swift5_capture: 0x1418
+-  __TEXT.__oslogstring: 0xa672
+-  __TEXT.__swift5_assocty: 0x3a0
+-  __TEXT.__swift5_protos: 0x1b8
+-  __TEXT.__swift5_proto: 0x45c
+-  __TEXT.__swift5_types: 0x244
+-  __TEXT.__swift_as_entry: 0x1b8
+-  __TEXT.__swift_as_ret: 0x210
+-  __TEXT.__swift_as_cont: 0x484
++  __TEXT.__cstring: 0x2b63
++  __TEXT.__swift5_capture: 0x15c4
++  __TEXT.__oslogstring: 0xb422
++  __TEXT.__swift5_assocty: 0x3e8
++  __TEXT.__swift5_protos: 0x1d4
++  __TEXT.__swift5_proto: 0x4a8
++  __TEXT.__swift5_types: 0x270
++  __TEXT.__swift_as_entry: 0x1d8
++  __TEXT.__swift_as_ret: 0x234
++  __TEXT.__swift_as_cont: 0x4c4
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__unwind_info: 0x32d8
+-  __TEXT.__eh_frame: 0x8b48
++  __TEXT.__unwind_info: 0x3698
++  __TEXT.__eh_frame: 0x92f4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2e8
+-  __DATA_CONST.__objc_classlist: 0x118
++  __DATA_CONST.__const: 0x338
++  __DATA_CONST.__objc_classlist: 0x130
+   __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xf18
++  __DATA_CONST.__objc_selrefs: 0xf58
+   __DATA_CONST.__objc_protorefs: 0x48
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x79c0
+-  __AUTH_CONST.__cfstring: 0x80
+-  __AUTH_CONST.__objc_const: 0x28d0
+-  __AUTH_CONST.__auth_got: 0x3158
+-  __AUTH_CONST.__auth_ptr: 0xed8
+-  __AUTH.__objc_data: 0x568
+-  __AUTH.__data: 0x8d8
+-  __DATA.__data: 0x1618
++  __AUTH_CONST.__const: 0x8230
++  __AUTH_CONST.__cfstring: 0xa0
++  __AUTH_CONST.__objc_const: 0x2cf8
++  __AUTH_CONST.__auth_got: 0x3290
++  __AUTH_CONST.__auth_ptr: 0xf98
++  __AUTH.__objc_data: 0x3e0
++  __AUTH.__data: 0x3c8
++  __DATA.__data: 0x13d8
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__common: 0x1b0
+-  __DATA.__bss: 0x3c00
+-  __DATA_DIRTY.__objc_data: 0x640
+-  __DATA_DIRTY.__data: 0x2870
+-  __DATA_DIRTY.__bss: 0x800
+-  __DATA_DIRTY.__common: 0x1e8
++  __DATA.__common: 0x190
++  __DATA.__bss: 0x3880
++  __DATA_DIRTY.__objc_data: 0x8f0
++  __DATA_DIRTY.__data: 0x3630
++  __DATA_DIRTY.__bss: 0xf80
++  __DATA_DIRTY.__common: 0x270
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /System/Library/Frameworks/ManagedSettings.framework/ManagedSettings
+   - /System/Library/Frameworks/Security.framework/Security
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/PrivateFrameworks/AppStoreDaemon.framework/AppStoreDaemon
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+   - /System/Library/PrivateFrameworks/Categories.framework/Categories
++  - /System/Library/PrivateFrameworks/ChronoServices.framework/ChronoServices
+   - /System/Library/PrivateFrameworks/CloudKitSharingManagement.framework/CloudKitSharingManagement
+   - /System/Library/PrivateFrameworks/DeviceManagement.framework/DeviceManagement
+   - /System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle
+
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/ManagedSettingsObjC.framework/ManagedSettingsObjC
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+-  - /System/Library/PrivateFrameworks/OSEligibility.framework/OSEligibility
+   - /System/Library/PrivateFrameworks/ScreenTimeCore.framework/ScreenTimeCore
+   - /System/Library/PrivateFrameworks/ScreenTimeSettingsServices.framework/ScreenTimeSettingsServices
+   - /System/Library/PrivateFrameworks/SettingsServices.framework/SettingsServices
++  - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/UsageTracking.framework/UsageTracking
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 4076
+-  Symbols:   1821
++  Functions: 4405
++  Symbols:   1955
+   CStrings:  0
+ 
+Symbols:
++ _FOAuthorizationRecordsChangedNotification
++ _OBJC_CLASS_$_CHSTimelineController
++ _OBJC_CLASS_$_FOAuthorizationRecord
++ _OBJC_CLASS_$__TtCC28ScreenTimeSettingsFoundation17SyncStatusMonitor14SimulatedEvent
++ _OBJC_METACLASS_$__TtCC28ScreenTimeSettingsFoundation17SyncStatusMonitor14SimulatedEvent
++ _SBSCopyDisplayIdentifiers
++ __DATA__TtC28ScreenTimeSettingsFoundation26PersistentHistoryProcessor
++ __DATA__TtC28ScreenTimeSettingsFoundation32FamilyControlsAuthorizationStore
++ __DATA__TtCC28ScreenTimeSettingsFoundation17SyncStatusMonitor14SimulatedEvent
++ __INSTANCE_METHODS__TtCC28ScreenTimeSettingsFoundation17SyncStatusMonitor14SimulatedEvent
++ __IVARS__TtC28ScreenTimeSettingsFoundation26PersistentHistoryProcessor
++ __IVARS__TtC28ScreenTimeSettingsFoundation32FamilyControlsAuthorizationStore
++ __IVARS__TtCC28ScreenTimeSettingsFoundation17SyncStatusMonitor14SimulatedEvent
++ __METACLASS_DATA__TtC28ScreenTimeSettingsFoundation26PersistentHistoryProcessor
++ __METACLASS_DATA__TtC28ScreenTimeSettingsFoundation32FamilyControlsAuthorizationStore
++ __METACLASS_DATA__TtCC28ScreenTimeSettingsFoundation17SyncStatusMonitor14SimulatedEvent
++ ___swift_closure_destructor.134Tm
++ ___swift_closure_destructor.13Tm
++ ___swift_closure_destructor.168Tm
++ ___swift_closure_destructor.176Tm
++ ___swift_closure_destructor.202Tm
++ ___swift_closure_destructor.215Tm
++ ___swift_closure_destructor.236Tm
++ ___swift_closure_destructor.30Tm
++ ___swift_closure_destructor.39Tm
++ ___swift_closure_destructor.41Tm
++ ___swift_closure_destructor.45Tm
++ ___swift_closure_destructor.52Tm
++ ___swift_closure_destructor.57Tm
++ ___swift_closure_destructor.61Tm
++ ___swift_closure_destructor.76Tm
++ ___swift_closure_destructor.99Tm
++ ___swift_memcpy144_8
++ __swift_FORCE_LOAD_$_swiftIntents
++ __swift_FORCE_LOAD_$_swiftIntents_$_ScreenTimeSettingsFoundation
++ __swift_FORCE_LOAD_$_swiftSpatial
++ __swift_FORCE_LOAD_$_swiftSpatial_$_ScreenTimeSettingsFoundation
++ __swift_FORCE_LOAD_$_swiftUIKit
++ __swift_FORCE_LOAD_$_swiftUIKit_$_ScreenTimeSettingsFoundation
++ _associated conformance 28ScreenTimeSettingsFoundation0abC15PersistentStoreC15ObservationType33_8312F168B2632E79695A2A41D2311EE0LLOSHAASQ
++ _associated conformance 28ScreenTimeSettingsFoundation0abC15PersistentStoreC15ObservationType33_8312F168B2632E79695A2A41D2311EE0LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 28ScreenTimeSettingsFoundation12MergeGroupIDOSHAASQ
++ _associated conformance 28ScreenTimeSettingsFoundation12MergeGroupIDOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 28ScreenTimeSettingsFoundation21OSEligibilityProviderC0abC8Services10RegulatoryO8ExternalO0E9ProvidingAaH0E8Fetching
++ _generic environment l
++ _get_enum_tag_for_layout_string 28ScreenTimeSettingsFoundation0abC15PersistentStoreC29FamilyMigrationStateOwnership33_8312F168B2632E79695A2A41D2311EE0LLO
++ _swift_getAtKeyPath
++ _swift_getFunctionTypeMetadata0
++ _swift_getKeyPath
++ _swift_retain_x13
++ _symbolic $s28ScreenTimeSettingsFoundation0aB23WidgetTimelineReloadingP
++ _symbolic $s28ScreenTimeSettingsFoundation15UserOwnedRecord33_A942E386DE20C76FB1627218129283BDLLP
++ _symbolic $s28ScreenTimeSettingsFoundation16AppDataMigratingP
++ _symbolic $s28ScreenTimeSettingsFoundation17SyncStatusMonitorC5EventP
++ _symbolic $s28ScreenTimeSettingsFoundation25FamilyControlsAuthorizingP
++ _symbolic $s28ScreenTimeSettingsFoundation34FamilyControlsAuthorizationStoringP
++ _symbolic $s28ScreenTimeSettingsFoundation34PersistentHistoryProcessorDelegateP
++ _symbolic $s28ScreenTimeSettingsFoundation35FamilyControlsAuthorizationManagingP
++ _symbolic SDySS_____G 26ScreenTimeSettingsServices0abC0C0B10AllowancesV8ScheduleV9AllowanceO
++ _symbolic SDy_____SDy_____ScTyyt_____GGG 28ScreenTimeSettingsFoundation0abC15PersistentStoreC15ObservationType33_8312F168B2632E79695A2A41D2311EE0LLO 0abC8Services0aB4UserO s5NeverO
++ _symbolic SDy__________G_____Ieghnr_ 26ScreenTimeSettingsServices0abC0C19ContentRestrictionsV010RestrictedE4TypeO AE010RatingsForgE0V AC6UpdateV
++ _symbolic SDy__________y______GG 10Foundation4UUIDV ScS12ContinuationV 018ScreenTimeSettingsA017SyncStatusMonitorC17RemoteStoreChangeV
++ _symbolic SDy__________y______GG 10Foundation4UUIDV ScS12ContinuationV 26ScreenTimeSettingsServices0deF0C10ManagementV9SyncStateO
++ _symbolic SS______t 26ScreenTimeSettingsServices0abC0C0B10AllowancesV8ScheduleV9AllowanceO
++ _symbolic Say_____G 28ScreenTimeSettingsFoundation0abC15PersistentStoreC15ObservationType33_8312F168B2632E79695A2A41D2311EE0LLO
++ _symbolic Say_____G 28ScreenTimeSettingsFoundation12MergeGroupIDO
++ _symbolic ScSy_____G 26ScreenTimeSettingsServices0abC0C10ManagementV9SyncStateO
++ _symbolic ScSy_____G 28ScreenTimeSettingsFoundation17SyncStatusMonitorC17RemoteStoreChangeV
++ _symbolic Si6offset______7elementt 26ScreenTimeSettingsServices0abC0C0B10AllowancesV8ScheduleV6PeriodV
++ _symbolic _____ 10Foundation14DateComponentsV
++ _symbolic _____ 10Foundation6LocaleV7WeekdayO
++ _symbolic _____ 26ScreenTimeSettingsServices0abC0C0B10AllowancesV8ScheduleV6PeriodV
++ _symbolic _____ 26ScreenTimeSettingsServices0abC0C10ManagementV9SyncStateO
++ _symbolic _____ 28ScreenTimeSettingsFoundation0B18AllowanceSchedulerV16ResolvedIntervalV
++ _symbolic _____ 28ScreenTimeSettingsFoundation0aB22WidgetTimelineReloaderV
++ _symbolic _____ 28ScreenTimeSettingsFoundation0abC15PersistentStoreC15ObservationType33_8312F168B2632E79695A2A41D2311EE0LLO
++ _symbolic _____ 28ScreenTimeSettingsFoundation0abC15PersistentStoreC29FamilyMigrationStateOwnership33_8312F168B2632E79695A2A41D2311EE0LLO
++ _symbolic _____ 28ScreenTimeSettingsFoundation12MergeGroupIDO
++ _symbolic _____ 28ScreenTimeSettingsFoundation15AppDataMigratorV
++ _symbolic _____ 28ScreenTimeSettingsFoundation17SyncStatusMonitorC0E12StateStorage33_33FB1A2C8C838610686A74C79D3B698BLLV
++ _symbolic _____ 28ScreenTimeSettingsFoundation17SyncStatusMonitorC14SimulatedEventC
++ _symbolic _____ 28ScreenTimeSettingsFoundation17SyncStatusMonitorC17RemoteStoreChangeV
++ _symbolic _____ 28ScreenTimeSettingsFoundation17SyncStatusMonitorC19RemoteChangeStorage33_33FB1A2C8C838610686A74C79D3B698BLLV
++ _symbolic _____ 28ScreenTimeSettingsFoundation26PersistentHistoryProcessorC
++ _symbolic _____ 28ScreenTimeSettingsFoundation32FamilyControlsAuthorizationStoreC
++ _symbolic _____ 28ScreenTimeSettingsFoundation40ScheduleDowntimeEnabledContentCustomizerV
++ _symbolic _____ 28ScreenTimeSettingsFoundation40ScheduleDowntimeWarningContentCustomizerV
++ _symbolic _____Sg 26ScreenTimeSettingsServices0abC0C0B10AllowancesV5GroupV
++ _symbolic _____Sg 26ScreenTimeSettingsServices0abC0C10ManagementV9SyncErrorO
++ _symbolic _____Sg 26ScreenTimeSettingsServices0abC0C10ManagementV9SyncStateO
++ _symbolic _____Sg 26ScreenTimeSettingsServices0abC0C28RegulatoryComplianceStrategyO
++ _symbolic _____Sg 28ScreenTimeSettingsFoundation0abC15PersistentStoreC29FamilyMigrationStateOwnership33_8312F168B2632E79695A2A41D2311EE0LLO
++ _symbolic _____Sg 28ScreenTimeSettingsFoundation15MergeResolutionV
++ _symbolic _____SgXw 28ScreenTimeSettingsFoundation17SyncStatusMonitorC
++ _symbolic _____SgXwz_Xx 28ScreenTimeSettingsFoundation17SyncStatusMonitorC
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic _____Sg_ABt 26ScreenTimeSettingsServices0abC0C0B10AllowancesV5GroupV
++ _symbolic ______Say_____yAA_GGt 26ScreenTimeSettingsServices0abC0C10ManagementV9SyncStateO ScS12ContinuationV
++ _symbolic ______Say_____yAA_GGtSg 26ScreenTimeSettingsServices0abC0C10ManagementV9SyncStateO ScS12ContinuationV
++ _symbolic __________Ieghnr_ 26ScreenTimeSettingsServices0abC0C10ManagementV9SyncStateO AC6UpdateV
++ _symbolic ___________t 26ScreenTimeSettingsServices10KeyValueIDO 0abC10Foundation010MergeGroupG0O
++ _symbolic ___________t 26ScreenTimeSettingsServices10ListBlobIDO 0abC10Foundation010MergeGroupG0O
++ _symbolic ___________y______Gt 10Foundation4UUIDV ScS12ContinuationV 018ScreenTimeSettingsA017SyncStatusMonitorC17RemoteStoreChangeV
++ _symbolic ___________y______Gt 10Foundation4UUIDV ScS12ContinuationV 26ScreenTimeSettingsServices0deF0C10ManagementV9SyncStateO
++ _symbolic ______p 26ScreenTimeSettingsServices10RegulatoryO8ExternalO21OSEligibilityFetchingP
++ _symbolic ______p 28ScreenTimeSettingsFoundation0aB23WidgetTimelineReloadingP
++ _symbolic ______p 28ScreenTimeSettingsFoundation16AppDataMigratingP
++ _symbolic ______p 28ScreenTimeSettingsFoundation17SyncStatusMonitorC5EventP
++ _symbolic ______p 28ScreenTimeSettingsFoundation25FamilyControlsAuthorizingP
++ _symbolic ______p 28ScreenTimeSettingsFoundation35FamilyControlsAuthorizationManagingP
++ _symbolic ______pSg 28ScreenTimeSettingsFoundation17SyncStatusMonitorC5EventP
++ _symbolic ______pSg 28ScreenTimeSettingsFoundation34FamilyControlsAuthorizationStoringP
++ _symbolic ______pSg s5ErrorP
++ _symbolic ______pSgXw 28ScreenTimeSettingsFoundation34PersistentHistoryProcessorDelegateP
++ _symbolic ______ypt s11AnyHashableV
++ _symbolic _____ySSSDySS_____GG s18_DictionaryStorageC 28ScreenTimeSettingsFoundation14ListBlobRecordC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 26ScreenTimeSettingsServices0cdE0C0D10AllowancesV8ScheduleV9AllowanceO
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 26ScreenTimeSettingsServices0deF0C0E10AllowancesV8ScheduleV9AllowanceO
++ _symbolic _____y_____3key______5valuetG s23_ContiguousArrayStorageC 26ScreenTimeSettingsServices0dE4UserO AC0deF0C6UpdateV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 28ScreenTimeSettingsFoundation17SyncStatusMonitorC0G12StateStorage33_33FB1A2C8C838610686A74C79D3B698BLLV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 28ScreenTimeSettingsFoundation17SyncStatusMonitorC19RemoteChangeStorage33_33FB1A2C8C838610686A74C79D3B698BLLV
++ _symbolic _____y_____G 15Synchronization5_CellVAARi_zrlE 28ScreenTimeSettingsFoundation17SyncStatusMonitorC0G12StateStorage33_33FB1A2C8C838610686A74C79D3B698BLLV
++ _symbolic _____y_____G s11_SetStorageC 10Foundation3URLV
++ _symbolic _____y_____G s15CollectionOfOneV 26ScreenTimeSettingsServices0deF0C0E10AllowancesV8ScheduleV6PeriodV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 26ScreenTimeSettingsServices0deF0C0E10AllowancesV14WeeklyScheduleV3DayV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 28ScreenTimeSettingsFoundation0E18AllowanceSchedulerV16ResolvedIntervalV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 28ScreenTimeSettingsFoundation9KeyBlobIDO
++ _symbolic _____y_____SDy_____ScTyyt_____GGG s18_DictionaryStorageC 28ScreenTimeSettingsFoundation0cdE15PersistentStoreC15ObservationType33_8312F168B2632E79695A2A41D2311EE0LLO 0cdE8Services0cD4UserO s5NeverO
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 28ScreenTimeSettingsFoundation12MergeGroupIDO 0cdE8Services08KeyValueI0O
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 28ScreenTimeSettingsFoundation12MergeGroupIDO 0cdE8Services08ListBlobI0O
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 28ScreenTimeSettingsFoundation12MergeGroupIDO AC07KeyBlobI0O
++ _symbolic _____y_____Say______ABtGG s18_DictionaryStorageC 28ScreenTimeSettingsFoundation12MergeGroupIDO 0cdE8Services08KeyValueI0O
++ _symbolic _____y_____Say______ABtGG s18_DictionaryStorageC 28ScreenTimeSettingsFoundation12MergeGroupIDO 0cdE8Services08ListBlobI0O
++ _symbolic _____y_____Say______ABtGG s18_DictionaryStorageC 28ScreenTimeSettingsFoundation12MergeGroupIDO AC07KeyBlobI0O
++ _symbolic _____y______G 26ScreenTimeSettingsServices0abC0C0C10CollectionV AC11ApplicationV
++ _symbolic _____y______G ScS12ContinuationV 26ScreenTimeSettingsServices0bcD0C10ManagementV9SyncStateO
++ _symbolic _____y______G ScS12ContinuationV 28ScreenTimeSettingsFoundation17SyncStatusMonitorC17RemoteStoreChangeV
++ _symbolic _____y______G ScS8IteratorV 26ScreenTimeSettingsServices0bcD0C10ManagementV9SyncStateO
++ _symbolic _____y______G ScS8IteratorV 28ScreenTimeSettingsFoundation17SyncStatusMonitorC17RemoteStoreChangeV
++ _symbolic _____y______GSg ScS12ContinuationV 26ScreenTimeSettingsServices0bcD0C10ManagementV9SyncStateO
++ _symbolic _____y______GSg ScS12ContinuationV 28ScreenTimeSettingsFoundation17SyncStatusMonitorC17RemoteStoreChangeV
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 26ScreenTimeSettingsServices0deF0C10ManagementV9SyncStateO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 28ScreenTimeSettingsFoundation17SyncStatusMonitorC17RemoteStoreChangeV
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 26ScreenTimeSettingsServices0deF0C10ManagementV9SyncStateO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 28ScreenTimeSettingsFoundation17SyncStatusMonitorC17RemoteStoreChangeV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 26ScreenTimeSettingsServices10KeyValueIDO 0deF10Foundation010MergeGroupJ0O
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 26ScreenTimeSettingsServices10ListBlobIDO 0deF10Foundation010MergeGroupJ0O
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 28ScreenTimeSettingsFoundation9KeyBlobIDO AC010MergeGroupJ0O
++ _symbolic _____y__________y______GG s18_DictionaryStorageC 10Foundation4UUIDV ScS12ContinuationV 018ScreenTimeSettingsC017SyncStatusMonitorC17RemoteStoreChangeV
++ _symbolic _____y__________y______GG s18_DictionaryStorageC 10Foundation4UUIDV ScS12ContinuationV 26ScreenTimeSettingsServices0fgH0C10ManagementV9SyncStateO
++ _symbolic _____y______pSgG 2os21OSAllocatedUnfairLockV 28ScreenTimeSettingsFoundation0ef10WebBrowserG9ObservingP
++ _symbolic _____y______pSg_____G s13ManagedBufferCsRi__rlE 28ScreenTimeSettingsFoundation0cd10WebBrowserE9ObservingP So16os_unfair_lock_sV
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
++ _symbolic _____y_____y______GG s23_ContiguousArrayStorageC ScS12ContinuationV 26ScreenTimeSettingsServices0efG0C10ManagementV9SyncStateO
++ _symbolic _____y_____y______GG s23_ContiguousArrayStorageC ScS12ContinuationV 28ScreenTimeSettingsFoundation17SyncStatusMonitorC17RemoteStoreChangeV
++ _symbolic x______t 28ScreenTimeSettingsFoundation12MergeGroupIDO
++ _type_layout_string 28ScreenTimeSettingsFoundation0abC15PersistentStoreC29FamilyMigrationStateOwnership33_8312F168B2632E79695A2A41D2311EE0LLO
++ _type_layout_string 28ScreenTimeSettingsFoundation15AppDataMigratorV
++ _type_layout_string 28ScreenTimeSettingsFoundation17SyncStatusMonitorC17RemoteStoreChangeV
++ _type_layout_string 28ScreenTimeSettingsFoundation17SyncStatusMonitorC19RemoteChangeStorage33_33FB1A2C8C838610686A74C79D3B698BLLV
++ _type_layout_string 28ScreenTimeSettingsFoundation28AppAndWebsiteActivityManagerV
++ _type_layout_string 28ScreenTimeSettingsFoundation40ScheduleDowntimeWarningContentCustomizerV
+- _OBJC_CLASS_$_NSPersistentCloudKitContainerEvent
+- __INSTANCE_METHODS__TtC28ScreenTimeSettingsFoundation33ScreenTimeSettingsPersistentStore
+- ___swift_closure_destructor.128Tm
+- ___swift_closure_destructor.187Tm
+- ___swift_closure_destructor.195Tm
+- ___swift_closure_destructor.221Tm
+- ___swift_closure_destructor.33Tm
+- ___swift_closure_destructor.38Tm
+- ___swift_closure_destructor.42Tm
+- ___swift_closure_destructor.49Tm
+- ___swift_closure_destructor.54Tm
+- ___swift_closure_destructor.58Tm
+- ___swift_closure_destructor.73Tm
+- ___swift_closure_destructor.93Tm
+- ___swift_exist.box.addr_destructor.5Tm
+- ___swift_exist.box.addr_destructorTm
+- ___swift_memcpy33_8
+- _swift_cvw_initEnumMetadataSingleCaseWithLayoutString
+- _swift_getTupleTypeLayout2
+- _symbolic $s28ScreenTimeSettingsFoundation21WebDomainCategorizingP
+- _symbolic SDy_____ScTyyt_____GG 26ScreenTimeSettingsServices0aB4UserO s5NeverO
+- _symbolic _____ 28ScreenTimeSettingsFoundation26OSEligibilityProviderErrorO
+- _symbolic _____ 28ScreenTimeSettingsFoundation31BedtimeEnabledContentCustomizerV
+- _symbolic _____ 28ScreenTimeSettingsFoundation31BedtimeWarningContentCustomizerV
+- _symbolic _____6answer______6domaint 13OSEligibility0A6AnswerO AA0A6DomainO
+- _symbolic ______p 28ScreenTimeSettingsFoundation21WebDomainCategorizingP
+- _type_layout_string 28ScreenTimeSettingsFoundation0abC14AskCoordinatorV0B28AllowanceExceptionApplicatorV
+- _type_layout_string 28ScreenTimeSettingsFoundation31BedtimeWarningContentCustomizerV
+```

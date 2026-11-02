@@ -1,0 +1,837 @@
+## linkd
+
+> `/usr/libexec/linkd`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_entry`
+
+```diff
+
+-301.0.51.1.105
+-  __TEXT.__text: 0x1b96d4
+-  __TEXT.__auth_stubs: 0x3c40
+-  __TEXT.__objc_stubs: 0x3b40
+-  __TEXT.__objc_methlist: 0x1504
++301.1.16.0.0
++  __TEXT.__text: 0xcb428
++  __TEXT.__auth_stubs: 0x2a50
++  __TEXT.__objc_stubs: 0x27e0
++  __TEXT.__objc_methlist: 0xe0c
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__const: 0xa760
+-  __TEXT.__constg_swiftt: 0x3674
+-  __TEXT.__swift5_typeref: 0x4dcc
+-  __TEXT.__swift5_builtin: 0x244
+-  __TEXT.__swift5_reflstr: 0x2391
+-  __TEXT.__swift5_fieldmd: 0x28fc
+-  __TEXT.__swift5_assocty: 0x6e8
+-  __TEXT.__cstring: 0x45cf
+-  __TEXT.__swift5_capture: 0x4efc
+-  __TEXT.__swift5_proto: 0x5e0
+-  __TEXT.__swift5_types: 0x32c
+-  __TEXT.__objc_classname: 0xc5b
+-  __TEXT.__objc_methname: 0x5e2d
+-  __TEXT.__objc_methtype: 0x1e6b
+-  __TEXT.__swift5_protos: 0xc0
+-  __TEXT.__swift_as_entry: 0xab0
+-  __TEXT.__swift_as_ret: 0xa64
+-  __TEXT.__swift_as_cont: 0xc88
+-  __TEXT.__oslogstring: 0x659f
+-  __TEXT.__swift5_mpenum: 0x28
+-  __TEXT.__info_plist: 0x333
+-  __TEXT.__unwind_info: 0x7830
+-  __TEXT.__eh_frame: 0x15674
+-  __DATA_CONST.__const: 0x10d10
+-  __DATA_CONST.__objc_classlist: 0x150
+-  __DATA_CONST.__objc_protolist: 0x1c0
++  __TEXT.__const: 0x5ddc
++  __TEXT.__constg_swiftt: 0x1d80
++  __TEXT.__swift5_typeref: 0x2e02
++  __TEXT.__swift5_builtin: 0x1cc
++  __TEXT.__swift5_reflstr: 0x1318
++  __TEXT.__swift5_fieldmd: 0x1704
++  __TEXT.__swift5_assocty: 0x2d0
++  __TEXT.__swift5_proto: 0x364
++  __TEXT.__swift5_types: 0x1d0
++  __TEXT.__objc_classname: 0x909
++  __TEXT.__objc_methname: 0x3ffd
++  __TEXT.__objc_methtype: 0x188b
++  __TEXT.__swift5_mpenum: 0x18
++  __TEXT.__cstring: 0x1c80
++  __TEXT.__swift5_capture: 0x2f30
++  __TEXT.__swift_as_entry: 0x594
++  __TEXT.__swift_as_cont: 0x758
++  __TEXT.__oslogstring: 0x4f81
++  __TEXT.__swift5_protos: 0x68
++  __TEXT.__swift_as_ret: 0x560
++  __TEXT.__info_plist: 0x330
++  __TEXT.__unwind_info: 0x3d20
++  __TEXT.__eh_frame: 0xa3b0
++  __DATA_CONST.__const: 0x9b48
++  __DATA_CONST.__objc_classlist: 0xe0
++  __DATA_CONST.__objc_protolist: 0x190
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0xe0
+-  __DATA_CONST.__auth_got: 0x1e28
+-  __DATA_CONST.__got: 0xf18
+-  __DATA_CONST.__auth_ptr: 0x23f8
+-  __DATA.__objc_const: 0x3688
+-  __DATA.__objc_selrefs: 0x1478
+-  __DATA.__objc_data: 0xb58
+-  __DATA.__data: 0x7670
+-  __DATA.__bss: 0x7cf0
+-  __DATA.__common: 0xfb8
++  __DATA_CONST.__objc_protorefs: 0xc8
++  __DATA_CONST.__auth_got: 0x1530
++  __DATA_CONST.__got: 0xa90
++  __DATA_CONST.__auth_ptr: 0x1468
++  __DATA.__objc_const: 0x22a8
++  __DATA.__objc_selrefs: 0xe40
++  __DATA.__objc_data: 0x8e8
++  __DATA.__data: 0x3c10
++  __DATA.__bss: 0x5280
++  __DATA.__common: 0x320
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
+-  - /System/Library/Frameworks/RelevanceKit.framework/RelevanceKit
+-  - /System/Library/PrivateFrameworks/AppIntentSchemas.framework/AppIntentSchemas
+   - /System/Library/PrivateFrameworks/AppIntentsIndex.framework/AppIntentsIndex
+   - /System/Library/PrivateFrameworks/AppIntentsLiveEntitySupport.framework/AppIntentsLiveEntitySupport
+   - /System/Library/PrivateFrameworks/AppProtection.framework/AppProtection
+
+   - /System/Library/PrivateFrameworks/LinkServices.framework/LinkServices
+   - /System/Library/PrivateFrameworks/MobileInstallation.framework/MobileInstallation
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+-  - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/libsqlite3.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 11308
+-  Symbols:   1775
++  Functions: 5615
++  Symbols:   1202
+   CStrings:  0
+ 
+Symbols:
++ _$s10Foundation18_ErrorCodeProtocolMp
++ _$s10Foundation18_ErrorCodeProtocolP01_B4TypeAC_AA21_BridgedStoredNSErrorTn
++ _$s10Foundation18_ErrorCodeProtocolPSQTb
++ _$s10Foundation21_BridgedStoredNSErrorMp
++ _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_8RawValueSYs17FixedWidthIntegerTn
++ _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_AA06_ErrorE8ProtocolTn
++ _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_SYTn
++ _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorSo0D0CvgTq
++ _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorxSo0D0C_tcfCTq
++ _$s10Foundation21_BridgedStoredNSErrorPAA06CustomD0Tb
++ _$s10Foundation21_BridgedStoredNSErrorPAA26_ObjectiveCBridgeableErrorTb
++ _$s10Foundation21_BridgedStoredNSErrorPAAE012_getEmbeddedD0yXlSgyF
++ _$s10Foundation21_BridgedStoredNSErrorPAAE08_bridgedD0xSgSo0D0C_tcfC
++ _$s10Foundation21_BridgedStoredNSErrorPAAE13errorUserInfoSDySSypGvg
++ _$s10Foundation21_BridgedStoredNSErrorPAAE2eeoiySbx_xtFZ
++ _$s10Foundation21_BridgedStoredNSErrorPAAE4code4CodeQzvg
++ _$s10Foundation21_BridgedStoredNSErrorPAAE4hash4intoys6HasherVz_tF
++ _$s10Foundation21_BridgedStoredNSErrorPAAE9errorCodeSivg
++ _$s10Foundation21_BridgedStoredNSErrorPSHTb
++ _$s10Foundation26_ObjectiveCBridgeableErrorMp
++ _$s10Foundation26_ObjectiveCBridgeableErrorP15_bridgedNSErrorxSgSo0F0Ch_tcfCTq
++ _$s10Foundation26_ObjectiveCBridgeableErrorPs0D0Tb
++ _$s10_ErrorType10Foundation01_A12CodeProtocolPTl
++ _$s12LinkMetadata29LNBundleValidationInformationC11descriptionSSvg
++ _$s12LinkMetadata29LNBundleValidationInformationC16bundleIdentifierSSvg
++ _$s12LinkMetadata29LNBundleValidationInformationC25canonicalBundleIdentifierSSvg
++ _$s12LinkMetadata29LNBundleValidationInformationC8lsRecordSo08LSBundleG0CSgvg
++ _$s12LinkMetadata29LNBundleValidationInformationC9validated10connection20requiresSignedBundleACSgSo15NSXPCConnectionC_SbtFZ
++ _$s12LinkServices08LNLaunchB5ProbeC7defaultACvgZ
++ _$s12LinkServices08LNLaunchB5ProbeCAA023LNConnectionRestrictionD0AAWP
++ _$s12LinkServices08LNLaunchB5ProbeCMa
++ _$s12LinkServices30LNConnectionRestrictionVerdictV4KindO5allowyA2EmFWC
++ _$s15AppIntentsIndex08MetadataC0V020processedBundlesWithA9ShortcutsSaySSGyKF
++ _$s15AppIntentsIndex0A18ShortcutSpanResultV7SynonymVMa
++ _$s4Code10Foundation21_BridgedStoredNSErrorPTl
++ _$s8Dispatch1poiyAA0A4TimeVAD_SdtF
++ _$sSS9hasPrefixySbSSF
++ _$sSd10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$sSi10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$sSo17OS_dispatch_queueC8DispatchE10asyncAfter8deadline3qos5flags7executeyAC0D4TimeV_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
++ _$sSo18LNConnectionPolicyC12LinkServicesE6policy3for7signals13schemaVersionSo021LNAppIntentConnectionB0CSo16LNActionMetadataC_So0aB7SignalsCSgSo08LNSchemaI0CSgtKFZ
++ _$sSo8NSNumberC10FoundationE14integerLiteralABSi_tcfC
++ _$ss15ContinuousClockV3nowAB7InstantVvgZ
++ _$ss15ContinuousClockV7InstantV8duration2tos8DurationVAD_tF
++ _$ss15ContinuousClockV7InstantVMn
++ _$ss26DefaultStringInterpolationV06appendC0yyxlF
++ _$ss8DurationV10componentss5Int64V7seconds_AE11attosecondstvg
++ _$ss8DurationV1loiySbAB_ABtFZ
++ _$ss8DurationV2peoiyyABz_ABtFZ
++ _$ss8DurationV4zeroABvgZ
++ _LNConnectionDefaultRequestTimeout
++ _LNIssueSandboxErrorDomain
++ _NSURLIsExcludedFromBackupKey
++ _OBJC_CLASS_$_BMAppIntentInvocation
++ _OBJC_CLASS_$_LNAppEntityContext
++ _OBJC_CLASS_$_LNAppShortcutActionData
++ _OBJC_CLASS_$_LNDaemonLaunchEmbeddedApplicationRequest
++ _OBJC_CLASS_$_LNEmbeddedApplicationLauncher
++ __kCFURLIsExcludedFromCloudBackupKey
++ __kCFURLIsExcludedFromUnencryptedBackupKey
++ _swift_task_isCurrentExecutor
++ _swift_task_reportUnexpectedExecutor
+- _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+- _$s10Foundation11JSONDecoderCACycfc
+- _$s10Foundation11JSONDecoderCMa
+- _$s10Foundation11JSONEncoderC6encodeyAA4DataVxKSERzlFTj
+- _$s10Foundation11JSONEncoderCACycfc
+- _$s10Foundation11JSONEncoderCMa
+- _$s10Foundation13CustomNSErrorPAAE9errorCodeSivg
+- _$s10Foundation13__DataStorageC6_bytesSvSgvg
+- _$s10Foundation13__DataStorageC6lengthACSi_tcfc
+- _$s10Foundation13__DataStorageC7_lengthSivg
+- _$s10Foundation13__DataStorageC7_offsetSivg
+- _$s10Foundation13__DataStorageCMa
+- _$s10Foundation17URLResourceValuesV23contentModificationDateAA0F0VSgvg
+- _$s10Foundation17URLResourceValuesVMa
+- _$s10Foundation3URLV14resourceValues7forKeysAA011URLResourceD0VShySo16NSURLResourceKeyaG_tKF
+- _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC
+- _$s10Foundation3URLV25deletingLastPathComponentACyF
+- _$s10Foundation3URLV35stopAccessingSecurityScopedResourceyyF
+- _$s10Foundation3URLV36startAccessingSecurityScopedResourceSbyF
+- _$s10Foundation3URLV4path14percentEncodedSSSb_tF
+- _$s10Foundation4DataV11descriptionSSvg
+- _$s10Foundation4DataV13_copyContents12initializingAC8IteratorV_SitSrys5UInt8VG_tF
+- _$s10Foundation4DataV26_forceBridgeFromObjectiveC_6resultySo6NSDataC_ACSgztFZ
+- _$s10Foundation4DataV34_conditionallyBridgeFromObjectiveC_6resultSbSo6NSDataC_ACSgztFZ
+- _$s10Foundation4DataV6appendyyACF
+- _$s10Foundation4DataV8IteratorVMa
+- _$s10Foundation4DataV8IteratorVStAAMc
+- _$s10Foundation4DataV8IteratorV_2atAeC_SitcfC
+- _$s10Foundation4DataV9hashValueSivg
+- _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF
+- _$s10Foundation4UUIDV10uuidStringACSgSSh_tcfC
+- _$s10Foundation4UUIDV12LinkServicesE9withSaltsyACSaySSGFZ
+- _$s10Foundation6LocaleV10identifierACSS_tcfC
+- _$s10Foundation6LocaleV10identifierSSvg
+- _$s10Foundation6LocaleV19_bridgeToObjectiveCSo8NSLocaleCyF
+- _$s10Foundation6LocaleV7currentACvgZ
+- _$s10Foundation6LocaleVMa
+- _$s10Foundation8TimeZoneV10identifierACSgSSh_tcfC
+- _$s10Foundation8TimeZoneV14secondsFromGMTACSgSi_tcfC
+- _$s10Foundation8TimeZoneV19_bridgeToObjectiveCSo06NSTimeC0CyF
+- _$s10Foundation8TimeZoneVMa
+- _$s10Foundation8TimeZoneVMn
+- _$s12LinkMetadata08PrebuiltB8ProviderP03getC4Enum4with6domainAA09AssistantcF0VSgSS_SStFTj
+- _$s12LinkMetadata08PrebuiltB8ProviderP03getC6Entity4with6domainAA09AssistantcF0VSgSS_SStFTj
+- _$s12LinkMetadata08PrebuiltB8ProviderP03getC6Intent4with6domainAA09AssistantcF0VSgSS_SStFTj
+- _$s12LinkMetadata08PrebuiltB8ProviderP15getSchemaDomain3forSSSgSS_tFTj
+- _$s12LinkMetadata0B15LibraryProviderCAA08PrebuiltbD0AAWP
+- _$s12LinkMetadata0B15LibraryProviderCACyKcfc
+- _$s12LinkMetadata0B15LibraryProviderCMa
+- _$s12LinkMetadata0B5ErrorO14recordNotFoundyA2CmFWC
+- _$s12LinkMetadata0B5ErrorO16errorDescriptionSSSgvg
+- _$s12LinkMetadata0B5ErrorO17cacheLookupFailedyA2CmFWC
+- _$s12LinkMetadata0B5ErrorOMa
+- _$s12LinkMetadata0B5ErrorOMn
+- _$s12LinkMetadata0B5ErrorOs0C0AAMc
+- _$s12LinkMetadata12DaemonRecordC10enumeratedSayACGvgZ
+- _$s12LinkMetadata12DaemonRecordC12metadataURLsSay10Foundation3URLVGvg
+- _$s12LinkMetadata12DaemonRecordC16bundleIdentifierSSvg
+- _$s12LinkMetadata12DaemonRecordC27attributionBundleIdentifierSSSgvg
+- _$s12LinkMetadata12DaemonRecordC4from16bundleIdentifierACSgSS_tFZ
+- _$s12LinkMetadata12DaemonRecordCMa
+- _$s12LinkMetadata15FrameworkRecordC11metadataURL10Foundation0F0Vvg
+- _$s12LinkMetadata15FrameworkRecordC20hostBundleIdentifierSSSgvg
+- _$s12LinkMetadata15FrameworkRecordC4from16bundleIdentifierACSgSS_tFZ
+- _$s12LinkMetadata15FrameworkRecordC9bundleURL10Foundation0F0Vvg
+- _$s12LinkMetadata15FrameworkRecordCMn
+- _$s12LinkMetadata18LNAppEntityContextC012workoutAudioE4TypeSSvgZ
+- _$s12LinkMetadata18LNAppEntityContextC015nowPlayingAudioE4TypeSSvgZ
+- _$s12LinkMetadata18LNAppEntityContextC05audioE12TypeRawValueSSSgvg
+- _$s12LinkMetadata18LNAppEntityContextC05audioE4TypeSSvgZ
+- _$s12LinkMetadata18LNAppEntityContextC19contextTypeRawValueSSvg
+- _$s12LinkMetadata18LNAppEntityContextC27workoutActivityTypeRawValueSuvg
+- _$s12LinkMetadata18LNAppEntityContextCMa
+- _$s12LinkMetadata18LNAppEntityContextCMn
+- _$s12LinkMetadata21AssistantPrebuiltEnumV20requiredEntitlementsShySSGSgvg
+- _$s12LinkMetadata21AssistantPrebuiltEnumV8metadataSo06LNEnumB0Cvg
+- _$s12LinkMetadata21AssistantPrebuiltEnumVMa
+- _$s12LinkMetadata21AssistantPrebuiltEnumVMn
+- _$s12LinkMetadata22AssistantSchemaVersionV5major5minor5patchACs6UInt64V_A2HtcfC
+- _$s12LinkMetadata22AssistantSchemaVersionVMa
+- _$s12LinkMetadata22AssistantSchemaVersionVMn
+- _$s12LinkMetadata22AssistantSchemaVersionVyACSgSScfC
+- _$s12LinkMetadata23AssistantPrebuiltEntityV20requiredEntitlementsShySSGSgvg
+- _$s12LinkMetadata23AssistantPrebuiltEntityV8metadataSo08LNEntityB0Cvg
+- _$s12LinkMetadata23AssistantPrebuiltEntityVMa
+- _$s12LinkMetadata23AssistantPrebuiltEntityVMn
+- _$s12LinkMetadata23AssistantPrebuiltIntentV20requiredEntitlementsShySSGSgvg
+- _$s12LinkMetadata23AssistantPrebuiltIntentV21synthesizedUnionEnumsSDySSSo06LNEnumB0CGvg
+- _$s12LinkMetadata23AssistantPrebuiltIntentV8metadataSo08LNActionB0Cvg
+- _$s12LinkMetadata23AssistantPrebuiltIntentVMa
+- _$s12LinkMetadata23AssistantPrebuiltIntentVMn
+- _$s12LinkMetadata25AssistantSchemaIdentifierV11descriptionSSvg
+- _$s12LinkMetadata25AssistantSchemaIdentifierV4kind7version6domainACSS_AA0cD7VersionVSStcfC
+- _$s12LinkMetadata25AssistantSchemaIdentifierVMa
+- _$s12LinkMetadata25AssistantSchemaIdentifierVs23CustomStringConvertibleAAMc
+- _$s12LinkMetadata29LNBundleValidationInformationC10connection20requiresSignedBundleACSgSo15NSXPCConnectionC_SbtcfC
+- _$s12LinkMetadata29LNBundleValidationInformationC16bundleIdentifierSSvgTj
+- _$s12LinkMetadata29LNBundleValidationInformationC25canonicalBundleIdentifierSSvgTj
+- _$s12LinkMetadata29LNBundleValidationInformationC8lsRecordSo08LSBundleG0CSgvgTj
+- _$s12RegexBuilder0a9ComponentB0O15buildExpressionyxx17_StringProcessing0aC0RzlFZ
+- _$s12RegexBuilder0a9ComponentB0O17buildPartialBlock5first17_StringProcessing0A0Vy0A6OutputQzGx_tAF0aC0RzlFZ
+- _$s12RegexBuilder11makeFactory17_StringProcessing01_aD0VyF
+- _$s12RegexBuilder14CharacterClassV17_StringProcessing0A9ComponentAAMc
+- _$s12RegexBuilder14CharacterClassVMa
+- _$s12RegexBuilder7CaptureVMn
+- _$s12RegexBuilder7CaptureVyACyxG17_StringProcessing0A0VyxGcfC
+- _$s12RegexBuilder7CaptureVyxG17_StringProcessing0A9ComponentAAMc
+- _$s12RegexBuilder9OneOrMoreV5regex17_StringProcessing0A0VyxGvg
+- _$s12RegexBuilder9OneOrMoreVMn
+- _$s12RegexBuilder9OneOrMoreVyACyxG17_StringProcessing0A0VyxGcfC
+- _$s13AsyncIteratorSciTl
+- _$s15AppIntentsIndex0A18ShortcutSpanResultV7SynonymVMn
+- _$s16AppIntentSchemas13SchemaLibraryC03getD2ID4from6domainS2S_SStKF
+- _$s16AppIntentSchemas13SchemaLibraryCACycfC
+- _$s16AppIntentSchemas13SchemaLibraryCMa
+- _$s17_StringProcessing13_RegexFactoryV10accumulateyAA0C0VyxGq__q0_tAA0C9ComponentR_AaHR0_r1_lF
+- _$s17_StringProcessing13_RegexFactoryV27ignoreCapturesInTypedOutputyAA0C0VySsGxAA0C9ComponentRzlF
+- _$s17_StringProcessing13_RegexFactoryV7captureyAA0C0VyxGq_AA0C9ComponentR_r0_lF
+- _$s17_StringProcessing13_RegexFactoryV9oneOrMoreyAA0C0VyxGq__AA0C18RepetitionBehaviorVSgtAA0C9ComponentR_r0_lF
+- _$s17_StringProcessing13_RegexFactoryVMa
+- _$s17_StringProcessing14RegexComponentP0C7BuilderAD14CharacterClassVRszrlE4wordAFvgZ
+- _$s17_StringProcessing23RegexRepetitionBehaviorV9reluctantACvgZ
+- _$s17_StringProcessing23RegexRepetitionBehaviorVMa
+- _$s17_StringProcessing23RegexRepetitionBehaviorVMn
+- _$s17_StringProcessing5RegexV0C7BuilderEyACyxGqd__yXEc0C6OutputQyd__RszAA0C9ComponentRd__lufC
+- _$s17_StringProcessing5RegexV18repetitionBehavioryACyxGAA0c10RepetitionE0VF
+- _$s17_StringProcessing5RegexV5MatchV13dynamicMemberqd__s7KeyPathCyxqd__G_tcluig
+- _$s17_StringProcessing5RegexV5MatchV5rangeSnySS5IndexVGvg
+- _$s17_StringProcessing5RegexV5MatchV6outputxvg
+- _$s17_StringProcessing5RegexVyxGAA0C9ComponentAAMc
+- _$s2os23OSSignpostIntervalStateCMn
+- _$s2os6LoggerVyACSo03OS_A4_logCcfC
+- _$s3Keys30KeyedDecodingContainerProtocolPTl
+- _$s3Keys30KeyedEncodingContainerProtocolPTl
+- _$s5IndexSlTl
+- _$s6Darwin5errnos5Int32Vvg
+- _$s7ElementSTTl
+- _$s7ElementScITl
+- _$s7ElementSciTl
+- _$s7ElementStTl
+- _$s7FailureScITl
+- _$s7FailureSciTl
+- _$s8Dispatch0A11SpecificKeyCACyxGycfc
+- _$s8Dispatch0A11SpecificKeyCMn
+- _$s8IteratorSTTl
+- _$sS2ayxGycfC
+- _$sSD4KeysVMn
+- _$sSD4KeysVyxq__GSTsMc
+- _$sSE6encode2toys7Encoder_p_tKFTj
+- _$sSJ5write2toyxz_ts16TextOutputStreamRzlF
+- _$sSK17_StringProcessingSs11SubSequenceRtzrlE7matches2ofSayAA5RegexV5MatchVyqd___GGqd_0__t0G6OutputQyd_0_Rsd__AA0G9ComponentRd_0_r0_lF
+- _$sSNMa
+- _$sSS10FoundationE4data5using20allowLossyConversionAA4DataVSgSSAAE8EncodingV_SbtF
+- _$sSS10FoundationE4data8encodingSSSgAA4DataVh_SSAAE8EncodingVtcfC
+- _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC
+- _$sSS10FoundationE8EncodingV4utf8ACvgZ
+- _$sSS10FoundationE8EncodingVMa
+- _$sSS10lowercasedSSyF
+- _$sSS15replaceSubrange_4withySnySS5IndexVG_xtSlRzSJ7ElementRtzlF
+- _$sSS17_StringProcessing14RegexComponent0C7BuilderMc
+- _$sSS18_uncheckedFromUTF8ySSSRys5UInt8VGFZ
+- _$sSS5IndexVMn
+- _$sSS7cStringSSSPys5UInt8VG_tcfC
+- _$sSS8IteratorV4nextSJSgyF
+- _$sSS8UTF8ViewV13_foreignIndex5afterSS0D0VAF_tF
+- _$sSS8UTF8ViewV13_foreignIndex_8offsetBySS0D0VAF_SitF
+- _$sSS8UTF8ViewV16_foreignDistance4from2toSiSS5IndexV_AGtF
+- _$sSS8UTF8ViewV17_foreignSubscript8positions5UInt8VSS5IndexV_tF
+- _$sSS9UTF16ViewV5index_8offsetBySS5IndexVAF_SitF
+- _$sSS9hasSuffixySbSSF
+- _$sSSMn
+- _$sSSSKsMc
+- _$sSSSQsWP
+- _$sSSSlsMc
+- _$sSS_5radix9uppercaseSSx_SiSbtcSzRzlufC
+- _$sSSySSxcSTRzSJ7ElementRtzlufC
+- _$sST12makeIterator0B0QzyFTq
+- _$sST13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tFTq
+- _$sST19underestimatedCountSivgTq
+- _$sST22_copyToContiguousArrays0cD0Vy7ElementQzGyFTq
+- _$sST31_customContainsEquatableElementySbSg0D0QzFTq
+- _$sST32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFTq
+- _$sST8IteratorST_StTn
+- _$sSTMp
+- _$sSTTL
+- _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlF
+- _$sSTsE32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlF
+- _$sSTsSy7ElementRpzrlE6joined9separatorS2S_tF
+- _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ
+- _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ
+- _$sSa6appendyyxnF
+- _$sSaMa
+- _$sSayxGSmsMc
+- _$sSbMn
+- _$sScI4next7ElementQzSgyYaKFTq
+- _$sScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTq
+- _$sScI7FailureScI_s5ErrorTn
+- _$sScIMp
+- _$sScIsE4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKF
+- _$sScIsE4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTu
+- _$sScP4highScPvgZ
+- _$sSci13AsyncIteratorSci_ScITn
+- _$sSci17makeAsyncIterator0bC0QzyFTq
+- _$sSciMp
+- _$sSdMn
+- _$sSe4fromxs7Decoder_p_tKcfCTj
+- _$sSh5IndexV8_asCocoas02__C3SetVAAVvM
+- _$sSh5IndexVMn
+- _$sShyxGSTsMc
+- _$sSiMn
+- _$sSiSHsWP
+- _$sSl10startIndex0B0QzvgTj
+- _$sSl5countSivgTj
+- _$sSl9formIndex5aftery0B0Qzz_tFTj
+- _$sSlTL
+- _$sSlsE7isEmptySbvg
+- _$sSly7ElementQz5IndexQzcirTj
+- _$sSmsE11removeFirst7ElementQzyF
+- _$sSnMa
+- _$sSo10LNPropertyC12LinkMetadataE6asJson8userInfoSSSDys010CodingUserG3KeyVs8Sendable_pG_tKF
+- _$sSo10LNPropertyC12LinkMetadataE8fromJSON_9bundleURL25effectiveBundleIdentifierABSS_10Foundation0G0VSgSo011LNEffectiveiJ0CSgtKFZ
+- _$sSo11LNValueTypeC12LinkMetadataE6asJson13prettyPrinted10sortedKeysSSSb_SbtKF
+- _$sSo14LNEnumMetadataC04LinkB0E6asJson13prettyPrintedSSSb_tKF
+- _$sSo14LNEnumMetadataC04LinkB0E8fromJSON_9bundleURL08resourceG025effectiveBundleIdentifierABSS_10Foundation0G0VSgAKSo011LNEffectivejK0CSgtKFZ
+- _$sSo14LSBundleRecordC12LinkMetadataE32appIntentsEnabledEntitlementNameSSvgZ
+- _$sSo14LSBundleRecordC12LinkMetadataE44appIntentsBundleAbsolutePathsEntitlementNameSSvgZ
+- _$sSo14LSBundleRecordC12LinkMetadataE44appIntentsBundleRelativePathsEntitlementNameSSvgZ
+- _$sSo14LSBundleRecordC12LinkMetadataE4with16bundleIdentifier25allowSystemAppPlaceholderABSS_SbtKFZ
+- _$sSo15LNQueryMetadataC04LinkB0E6asJson13prettyPrinted8sortKeysSSSb_SbtKF
+- _$sSo15LNQueryMetadataC04LinkB0E8fromJSON_9bundleURL25effectiveBundleIdentifierABSS_10Foundation0G0VSgSo011LNEffectiveiJ0CSgtKFZ
+- _$sSo16LNActionMetadataC04LinkB0E33_mangledTypeNameForAppIntentsOnlySSvg
+- _$sSo16LNActionMetadataC04LinkB0E6asJson13prettyPrintedSSSb_tKF
+- _$sSo16LNActionMetadataC04LinkB0E8fromJSON_06bundleB7Version0F3URL08resourceH025effectiveBundleIdentifierABSS_So08LNBundlebG0V10Foundation0H0VSgANSo011LNEffectivekL0CSgtKFZ
+- _$sSo16LNBundleMetadataC04LinkB0E16bundleIdentifierABSS_tKcfC
+- _$sSo16LNEntityMetadataC04LinkB0E6asJson13prettyPrintedSSSb_tKF
+- _$sSo16LNEntityMetadataC04LinkB0E8fromJSON_9bundleURL08resourceG025effectiveBundleIdentifierABSS_10Foundation0G0VSgAKSo011LNEffectivejK0CSgtKFZ
+- _$sSo17OS_dispatch_queueC8DispatchE11getSpecific3keyxSgAC0dF3KeyCyxG_tlFZ
+- _$sSo17OS_dispatch_queueC8DispatchE11setSpecific3key5valueyAC0dF3KeyCyxG_xSgtlF
+- _$sSo17OS_dispatch_queueC8DispatchE4sync7executexxyKXE_tKlF
+- _$sSo22LNAutoShortcutMetadataC04LinkC0E6asJson8userInfoSSSDys010CodingUserH3KeyVs8Sendable_pG_tKF
+- _$sSo22LNAutoShortcutMetadataC04LinkC0E8fromJSON_9bundleURL25effectiveBundleIdentifierABSS_10Foundation0H0VSgSo011LNEffectivejK0CSgtKFZ
+- _$sSo23LNSystemEntityValueTypeC12LinkMetadataE15placeDescriptorABXDvgZ
+- _$sSo25LNAssistantIntentMetadataC04LinkC0E6asJson8userInfoSSSDys010CodingUserH3KeyVs8Sendable_pG_tKF
+- _$sSo25LNAssistantIntentMetadataC04LinkC0E8fromJSON_9bundleURL25effectiveBundleIdentifierABSS_10Foundation0H0VSgSo011LNEffectivejK0CSgtKFZ
+- _$sSo26LNExamplePhraseDescriptionC12LinkMetadataE6asJson8userInfoSSSDys010CodingUserI3KeyVs8Sendable_pG_tKF
+- _$sSo26LNExamplePhraseDescriptionC12LinkMetadataE8fromJSONyABSSKFZ
+- _$sSo27LNAssistantSuggestionPhraseC12LinkMetadataE6asJson8userInfoSSSDys010CodingUserI3KeyVs8Sendable_pG_tKF
+- _$sSo27LNAssistantSuggestionPhraseC12LinkMetadataE8fromJSONyABSSKFZ
+- _$sSo28LNAssistantAppEntityMetadataC04LinkD0E6asJson8userInfoSSSDys010CodingUserI3KeyVs8Sendable_pG_tKF
+- _$sSo28LNAssistantAppEntityMetadataC04LinkD0E8fromJSON_9bundleURL25effectiveBundleIdentifierABSS_10Foundation0I0VSgSo011LNEffectivekL0CSgtKFZ
+- _$sSo28LSApplicationExtensionRecordC12LinkMetadataE40enumeratedStandaloneAppIntentsExtensionsSayABGvgZ
+- _$sSo31LNStaticDeferredLocalizedStringC12LinkMetadataE02ascD12ResourceJSON7encoderSS10Foundation11JSONEncoderC_tKF
+- _$sSo31LNStaticDeferredLocalizedStringC12LinkMetadataE09localizedD12ResourceJSONABSS_tcfC
+- _$sSo32LNAssistantIntentNegativePhrasesC12LinkMetadataE6asJson8userInfoSSSDys010CodingUserJ3KeyVs8Sendable_pG_tKF
+- _$sSo32LNAssistantIntentNegativePhrasesC12LinkMetadataE8fromJSON_9bundleURL25effectiveBundleIdentifierABSS_10Foundation0J0VSgSo011LNEffectivelM0CSgtKFZ
+- _$sSo7LNValueC12LinkMetadataE6asJson8userInfoSSSDys010CodingUserG3KeyVs8Sendable_pG_tKF
+- _$sSo7LNValueC12LinkMetadataE8fromJSON_9bundleURL25effectiveBundleIdentifierABSS_10Foundation0G0VSgSo011LNEffectiveiJ0CSgtKFZ
+- _$sSqMn
+- _$sSs8UTF8ViewV8distance4from2toSiSS5IndexV_AGtF
+- _$sSsSHsWP
+- _$sSsSTsMc
+- _$sSsSysMc
+- _$sSss25LosslessStringConvertiblesWP
+- _$sSt4next7ElementQzSgyFTq
+- _$sStMp
+- _$sSuN
+- _$sSy10FoundationE13lengthOfBytes5usingSiSSAAE8EncodingV_tF
+- _$sSy10FoundationE20replacingOccurrences2of4with7options5rangeSSqd___qd_0_So22NSStringCompareOptionsVSnySS5IndexVGSgtSyRd__SyRd_0_r0_lF
+- _$sSy10FoundationE8containsySbqd__SyRd__lF
+- _$ss10__CocoaSetV10startIndexAB0D0Vvg
+- _$ss10__CocoaSetV5IndexV16handleBitPatternSuvg
+- _$ss10__CocoaSetV5IndexV3ages5Int32Vvg
+- _$ss10__CocoaSetV5IndexV7elementyXlvg
+- _$ss10__CocoaSetV7element2atyXlAB5IndexV_tF
+- _$ss10__CocoaSetV8containsySbyXlF
+- _$ss10__CocoaSetV9formIndex5after8isUniqueyAB0D0Vz_SbtF
+- _$ss11AnyIteratorVMn
+- _$ss11AnyIteratorVyxGStsMc
+- _$ss12LazySequenceVMn
+- _$ss12LazySequenceVyxGSKsSKRzrlMc
+- _$ss12_IteratorBoxCMn
+- _$ss12_SequenceBoxCMn
+- _$ss13DecodingErrorO12typeMismatchyABypXp_AB7ContextVtcABmFWC
+- _$ss13DecodingErrorO13dataCorruptedyA2B7ContextVcABmFWC
+- _$ss13DecodingErrorO7ContextV10codingPath16debugDescription010underlyingB0ADSays9CodingKey_pG_SSs0B0_pSgtcfC
+- _$ss13DecodingErrorO7ContextVMn
+- _$ss13DecodingErrorOs0B0sWP
+- _$ss13EncodingErrorO12invalidValueyAByp_AB7ContextVtcABmFWC
+- _$ss13EncodingErrorO7ContextV10codingPath16debugDescription010underlyingB0ADSays9CodingKey_pG_SSs0B0_pSgtcfC
+- _$ss13EncodingErrorO7ContextVMn
+- _$ss13EncodingErrorOMa
+- _$ss13EncodingErrorOs0B0sWP
+- _$ss13OpaquePointerVMn
+- _$ss15CollectionOfOneVMn
+- _$ss15ContiguousArrayV15reserveCapacityyySiF
+- _$ss15ContiguousArrayV28_allocateBufferUninitialized15minimumCapacitys01_abD0VyxGSi_tFZ
+- _$ss15ContiguousArrayV6appendyyxnF
+- _$ss15ContiguousArrayVAByxGycfC
+- _$ss15ContiguousArrayVMa
+- _$ss15FlattenSequenceVMn
+- _$ss15FlattenSequenceVyxGSKsSKRzSK7ElementRpzrlMc
+- _$ss15LazyMapSequenceV12makeIteratorAB0E0Vyxq__GyF
+- _$ss15LazyMapSequenceV8IteratorV4nextq_SgyF
+- _$ss15LazyMapSequenceV8IteratorVMn
+- _$ss15LazyMapSequenceVMn
+- _$ss15LazyMapSequenceVyxq_GSKsSKRzrlMc
+- _$ss15_AnySequenceBoxC13_makeIterators0aE0VyxGyFTj
+- _$ss17CodingUserInfoKeyV12LinkMetadataE30includeLocalizedStringResourceABvgZ
+- _$ss17CodingUserInfoKeyVMa
+- _$ss17CodingUserInfoKeyVMn
+- _$ss17CodingUserInfoKeyVSHsWP
+- _$ss17__CocoaDictionaryV12makeIteratorAB0D0CyF
+- _$ss17__CocoaDictionaryV8IteratorC4nextyXl3key_yXl5valuetSgyF
+- _$ss18LazyFilterSequenceVMn
+- _$ss18ReversedCollectionVMn
+- _$ss18ReversedCollectionVyxGSKsMc
+- _$ss19_AnyIteratorBoxBaseC4nextxSgyFTj
+- _$ss21_ClosureBasedIteratorVMn
+- _$ss21_ClosureBasedSequenceVMn
+- _$ss21_findStringSwitchCase5cases6stringSiSays06StaticB0VG_SStF
+- _$ss22KeyedDecodingContainerVyAByxGqd__c3KeyQyd__Rszs0abC8ProtocolRd__lufC
+- _$ss22KeyedEncodingContainerVyAByxGqd__c3KeyQyd__Rszs0abC8ProtocolRd__lufC
+- _$ss22_minimumMergeRunLengthyS2iF
+- _$ss22_stringCompareInternal____9expectingSbs11_StringGutsV_SnySiGAdEs01_E16ComparisonResultOtF
+- _$ss28__ContiguousArrayStorageBaseCMa
+- _$ss30KeyedDecodingContainerProtocolMp
+- _$ss30KeyedDecodingContainerProtocolP013nestedUnkeyedC06forKeys0fbC0_p0H0Qz_tKFTq
+- _$ss30KeyedDecodingContainerProtocolP06nestedC07keyedBy6forKeys0abC0Vyqd__Gqd__m_0I0QztKs06CodingI0Rd__lFTq
+- _$ss30KeyedDecodingContainerProtocolP10codingPathSays9CodingKey_pGvgTq
+- _$ss30KeyedDecodingContainerProtocolP12superDecoder6forKeys0F0_p0H0Qz_tKFTq
+- _$ss30KeyedDecodingContainerProtocolP12superDecoders0F0_pyKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeySSSgSSm_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeySbSgSbm_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeySdSgSdm_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeySfSgSfm_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeySiSgSim_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeySuSgSum_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeyqd__Sgqd__m_0I0QztKSeRd__lFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeys4Int8VSgAFm_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeys5Int16VSgAFm_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeys5Int32VSgAFm_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeys5Int64VSgAFm_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeys5UInt8VSgAFm_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeys6Int128VSgAFm_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeys6UInt16VSgAFm_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeys6UInt32VSgAFm_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeys6UInt64VSgAFm_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP15decodeIfPresent_6forKeys7UInt128VSgAFm_0I0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP3KeyAB_s06CodingE0Tn
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeyS2Sm_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeyS2bm_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeyS2dm_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeyS2fm_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeyS2im_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeyS2um_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeyqd__qd__m_0G0QztKSeRd__lFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeys4Int8VAFm_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeys5Int16VAFm_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeys5Int32VAFm_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeys5Int64VAFm_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeys5UInt8VAFm_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeys6Int128VAFm_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeys6UInt16VAFm_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeys6UInt32VAFm_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeys6UInt64VAFm_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP6decode_6forKeys7UInt128VAFm_0G0QztKFTq
+- _$ss30KeyedDecodingContainerProtocolP7allKeysSay3KeyQzGvgTq
+- _$ss30KeyedDecodingContainerProtocolP8containsySb3KeyQzFTq
+- _$ss30KeyedDecodingContainerProtocolP9decodeNil6forKeySb0H0Qz_tKFTq
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeySSSgSSm_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeySbSgSbm_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeySdSgSdm_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeySfSgSfm_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeySiSgSim_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeySuSgSum_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeyqd__Sgqd__m_0I0QztKSeRd__lF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeys4Int8VSgAFm_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeys5Int16VSgAFm_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeys5Int32VSgAFm_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeys5Int64VSgAFm_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeys5UInt8VSgAFm_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeys6Int128VSgAFm_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeys6UInt16VSgAFm_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeys6UInt32VSgAFm_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeys6UInt64VSgAFm_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE15decodeIfPresent_6forKeys7UInt128VSgAFm_0I0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE6decode_6forKeys6Int128VAFm_0G0QztKF
+- _$ss30KeyedDecodingContainerProtocolPsE6decode_6forKeys7UInt128VAFm_0G0QztKF
+- _$ss30KeyedEncodingContainerProtocolMp
+- _$ss30KeyedEncodingContainerProtocolP013nestedUnkeyedC06forKeys0fbC0_p0H0Qz_tFTq
+- _$ss30KeyedEncodingContainerProtocolP06nestedC07keyedBy6forKeys0abC0Vyqd__Gqd__m_0I0Qzts06CodingI0Rd__lFTq
+- _$ss30KeyedEncodingContainerProtocolP10codingPathSays9CodingKey_pGvgTq
+- _$ss30KeyedEncodingContainerProtocolP12superEncoder6forKeys0F0_p0H0Qz_tFTq
+- _$ss30KeyedEncodingContainerProtocolP12superEncoders0F0_pyFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyySSSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyySbSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyySdSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyySfSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyySiSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyySuSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyyqd__Sg_0I0QztKSERd__lFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyys4Int8VSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyys5Int16VSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyys5Int32VSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyys5Int64VSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyys5UInt8VSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyys6Int128VSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyys6UInt16VSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyys6UInt32VSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyys6UInt64VSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP15encodeIfPresent_6forKeyys7UInt128VSg_0I0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP17encodeConditional_6forKeyyqd___0H0QztKRld__CSERd__lFTq
+- _$ss30KeyedEncodingContainerProtocolP3KeyAB_s06CodingE0Tn
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyySS_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyySb_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyySd_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyySf_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyySi_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyySu_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyyqd___0G0QztKSERd__lFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyys4Int8V_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyys5Int16V_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyys5Int32V_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyys5Int64V_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyys5UInt8V_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyys6Int128V_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyys6UInt16V_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyys6UInt32V_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyys6UInt64V_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP6encode_6forKeyys7UInt128V_0G0QztKFTq
+- _$ss30KeyedEncodingContainerProtocolP9encodeNil6forKeyy0H0Qz_tKFTq
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyySSSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyySbSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyySdSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyySfSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyySiSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyySuSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyyqd__Sg_0I0QztKSERd__lF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyys4Int8VSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyys5Int16VSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyys5Int32VSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyys5Int64VSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyys5UInt8VSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyys6Int128VSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyys6UInt16VSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyys6UInt32VSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyys6UInt64VSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE15encodeIfPresent_6forKeyys7UInt128VSg_0I0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE17encodeConditional_6forKeyyqd___0H0QztKRld__CSERd__lF
+- _$ss30KeyedEncodingContainerProtocolPsE6encode_6forKeyys6Int128V_0G0QztKF
+- _$ss30KeyedEncodingContainerProtocolPsE6encode_6forKeyys7UInt128V_0G0QztKF
+- _$ss4Int8VMn
+- _$ss4Int8VN
+- _$ss5Int16VN
+- _$ss5Int64VMn
+- _$ss5Int64VN
+- _$ss5Int64VSQsWP
+- _$ss5Int64Vs23CustomStringConvertiblesWP
+- _$ss5UInt8VN
+- _$ss5UInt8VSzsMc
+- _$ss5UInt8Vs7CVarArgsWP
+- _$ss6HasherV5_hash4seed5bytes5countS2i_s6UInt64VSitFZ
+- _$ss6HasherV5_hash4seed_S2i_s6UInt64VtFZ
+- _$ss6UInt32VN
+- _$ss6UInt64VN
+- _$ss7CVarArgMp
+- _$ss7DecoderMp
+- _$ss7DecoderP10codingPathSays9CodingKey_pGvgTq
+- _$ss7DecoderP16unkeyedContainers015UnkeyedDecodingC0_pyKFTq
+- _$ss7DecoderP20singleValueContainers06Singlec8DecodingD0_pyKFTq
+- _$ss7DecoderP8userInfoSDys010CodingUserC3KeyVypGvgTq
+- _$ss7DecoderP9container7keyedBys22KeyedDecodingContainerVyqd__Gqd__m_tKs9CodingKeyRd__lFTq
+- _$ss7EncoderMp
+- _$ss7EncoderP10codingPathSays9CodingKey_pGvgTq
+- _$ss7EncoderP16unkeyedContainers015UnkeyedEncodingC0_pyFTq
+- _$ss7EncoderP20singleValueContainers06Singlec8EncodingD0_pyFTq
+- _$ss7EncoderP8userInfoSDys010CodingUserC3KeyVypGvgTq
+- _$ss7EncoderP9container7keyedBys22KeyedEncodingContainerVyqd__Gqd__m_ts9CodingKeyRd__lFTq
+- _$ss9CodingKeyP11stringValueSSvgTj
+- _$ss9CodingKeyP11stringValuexSgSS_tcfCTj
+- _AFDeviceSupportsSAE
+- _APP_SANDBOX_READ
+- _APP_SANDBOX_READ_WRITE
+- _LNConnectionErrorDomain
+- _LNConnectionRequestTimeout
+- _LNLogCategoryMetadata
+- _LNLogCategoryVocabulary
+- _LNRelevantIntentsChangedNotification
+- _LNSystemEntityProtocolIdentifierUniqueEntity
+- _LNSystemProtocolIdentifierAssistantIntent
+- _LNSystemProtocolIdentifierAssistantInvocableIntent
+- _LNSystemProtocolIdentifierEntityUpdating
+- _LNSystemProtocolIdentifierPropertyUpdater
+- _LNTriggerReindexBundleKey
+- _LNTriggerReindexNotification
+- _LNValueTypeSpecificMetadataKeyBoolFalseDisplayName
+- _LNValueTypeSpecificMetadataKeyBoolTrueDisplayName
+- _LNValueTypeSpecificMetadataKeyLinkEnumerationSupportedValues
+- _NSDebugDescriptionErrorKey
+- _NSURLContentModificationDateKey
+- _OBJC_CLASS_$_AFLocalization
+- _OBJC_CLASS_$_APApplication
+- _OBJC_CLASS_$_LNActionMetadata
+- _OBJC_CLASS_$_LNAlternativeValueType
+- _OBJC_CLASS_$_LNAppShortcutDynamicOptionsProviderReference
+- _OBJC_CLASS_$_LNAppShortcutNegativePhrase
+- _OBJC_CLASS_$_LNAppShortcutOptionsCollection
+- _OBJC_CLASS_$_LNAppShortcutOptionsCollectionMetadata
+- _OBJC_CLASS_$_LNAppShortcutParameterPresentation
+- _OBJC_CLASS_$_LNAssistantAppEntityMetadata
+- _OBJC_CLASS_$_LNAssistantIntentMetadata
+- _OBJC_CLASS_$_LNAssistantIntentNegativePhrases
+- _OBJC_CLASS_$_LNAssistantSuggestionPhrase
+- _OBJC_CLASS_$_LNAutoShortcut
+- _OBJC_CLASS_$_LNAutoShortcutMetadata
+- _OBJC_CLASS_$_LNAvailabilityAnnotation
+- _OBJC_CLASS_$_LNAvailabilityChecker
+- _OBJC_CLASS_$_LNBasePhraseTemplateSubstitution
+- _OBJC_CLASS_$_LNBundleMetadata
+- _OBJC_CLASS_$_LNEmptySystemProtocolMetadata
+- _OBJC_CLASS_$_LNEntityMetadata
+- _OBJC_CLASS_$_LNEntityUpdatingSystemProtocolMetadata
+- _OBJC_CLASS_$_LNEnumMetadata
+- _OBJC_CLASS_$_LNFeatureFlagUtilities
+- _OBJC_CLASS_$_LNParameterSubstitution
+- _OBJC_CLASS_$_LNPropertyMetadata
+- _OBJC_CLASS_$_LNPropertyUpdaterSystemProtocolMetadata
+- _OBJC_CLASS_$_LNQueryMetadata
+- _OBJC_CLASS_$_LNQueryParameterMetadata
+- _OBJC_CLASS_$_LNQuerySortingOptionMetadata
+- _OBJC_CLASS_$_LNRequiredCapabilityMetadata
+- _OBJC_CLASS_$_LNSubstitutionValue
+- _OBJC_CLASS_$_LNTargetMetadata
+- _OBJC_CLASS_$_LSApplicationRecord
+- _OBJC_CLASS_$_LSApplicationWorkspace
+- _OBJC_CLASS_$_LSDatabaseContext
+- _OBJC_CLASS_$_NSBundle
+- _OBJC_CLASS_$_NSDateFormatter
+- _OBJC_CLASS_$_NSLocale
+- _OBJC_CLASS_$_NSProcessInfo
+- _OBJC_CLASS_$_NSSecurityScopedURLWrapper
+- _OBJC_CLASS_$_RBSAssertion
+- _OBJC_CLASS_$_RBSAttribute
+- _OBJC_CLASS_$_RBSDomainAttribute
+- _OBJC_CLASS_$_RBSProcessHandle
+- _OBJC_CLASS_$_RBSTarget
+- _OBJC_CLASS_$_RKRelevantContext
+- _RBSAssertionErrorDomain
+- _SANDBOX_EXTENSION_DEFAULT
+- __sqlite3_db_truncate
+- _getLNLogCategoryMetadata
+- _notify_post
+- _objc_autorelease
+- _os_unfair_lock_assert_owner
+- _sandbox_extension_issue_file_to_process
+- _sqlite3_backup_finish
+- _sqlite3_backup_init
+- _sqlite3_backup_pagecount
+- _sqlite3_backup_remaining
+- _sqlite3_backup_step
+- _sqlite3_bind_blob
+- _sqlite3_bind_double
+- _sqlite3_bind_int64
+- _sqlite3_bind_null
+- _sqlite3_bind_parameter_count
+- _sqlite3_bind_parameter_index
+- _sqlite3_bind_text
+- _sqlite3_busy_handler
+- _sqlite3_busy_timeout
+- _sqlite3_changes
+- _sqlite3_clear_bindings
+- _sqlite3_close
+- _sqlite3_close_v2
+- _sqlite3_column_blob
+- _sqlite3_column_bytes
+- _sqlite3_column_count
+- _sqlite3_column_double
+- _sqlite3_column_int64
+- _sqlite3_column_name
+- _sqlite3_column_text
+- _sqlite3_column_type
+- _sqlite3_commit_hook
+- _sqlite3_create_collation_v2
+- _sqlite3_create_function_v2
+- _sqlite3_db_filename
+- _sqlite3_db_readonly
+- _sqlite3_errcode
+- _sqlite3_errmsg
+- _sqlite3_exec
+- _sqlite3_expanded_sql
+- _sqlite3_extended_result_codes
+- _sqlite3_file_control
+- _sqlite3_finalize
+- _sqlite3_free
+- _sqlite3_interrupt
+- _sqlite3_last_insert_rowid
+- _sqlite3_open_v2
+- _sqlite3_prepare_v2
+- _sqlite3_reset
+- _sqlite3_result_blob
+- _sqlite3_result_double
+- _sqlite3_result_int64
+- _sqlite3_result_null
+- _sqlite3_result_text
+- _sqlite3_rollback_hook
+- _sqlite3_sql
+- _sqlite3_step
+- _sqlite3_total_changes
+- _sqlite3_trace_v2
+- _sqlite3_update_hook
+- _sqlite3_user_data
+- _sqlite3_value_blob
+- _sqlite3_value_bytes
+- _sqlite3_value_double
+- _sqlite3_value_int64
+- _sqlite3_value_text
+- _sqlite3_value_type
+- _swift_continuation_resume
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+- _swift_coroFrameAlloc
+- _swift_cvw_instantiateLayoutString
+- _swift_dynamicCastClass
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_getAtKeyPath
+- _swift_getDynamicType
+- _swift_getFunctionTypeMetadata0
+- _swift_getKeyPath
+- _swift_getOpaqueTypeConformance2
+- _swift_projectBox
+- _swift_release_x13
+- _swift_retain_x1
+- _swift_retain_x9
+- _swift_unexpectedError
+```

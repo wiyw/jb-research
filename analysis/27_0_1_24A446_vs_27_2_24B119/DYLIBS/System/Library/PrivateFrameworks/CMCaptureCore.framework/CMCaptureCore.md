@@ -1,0 +1,115 @@
+## CMCaptureCore
+
+> `/System/Library/PrivateFrameworks/CMCaptureCore.framework/CMCaptureCore`
+
+```diff
+
+-764.22.14.0.0
+-  __TEXT.__text: 0x2058
+-  __TEXT.__cstring: 0xea86
++764.42.8.0.0
++  __TEXT.__text: 0x2068
++  __TEXT.__cstring: 0xecfe
+   __TEXT.__const: 0x25
+   __TEXT.__oslogstring: 0xa6
+   __TEXT.__unwind_info: 0x90
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_methname: 0x0
+-  __DATA_CONST.__const: 0x5af0
++  __DATA_CONST.__const: 0x5bc8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x10
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x14f40
++  __AUTH_CONST.__cfstring: 0x151e0
+   __AUTH_CONST.__auth_got: 0x0
+-  __DATA.__data: 0x8
++  __DATA_DIRTY.__data: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   Functions: 14
+-  Symbols:   3033
++  Symbols:   3060
+   CStrings:  0
+ 
+Symbols:
++ _kFigAppleMakerNote_SegmentFocusTracking
++ _kFigAppleMakerNote_SegmentFocusTrackingKey_Enabled
++ _kFigAppleMakerNote_SegmentFocusTrackingKey_FocusBias
++ _kFigAppleMakerNote_SegmentFocusTrackingKey_MaskConfidence
++ _kFigAppleMakerNote_SegmentFocusTrackingKey_ObjectID
++ _kFigAppleMakerNote_SegmentFocusTrackingKey_TotalPoints
++ _kFigAppleMakerNote_SegmentFocusTrackingKey_ValidCoverage
++ _kFigCaptureSampleBufferAttachmentKey_DeviceProximityDetection
++ _kFigCaptureSampleBufferAttachmentKey_LightSourceEstimation
++ _kFigCaptureStreamDetectedObjectKey_SentToPerceptionThumbnailChannel
++ _kFigCaptureStreamLCBKey_OpticalCenterForLensX
++ _kFigCaptureStreamLCBKey_OpticalCenterForLensY
++ _kFigCaptureStreamLCBKey_RadialDistortionEnabled
++ _kFigCaptureStreamLCBKey_RadialDistortionK1
++ _kFigCaptureStreamLCBKey_RadialDistortionK2
++ _kFigCaptureStreamLCBKey_RadialDistortionK3
++ _kFigCaptureStreamLCBKey_RadialDistortionMaxR
++ _kFigCaptureStreamLCBKey_RadialDistortionRPeak
++ _kFigCaptureStreamMetadataOutputConfigurationKey_SecureDeviceProximityDetectionConfiguration
++ _kFigCaptureStreamMetadataOutputConfigurationKey_SecureDeviceProximityDetectionEnabled
++ _kFigCaptureStreamMetadataOutputConfigurationKey_SecureLightSourceEstimationConfiguration
++ _kFigCaptureStreamMetadataOutputConfigurationKey_SecureLightSourceEstimationEnabled
++ _kFigCaptureStreamMetadataOutputKey_SecureDetectedProximityDevices
++ _kFigCaptureStreamMetadataOutputKey_SecureLightSourceEstimation
++ _kFigCaptureStreamMetadata_AEStatsUpdated
++ _kFigCaptureStreamMetadata_AFStatsUpdated
++ _kFigCaptureStreamMetadata_AWBStatsUpdated
++ _kFigCaptureStreamMetadata_RawValidBufferRect
++ _kFigCaptureStreamMetadata_SmartTapAlgorithmMetadata
++ _kFigCaptureStreamProperty_DelayedRawStreamingEnabled
++ _kFigCaptureStreamSecureDetectedProximityDeviceKey_ConfidenceLevel
++ _kFigCaptureStreamSecureDetectedProximityDeviceKey_DeviceID
++ _kFigCaptureStreamSecureDetectedProximityDeviceKey_DeviceType
++ _kFigCaptureStreamSecureDetectedProximityDeviceKey_PoseMatrix
++ _kFigCaptureStreamSecureDetectedProximityDevicesKey_DevicesArray
++ _kFigCaptureStreamSecureDeviceProximityDetectionConfigurationKey_DeviceTypes
++ _kFigCaptureStreamSecureDeviceProximityDetectionConfigurationKey_TargetFrameRate
++ _kFigCaptureStreamSecureLightSourceEstimationConfigurationKey_AmbientLuminance
++ _kFigCaptureStreamSecureLightSourceEstimationConfigurationKey_TargetFrameRate
++ _kFigCaptureStreamSecureObjectDetectionConfigurationKey_PerceptionTestModeEnabled
++ _kFigCaptureStreamSecureObjectDetectionConfigurationKey_PerceptionThumbnailChannelMetadataObjectTypes
++ _kFigCaptureStreamSecureObjectDetectionConfigurationKey_PerceptionThumbnailChannelTargetFrameRate
++ _kFigCaptureStreamSecureObjectDetectionConfigurationKey_TargetFrameRate
++ _kFigCaptureStreamSegmentFocusTrackingConfigurationKey_FacePrioritizationEnabled
++ _kFigCaptureStreamSegmentFocusTrackingDataKey_FocusBias
++ _kFigCaptureStreamSegmentFocusTrackingDataKey_MaskConfidence
++ _kFigCaptureStreamSegmentFocusTrackingDataKey_ObjectID
++ _kFigCaptureStreamSegmentFocusTrackingDataKey_TotalPoints
++ _kFigCaptureStreamSegmentFocusTrackingDataKey_ValidCoverage
++ _kFigMetadataIdentifier_QuickTimeMetadataDeviceProximityDetection
++ _kFigMetadataIdentifier_QuickTimeMetadataLightSourceEstimation
+- _kFigCaptureSegmentFocusTrackingSalientObjectMetadata_HasMask
+- _kFigCaptureSegmentFocusTrackingSalientObjectMetadata_Mask
+- _kFigCaptureSegmentFocusTrackingSalientObjectMetadata_MaskAttachedMediaKey
+- _kFigCaptureSegmentFocusTrackingSalientObjectMetadata_TrackedForContinuousAutoFocus
+- _kFigCaptureStreamDetectedObjectKey_MetadataReceived
+- _kFigCaptureStreamMetadataOutputConfigurationKey_LuxLevelConfiguration
+- _kFigCaptureStreamMetadataOutputConfigurationKey_LuxLevelEnabled
+- _kFigCaptureStreamMetadataOutputConfigurationKey_SVDConfiguration
+- _kFigCaptureStreamMetadataOutputConfigurationKey_SVDResultEnabled
+- _kFigCaptureStreamMetadataOutputKey_LuxLevelEstimate
+- _kFigCaptureStreamMetadataOutputKey_SVDResult
+- _kFigCaptureStreamStreamingLightEstimationConfigurationKey_AmbientLuminance
+- _kFigCaptureStreamStreamingLightEstimationConfigurationKey_TargetFrameRate
+- _kFigCaptureStreamStreamingObjectDetectionConfigurationKey_TargetFrameRate
+- _kFigCaptureStreamStreamingObjectDetectionConfigurationKey_TestMode
+- _kFigCaptureStreamStreamingObjectDetectionConfigurationKey_ThumbnailStreamMetadataObjectTypes
+- _kFigCaptureStreamStreamingObjectDetectionConfigurationKey_ThumbnailStreamTargetFrameRate
+- _kFigCaptureStreamStreamingSVDConfigurationKey_IndexValues
+- _kFigCaptureStreamStreamingSVDConfigurationKey_TargetFrameRate
+- _kFigCaptureStreamStreamingSVDResultKey_ConfidenceLevel
+- _kFigCaptureStreamStreamingSVDResultKey_EstimateMatrix
+- _kFigCaptureStreamStreamingSVDResultKey_ID
+- _kFigCaptureStreamStreamingSVDResultKey_MatrixArray
+- _kFigCaptureStreamStreamingSVDResultKey_Rank
+```

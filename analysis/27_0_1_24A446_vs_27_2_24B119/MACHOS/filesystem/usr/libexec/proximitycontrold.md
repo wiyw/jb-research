@@ -1,0 +1,616 @@
+## proximitycontrold
+
+> `/usr/libexec/proximitycontrold`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__info_plist`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_superrefs`
+
+```diff
+
+-376.1.2.0.0
+-  __TEXT.__text: 0x261cfc
+-  __TEXT.__auth_stubs: 0x3580
+-  __TEXT.__objc_stubs: 0x4280
+-  __TEXT.__objc_methlist: 0x29c0
+-  __TEXT.__const: 0x211d8
+-  __TEXT.__objc_methname: 0xdf59
+-  __TEXT.__objc_classname: 0x2427
+-  __TEXT.__cstring: 0x7d99
+-  __TEXT.__objc_methtype: 0x36fb
+-  __TEXT.__swift5_typeref: 0xf1e4
+-  __TEXT.__constg_swiftt: 0xd6f4
+-  __TEXT.__swift5_reflstr: 0x99a3
+-  __TEXT.__swift5_fieldmd: 0x9318
+-  __TEXT.__swift5_builtin: 0x58c
+-  __TEXT.__swift5_assocty: 0xe70
+-  __TEXT.__swift5_capture: 0x3494
+-  __TEXT.__oslogstring: 0x7d4e
+-  __TEXT.__swift5_proto: 0x1790
+-  __TEXT.__swift5_types: 0x8b4
+-  __TEXT.__swift_as_entry: 0xf4
+-  __TEXT.__swift_as_ret: 0xe4
+-  __TEXT.__swift_as_cont: 0x1cc
+-  __TEXT.__swift5_protos: 0x144
+-  __TEXT.__swift5_mpenum: 0x124
++376.11.1.0.0
++  __TEXT.__text: 0x3033f8
++  __TEXT.__auth_stubs: 0x40e0
++  __TEXT.__objc_stubs: 0x5280
++  __TEXT.__objc_methlist: 0x2bd4
++  __TEXT.__const: 0x27538
++  __TEXT.__objc_methname: 0xf5dd
++  __TEXT.__objc_classname: 0x28b7
++  __TEXT.__cstring: 0x9ca1
++  __TEXT.__objc_methtype: 0x39eb
++  __TEXT.__swift5_typeref: 0x112da
++  __TEXT.__constg_swiftt: 0xea50
++  __TEXT.__swift5_reflstr: 0xb637
++  __TEXT.__swift5_fieldmd: 0xaf04
++  __TEXT.__swift5_builtin: 0x5b4
++  __TEXT.__swift5_assocty: 0x1158
++  __TEXT.__oslogstring: 0x9d36
++  __TEXT.__swift5_capture: 0x4108
++  __TEXT.__swift5_proto: 0x1cc0
++  __TEXT.__swift5_types: 0xa30
++  __TEXT.__swift_as_entry: 0x204
++  __TEXT.__swift_as_ret: 0x220
++  __TEXT.__swift_as_cont: 0x48c
++  __TEXT.__swift5_protos: 0x150
++  __TEXT.__swift5_mpenum: 0x130
+   __TEXT.__info_plist: 0xa89
+-  __TEXT.__unwind_info: 0x6bb8
+-  __TEXT.__eh_frame: 0x66cc
+-  __DATA_CONST.__const: 0x154b0
++  __TEXT.__unwind_info: 0x87c8
++  __TEXT.__eh_frame: 0xa5dc
++  __DATA_CONST.__const: 0x19a80
+   __DATA_CONST.__cfstring: 0x420
+-  __DATA_CONST.__objc_classlist: 0x478
++  __DATA_CONST.__objc_classlist: 0x4e0
+   __DATA_CONST.__objc_catlist: 0x28
+-  __DATA_CONST.__objc_protolist: 0x2f8
++  __DATA_CONST.__objc_protolist: 0x338
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x180
++  __DATA_CONST.__objc_protorefs: 0x1a8
+   __DATA_CONST.__objc_superrefs: 0x10
+-  __DATA_CONST.__auth_got: 0x1ac8
+-  __DATA_CONST.__got: 0xea8
+-  __DATA_CONST.__auth_ptr: 0x1a58
+-  __DATA.__objc_const: 0x18930
+-  __DATA.__objc_selrefs: 0x1dd0
++  __DATA_CONST.__auth_got: 0x2078
++  __DATA_CONST.__got: 0x11a0
++  __DATA_CONST.__auth_ptr: 0x1e30
++  __DATA.__objc_const: 0x1a610
++  __DATA.__objc_selrefs: 0x2200
+   __DATA.__objc_ivar: 0x54
+-  __DATA.__objc_data: 0x38f0
+-  __DATA.__data: 0x17a88
+-  __DATA.__bss: 0x2b370
+-  __DATA.__common: 0x888
++  __DATA.__objc_data: 0x3de0
++  __DATA.__data: 0x1a610
++  __DATA.__bss: 0x34940
++  __DATA.__common: 0xab0
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
++  - /System/Library/PrivateFrameworks/AppIntentsServices.framework/AppIntentsServices
+   - /System/Library/PrivateFrameworks/BackBoardServices.framework/BackBoardServices
+   - /System/Library/PrivateFrameworks/BacklightServices.framework/BacklightServices
+   - /System/Library/PrivateFrameworks/BannerKit.framework/BannerKit
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BaseBoardUI.framework/BaseBoardUI
++  - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /System/Library/PrivateFrameworks/CoreUtilsSwift.framework/CoreUtilsSwift
+
+   - /System/Library/PrivateFrameworks/HMFoundation.framework/HMFoundation
+   - /System/Library/PrivateFrameworks/Home.framework/Home
+   - /System/Library/PrivateFrameworks/IDS.framework/IDS
++  - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
++  - /System/Library/PrivateFrameworks/LinkServices.framework/LinkServices
+   - /System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote
+   - /System/Library/PrivateFrameworks/MobileTimer.framework/MobileTimer
+   - /System/Library/PrivateFrameworks/NanoPreferencesSync.framework/NanoPreferencesSync
+
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
++  - /System/Library/PrivateFrameworks/UserActivity.framework/UserActivity
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCallKit.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
++  - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 10290
+-  Symbols:   1633
++  Functions: 12517
++  Symbols:   1951
+   CStrings:  0
+ 
+Symbols:
++ _$s10Foundation12NotificationV6objectypSgvg
++ _$s10Foundation12NotificationV8userInfoSDys11AnyHashableVypGSgvg
++ _$s10Foundation23LocalizedStringResourceV17BundleDescriptionO5atURLyAeA0H0VcAEmFWC
++ _$s10Foundation23LocalizedStringResourceV17BundleDescriptionOMa
++ _$s10Foundation23LocalizedStringResourceVMa
++ _$s10Foundation23LocalizedStringResourceV_12defaultValue5table6locale6bundle7commentACs06StaticC0V_SSAAE012LocalizationF0VSSSgAA6LocaleVAC17BundleDescriptionOAJSgtcfC
++ _$s10Foundation3URLV14absoluteStringSSvg
++ _$s10Foundation3URLV2eeoiySbAC_ACtFZ
++ _$s10Foundation6LocaleV7currentACvgZ
++ _$s14CoreFoundation9_CFObjectMp
++ _$s14CoreFoundation9_CFObjectPAAE2eeoiySbx_xtFZ
++ _$s14CoreFoundation9_CFObjectPAAE4hash4intoys6HasherVz_tF
++ _$s14CoreFoundation9_CFObjectPAAE9hashValueSivg
++ _$s14CoreFoundation9_CFObjectPSHTb
++ _$s14ProductKitCore13HomeAccessoryV0D13HardwareModelO8rawValueAESgSS_tcfC
++ _$s14ProductKitCore13HomeAccessoryV0D13HardwareModelOMa
++ _$s14ProductKitCore13HomeAccessoryV0D13HardwareModelOMn
++ _$s14ProductKitCore13HomeAccessoryV12AssetRequestV13configurationAeC13ConfigurationV_tcfC
++ _$s14ProductKitCore13HomeAccessoryV12AssetRequestV6assetsAC6AssetsCyYaKF
++ _$s14ProductKitCore13HomeAccessoryV12AssetRequestV6assetsAC6AssetsCyYaKFTu
++ _$s14ProductKitCore13HomeAccessoryV12AssetRequestVMa
++ _$s14ProductKitCore13HomeAccessoryV13ConfigurationV13hardwareModel5color7timeoutAeC0d8HardwareH0O_SuSdtcfC
++ _$s14ProductKitCore13HomeAccessoryV13ConfigurationVMa
++ _$s14ProductKitCore13HomeAccessoryV6AssetsC13adjustedImageyAA13AdjustedAssetVAE0iH10IdentifierOF
++ _$s14ProductKitCore13HomeAccessoryV6AssetsC23AdjustedImageIdentifierO15productHeroShotyA2GmFWC
++ _$s14ProductKitCore13HomeAccessoryV6AssetsC23AdjustedImageIdentifierOMa
++ _$s14ProductKitCore13HomeAccessoryV6AssetsC6bundleSo8NSBundleCvg
++ _$s14ProductKitCore13HomeAccessoryV6AssetsCMn
++ _$s16ProximityControl17PCHandoffSettingsV14handoffEnabledACSb_tcfC
++ _$s16ProximityControl17PCHandoffSettingsV22changeNotificationNameSSvgZ
++ _$s16ProximityControl17PCHandoffSettingsVMa
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO03GetD8SettingsC7Sharing22SFXPCInvocableProtocolAAMc
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO03GetD8SettingsC8ResponseV8settingsAgA09PCHandoffH0V_tcfC
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO03GetD8SettingsCMa
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO03GetD8SettingsCMn
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO03SetD8SettingsC10ParametersV14handoffEnabledSbvg
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO03SetD8SettingsC10ParametersVMa
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO03SetD8SettingsC7Sharing22SFXPCInvocableProtocolAAMc
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO03SetD8SettingsCMa
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO03SetD8SettingsCMn
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO14PairWithDeviceC10ParametersV9predicateAA0dI9PredicateVvg
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO14PairWithDeviceC10ParametersVMa
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO14PairWithDeviceC10ParametersVMn
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO14PairWithDeviceC7Sharing22SFXPCInvocableProtocolAAMc
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO14PairWithDeviceCMa
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO14PairWithDeviceCMn
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO25GetDaemonKeepAliveEnabledC7Sharing22SFXPCInvocableProtocolAAMc
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO25GetDaemonKeepAliveEnabledC8ResponseV04keepJ0AGSbSg_tcfC
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO25GetDaemonKeepAliveEnabledCMa
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO25GetDaemonKeepAliveEnabledCMn
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO25GetDaemonLaunchEventArmedC7Sharing22SFXPCInvocableProtocolAAMc
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO25GetDaemonLaunchEventArmedC8ResponseV5armedAGSb_tcfC
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO25GetDaemonLaunchEventArmedCMa
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO25GetDaemonLaunchEventArmedCMn
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO25SetDaemonLaunchEventArmedC7Sharing22SFXPCInvocableProtocolAAMc
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO25SetDaemonLaunchEventArmedCMa
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO25SetDaemonLaunchEventArmedCMn
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO34ContinueUserActivityOnTargetDeviceC10ParametersV06targetL9PredicateAA0dlO0Vvg
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO34ContinueUserActivityOnTargetDeviceC10ParametersVMa
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO34ContinueUserActivityOnTargetDeviceC7Sharing22SFXPCInvocableProtocolAAMc
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO34ContinueUserActivityOnTargetDeviceCMa
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO34ContinueUserActivityOnTargetDeviceCMn
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO36ContinueUserActivityFromTargetDeviceC7Sharing22SFXPCInvocableProtocolAAMc
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO36ContinueUserActivityFromTargetDeviceCMa
++ _$s16ProximityControl36PCProximityHandoffServiceInvocationsO36ContinueUserActivityFromTargetDeviceCMn
++ _$s18AppIntentsServices013_IdentifiableA20EntityRepresentationMp
++ _$s18AppIntentsServices013_IdentifiableA20EntityRepresentationPAA015IntentValueTypeD0Tb
++ _$s18AppIntentsServices013_IdentifiableA20EntityRepresentationPAA0aE14TypeDescribingTb
++ _$s18AppIntentsServices013_IdentifiableA20EntityRepresentationPAA0aeF0Tb
++ _$s18AppIntentsServices013_IdentifiableA20EntityRepresentationPAA28IntentValueOptionalWrappableTb
++ _$s18AppIntentsServices014DefaultPerformA14IntentDelegateCAA0eafG0AAWP
++ _$s18AppIntentsServices014DefaultPerformA14IntentDelegateCACycfc
++ _$s18AppIntentsServices014DefaultPerformA14IntentDelegateCMa
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC07displayF0AA07DisplayF0VSgvgTj
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC10identifierAA0aE10Identifier_pvgTj
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC10propertiesSayAA13NamedPropertyVGvgTj
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC11isTransientSbvgTj
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC12InstanceInfoVMa
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC15exportedContentAA16TransferableData_pSgvgTj
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC4from_7contextACXDSgSo7LNValueC_AA28IntentValueConversionContext_ptFZ
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC6originAA0A10IdentifierVvgTj
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC7lnValueSo7LNValueCSgvg
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC8DeferredV5valuexSgvg
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC8DeferredV5valuexSgvgTu
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC8DeferredVMn
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseCMm
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseCMn
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseCfd
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseCyA2C12InstanceInfoVcfCTq
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseCyA2C12InstanceInfoVcfc
++ _$s18AppIntentsServices0A17IntentDispatchingPAAE7perform_7options8delegateAA0aD13SuccessResultVy6OutputQyd__Gqd___AA0aD14PerformOptionsVAA0laD8Delegate_ptYaKAA0aD14RepresentationRd__AA0D5ValueAJRQlF
++ _$s18AppIntentsServices0A17IntentDispatchingPAAE7perform_7options8delegateAA0aD13SuccessResultVy6OutputQyd__Gqd___AA0aD14PerformOptionsVAA0laD8Delegate_ptYaKAA0aD14RepresentationRd__AA0D5ValueAJRQlFTu
++ _$s18AppIntentsServices0A19IntentSuccessResultV6outputAA0D6OutputVyxGvg
++ _$s18AppIntentsServices0A19IntentSuccessResultVMn
++ _$s18AppIntentsServices0A20EntityRepresentationMp
++ _$s18AppIntentsServices0A20EntityRepresentationP07displayE0AA07DisplayE0VSgvgTq
++ _$s18AppIntentsServices0A20EntityRepresentationP10identifierAA0aD10Identifier_pvgTq
++ _$s18AppIntentsServices0A20EntityRepresentationP10propertiesSayAA13NamedPropertyVGvgTq
++ _$s18AppIntentsServices0A20EntityRepresentationP11isTransientSbvgTq
++ _$s18AppIntentsServices0A20EntityRepresentationPAA11IntentValueTb
++ _$s18AppIntentsServices0A20EntityRepresentationPAA18OriginIdentifiableTb
++ _$s18AppIntentsServices0A20EntityRepresentationPAA22TransferableExportableTb
++ _$s18AppIntentsServices0A20EntityTypeDescribingMp
++ _$s18AppIntentsServices0A20EntityTypeDescribingP14typeIdentifierSSvgZTq
++ _$s18AppIntentsServices0A20EntityTypeDescribingP16bundleIdentifierSSvgZTq
++ _$s18AppIntentsServices0A20EntityTypeDescribingPAAE07lnValueE0So07LNValueE0CvgZ
++ _$s18AppIntentsServices0A20IntentPerformOptionsV19allowLiveActivities019allowsPrepareBeforeE024assistantDismissalPolicy21confirmationCondition26connectionOperationTimeout18donateToTranscript19executionIdentifier19exportedContentType15interactionMode4kind015preferredBundleY024preferNoticePresentation015processInstanceY021requestUnlockIfNeeded18snippetEnvironmentACSb_SbSo011LNAssistantnO0VSgSo029LNActionExecutionConfirmationQ0VSdSbSg10Foundation4UUIDVSg22UniformTypeIdentifiers6UTTypeVSgSo17LNInteractionModeVSo22LNTranscriptActionKindVSSSgSbA9_SbAA18SnippetEnvironmentVSgtcfC
++ _$s18AppIntentsServices0A20IntentPerformOptionsV33defaultConnectionOperationTimeoutSdvgZ
++ _$s18AppIntentsServices0A20IntentPerformOptionsVMa
++ _$s18AppIntentsServices0A20IntentRepresentationMp
++ _$s18AppIntentsServices0A20IntentRepresentationP16actionIdentifierSSvgZTq
++ _$s18AppIntentsServices0A20IntentRepresentationP16bundleIdentifierSSvgZTq
++ _$s18AppIntentsServices0A20IntentRepresentationP21exportToSpecificationAA0adH0VyFTq
++ _$s18AppIntentsServices0A20IntentRepresentationPAAE21exportToSpecificationAA0adH0VyF
++ _$s18AppIntentsServices0bC0O15localDispatcher11clientLabel6source11environment7optionsAA0A17IntentDispatching_pSS_So24LNTranscriptActionSourceVAA0aK11Environment_pAC14OptionsBuilderVy_AC0eQ0VGdtFZ
++ _$s18AppIntentsServices11IntentValueMp
++ _$s18AppIntentsServices11IntentValueP02lnE0So7LNValueCSgvgTq
++ _$s18AppIntentsServices11IntentValueP10canConvertySbSo7LNValueCSgFZTq
++ _$s18AppIntentsServices11IntentValueP13acceptVisitoryyAA0deG0_pFZTq
++ _$s18AppIntentsServices11IntentValueP4from_7contextxSgSo7LNValueC_AA0dE17ConversionContext_ptFZTq
++ _$s18AppIntentsServices11IntentValuePAA23EntityPropertyWrappableTb
++ _$s18AppIntentsServices11IntentValuePAAE13acceptVisitoryyAA0deG0_pFZ
++ _$s18AppIntentsServices12IntentOutputV5valuexSgvg
++ _$s18AppIntentsServices12IntentOutputVMn
++ _$s18AppIntentsServices14EntityPropertyC10identifierACyxGSSSg_tcfc
++ _$s18AppIntentsServices14EntityPropertyC12wrappedValuexSgvg
++ _$s18AppIntentsServices14EntityPropertyCMn
++ _$s18AppIntentsServices18OriginIdentifiableMp
++ _$s18AppIntentsServices18OriginIdentifiableP6originAA0A10IdentifierVvgTq
++ _$s18AppIntentsServices18SnippetEnvironmentVMa
++ _$s18AppIntentsServices18SnippetEnvironmentVMn
++ _$s18AppIntentsServices22TransferableExportableMp
++ _$s18AppIntentsServices22TransferableExportableP15exportedContentAA0D4Data_pSgvgTq
++ _$s18AppIntentsServices23EntityPropertyWrappableMp
++ _$s18AppIntentsServices24IntentFileRepresentationV4data10Foundation4DataVvg
++ _$s18AppIntentsServices24IntentFileRepresentationV4data10Foundation4DataVvgTu
++ _$s18AppIntentsServices24IntentFileRepresentationVMa
++ _$s18AppIntentsServices24IntentFileRepresentationVMn
++ _$s18AppIntentsServices26IntentValueSequenceElementMp
++ _$s18AppIntentsServices26IntentValueSequenceElementP14canConvertFromySbSo11LNValueTypeCFZTq
++ _$s18AppIntentsServices26IntentValueSequenceElementPAA0dE0Tb
++ _$s18AppIntentsServices27IntentValueTypeIdentifiableMp
++ _$s18AppIntentsServices27IntentValueTypeIdentifiableP02lneF0So07LNValueF0CvgZTq
++ _$s18AppIntentsServices27IntentValueTypeIdentifiablePAA0dE15SequenceElementTb
++ _$s18AppIntentsServices27IntentValueTypeIdentifiablePAAE10canConvertySbSo7LNValueCSgFZ
++ _$s18AppIntentsServices27IntentValueTypeIdentifiablePAAE14canConvertFromySbSo07LNValueF0CFZ
++ _$s18AppIntentsServices28IntentValueOptionalWrappableMp
++ _$s18AppIntentsServices28IntentValueOptionalWrappablePAA0dE0Tb
++ _$s22UniformTypeIdentifiers6UTTypeV10identifierSSvg
++ _$s2os12OSSignpostIDV3logACSo03OS_a1_D0C_tcfC
++ _$s3XPC0A10_TYPE_BOOLs13OpaquePointerVvg
++ _$s3XPC0A13_ARRAY_APPENDSivg
++ _$s6Output18AppIntentsServices0B20IntentRepresentationPTl
++ _$s7Combine10PublishersO12ReplaceErrorVMn
++ _$s7Combine10PublishersO12ReplaceErrorVy_xGAA9PublisherAAMc
++ _$s7Combine10PublishersO5FirstVMn
++ _$s7Combine10PublishersO5FirstVy_xGAA9PublisherAAMc
++ _$s7Combine8DeferredV15createPublisherACyxGxyc_tcfC
++ _$s7Combine8DeferredVMn
++ _$s7Combine8DeferredVyxGAA9PublisherAAMc
++ _$s7Combine9PublisherPAAE12replaceError4withAA10PublishersO07ReplaceD0Vy_xG6OutputQz_tF
++ _$s7Combine9PublisherPAAE5firstAA10PublishersO5FirstVy_xGyF
++ _$s7Combine9PublisherPAAE7prependyAA10PublishersO11ConcatenateVy_qd__xGqd__AaBRd__7FailureQyd__AJRtz6OutputQyd__AMRtzlF
++ _$s7Sharing08SFNearbyA11InteractionVMa
++ _$s7Sharing08SFNearbyA11InteractionVyAcA18SFProximityHandoffO0C0VcfC
++ _$s7Sharing13SFXPCListenerC25connectionHasEntitlements0C4UUID12entitlementsSb10Foundation0F0V_SaySSGtYaF
++ _$s7Sharing13SFXPCListenerC25connectionHasEntitlements0C4UUID12entitlementsSb10Foundation0F0V_SaySSGtYaFTu
++ _$s7Sharing18SFProximityHandoffO11InteractionV2id5state7content14connectionTime17showDeviceDetailsAE10Foundation4UUIDV_AA9SFAirDropO06NearbyaD0V5StateOAC7ContentVSgs15ContinuousClockV7InstantVSgSbtcfC
++ _$s7Sharing18SFProximityHandoffO11InteractionV5stateAA9SFAirDropO06NearbyaD0V5StateOvg
++ _$s7Sharing18SFProximityHandoffO11InteractionV5stateAA9SFAirDropO06NearbyaD0V5StateOvs
++ _$s7Sharing18SFProximityHandoffO7ContentV13interactionID16bundleIdentifier5items7actions5titleAE10Foundation4UUIDV_SSSayAE4ItemOGSayAE16ActionDefinitionVGSSSgtcfC
++ _$s7Sharing18SFProximityHandoffO7ContentV16ActionDefinitionV2id9direction09localizedE5Title012confirmationF0AGSS_AE9DirectionO10Foundation23LocalizedStringResourceVAA020SFActionConfirmationF0VSgtcfC
++ _$s7Sharing18SFProximityHandoffO7ContentV16ActionDefinitionV2id9direction09localizedE5TitleAGSS_AE9DirectionO10Foundation23LocalizedStringResourceVtcfC
++ _$s7Sharing18SFProximityHandoffO7ContentV4ItemO3urlyAG10Foundation3URLVcAGmFWC
++ _$s7Sharing18SFProximityHandoffO7ContentV4ItemOMa
++ _$s7Sharing18SFProximityHandoffO7ContentV4ItemOMn
++ _$s7Sharing18SFProximityHandoffO7ContentV9DirectionO4sendyA2GmFWC
++ _$s7Sharing18SFProximityHandoffO7ContentV9DirectionO7receiveyA2GmFWC
++ _$s7Sharing18SFProximityHandoffO7ContentV9DirectionOMa
++ _$s7Sharing22SFShockwaveEffectStateOMn
++ _$s7Sharing26SFProximityHandoffUIClientC020registerForProximityC18InteractionUpdates10completionyys5Error_pSgXE_tF
++ _$s7Sharing26SFProximityHandoffUIClientC19invalidationHandleryycSgvs
++ _$s7Sharing26SFProximityHandoffUIClientC8activateyyKF
++ _$s7Sharing30SFActionConfirmationDefinitionV5title7message11actionTitleAC10Foundation23LocalizedStringResourceV_A2ItcfC
++ _$s7Sharing30SFActionConfirmationDefinitionVMa
++ _$s7Sharing30SFActionConfirmationDefinitionVMn
++ _$s7Sharing9SFAirDropO06NearbyA11InteractionV11FailureTypeO8pullAwayyA2GmFWC
++ _$s7Sharing9SFAirDropO06NearbyA11InteractionV11FailureTypeOMa
++ _$s7Sharing9SFAirDropO06NearbyA11InteractionV15PresenceContextVAGycfC
++ _$s7Sharing9SFAirDropO06NearbyA11InteractionV17ConnectionContextV0E4TypeO5shareyA2ImFWC
++ _$s7Sharing9SFAirDropO06NearbyA11InteractionV17ConnectionContextV0E4TypeOMa
++ _$s7Sharing9SFAirDropO06NearbyA11InteractionV17ConnectionContextV4type21transactionIdentifier08endpointJ007contactJ010deviceName0M5Model9accountID13isSameAccountA2G0E4TypeO_10Foundation4UUIDVATSgSSSgA3VSbSgtcfC
++ _$s7Sharing9SFAirDropO06NearbyA11InteractionV5StateO10connectingyA2GmFWC
++ _$s7Sharing9SFAirDropO06NearbyA11InteractionV5StateO16presenceDetectedyAgE15PresenceContextVcAGmFWC
++ _$s7Sharing9SFAirDropO06NearbyA11InteractionV5StateO21connectionInterruptedyAgE11FailureTypeOcAGmFWC
++ _$s7Sharing9SFAirDropO06NearbyA11InteractionV5StateO9connectedyAgE17ConnectionContextVcAGmFWC
++ _$s7Sharing9SFAirDropO06NearbyA11InteractionV5StateOMa
++ _$s7SwiftUI13TextAlignmentOMn
++ _$s7SwiftUI13withAnimation_18completionCriteria_0E0xAA0D0VSg_AA0d10CompletionF0VxyKXEyyctKlF
++ _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI14_OpacityEffectVN
++ _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FlexFrameLayoutVN
++ _$s7SwiftUI17EnvironmentValuesV18minimumScaleFactor12CoreGraphics7CGFloatVvg
++ _$s7SwiftUI17EnvironmentValuesV18minimumScaleFactor12CoreGraphics7CGFloatVvpMV
++ _$s7SwiftUI17EnvironmentValuesV18minimumScaleFactor12CoreGraphics7CGFloatVvs
++ _$s7SwiftUI17EnvironmentValuesV22multilineTextAlignmentAA0fG0Ovg
++ _$s7SwiftUI17EnvironmentValuesV22multilineTextAlignmentAA0fG0OvpMV
++ _$s7SwiftUI17EnvironmentValuesV22multilineTextAlignmentAA0fG0Ovs
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvg
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvs
++ _$s7SwiftUI19UIHostingControllerC13sizingOptionsAA0cd6SizingF0VvsTj
++ _$s7SwiftUI27AnimationCompletionCriteriaV17logicallyCompleteACvgZ
++ _$s7SwiftUI27AnimationCompletionCriteriaVMa
++ _$s7SwiftUI30_EnvironmentKeyWritingModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI31AccessibilityAttachmentModifierVAA04ViewE0AAMc
++ _$s7SwiftUI31AccessibilityAttachmentModifierVMa
++ _$s7SwiftUI31AccessibilityAttachmentModifierVMn
++ _$s7SwiftUI32UIHostingControllerSizingOptionsV20intrinsicContentSizeACvgZ
++ _$s7SwiftUI32UIHostingControllerSizingOptionsVMa
++ _$s7SwiftUI32UIHostingControllerSizingOptionsVMn
++ _$s7SwiftUI32UIHostingControllerSizingOptionsVs10SetAlgebraAAMc
++ _$s7SwiftUI4FontVyACSo9CTFontRefacfC
++ _$s7SwiftUI4TextV15foregroundColoryAcA0E0VSgF
++ _$s7SwiftUI4TextV4fontyAcA4FontVSgF
++ _$s7SwiftUI4TextVAA4ViewAAMc
++ _$s7SwiftUI4TextVMn
++ _$s7SwiftUI4TextVN
++ _$s7SwiftUI4TextVyACxcSyRzlufC
++ _$s7SwiftUI4ViewPAAE19accessibilityHiddenyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSbF
++ _$s7SwiftUI5ColorV2eeoiySbAC_ACtFZ
++ _$s7SwiftUI5ColorV3hue10saturation10brightness7opacityACSd_S3dtcfC
++ _$s7SwiftUI5ColorV6orangeACvgZ
++ _$s7SwiftUI5ImageV19_internalSystemNameACSS_tcfC
++ _$s7SwiftUI9AlignmentV7leadingACvgZ
++ _$s9SharingUI29ShockwaveAnimationCoordinatorC13configurationAcA0cD13ConfigurationV_tcfc
++ _$s9SharingUI29ShockwaveAnimationCoordinatorC15$effectiveState7Combine9PublishedV9PublisherVy0A0017SFShockwaveEffectG0O_GvgTj
++ _$s9SharingUI29ShockwaveAnimationCoordinatorC6update5usingy0A008SFNearbyA11InteractionV_tFTj
++ _$s9SharingUI29ShockwaveAnimationCoordinatorCMa
++ _$s9SharingUI31ShockwaveAnimationConfigurationV9shockwaveACvgZ
++ _$s9SharingUI31ShockwaveAnimationConfigurationVMa
++ _$sS2cEycfC
++ _$sSS10FoundationE17LocalizationValueV13stringLiteralACSS_tcfC
++ _$sSS10FoundationE17LocalizationValueV19StringInterpolationV06appendE0yySSF
++ _$sSS10FoundationE17LocalizationValueV19StringInterpolationV13appendLiteralyySSF
++ _$sSS10FoundationE17LocalizationValueV19StringInterpolationV15literalCapacity18interpolationCountAESi_SitcfC
++ _$sSS10FoundationE17LocalizationValueV19StringInterpolationVMa
++ _$sSS10FoundationE17LocalizationValueV19stringInterpolationA2C06StringE0V_tcfC
++ _$sSS10FoundationE17LocalizationValueVMa
++ _$sSS10FoundationE9localizedSSAA23LocalizedStringResourceV_tcfC
++ _$sSS5index5afterSS5IndexVAD_tF
++ _$sSSySJSS5IndexVcig
++ _$sScEs5ErrorsMc
++ _$sScTss5NeverORszABRs_rlE11isCancelledSbvgZ
++ _$sScTss5NeverORszABRs_rlE5sleep11nanosecondsys6UInt64V_tYaKFZ
++ _$sScTss5NeverORszABRs_rlE5sleep11nanosecondsys6UInt64V_tYaKFZTu
++ _$sScTss5NeverORszABRs_rlE5sleep5until9tolerance5clocky7InstantQyd___8DurationQyd__Sgqd__tYaKs5ClockRd__lFZ
++ _$sScTss5NeverORszABRs_rlE5sleep5until9tolerance5clocky7InstantQyd___8DurationQyd__Sgqd__tYaKs5ClockRd__lFZTu
++ _$sScg4next9isolationxSgScA_pSgYi_tYaKF
++ _$sScg4next9isolationxSgScA_pSgYi_tYaKFTu
++ _$sScg7isEmptySbvg
++ _$sScg9cancelAllyyF
++ _$sSdySdSgSscfC
++ _$sSl7isEmptySbvgTj
++ _$sSo12CGContextRefa12CoreGraphicsE4draw_2in8byTilingySo07CGImageB0a_So6CGRectVSbtF
++ _$sSo13LNEnvironmentC18AppIntentsServices0B17IntentEnvironmentACWP
++ _$sSo20NSNotificationCenterC10FoundationE9PublisherV7CombineAdCMc
++ _$sSo20NSNotificationCenterC10FoundationE9PublisherVMa
++ _$sSo20NSNotificationCenterC10FoundationE9publisher3for6objectAbCE9PublisherVSo0A4Namea_yXlSgtF
++ _$ss15ContinuousClockV7InstantV3nowADvgZ
++ _$ss15ContinuousClockV7InstantV8advanced2byADs8DurationV_tF
++ _$ss15ContinuousClockV7InstantVMn
++ _$ss17__CocoaDictionaryV12makeIteratorAB0D0CyF
++ _$ss17__CocoaDictionaryV5countSivg
++ _$ss17__CocoaDictionaryV6lookupyyXlSgyXlF
++ _$ss17__CocoaDictionaryV8IteratorC4nextyXl3key_yXl5valuetSgyF
++ _$ss18_DictionaryStorageC7convert_8capacityAByxq_Gs07__CocoaA0V_SitFZ
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lF
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lFTu
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySbSgSbm_xtKF
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySbSg_xtKF
++ _$ss28SingleValueDecodingContainerP6decodeyS2imKFTj
++ _$ss5ErrorP14CoreUtilsSwiftE02cuA4CodeSo07CUErrorF0VSgvg
++ _CFRunLoopAddSource
++ _CFRunLoopGetMain
++ _CFRunLoopRemoveSource
++ _CFUserNotificationCancel
++ _CFUserNotificationCreate
++ _CFUserNotificationCreateRunLoopSource
++ _CFUserNotificationGetResponseValue
++ _CGBitmapContextCreate
++ _CGBitmapContextCreateImage
++ _CGBitmapContextGetBytesPerRow
++ _CGBitmapContextGetData
++ _CGColorSpaceCreateDeviceGray
++ _CGColorSpaceCreateWithName
++ _CGColorSpaceGetModel
++ _CGContextSetInterpolationQuality
++ _CGImageCreateWithImageInRect
++ _CGImageGetAlphaInfo
++ _CGImageGetBitsPerComponent
++ _CGImageGetColorSpace
++ _CGImageGetHeight
++ _CGImageGetWidth
++ _CGRectContainsRect
++ _CGRectGetMaxY
++ _CGRectGetMidX
++ _CGRectGetMidY
++ _CGRectGetMinX
++ _CGRectIsEmpty
++ _CGRectOffset
++ _FBSOpenApplicationOptionKeyPromptUnlockDevice
++ _HMAccessoryCategoryTypeHomeAccessory
++ _OBJC_CLASS_$_BSMutableServiceInterface
++ _OBJC_CLASS_$_BSObjCProtocol
++ _OBJC_CLASS_$_BSServiceConnectionListener
++ _OBJC_CLASS_$_BSServiceConnectionListenerConfiguration
++ _OBJC_CLASS_$_BSServiceQuality
++ _OBJC_CLASS_$_CAFilter
++ _OBJC_CLASS_$_CALayer
++ _OBJC_CLASS_$_CUPairingSession
++ _OBJC_CLASS_$_ISSymbol
++ _OBJC_CLASS_$_LNEnvironment
++ _OBJC_CLASS_$_LSApplicationProxy
++ _OBJC_CLASS_$_LSApplicationRecord
++ _OBJC_CLASS_$_NIBluetoothSample
++ _OBJC_CLASS_$_NIDevicePresenceConfiguration
++ _OBJC_CLASS_$_NSBundle
++ _OBJC_CLASS_$_NSURL
++ _OBJC_CLASS_$_NSValue
++ _OBJC_CLASS_$_PCUserActivity
++ _OBJC_CLASS_$_PCWeblinkActivity
++ _OBJC_CLASS_$_RBSAssertion
++ _OBJC_CLASS_$_RBSAttribute
++ _OBJC_CLASS_$_RBSDomainAttribute
++ _OBJC_CLASS_$_RBSProcessHandle
++ _OBJC_CLASS_$_RBSProcessPredicate
++ _OBJC_CLASS_$_RBSTarget
++ _OBJC_CLASS_$_SBSMutableUserNotificationTextFieldDefinition
++ _OBJC_CLASS_$_UAUserActivity
++ _OBJC_CLASS_$_UIBezierPath
++ _OBJC_CLASS_$_UIGraphicsImageRenderer
++ _OBJC_CLASS_$_UIGraphicsImageRendererFormat
++ _OBJC_CLASS_$__LSOpenConfiguration
++ _OBJC_METACLASS_$_UIView
++ _SBSUserNotificationTextFieldDefinitionsKey
++ _UIEdgeInsetsZero
++ _UIFontWeightMedium
++ __UIUserInterfaceSizeClassForHeight
++ __UIUserInterfaceSizeClassForWidth
++ __UIWindowHostingSceneDidMoveToScreenNotification
++ __UIWindowHostingSceneNewScreenUserInfoKey
++ __swift_FORCE_LOAD_$_swiftGLKit
++ __swift_FORCE_LOAD_$_swiftSceneKit
++ _kCAFilterInputColorMatrix
++ _kCAFilterTrilinear
++ _kCAFilterVibrantColorMatrix
++ _kCFRunLoopDefaultMode
++ _kCFUserNotificationAlertHeaderKey
++ _kCFUserNotificationAlertMessageKey
++ _kCFUserNotificationAlertTopMostKey
++ _kCFUserNotificationAlternateButtonTitleKey
++ _kCFUserNotificationDefaultButtonTitleKey
++ _kCFUserNotificationTextFieldValuesKey
++ _kCGColorSpaceSRGB
++ _objc_retain_x1
++ _swift_asyncLet_begin
++ _swift_asyncLet_finish
++ _swift_asyncLet_get_throwing
++ _swift_retain_x3
++ _swift_task_deinitOnExecutor
++ _swift_task_getMainExecutor
++ _swift_task_isCurrentExecutor
++ _swift_task_reportUnexpectedExecutor
++ _swift_unknownObjectRelease_n
++ _xpc_array_create
++ _xpc_array_set_string
++ _xpc_bool_get_value
++ _xpc_dictionary_create
++ _xpc_dictionary_get_value
++ _xpc_dictionary_set_int64
++ _xpc_dictionary_set_string
++ _xpc_get_type
+- _$s11Observation04withA8Tracking_8onChangexxyXE_yyYbcyXKtlF
+- _$s4Body7SwiftUI12ViewModifierPTl
+- _$s7Combine10PublishersO6TryMapVMn
+- _$s7Combine10PublishersO6TryMapVy_xq_GAA9PublisherAAMc
+- _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluiMZ
+- _$s7Combine9PublisherPAAE6tryMapyAA10PublishersO03TryD0Vy_xqd__Gqd__6OutputQzKclF
+- _$s7SwiftUI11StrokeStyleV9lineWidth0E3Cap0E4Join10miterLimit4dash0K5PhaseAC12CoreGraphics7CGFloatV_So06CGLineG0VSo0pH0VALSayALGALtcfC
+- _$s7SwiftUI11_ClipEffectVMn
+- _$s7SwiftUI11_ClipEffectVyxGAA12ViewModifierAAMc
+- _$s7SwiftUI12TupleContentVMn
+- _$s7SwiftUI12ViewModifierMp
+- _$s7SwiftUI12ViewModifierP05_makeC08modifier6inputs4bodyAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVAiA01_J0V_ANtctFZTq
+- _$s7SwiftUI12ViewModifierP05_makeC4List8modifier6inputs4bodyAA01_cF7OutputsVAA11_GraphValueVyxG_AA01_cF6InputsVAiA01_K0V_ANtctFZTq
+- _$s7SwiftUI12ViewModifierP14_viewListCount6inputs4bodySiSgAA01_cfG6InputsV_AgIXEtFZTq
+- _$s7SwiftUI12ViewModifierP4BodyAC_AA0C0Tn
+- _$s7SwiftUI12ViewModifierP4body7content4BodyQzAA01_cD8_ContentVyxG_tFTq
+- _$s7SwiftUI12ViewModifierPAAE05_makeC08modifier6inputs4bodyAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVAiA01_J0V_ANtctFZ
+- _$s7SwiftUI12ViewModifierPAAE05_makeC4List8modifier6inputs4bodyAA01_cF7OutputsVAA11_GraphValueVyxG_AA01_cF6InputsVAiA01_K0V_ANtctFZ
+- _$s7SwiftUI12ViewModifierPAAE14_viewListCount6inputs4bodySiSgAA01_cfG6InputsV_AgIXEtFZ
+- _$s7SwiftUI12_ScaleEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI12_ScaleEffectVMn
+- _$s7SwiftUI13_TrimmedShapeVMn
+- _$s7SwiftUI13withAnimationyxAA0D0VSg_xyKXEtKlF
+- _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI15StrokeShapeViewVMn
+- _$s7SwiftUI15_RotationEffectVMn
+- _$s7SwiftUI16_OverlayModifierVMn
+- _$s7SwiftUI16_OverlayModifierVyxGAA04ViewD0AAMc
+- _$s7SwiftUI18_AnimationModifierVMn
+- _$s7SwiftUI18_AnimationModifierVyxGAA04ViewD0AAMc
+- _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI19_ConditionalContentV7StorageOMn
+- _$s7SwiftUI19_ConditionalContentVMn
+- _$s7SwiftUI19_ConditionalContentVyxq_GAA4ViewA2aERzAaER_rlMc
+- _$s7SwiftUI21_ViewModifier_ContentVMn
+- _$s7SwiftUI21_ViewModifier_ContentVyxGAA0C0AAMc
+- _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAWP
+- _$s7SwiftUI25_AppearanceActionModifierVMn
+- _$s7SwiftUI4FontV6WeightV4boldAEvgZ
+- _$s7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgF
+- _$s7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgFQOMQ
+- _$s7SwiftUI5ColorV7opacityyACSdF
+- _$s7SwiftUI5ColorVAA4ViewAAWP
+- _$s7SwiftUI5ImageV10systemNameACSS_tcfC
+- _$s7SwiftUI5ImageVAA4ViewAAWP
+- _$s7SwiftUI6CircleVMn
+- _$s7SwiftUI6ZStackVMn
+- _$s7SwiftUI6ZStackVyxGAA4ViewAAMc
+- _$s7SwiftUI9AnimationV13repeatForever12autoreversesACSb_tF
+- _$s7SwiftUI9AnimationV6spring8response15dampingFraction13blendDurationACSd_S2dtFZ
+- _$s7SwiftUI9EmptyViewVMn
+- _$s7SwiftUI9LazyStateV12wrappedValueACyxGxyXA_tcfC
+- _$s7SwiftUI9LazyStateV12wrappedValuexvg
+- _$s7SwiftUI9LazyStateV12wrappedValuexvs
+- _$s7SwiftUI9LazyStateV7StorageOMn
+- _$s7SwiftUI9LazyStateVMa
+- _$s7SwiftUI9LazyStateVMn
+- _$s7SwiftUI9UnitPointV6centerACvgZ
+- _BSInterfaceOrientationDescription
+- _OBJC_CLASS_$_FBSOrientationObserver
+- _OBJC_CLASS_$_UIWindow
+- _SBUISystemApertureControlEdgeSpacing
+- _UIFontTextStyleLargeTitle
+- __swift_FORCE_LOAD_$_swiftCallKit
+- _objc_retain_x13
+- _swift_initStaticObject
+```

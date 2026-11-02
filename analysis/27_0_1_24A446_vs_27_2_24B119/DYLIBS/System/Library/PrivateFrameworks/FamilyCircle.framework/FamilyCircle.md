@@ -1,0 +1,279 @@
+## FamilyCircle
+
+> `/System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle`
+
+```diff
+
+-290.0.0.0.0
+-  __TEXT.__text: 0xca368
+-  __TEXT.__objc_methlist: 0x4184
+-  __TEXT.__const: 0x88c8
+-  __TEXT.__gcc_except_tab: 0x47c
+-  __TEXT.__cstring: 0x5fb4
+-  __TEXT.__oslogstring: 0x4f13
++291.125.10.0.0
++  __TEXT.__text: 0xd1f6c
++  __TEXT.__objc_methlist: 0x41f4
++  __TEXT.__const: 0x9b78
++  __TEXT.__gcc_except_tab: 0x4a4
++  __TEXT.__cstring: 0x6234
++  __TEXT.__oslogstring: 0x5193
+   __TEXT.__dlopen_cstrs: 0x14c
+-  __TEXT.__swift5_typeref: 0x2508
+-  __TEXT.__constg_swiftt: 0x282c
+-  __TEXT.__swift5_reflstr: 0x161d
+-  __TEXT.__swift5_fieldmd: 0x1e7c
+-  __TEXT.__swift5_builtin: 0xf0
+-  __TEXT.__swift5_assocty: 0x5c8
+-  __TEXT.__swift5_proto: 0x658
+-  __TEXT.__swift5_types: 0x2e4
++  __TEXT.__swift5_typeref: 0x27f0
++  __TEXT.__constg_swiftt: 0x2ad8
++  __TEXT.__swift5_reflstr: 0x181d
++  __TEXT.__swift5_fieldmd: 0x2278
++  __TEXT.__swift5_builtin: 0x118
++  __TEXT.__swift5_assocty: 0x6d0
++  __TEXT.__swift5_proto: 0x778
++  __TEXT.__swift5_types: 0x338
+   __TEXT.__swift5_capture: 0x7a8
+   __TEXT.__swift_as_entry: 0x1c4
+   __TEXT.__swift_as_ret: 0x1fc
+   __TEXT.__swift_as_cont: 0x404
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_protos: 0x68
+-  __TEXT.__unwind_info: 0x3d28
+-  __TEXT.__eh_frame: 0x5958
++  __TEXT.__unwind_info: 0x4028
++  __TEXT.__eh_frame: 0x5c78
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x1928
+-  __DATA_CONST.__objc_classlist: 0x3e8
++  __DATA_CONST.__objc_classlist: 0x3f0
+   __DATA_CONST.__objc_catlist: 0x58
+   __DATA_CONST.__objc_protolist: 0xd0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x28a8
++  __DATA_CONST.__objc_selrefs: 0x28f0
+   __DATA_CONST.__objc_protorefs: 0x50
+   __DATA_CONST.__objc_superrefs: 0x178
+   __DATA_CONST.__objc_arraydata: 0x88
+-  __DATA_CONST.__got: 0x9a0
+-  __AUTH_CONST.__const: 0x6a78
+-  __AUTH_CONST.__cfstring: 0x4260
+-  __AUTH_CONST.__objc_const: 0xcaa0
+-  __AUTH_CONST.__objc_arrayobj: 0x78
++  __DATA_CONST.__got: 0x9a8
++  __AUTH_CONST.__const: 0x74b0
++  __AUTH_CONST.__cfstring: 0x41e0
++  __AUTH_CONST.__objc_const: 0xca70
+   __AUTH_CONST.__objc_intobj: 0x1b0
+-  __AUTH_CONST.__auth_got: 0x13b0
+-  __AUTH_CONST.__auth_ptr: 0x888
+-  __AUTH.__objc_data: 0x2588
+-  __AUTH.__data: 0x1b90
+-  __DATA.__objc_ivar: 0x474
+-  __DATA.__data: 0x2650
+-  __DATA.__bss: 0xbfc0
++  __AUTH_CONST.__objc_arrayobj: 0x78
++  __AUTH_CONST.__auth_got: 0x13d8
++  __AUTH_CONST.__auth_ptr: 0x8c0
++  __AUTH.__objc_data: 0x958
++  __AUTH.__data: 0x850
++  __DATA.__objc_ivar: 0x460
++  __DATA.__data: 0x2910
++  __DATA.__bss: 0xe440
+   __DATA.__common: 0x88
+-  __DATA_DIRTY.__objc_data: 0x5c8
+-  __DATA_DIRTY.__data: 0x168
+-  __DATA_DIRTY.__bss: 0x160
++  __DATA_DIRTY.__objc_data: 0x22a8
++  __DATA_DIRTY.__data: 0x14d8
++  __DATA_DIRTY.__bss: 0xe0
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5566
+-  Symbols:   4084
++  Functions: 5840
++  Symbols:   4181
+   CStrings:  0
+ 
+Symbols:
++ +[FARestrictionsManagementSettings restrictionsManagementSettingsWithIsManaged:hasStrictPolicy:]
++ +[FARestrictionsManagementSettings supportsSecureCoding]
++ -[FAAgeRangeController cachedAgeRangeResponseWith:userAgeOverride:bundleID:attestedAtOverrideInDays:completion:]
++ -[FARestrictionsManagementSettings .cxx_destruct]
++ -[FARestrictionsManagementSettings encodeWithCoder:]
++ -[FARestrictionsManagementSettings hasStrictPolicy]
++ -[FARestrictionsManagementSettings initWithCoder:]
++ -[FARestrictionsManagementSettings initWithIsManaged:hasStrictPolicy:]
++ -[FARestrictionsManagementSettings isManaged]
++ -[FASettingAccountRestrictionsRequest setRestrictionsWithAdditionalHeaders:managementSettings:completion:]
++ -[FASettingProtoAccountRestrictionsRequest setRestrictions:managementSettings:completion:]
++ GCC_except_table66
++ _FAUniversalLinkActionShowFamilySettings
++ _OBJC_CLASS_$_FARestrictionsManagementSettings
++ _OBJC_CLASS_$__TtC12FamilyCircle20AgeRangeOnboardError
++ _OBJC_IVAR_$_FARestrictionsManagementSettings._hasStrictPolicy
++ _OBJC_IVAR_$_FARestrictionsManagementSettings._isManaged
++ _OBJC_METACLASS_$_FARestrictionsManagementSettings
++ _OBJC_METACLASS_$__TtC12FamilyCircle20AgeRangeOnboardError
++ __CLASS_METHODS__TtC12FamilyCircle20AgeRangeOnboardError
++ __CLASS_PROPERTIES__TtC12FamilyCircle20AgeRangeOnboardError
++ __DATA__TtC12FamilyCircle20AgeRangeOnboardError
++ __INSTANCE_METHODS__TtC12FamilyCircle20AgeRangeOnboardError
++ __METACLASS_DATA__TtC12FamilyCircle20AgeRangeOnboardError
++ __OBJC_$_CLASS_METHODS_FARestrictionsManagementSettings
++ __OBJC_$_CLASS_PROP_LIST_FARestrictionsManagementSettings
++ __OBJC_$_INSTANCE_METHODS_FARestrictionsManagementSettings
++ __OBJC_$_INSTANCE_VARIABLES_FARestrictionsManagementSettings
++ __OBJC_$_PROP_LIST_FARestrictionsManagementSettings
++ __OBJC_CLASS_PROTOCOLS_$_FARestrictionsManagementSettings
++ __OBJC_CLASS_RO_$_FARestrictionsManagementSettings
++ __OBJC_METACLASS_RO_$_FARestrictionsManagementSettings
++ ___106-[FASettingAccountRestrictionsRequest setRestrictionsWithAdditionalHeaders:managementSettings:completion:]_block_invoke
++ ___106-[FASettingAccountRestrictionsRequest setRestrictionsWithAdditionalHeaders:managementSettings:completion:]_block_invoke_2
++ ___112-[FAAgeRangeController cachedAgeRangeResponseWith:userAgeOverride:bundleID:attestedAtOverrideInDays:completion:]_block_invoke
++ ___90-[FASettingProtoAccountRestrictionsRequest setRestrictions:managementSettings:completion:]_block_invoke
++ ___swift_memcpy72_8
++ ___swift_memcpy80_8
++ ___swift_memcpy81_8
++ _associated conformance 12FamilyCircle14UserAgeRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12FamilyCircle14UserAgeRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12FamilyCircle14UserAgeRequestV18AAAFoundationSwift7MessageAA12ResponseTypeAdEP_SE
++ _associated conformance 12FamilyCircle14UserAgeRequestV18AAAFoundationSwift7MessageAA12ResponseTypeAdEP_Se
++ _associated conformance 12FamilyCircle14UserAgeRequestV18AAAFoundationSwift7MessageAASE
++ _associated conformance 12FamilyCircle14UserAgeRequestV18AAAFoundationSwift7MessageAASe
++ _associated conformance 12FamilyCircle20AgeRangeRequestModelV10CodingKeys33_2BE34E482501050461E7CB3ED0512E6CLLOSHAASQ
++ _associated conformance 12FamilyCircle20AgeRangeRequestModelV10CodingKeys33_2BE34E482501050461E7CB3ED0512E6CLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12FamilyCircle20AgeRangeRequestModelV10CodingKeys33_2BE34E482501050461E7CB3ED0512E6CLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12FamilyCircle21AgeEligibilityRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12FamilyCircle21AgeEligibilityRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12FamilyCircle21AgeEligibilityRequestV18AAAFoundationSwift7MessageAA12ResponseTypeAdEP_SE
++ _associated conformance 12FamilyCircle21AgeEligibilityRequestV18AAAFoundationSwift7MessageAA12ResponseTypeAdEP_Se
++ _associated conformance 12FamilyCircle21AgeEligibilityRequestV18AAAFoundationSwift7MessageAASE
++ _associated conformance 12FamilyCircle21AgeEligibilityRequestV18AAAFoundationSwift7MessageAASe
++ _associated conformance 12FamilyCircle21AgeRangeResponseValueV10CodingKeys33_4A9B7F22045C06EA5EF697AA0958C0C9LLOSHAASQ
++ _associated conformance 12FamilyCircle21AgeRangeResponseValueV10CodingKeys33_4A9B7F22045C06EA5EF697AA0958C0C9LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12FamilyCircle21AgeRangeResponseValueV10CodingKeys33_4A9B7F22045C06EA5EF697AA0958C0C9LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12FamilyCircle26ShouldPromptAgeRangeResultV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOSHAASQ
++ _associated conformance 12FamilyCircle26ShouldPromptAgeRangeResultV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12FamilyCircle26ShouldPromptAgeRangeResultV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12FamilyCircle27ShouldPromptAgeRangeRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOSHAASQ
++ _associated conformance 12FamilyCircle27ShouldPromptAgeRangeRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12FamilyCircle27ShouldPromptAgeRangeRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12FamilyCircle27ShouldPromptAgeRangeRequestV18AAAFoundationSwift7MessageAA12ResponseTypeAdEP_SE
++ _associated conformance 12FamilyCircle27ShouldPromptAgeRangeRequestV18AAAFoundationSwift7MessageAA12ResponseTypeAdEP_Se
++ _associated conformance 12FamilyCircle27ShouldPromptAgeRangeRequestV18AAAFoundationSwift7MessageAASE
++ _associated conformance 12FamilyCircle27ShouldPromptAgeRangeRequestV18AAAFoundationSwift7MessageAASe
++ _associated conformance 12FamilyCircle29FAFamilyDeviceOperatingSystemOSHAASQ
++ _associated conformance 12FamilyCircle30ApplyScreenTimeSettingsRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOSHAASQ
++ _associated conformance 12FamilyCircle30ApplyScreenTimeSettingsRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12FamilyCircle30ApplyScreenTimeSettingsRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12FamilyCircle30ApplyScreenTimeSettingsRequestV18AAAFoundationSwift7MessageAA12ResponseTypeAdEP_SE
++ _associated conformance 12FamilyCircle30ApplyScreenTimeSettingsRequestV18AAAFoundationSwift7MessageAA12ResponseTypeAdEP_Se
++ _associated conformance 12FamilyCircle30ApplyScreenTimeSettingsRequestV18AAAFoundationSwift7MessageAASE
++ _associated conformance 12FamilyCircle30ApplyScreenTimeSettingsRequestV18AAAFoundationSwift7MessageAASe
++ _associated conformance 12FamilyCircle33EligibleRegulatoryFeaturesRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12FamilyCircle33EligibleRegulatoryFeaturesRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12FamilyCircle33EligibleRegulatoryFeaturesRequestV18AAAFoundationSwift7MessageAA12ResponseTypeAdEP_SE
++ _associated conformance 12FamilyCircle33EligibleRegulatoryFeaturesRequestV18AAAFoundationSwift7MessageAA12ResponseTypeAdEP_Se
++ _associated conformance 12FamilyCircle33EligibleRegulatoryFeaturesRequestV18AAAFoundationSwift7MessageAASE
++ _associated conformance 12FamilyCircle33EligibleRegulatoryFeaturesRequestV18AAAFoundationSwift7MessageAASe
++ _associated conformance So21FAAgeRangeRequestTypeaSHSCSQ
++ _associated conformance So21FAAgeRangeRequestTypeas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So21FAAgeRangeRequestTypeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So27FAAgeRangeRequestEntryPointaSHSCSQ
++ _associated conformance So27FAAgeRangeRequestEntryPointas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So27FAAgeRangeRequestEntryPointas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _get_enum_tag_for_layout_string 12FamilyCircle21AgeRangeResponseValueVSg
++ _symbolic SaySiG
++ _symbolic SaySiGSg
++ _symbolic Say_____GSg 12FamilyCircle29FAFamilyDeviceOperatingSystemO
++ _symbolic _____ 12FamilyCircle14UserAgeRequestV
++ _symbolic _____ 12FamilyCircle14UserAgeRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _symbolic _____ 12FamilyCircle20AgeRangeOnboardErrorC
++ _symbolic _____ 12FamilyCircle20AgeRangeRequestModelV
++ _symbolic _____ 12FamilyCircle20AgeRangeRequestModelV10CodingKeys33_2BE34E482501050461E7CB3ED0512E6CLLO
++ _symbolic _____ 12FamilyCircle21AgeEligibilityRequestV
++ _symbolic _____ 12FamilyCircle21AgeEligibilityRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _symbolic _____ 12FamilyCircle21AgeRangeResponseValueV
++ _symbolic _____ 12FamilyCircle21AgeRangeResponseValueV10CodingKeys33_4A9B7F22045C06EA5EF697AA0958C0C9LLO
++ _symbolic _____ 12FamilyCircle22SandboxOverrideCheckerV
++ _symbolic _____ 12FamilyCircle26ShouldPromptAgeRangeResultV
++ _symbolic _____ 12FamilyCircle26ShouldPromptAgeRangeResultV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _symbolic _____ 12FamilyCircle27ShouldPromptAgeRangeRequestV
++ _symbolic _____ 12FamilyCircle27ShouldPromptAgeRangeRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _symbolic _____ 12FamilyCircle29FAFamilyDeviceOperatingSystemO
++ _symbolic _____ 12FamilyCircle30ApplyScreenTimeSettingsRequestV
++ _symbolic _____ 12FamilyCircle30ApplyScreenTimeSettingsRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _symbolic _____ 12FamilyCircle33EligibleRegulatoryFeaturesRequestV
++ _symbolic _____ 12FamilyCircle33EligibleRegulatoryFeaturesRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _symbolic _____ So21FAAgeRangeRequestTypea
++ _symbolic _____ So27FAAgeRangeRequestEntryPointa
++ _symbolic _____Sg 12FamilyCircle21AgeRangeResponseValueV
++ _symbolic _____ySiG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12FamilyCircle20AgeRangeRequestModelV10CodingKeys33_2BE34E482501050461E7CB3ED0512E6CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12FamilyCircle21AgeRangeResponseValueV10CodingKeys33_4A9B7F22045C06EA5EF697AA0958C0C9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12FamilyCircle26ShouldPromptAgeRangeResultV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12FamilyCircle27ShouldPromptAgeRangeRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12FamilyCircle30ApplyScreenTimeSettingsRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle14UserAgeRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle20AgeRangeRequestModelV10CodingKeys33_2BE34E482501050461E7CB3ED0512E6CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle21AgeEligibilityRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle21AgeRangeResponseValueV10CodingKeys33_4A9B7F22045C06EA5EF697AA0958C0C9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle26ShouldPromptAgeRangeResultV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle27ShouldPromptAgeRangeRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle30ApplyScreenTimeSettingsRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle33EligibleRegulatoryFeaturesRequestV10CodingKeys33_19E60ADEC25EA6774FD036F697DEB385LLO
++ _type_layout_string 12FamilyCircle20AgeRangeRequestModelV
++ _type_layout_string 12FamilyCircle21AgeRangeResponseValueV
++ _type_layout_string 12FamilyCircle26ShouldPromptAgeRangeResultV
++ _type_layout_string 12FamilyCircle27ShouldPromptAgeRangeRequestV
++ _type_layout_string 12FamilyCircle30ApplyScreenTimeSettingsRequestV
++ _type_layout_string So27FAAgeRangeRequestEntryPointa
+- +[FAAgeRangeRequestModel supportsSecureCoding]
+- -[FAAgeRangeRequestModel .cxx_destruct]
+- -[FAAgeRangeRequestModel ageGates]
+- -[FAAgeRangeRequestModel altDSID]
+- -[FAAgeRangeRequestModel attestedAtOverrideInDays]
+- -[FAAgeRangeRequestModel bundleID]
+- -[FAAgeRangeRequestModel copyWithZone:]
+- -[FAAgeRangeRequestModel description]
+- -[FAAgeRangeRequestModel encodeWithCoder:]
+- -[FAAgeRangeRequestModel entryPoint]
+- -[FAAgeRangeRequestModel initWithCoder:]
+- -[FAAgeRangeRequestModel initWithRequestType:entryPoint:altDSID:bundleID:ageGates:userAgeOverride:attestedAtOverrideInDays:]
+- -[FAAgeRangeRequestModel requestType]
+- -[FAAgeRangeRequestModel userAgeOverride]
+- _FAUniversalLinkActionAddMember
+- _OBJC_CLASS_$_FAAgeRangeRequestModel
+- _OBJC_IVAR_$_FAAgeRangeRequestModel._ageGates
+- _OBJC_IVAR_$_FAAgeRangeRequestModel._altDSID
+- _OBJC_IVAR_$_FAAgeRangeRequestModel._attestedAtOverrideInDays
+- _OBJC_IVAR_$_FAAgeRangeRequestModel._bundleID
+- _OBJC_IVAR_$_FAAgeRangeRequestModel._entryPoint
+- _OBJC_IVAR_$_FAAgeRangeRequestModel._requestType
+- _OBJC_IVAR_$_FAAgeRangeRequestModel._userAgeOverride
+- _OBJC_METACLASS_$_FAAgeRangeRequestModel
+- __OBJC_$_CLASS_METHODS_FAAgeRangeRequestModel
+- __OBJC_$_CLASS_PROP_LIST_FAAgeRangeRequestModel
+- __OBJC_$_INSTANCE_METHODS_FAAgeRangeRequestModel
+- __OBJC_$_INSTANCE_VARIABLES_FAAgeRangeRequestModel
+- __OBJC_$_PROP_LIST_FAAgeRangeRequestModel
+- __OBJC_CLASS_PROTOCOLS_$_FAAgeRangeRequestModel
+- __OBJC_CLASS_RO_$_FAAgeRangeRequestModel
+- __OBJC_METACLASS_RO_$_FAAgeRangeRequestModel
+- ___71-[FASettingProtoAccountRestrictionsRequest setRestrictions:completion:]_block_invoke
+- ___87-[FASettingAccountRestrictionsRequest setRestrictionsWithAdditionalHeaders:completion:]_block_invoke
+- ___87-[FASettingAccountRestrictionsRequest setRestrictionsWithAdditionalHeaders:completion:]_block_invoke_2
+- _type_layout_string So24FAAgeRangeStatusResponsea
+```

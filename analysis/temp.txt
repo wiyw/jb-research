@@ -1,0 +1,560 @@
+ .
+├──  27_0_1_24A446_vs_27_2_24B119
+│   ├──  DYLIBS
+│   │   ├──  Dylibs.Updated.md
+│   │   ├──  System
+│   │   │   └──  Library
+│   │   │       ├──  AccessibilityBundles
+│   │   │       ├──  Accounts
+│   │   │       ├──  Assistant
+│   │   │       ├──  ControlCenter
+│   │   │       ├──  CoreAccessories
+│   │   │       ├──  CoreServices
+│   │   │       ├──  Extensions
+│   │   │       ├──  Fitness
+│   │   │       ├──  Frameworks
+│   │   │       ├──  Health
+│   │   │       ├──  MediaCapture
+│   │   │       ├──  Messages
+│   │   │       ├──  NanoPreferenceBundles
+│   │   │       ├──  NanoTimeKit
+│   │   │       ├──  PreferenceBundles
+│   │   │       ├──  Previews
+│   │   │       ├──  PrivateFrameworks
+│   │   │       ├──  SecureAnalytics
+│   │   │       ├──  SubFrameworks
+│   │   │       ├──  SystemConfiguration
+│   │   │       ├──  TextInput
+│   │   │       ├──  VideoCodecs
+│   │   │       ├──  VideoDecoders
+│   │   │       └──  VideoProcessors
+│   │   └──  usr
+│   │       └──  lib
+│   │           ├──  ACIPCBTLib.dylib.md
+│   │           ├──  dyld.md
+│   │           ├──  libAccessibility.dylib.md
+│   │           ├──  libamsupport.dylib.md
+│   │           ├──  libapple_nghttp2.dylib.md
+│   │           ├──  libAppleArchive.dylib.md
+│   │           ├──  libAppleEXR.dylib.md
+│   │           ├──  libAppleSSE.dylib.md
+│   │           ├──  libarchive.2.dylib.md
+│   │           ├──  libate.dylib.md
+│   │           ├──  libAudioDSPCore.dylib.md
+│   │           ├──  libAudioStatistics.dylib.md
+│   │           ├──  libauthinstall.dylib.md
+│   │           ├──  libaxis.dylib.md
+│   │           ├──  libAXSafeCategoryBundle.dylib.md
+│   │           ├──  libBasebandCommandDrivers.dylib.md
+│   │           ├──  libBasebandCommandDriversARI.dylib.md
+│   │           ├──  libBasebandCommandDriversMIPC.dylib.md
+│   │           ├──  libBasebandCommandDriversQMI.dylib.md
+│   │           ├──  libBasebandManager.dylib.md
+│   │           ├──  libBasebandManagerDAL.dylib.md
+│   │           ├──  libBasebandManagerICE.dylib.md
+│   │           ├──  libBBUpdaterDynamic.dylib.md
+│   │           ├──  libBKDM2.dylib.md
+│   │           ├──  libboringssl.dylib.md
+│   │           ├──  libcharset.1.dylib.md
+│   │           ├──  libcmph.dylib.md
+│   │           ├──  libcompression.dylib.md
+│   │           ├──  libCoreEntitlements.dylib.md
+│   │           ├──  libcoreroutine.dylib.md
+│   │           ├──  libcoretls_cfhelpers.dylib.md
+│   │           ├──  libCRFSuite.dylib.md
+│   │           ├──  libcryptex.dylib.md
+│   │           ├──  libcryptex_core.dylib.md
+│   │           ├──  libcryptex_interface.dylib.md
+│   │           ├──  libcryptex_trampoline.dylib.md
+│   │           ├──  libDetachedCertificates.dylib.md
+│   │           ├──  libDetachedCertificatesLookup.dylib.md
+│   │           ├──  libdscsym.dylib.md
+│   │           ├──  libedit.3.dylib.md
+│   │           ├──  libFDR.dylib.md
+│   │           ├──  libFDRDecode.dylib.md
+│   │           ├──  libfire7.dylib.md
+│   │           ├──  libfire9.dylib.md
+│   │           ├──  libheimdal-asn1.dylib.md
+│   │           ├──  libHSFilerDynamic.dylib.md
+│   │           ├──  libhwtrace.dylib.md
+│   │           ├──  libiconv.2.dylib.md
+│   │           ├──  libicucore.A.dylib.md
+│   │           ├──  libimage4.dylib.md
+│   │           ├──  libImage4_V2.dylib.md
+│   │           ├──  libindus.dylib.md
+│   │           ├──  libIOACIPC.dylib.md
+│   │           ├──  libKTLDynamic.dylib.md
+│   │           ├──  liblockdown.dylib.md
+│   │           ├──  liblzma.5.dylib.md
+│   │           ├──  libmdns.dylib.md
+│   │           ├──  libmecabra.dylib.md
+│   │           ├──  libmis.dylib.md
+│   │           ├──  libMobileGestalt.dylib.md
+│   │           ├──  libMobileGestaltExtensions.dylib.md
+│   │           ├──  libmorphun.dylib.md
+│   │           ├──  libmrc.dylib.md
+│   │           ├──  libncurses.5.4.dylib.md
+│   │           ├──  libnetworkextension.dylib.md
+│   │           ├──  libNFC_Comet.dylib.md
+│   │           ├──  libNFC_HAL.dylib.md
+│   │           ├──  libnfrestore.dylib.md
+│   │           ├──  libnfshared.dylib.md
+│   │           ├──  libnfstorage.dylib.md
+│   │           ├──  libnwswifttls.dylib.md
+│   │           ├──  libobjc.A.dylib.md
+│   │           ├──  libolaf.dylib.md
+│   │           ├──  libParallelCompression.dylib.md
+│   │           ├──  libpartition2_dynamic.dylib.md
+│   │           ├──  libPCITransport.dylib.md
+│   │           ├──  libPN548_API.dylib.md
+│   │           ├──  libprequelite.dylib.md
+│   │           ├──  libquic.dylib.md
+│   │           ├──  libresolv.9.dylib.md
+│   │           ├──  libReverseProxyDevice.dylib.md
+│   │           ├──  libRoseBooter.dylib.md
+│   │           ├──  libsandbox.1.dylib.md
+│   │           ├──  libSecureMAHelper.dylib.md
+│   │           ├──  libsharedcache.dylib.md
+│   │           ├──  libSoftwareUpdateSSO.dylib.md
+│   │           ├──  libspindump.dylib.md
+│   │           ├──  libsqlite3.dylib.md
+│   │           ├──  libswiftPrespecialized.dylib.md
+│   │           ├──  libSystem.B.dylib.md
+│   │           ├──  libtailspin.dylib.md
+│   │           ├──  libTelephonyCapabilities.dylib.md
+│   │           ├──  libTelephonyUtilDynamic.dylib.md
+│   │           ├──  libtidy.A.dylib.md
+│   │           ├──  libTLE.dylib.md
+│   │           ├──  libusrtcp.dylib.md
+│   │           ├──  libVinylNonUpdater.dylib.md
+│   │           ├──  libWirelessAudioIPC.dylib.md
+│   │           ├──  libxml2.2.dylib.md
+│   │           ├──  libxslt.1.dylib.md
+│   │           ├──  log
+│   │           ├──  objc
+│   │           ├──  swift
+│   │           ├──  system
+│   │           ├──  updaters
+│   │           └──  usd
+│   ├──  KEXTS
+│   │   ├──  com.apple.AGXFirmwareKextG17PRTBuddy.md
+│   │   ├──  com.apple.AGXFirmwareKextRTBuddy64.md
+│   │   ├──  com.apple.AGXG17P.md
+│   │   ├──  com.apple.AppleFSCompression.AppleFSCompressionTypeZlib.md
+│   │   ├──  com.apple.audio.TrustedClockingKEXT.md
+│   │   ├──  com.apple.driver.AFKHIDTBDevice.md
+│   │   ├──  com.apple.driver.AppleA7IOP-ASCWrap-v6.md
+│   │   ├──  com.apple.driver.AppleA7IOP.md
+│   │   ├──  com.apple.driver.AppleActuatorDriver.md
+│   │   ├──  com.apple.driver.AppleALSColorSensor.md
+│   │   ├──  com.apple.driver.AppleAOP2.md
+│   │   ├──  com.apple.driver.AppleAOPAudio.md
+│   │   ├──  com.apple.driver.AppleAOPHaptics.md
+│   │   ├──  com.apple.driver.AppleARMPlatform.md
+│   │   ├──  com.apple.driver.AppleARMPMU.md
+│   │   ├──  com.apple.driver.AppleARMWatchdogTimer.md
+│   │   ├──  com.apple.driver.AppleAuthCP.md
+│   │   ├──  com.apple.driver.AppleAVD.md
+│   │   ├──  com.apple.driver.AppleAVE2.md
+│   │   ├──  com.apple.driver.AppleBasebandM20.md
+│   │   ├──  com.apple.driver.AppleBluetoothModule.md
+│   │   ├──  com.apple.driver.AppleC26Charger.md
+│   │   ├──  com.apple.driver.AppleCallbackPowerSource.md
+│   │   ├──  com.apple.driver.AppleConvergedIPCOLYBTControl.md
+│   │   ├──  com.apple.driver.AppleConvergedPCI.md
+│   │   ├──  com.apple.driver.AppleCS42L79Audio.md
+│   │   ├──  com.apple.driver.AppleCSEmbeddedAudio.md
+│   │   ├──  com.apple.driver.AppleDCP.md
+│   │   ├──  com.apple.driver.AppleDCPDPTXProxy.md
+│   │   ├──  com.apple.driver.AppleDiagnosticDataAccessReadOnly.md
+│   │   ├──  com.apple.driver.AppleDialogPMU.md
+│   │   ├──  com.apple.driver.AppleDiskImages2.md
+│   │   ├──  com.apple.driver.AppleDisplayCrossbar.md
+│   │   ├──  com.apple.driver.AppleEmbeddedAudio.md
+│   │   ├──  com.apple.driver.AppleEmbeddedAudioResourceManager.md
+│   │   ├──  com.apple.driver.AppleEmbeddedGPS.md
+│   │   ├──  com.apple.driver.AppleEmbeddedLightSensor.md
+│   │   ├──  com.apple.driver.AppleEmbeddedMikeyBus.md
+│   │   ├──  com.apple.driver.AppleEmbeddedPCIE.md
+│   │   ├──  com.apple.driver.AppleEmbeddedTempSensor.md
+│   │   ├──  com.apple.driver.AppleEmbeddedTouchEEPROM.md
+│   │   ├──  com.apple.driver.AppleEmbeddedUSB.md
+│   │   ├──  com.apple.driver.AppleEmbeddedUSBHost.md
+│   │   ├──  com.apple.driver.AppleEpochManager.md
+│   │   ├──  com.apple.driver.AppleEventLogHandler.md
+│   │   ├──  com.apple.driver.AppleFAN53740.md
+│   │   ├──  com.apple.driver.AppleFirmwareKit.md
+│   │   ├──  com.apple.driver.AppleFirmwareUpdateKext.md
+│   │   ├──  com.apple.driver.AppleGameControllerPersonality.md
+│   │   ├──  com.apple.driver.AppleGPIOCanary.md
+│   │   ├──  com.apple.driver.AppleGPIOICController.md
+│   │   ├──  com.apple.driver.AppleH16ANEInterface.md
+│   │   ├──  com.apple.driver.AppleH16CameraInterface.md
+│   │   ├──  com.apple.driver.AppleH16PhotonDetector.md
+│   │   ├──  com.apple.driver.AppleHIDALSService.md
+│   │   ├──  com.apple.driver.AppleHIDTransport.md
+│   │   ├──  com.apple.driver.AppleHIDTransportFIFO.md
+│   │   ├──  com.apple.driver.AppleHIDTransportMailbox.md
+│   │   ├──  com.apple.driver.AppleHIDTransportSCMCommon.md
+│   │   ├──  com.apple.driver.AppleHIDTransportSPI.md
+│   │   ├──  com.apple.driver.AppleHPM.md
+│   │   ├──  com.apple.driver.AppleIDV.md
+│   │   ├──  com.apple.driver.AppleInputDeviceSupport.md
+│   │   ├──  com.apple.driver.AppleInterruptControllerV3.md
+│   │   ├──  com.apple.driver.AppleLockdownMode.md
+│   │   ├──  com.apple.driver.AppleM2ScalerCSCDriver.md
+│   │   ├──  com.apple.driver.AppleM68Buttons.md
+│   │   ├──  com.apple.driver.AppleMobileApNonce.md
+│   │   ├──  com.apple.driver.AppleMobileDispH17P-DCP.md
+│   │   ├──  com.apple.driver.AppleMobileFileIntegrity.md
+│   │   ├──  com.apple.driver.AppleMultiFunctionManager.md
+│   │   ├──  com.apple.driver.AppleMultitouchDriver.md
+│   │   ├──  com.apple.driver.AppleMultitouchSPI.md
+│   │   ├──  com.apple.driver.AppleOLYHAL.md
+│   │   ├──  com.apple.driver.AppleOnboardSerial.md
+│   │   ├──  com.apple.driver.ApplePearlSEPDriver.md
+│   │   ├──  com.apple.driver.ApplePhoneBTM.md
+│   │   ├──  com.apple.driver.ApplePIODMA.md
+│   │   ├──  com.apple.driver.ApplePMGR.md
+│   │   ├──  com.apple.driver.ApplePMP.md
+│   │   ├──  com.apple.driver.ApplePMPFirmware.md
+│   │   ├──  com.apple.driver.ApplePPMCPMS.md
+│   │   ├──  com.apple.driver.AppleProcessorTrace.md
+│   │   ├──  com.apple.driver.ApplePTD.md
+│   │   ├──  com.apple.driver.AppleS5L8940XI2C.md
+│   │   ├──  com.apple.driver.AppleSamsungSerial.md
+│   │   ├──  com.apple.driver.AppleSARService.md
+│   │   ├──  com.apple.driver.AppleSEPCredentialManager.md
+│   │   ├──  com.apple.driver.AppleSEPHDCPManager.md
+│   │   ├──  com.apple.driver.AppleSEPKeyStore.md
+│   │   ├──  com.apple.driver.AppleSEPManager.md
+│   │   ├──  com.apple.driver.AppleSmartBatteryManagerEmbedded.md
+│   │   ├──  com.apple.driver.AppleSmartIO2.md
+│   │   ├──  com.apple.driver.AppleSMC.md
+│   │   ├──  com.apple.driver.AppleSMCWirelessCharger.md
+│   │   ├──  com.apple.driver.AppleSPIMC.md
+│   │   ├──  com.apple.driver.AppleSPMI.md
+│   │   ├──  com.apple.driver.AppleSPMIPMU.md
+│   │   ├──  com.apple.driver.AppleSPU.md
+│   │   ├──  com.apple.driver.AppleSPURose.md
+│   │   ├──  com.apple.driver.AppleSPUSphere.md
+│   │   ├──  com.apple.driver.AppleSSE.md
+│   │   ├──  com.apple.driver.AppleStockholmControl.md
+│   │   ├──  com.apple.driver.AppleT6020PCIePIODMA.md
+│   │   ├──  com.apple.driver.AppleT8030SOCTuner.md
+│   │   ├──  com.apple.driver.AppleT8103TypeCPhy.md
+│   │   ├──  com.apple.driver.AppleT8110DART.md
+│   │   ├──  com.apple.driver.AppleT8130TypeCPhy.md
+│   │   ├──  com.apple.driver.AppleT8140ANEHAL.md
+│   │   ├──  com.apple.driver.AppleT8140CLPC.md
+│   │   ├──  com.apple.driver.AppleT8140MCC.md
+│   │   ├──  com.apple.driver.AppleT8140PCIe.md
+│   │   ├──  com.apple.driver.AppleT8140PMGR.md
+│   │   ├──  com.apple.driver.AppleTemperatureSensor.md
+│   │   ├──  com.apple.driver.AppleThunderboltDPAdapterFamily.md
+│   │   ├──  com.apple.driver.AppleThunderboltDPInAdapter.md
+│   │   ├──  com.apple.driver.AppleThunderboltDPOutAdapter.md
+│   │   ├──  com.apple.driver.AppleThunderboltIP.md
+│   │   ├──  com.apple.driver.AppleThunderboltNHI.md
+│   │   ├──  com.apple.driver.AppleThunderboltPCIDownAdapter.md
+│   │   ├──  com.apple.driver.AppleThunderboltPCIUpAdapter.md
+│   │   ├──  com.apple.driver.AppleThunderboltUSBDownAdapter.md
+│   │   ├──  com.apple.driver.AppleThunderboltUSBType2DownAdapter.md
+│   │   ├──  com.apple.driver.AppleThunderboltUSBType2UpAdapter.md
+│   │   ├──  com.apple.driver.AppleThunderboltUSBUpAdapter.md
+│   │   ├──  com.apple.driver.AppleTriStar.md
+│   │   ├──  com.apple.driver.AppleTypeCPhy.md
+│   │   ├──  com.apple.driver.AppleTypeCPhyAUSBC.md
+│   │   ├──  com.apple.driver.AppleUSBAudio.md
+│   │   ├──  com.apple.driver.AppleUSBDeviceAudioController.md
+│   │   ├──  com.apple.driver.AppleUSBDeviceMux.md
+│   │   ├──  com.apple.driver.AppleUSBDeviceNCM.md
+│   │   ├──  com.apple.driver.AppleUSBEthernetDevice.md
+│   │   ├──  com.apple.driver.AppleUSBEthernetHost.md
+│   │   ├──  com.apple.driver.AppleUSBHostMergeProperties.md
+│   │   ├──  com.apple.driver.AppleUSBLightningAdapter.md
+│   │   ├──  com.apple.driver.AppleUSBXDCI.md
+│   │   ├──  com.apple.driver.AppleUSBXDCIARM.md
+│   │   ├──  com.apple.driver.AppleUVDM.md
+│   │   ├──  com.apple.driver.AppleUVDMDriver.md
+│   │   ├──  com.apple.driver.ASIOKit.md
+│   │   ├──  com.apple.driver.AudioDMAController-T8140.md
+│   │   ├──  com.apple.driver.AudioDMAFamily.md
+│   │   ├──  com.apple.driver.AudioSharedDARTMapperProxy.md
+│   │   ├──  com.apple.driver.corecapture.md
+│   │   ├──  com.apple.driver.DCPAVFamilyProxy.md
+│   │   ├──  com.apple.driver.DCPDPFamilyProxy.md
+│   │   ├──  com.apple.driver.DiskImages.FileBackingStore.md
+│   │   ├──  com.apple.driver.DiskImages.KernelBacked.md
+│   │   ├──  com.apple.driver.DiskImages.md
+│   │   ├──  com.apple.driver.DiskImages.RAMBackingStore.md
+│   │   ├──  com.apple.driver.DiskImages.ReadWriteDiskImage.md
+│   │   ├──  com.apple.driver.DiskImages.UDIFDiskImage.md
+│   │   ├──  com.apple.driver.ExclavesAudioKext.md
+│   │   ├──  com.apple.driver.ExclaveSEPManagerProxy.md
+│   │   ├──  com.apple.driver.EXDisplayPipeH17P.md
+│   │   ├──  com.apple.driver.FairPlayIOKit.md
+│   │   ├──  com.apple.driver.IISAudioIsolatedStreamECProxy.md
+│   │   ├──  com.apple.driver.IOAudioCodecs.md
+│   │   ├──  com.apple.driver.IODARTFamily.md
+│   │   ├──  com.apple.driver.IOHIDPowerSource.md
+│   │   ├──  com.apple.driver.IOPAudioSpeaker.md
+│   │   ├──  com.apple.driver.IOPAudioVoiceTriggerDevice.md
+│   │   ├──  com.apple.driver.IOPEmbeddedAudio.md
+│   │   ├──  com.apple.driver.IOPHaptics.md
+│   │   ├──  com.apple.driver.mDNSOffloadUserClient-Embedded.md
+│   │   ├──  com.apple.driver.RTBuddy.md
+│   │   ├──  com.apple.driver.SecureRTBuddyProxy.md
+│   │   ├──  com.apple.driver.usb.AppleSynopsysUSB40XHCI.md
+│   │   ├──  com.apple.driver.usb.AppleSynopsysUSBXHCI.md
+│   │   ├──  com.apple.driver.usb.AppleUSBCommon.md
+│   │   ├──  com.apple.driver.usb.AppleUSBHostBillboardDevice.md
+│   │   ├──  com.apple.driver.usb.AppleUSBHostCompositeDevice.md
+│   │   ├──  com.apple.driver.usb.AppleUSBHostDeviceSupport.md
+│   │   ├──  com.apple.driver.usb.AppleUSBHostiOSDevice.md
+│   │   ├──  com.apple.driver.usb.AppleUSBHostPacketFilter.md
+│   │   ├──  com.apple.driver.usb.AppleUSBHub.md
+│   │   ├──  com.apple.driver.usb.AppleUSBXHCI.md
+│   │   ├──  com.apple.driver.usb.cdc.ecm.md
+│   │   ├──  com.apple.driver.usb.cdc.md
+│   │   ├──  com.apple.driver.usb.cdc.ncm.md
+│   │   ├──  com.apple.driver.usb.ethernet.asix.md
+│   │   ├──  com.apple.driver.usb.IOUSBHostHIDDevice.md
+│   │   ├──  com.apple.driver.usb.networking.md
+│   │   ├──  com.apple.driver.VideoProcessing.md
+│   │   ├──  com.apple.EXBrightCalibrationConsumer.md
+│   │   ├──  com.apple.EXBrightKext.md
+│   │   ├──  com.apple.ExclaveKextClient.md
+│   │   ├──  com.apple.filesystems.apfs.md
+│   │   ├──  com.apple.filesystems.lifs.md
+│   │   ├──  com.apple.filesystems.tmpfs.md
+│   │   ├──  com.apple.iokit.AppleARMIISAudio.md
+│   │   ├──  com.apple.iokit.CoreAnalyticsFamily.md
+│   │   ├──  com.apple.iokit.IOAccessoryManager.md
+│   │   ├──  com.apple.iokit.IOAccessoryPortUSB.md
+│   │   ├──  com.apple.iokit.IOAVFamily.md
+│   │   ├──  com.apple.iokit.IOBiometricFamily.md
+│   │   ├──  com.apple.iokit.IOCryptoAcceleratorFamily.md
+│   │   ├──  com.apple.iokit.IODisplayPortFamily.md
+│   │   ├──  com.apple.iokit.IOGameControllerFamily.md
+│   │   ├──  com.apple.iokit.IOGPUFamily.md
+│   │   ├──  com.apple.iokit.IOHDCPFamily.md
+│   │   ├──  com.apple.iokit.IOHIDFamily.md
+│   │   ├──  com.apple.iokit.IOMikeyBusFamily.md
+│   │   ├──  com.apple.iokit.IOMIPIFamily.md
+│   │   ├──  com.apple.iokit.IOMobileGraphicsFamily-DCP.md
+│   │   ├──  com.apple.iokit.IOMobileGraphicsFamily.md
+│   │   ├──  com.apple.iokit.IONVMeFamily.md
+│   │   ├──  com.apple.iokit.IOPCIFamily.md
+│   │   ├──  com.apple.iokit.IOPortFamily.md
+│   │   ├──  com.apple.iokit.IOReportFamily.md
+│   │   ├──  com.apple.iokit.IOSCSIArchitectureModelFamily.md
+│   │   ├──  com.apple.iokit.IOSCSIBlockCommandsDevice.md
+│   │   ├──  com.apple.iokit.IOSkywalkFamily.md
+│   │   ├──  com.apple.iokit.IOSlowAdaptiveClockingFamily.md
+│   │   ├──  com.apple.iokit.IOStorageFamily.md
+│   │   ├──  com.apple.iokit.IOSurface.md
+│   │   ├──  com.apple.iokit.IOThunderboltFamily.md
+│   │   ├──  com.apple.iokit.IOTimeSyncFamily.md
+│   │   ├──  com.apple.iokit.IOUSBDeviceFamily.md
+│   │   ├──  com.apple.iokit.IOUSBHostFamily.md
+│   │   ├──  com.apple.iokit.IOUserEthernet.md
+│   │   ├──  com.apple.kec.Compression.md
+│   │   ├──  com.apple.kec.corecrypto.md
+│   │   ├──  com.apple.kec.Libm.md
+│   │   ├──  com.apple.kec.pthread.md
+│   │   ├──  com.apple.kec.XrtHostedXnu.md
+│   │   ├──  com.apple.kernel.md
+│   │   ├──  com.apple.kext.AppleMatch.md
+│   │   ├──  com.apple.kext.CoreTrust.md
+│   │   ├──  com.apple.nke.l2tp.md
+│   │   ├──  com.apple.nke.ppp.md
+│   │   ├──  com.apple.plugin.IOgPTPPlugin.md
+│   │   ├──  com.apple.security.AKSAnalytics.md
+│   │   ├──  com.apple.security.AppleImage4.md
+│   │   └──  com.apple.security.sandbox.md
+│   ├──  MACHOS
+│   │   ├──  AppOS
+│   │   │   ├──  System
+│   │   │   │   └──  Library
+│   │   │   └──  usr
+│   │   │       └──  libexec
+│   │   ├──  ExclaveOS
+│   │   │   └──  System
+│   │   │       └──  ExclaveKit
+│   │   ├──  filesystem
+│   │   │   ├──  Applications
+│   │   │   │   ├──  AAUIViewService.app
+│   │   │   │   ├──  AccessibilityReader_iOS.app
+│   │   │   │   ├──  AccessoryNotificationsSourceSelection.app
+│   │   │   │   ├──  AccessorySetupUI.app
+│   │   │   │   ├──  ActivityMessagesApp.app
+│   │   │   │   ├──  ActivityProgressUI.app
+│   │   │   │   ├──  AdaptiveMusicApp.app
+│   │   │   │   ├──  AirDropUI.app
+│   │   │   │   ├──  AMSEngagementViewService.app
+│   │   │   │   ├──  AppDistributionLaunchAngel.app
+│   │   │   │   ├──  AppleCashStickerPackHost.app
+│   │   │   │   ├──  AppleIDSetupUIService.app
+│   │   │   │   ├──  AppSSOUIService.app
+│   │   │   │   ├──  AskPermissionUI.app
+│   │   │   │   ├──  AskToUIHost.app
+│   │   │   │   ├──  AuthKitUIService.app
+│   │   │   │   ├──  AuthorizationPromptService.app
+│   │   │   │   ├──  AVKitRoutingService.app
+│   │   │   │   ├──  AXUIViewService.app
+│   │   │   │   ├──  BarcodeScanner.app
+│   │   │   │   ├──  Batteries.app
+│   │   │   │   ├──  BrowserKitViewService.app
+│   │   │   │   ├──  BusinessExtensionsWrapper.app
+│   │   │   │   ├──  CameraOverlayAngel.app
+│   │   │   │   ├──  CarCamera.app
+│   │   │   │   ├──  CarPlaySettings.app
+│   │   │   │   ├──  CarPlaySetup.app
+│   │   │   │   ├──  CarPlaySplashScreen.app
+│   │   │   │   ├──  CarPlayWallpaper.app
+│   │   │   │   ├──  Charge.app
+│   │   │   │   ├──  CheckerBoard.app
+│   │   │   │   ├──  ClarityCamera.app
+│   │   │   │   ├──  ClarityPhotos.app
+│   │   │   │   ├──  Climate.app
+│   │   │   │   ├──  ClockAngel.app
+│   │   │   │   ├──  Closures.app
+│   │   │   │   ├──  ColorPickerUIService.app
+│   │   │   │   ├──  CompanionSetup.app
+│   │   │   │   ├──  CompanionViewService.app
+│   │   │   │   ├──  ContinuityCaptureShieldUI.app
+│   │   │   │   ├──  ContinuitySingShieldUI.app
+│   │   │   │   ├──  CoreIDVUIService.app
+│   │   │   │   ├──  CustomerEngagementUIService.app
+│   │   │   │   ├──  DDActionsService.app
+│   │   │   │   ├──  Device_Recovery_Assistant.app
+│   │   │   │   ├──  Diagnostics.app
+│   │   │   │   ├──  DiagnosticsReporter.app
+│   │   │   │   ├──  DiagnosticsService.app
+│   │   │   │   ├──  DictationExperience.iOS.app
+│   │   │   │   ├──  DockFolderViewService.app
+│   │   │   │   ├──  Enhanced_Logging.app
+│   │   │   │   ├──  EventViewService.app
+│   │   │   │   ├──  EyeReliefUI.app
+│   │   │   │   ├──  Family.app
+│   │   │   │   ├──  FamilyControlsAuthenticationUI.app
+│   │   │   │   ├──  FamilyExtensionHost.app
+│   │   │   │   ├──  Feedback_Assistant_iOS.app
+│   │   │   │   ├──  FinanceUIService.app
+│   │   │   │   ├──  FindingUI.app
+│   │   │   │   ├──  FindMyRemoteUIService.app
+│   │   │   │   ├──  FontInstallViewService.app
+│   │   │   │   ├──  FontPickerUIService.app
+│   │   │   │   ├──  FTMInternal.app
+│   │   │   │   ├──  GameCenterUIService.app
+│   │   │   │   ├──  GameCenterWidgets.app
+│   │   │   │   ├──  GameTrampoline.app
+│   │   │   │   ├──  GAXApp.app
+│   │   │   │   ├──  HashtagImages.app
+│   │   │   │   ├──  HDSViewService.app
+│   │   │   │   ├──  HeadphoneProxService.app
+│   │   │   │   ├──  HealthENLauncher.app
+│   │   │   │   ├──  HealthPrivacyService.app
+│   │   │   │   ├──  HearingApp.app
+│   │   │   │   ├──  HomeControlService.app
+│   │   │   │   ├──  HomeUIService.app
+│   │   │   │   ├──  iCloud.app
+│   │   │   │   ├──  ImagePlaygroundPosterApp.app
+│   │   │   │   ├──  InCallService.app
+│   │   │   │   ├──  InputUI.app
+│   │   │   │   ├──  Jellyfish.app
+│   │   │   │   ├──  LimitedAccessPromptView.app
+│   │   │   │   ├──  LimitedModeShieldApp.app
+│   │   │   │   ├──  LocalAuthenticationUIService.app
+│   │   │   │   ├──  MagnifierAngel.app
+│   │   │   │   ├──  MailCompositionService.app
+│   │   │   │   ├──  Media.app
+│   │   │   │   ├──  MediaRemoteUI.app
+│   │   │   │   ├──  MediaRemoteUIService.app
+│   │   │   │   ├──  MessagesRemoteAlerts.app
+│   │   │   │   ├──  MobilePhone.app
+│   │   │   │   ├──  MomentsUIService.app
+│   │   │   │   ├──  MTLReplayer.app
+│   │   │   │   ├──  MusicRecognition.app
+│   │   │   │   ├──  MusicUIService.app
+│   │   │   │   ├──  NetworkEndpointPickerUI.app
+│   │   │   │   ├──  NFCUISceneService.app
+│   │   │   │   ├──  PassbookUISceneService.app
+│   │   │   │   ├──  PassbookUIService.app
+│   │   │   │   ├──  PASViewService.app
+│   │   │   │   ├──  PCViewService.app
+│   │   │   │   ├──  PeopleMessageService.app
+│   │   │   │   ├──  PeopleViewService.app
+│   │   │   │   ├──  Preferences.app
+│   │   │   │   ├──  PreviewShell.app
+│   │   │   │   ├──  Print_Center.app
+│   │   │   │   ├──  RecoverDeviceUI.app
+│   │   │   │   ├──  RemoteiCloudQuotaUI.app
+│   │   │   │   ├──  RemotePaymentPassActionsService.app
+│   │   │   │   ├──  ReplayKitAngel.app
+│   │   │   │   ├──  SafetyMonitorApp.app
+│   │   │   │   ├──  Screen_Time.app
+│   │   │   │   ├──  ScreenContinuityShell.app
+│   │   │   │   ├──  ScreenshotServicesService.app
+│   │   │   │   ├──  ScreenTimeSettingsShield.app
+│   │   │   │   ├──  ScreenTimeUnlock.app
+│   │   │   │   ├──  ServicesPaymentAngel.app
+│   │   │   │   ├──  Setup.app
+│   │   │   │   ├──  SharingUIService.app
+│   │   │   │   ├──  SharingViewService.app
+│   │   │   │   ├──  ShazamEventsApp.app
+│   │   │   │   ├──  ShortcutsUI.app
+│   │   │   │   ├──  Sidecar.app
+│   │   │   │   ├──  SIMSetupUIService.app
+│   │   │   │   ├──  Siri.app
+│   │   │   │   ├──  SleepLockScreen.app
+│   │   │   │   ├──  SleepWidgetContainer.app
+│   │   │   │   ├──  SoftwareUpdateUIService.app
+│   │   │   │   ├──  SOSBuddy.app
+│   │   │   │   ├──  Spotlight.app
+│   │   │   │   ├──  StickerPickerService.app
+│   │   │   │   ├──  StickersUltra.app
+│   │   │   │   ├──  StoreDemoViewService.app
+│   │   │   │   ├──  StoreKitUISceneService.app
+│   │   │   │   ├──  SupportFlow.app
+│   │   │   │   ├──  SystemVoiceAssistant.app
+│   │   │   │   ├──  Tamale.app
+│   │   │   │   ├──  TDGSharingViewService.app
+│   │   │   │   ├──  TermsAndConditionsViewService.app
+│   │   │   │   ├──  Text_Message_Filter.app
+│   │   │   │   ├──  TirePressure.app
+│   │   │   │   ├──  Trip.app
+│   │   │   │   ├──  TVAccessViewService.app
+│   │   │   │   ├──  TVSetupUIService.app
+│   │   │   │   ├──  Vehicle.app
+│   │   │   │   ├──  WorkoutRemoteViewService.app
+│   │   │   │   └──  WritingToolsUIService.app
+│   │   │   ├──  bin
+│   │   │   │   ├──  df.md
+│   │   │   │   └──  ps.md
+│   │   │   ├──  Library
+│   │   │   │   └──  Audio
+│   │   │   ├──  private
+│   │   │   │   └──  var
+│   │   │   ├──  sbin
+│   │   │   │   └──  launchd.md
+│   │   │   ├──  System
+│   │   │   │   ├──  Applications
+│   │   │   │   ├──  DriverKit
+│   │   │   │   ├──  ExclaveCore
+│   │   │   │   └──  Library
+│   │   │   └──  usr
+│   │   │       ├──  bin
+│   │   │       ├──  lib
+│   │   │       ├──  libexec
+│   │   │       └──  sbin
+│   │   ├──  filesystem.Updated.md
+│   │   └──  SystemOS
+│   │       ├──  System
+│   │       │   └──  Library
+│   │       └──  usr
+│   │           ├──  lib
+│   │           └──  libexec
+│   └── 󰂺 README.md
+└──  temp.txt
