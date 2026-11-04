@@ -59,7 +59,8 @@ dkms.conf
 27.2/data
 
 # ghidra projects
-27.0.1/ghidra27_0_1.gpr
-27.0.1/ghidra27_0_1.rep
-27.2/ghidra27_2.gpr
-27.2/ghidra27_2.rep
+ghidra.*
+!**/ghidra.md
+
+# DS_Store
+.DS_Store
