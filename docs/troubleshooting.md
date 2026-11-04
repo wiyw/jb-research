@@ -57,10 +57,9 @@ complete `--dyld --dyld-arch arm64e` output directory.
 
 ## Missing dylibs after a clone
 
-Only `CoreGraphics` and `ImageIO` are tracked. `IMCore`, `IMDPersistence`, and
-`libxpc.dylib` must be extracted locally. `*.dylib` is ignored by
-`.gitignore`, so `libxpc.dylib` will never show as tracked. See
-[firmware.md](firmware.md).
+All published dylibs (`CoreGraphics`, `ImageIO`, `IMCore`, `IMDPersistence`,
+and `libxpc.dylib`) are tracked, so they should appear after cloning. If one is
+missing, restore it from the cache as described in [firmware.md](firmware.md).
 
 ## Ghidra
 
@@ -139,5 +138,5 @@ upstream compatibility table.
 
 **Need more diagnostic output**
 
-Use the launchpad's serial/console view. `vphone/log.txt` in this repo is a
-captured snapshot, not a live log.
+Use the launchpad's serial/console view. Captured logs are snapshots, not live
+logs, and none are tracked in this repository.

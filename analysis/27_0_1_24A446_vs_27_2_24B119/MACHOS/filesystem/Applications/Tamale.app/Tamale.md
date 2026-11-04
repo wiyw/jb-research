@@ -1,0 +1,327 @@
+## Tamale
+
+> `/Applications/Tamale.app/Tamale`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__oslogstring`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_types2`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_catlist`
+
+```diff
+
+-246.0.0.0.0
+-  __TEXT.__text: 0x1023e4
+-  __TEXT.__auth_stubs: 0x5970
+-  __TEXT.__objc_stubs: 0x26e0
+-  __TEXT.__objc_methlist: 0x14dc
+-  __TEXT.__objc_methname: 0x6061
+-  __TEXT.__objc_classname: 0xba5
+-  __TEXT.__swift5_typeref: 0x114da
+-  __TEXT.__const: 0xb344
+-  __TEXT.__swift5_capture: 0x17d8
+-  __TEXT.__constg_swiftt: 0x3ac0
++246.1.28.0.0
++  __TEXT.__text: 0xff29c
++  __TEXT.__auth_stubs: 0x57a0
++  __TEXT.__objc_stubs: 0x2640
++  __TEXT.__objc_methlist: 0x1264
++  __TEXT.__objc_methname: 0x5461
++  __TEXT.__objc_classname: 0x9a5
++  __TEXT.__swift5_typeref: 0x10f56
++  __TEXT.__const: 0xaa94
++  __TEXT.__swift5_capture: 0x17f8
++  __TEXT.__constg_swiftt: 0x34f4
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__swift5_builtin: 0x190
+-  __TEXT.__swift5_reflstr: 0x2de9
+-  __TEXT.__swift5_fieldmd: 0x2d2c
+-  __TEXT.__swift5_assocty: 0x750
+-  __TEXT.__swift5_proto: 0x6b8
+-  __TEXT.__swift5_types: 0x318
+-  __TEXT.__objc_methtype: 0x2336
++  __TEXT.__swift5_builtin: 0x154
++  __TEXT.__swift5_reflstr: 0x2ae9
++  __TEXT.__swift5_fieldmd: 0x2a3c
++  __TEXT.__swift5_assocty: 0x6a0
++  __TEXT.__swift5_proto: 0x670
++  __TEXT.__swift5_types: 0x2d8
++  __TEXT.__objc_methtype: 0x1d29
+   __TEXT.__swift_as_entry: 0x154
+   __TEXT.__swift_as_ret: 0x10c
+   __TEXT.__swift_as_cont: 0x2c4
+-  __TEXT.__cstring: 0x1cce
++  __TEXT.__cstring: 0x1c4e
+   __TEXT.__oslogstring: 0x2217
+-  __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift5_mpenum: 0x24
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x3148
+-  __TEXT.__eh_frame: 0x4570
+-  __DATA_CONST.__const: 0x73e8
++  __TEXT.__swift5_protos: 0x10
++  __TEXT.__unwind_info: 0x3058
++  __TEXT.__eh_frame: 0x4490
++  __DATA_CONST.__const: 0x7130
+   __DATA_CONST.__cfstring: 0xa0
+-  __DATA_CONST.__objc_classlist: 0x180
++  __DATA_CONST.__objc_classlist: 0x130
+   __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x1c0
++  __DATA_CONST.__objc_protolist: 0x1b0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0xe8
+-  __DATA_CONST.__auth_got: 0x2cc0
+-  __DATA_CONST.__got: 0x1448
+-  __DATA_CONST.__auth_ptr: 0x13b8
+-  __DATA.__objc_const: 0x8988
+-  __DATA.__objc_selrefs: 0x12b8
+-  __DATA.__objc_data: 0x1ed0
+-  __DATA.__data: 0x8408
+-  __DATA.__bss: 0xd810
++  __DATA_CONST.__objc_protorefs: 0xe0
++  __DATA_CONST.__auth_got: 0x2bd8
++  __DATA_CONST.__got: 0x1490
++  __DATA_CONST.__auth_ptr: 0x1288
++  __DATA.__objc_const: 0x74e8
++  __DATA.__objc_selrefs: 0x1178
++  __DATA.__objc_data: 0x1a40
++  __DATA.__data: 0x7ba8
++  __DATA.__bss: 0xcef0
+   __DATA.__common: 0x168
+   - /System/Library/Frameworks/ARKit.framework/ARKit
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /System/Library/PrivateFrameworks/CMCapture.framework/CMCapture
+   - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+-  - /System/Library/PrivateFrameworks/Feedback.framework/Feedback
+   - /System/Library/PrivateFrameworks/FusionTracker.framework/FusionTracker
+   - /System/Library/PrivateFrameworks/GenerativeAssistantActions.framework/GenerativeAssistantActions
+   - /System/Library/PrivateFrameworks/GenerativeAssistantSettings.framework/GenerativeAssistantSettings
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 4362
+-  Symbols:   2513
++  Functions: 4261
++  Symbols:   2464
+   CStrings:  0
+ 
+Symbols:
++ _$s20VisualIntelligenceUI12ScanwaveDataO4from19captureEffectsMedia8rotationAC0aB13CameraSupport0k7CapturehI0VSg_0aB4Core5AngleVtFZ
++ _$s20VisualIntelligenceUI16NewSaliencyModelC16coordinateSystem0aB4Core010CoordinateH0VSgvg
++ _$s20VisualIntelligenceUI27SelectedSubjectReticuleViewV6bounds12contentsRect10entryPoint16coordinateSystemACSo6CGRectV_AI0aB8Services05EntryL0O0aB4Core010CoordinateN0VSgtcfC
++ _$s20VisualIntelligenceUI34VIUIDeveloperMenuGestureRecognizerV15numberOfTouches11onTriggeredACSi_yyctcfC
++ _$s20VisualIntelligenceUI34VIUIDeveloperMenuGestureRecognizerV15numberOfTouches11onTriggeredACSi_yyctcfcfA_
++ _$s22VisualIntelligenceCore10VISignpostV3end8metadataySSSg_tF
++ _$s22VisualIntelligenceCore10VISignpostV5event__8metadata7alsoLogys12StaticStringV_AA0D8CategoryVSSSg2os6LoggerVSgtFZ
++ _$s22VisualIntelligenceCore10VISignpostVMa
++ _$s22VisualIntelligenceCore10VISignpostVMn
++ _$s22VisualIntelligenceCore10VISignpostV__8metadata5timedACs12StaticStringV_AA0D8CategoryVSSSgAA12VITimedScopeVSgtcfC
++ _$s22VisualIntelligenceCore12VITimedScopeVMa
++ _$s22VisualIntelligenceCore12VITimedScopeVMn
++ _$s22VisualIntelligenceCore12VITimedScopeV_5levelAC2os6LoggerV_So0G11_log_type_tatcfC
++ _$s22VisualIntelligenceCore12VITimedScopeV_5levelAC2os6LoggerV_So0G11_log_type_tatcfcfA0_
++ _$s22VisualIntelligenceCore14VISignpostNameO13shutterButtons12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO20arCameraSourcePauseds12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO20cameraControllerStops12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO21arCameraSourcePausings12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO21arCameraSourceRunnings12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO21arCameraSourceStoppeds12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO21cameraControllerPauses12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO21cameraControllerStarts12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO22previewLayerBecameSafes12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO24previewLayerBecameUnsafes12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO26arCameraSourceFrameHandlers12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO26avCameraSourceFrameHandlers12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO26previewLayerCALayerUpdateds12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO28arCameraSourcePauseRequesteds12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO28previewLayerLongPreviewFrames12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO29debugPreviewLayerConsumeFrames12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO29previewLayerConsumeUnconsumeds12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO29previewLayerImageQueueCollects12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO29previewLayerImageQueueEnqueues12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO30arCameraSourceHighQualityFrames12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO30previewLayerCollectUndisplayeds12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO33arCameraSourceCaptureHighResFrames12StaticStringVvgZ
++ _$s22VisualIntelligenceCore14VISignpostNameO37previewLayerImageQueueRegisterSurfaces12StaticStringVvgZ
++ _$s22VisualIntelligenceCore16CoordinateSystemVMn
++ _$s22VisualIntelligenceCore18VISignpostCategoryV2uiACvgZ
++ _$s22VisualIntelligenceCore18VISignpostCategoryV6cameraACvgZ
++ _$s22VisualIntelligenceCore18VISignpostCategoryV7previewACvgZ
++ _$s22VisualIntelligenceCore18VISignpostCategoryVMa
++ _$s22VisualIntelligenceCore20PresentationGeometryV10uiRotationAA5AngleVvg
++ _$s22VisualIntelligenceCore20PresentationGeometryVMa
++ _$s22VisualIntelligenceCore20PreviewRotationStateO07desiredE5Angle07currentH0AA0H0VAG_tFZ
++ _$s22VisualIntelligenceCore20PreviewRotationStateO18desiredAspectRatio06screenhI00C8Graphics7CGFloatVAH_tFZ
++ _$s22VisualIntelligenceCore20PreviewRotationStateO20setCurrentScreenSizeyySo6CGSizeVFZ
++ _$s31VisualIntelligenceCameraSupport26StreamingSessionControllerC20presentationGeometry0aB4Core012PresentationI0Vvg
++ _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI12_FrameLayoutVN
++ _$s7SwiftUI12_ScaleEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI12_ScaleEffectVN
++ _$s7SwiftUI13_ShadowEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI13_ShadowEffectVN
++ _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI14_PaddingLayoutVN
++ _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FlexFrameLayoutVN
++ _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI18_AspectRatioLayoutVN
++ _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAMc
++ _$s7SwiftUI23_SafeAreaIgnoringLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI23_SafeAreaIgnoringLayoutVN
++ _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAMc
++ _$s7SwiftUI25_AllowsHitTestingModifierVN
++ _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAMc
++ _$s7SwiftUI25_AppearanceActionModifierVN
++ _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVN
++ _$s7SwiftUI45_AccessibilityIgnoresInvertColorsViewModifierVAA0gH0AAMc
++ _$s7SwiftUI45_AccessibilityIgnoresInvertColorsViewModifierVN
++ _$s7SwiftUI4TextVAA4ViewAAMc
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E24translationZoomTransformyQrAD07OverlayC5ModelCF
++ _$s7SwiftUI4ViewP018VisualIntelligenceB0E24translationZoomTransformyQrAD07OverlayC5ModelCFQOMQ
++ _$s7SwiftUI5ColorVAA10ShapeStyleAAMc
++ _$s7SwiftUI5ColorVAA4ViewAAMc
++ _$s7SwiftUI5ImageVAA4ViewAAMc
++ _$s7SwiftUI9EmptyViewVAA0D0AAMc
++ _$ss5NeverO7SwiftUI4ViewACMc
+- _$s19ArrayLiteralElements013ExpressibleByaB0PTl
+- _$s20VisualIntelligenceUI12ScanwaveDataO4from19captureEffectsMediaAC0aB13CameraSupport0j7CapturehI0VSg_tFZ
+- _$s20VisualIntelligenceUI13CanvasUtilityV22defaultCameraFrameSizeSo6CGSizeVvgZ
+- _$s20VisualIntelligenceUI16SessionAnalyticsC15publishAndResetyyF
+- _$s20VisualIntelligenceUI18CameraContentModelC18feedbackControllerAA08FeedbackH0Cvg
+- _$s20VisualIntelligenceUI18FeedbackControllerC013fbkEvaluationE00D0013FBKEvaluationE0CvgTj
+- _$s20VisualIntelligenceUI27SelectedSubjectReticuleViewV6bounds12contentsRect10entryPointACSo6CGRectV_AH0aB8Services05EntryL0OtcfC
+- _$s20VisualIntelligenceUI34VIUIDeveloperMenuGestureRecognizerV11onTriggeredACyyc_tcfC
+- _$s22VisualIntelligenceCore17LoggingSignposterV12cameraSourceACvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV13beginInterval_8metadata9shouldLog15enableTelemetryAC0G0_ps12StaticStringV_SSSgS2btF
+- _$s22VisualIntelligenceCore17LoggingSignposterV13beginInterval_8metadata9shouldLog15enableTelemetryAC0G0_ps12StaticStringV_SSSgS2btFfA1_
+- _$s22VisualIntelligenceCore17LoggingSignposterV13beginInterval_8metadata9shouldLog15enableTelemetryAC0G0_ps12StaticStringV_SSSgS2btFfA2_
+- _$s22VisualIntelligenceCore17LoggingSignposterV13shutterButtons12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV16cameraControllerACvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV20arCameraSourcePauseds12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV20cameraControllerStops12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV21arCameraSourcePausings12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV21arCameraSourceRunnings12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV21arCameraSourceStoppeds12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV21cameraControllerPauses12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV21cameraControllerStarts12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV22previewLayerBecameSafes12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV24previewLayerBecameUnsafes12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV26arCameraSourceFrameHandlers12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV26avCameraSourceFrameHandlers12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV26previewLayerCALayerUpdateds12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV28arCameraSourcePauseRequesteds12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV28previewLayerLongPreviewFrames12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV29previewLayerConsumeUnconsumeds12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV29previewLayerImageQueueCollects12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV29previewLayerImageQueueEnqueues12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV2uiACvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV30arCameraSourceHighQualityFrames12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV30previewLayerCollectUndisplayeds12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV32previewLayerConsumeFrameInternals12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV33arCameraSourceCaptureHighResFrames12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV37previewLayerImageQueueRegisterSurfaces12StaticStringVvgZ
+- _$s22VisualIntelligenceCore17LoggingSignposterV6loggerAC2os6LoggerV_tcfC
+- _$s22VisualIntelligenceCore17LoggingSignposterV8IntervalP3endyyFTj
+- _$s22VisualIntelligenceCore17LoggingSignposterV9emitEvent_9shouldLogys12StaticStringV_SbtF
+- _$s22VisualIntelligenceCore17LoggingSignposterV9emitEvent_9shouldLogys12StaticStringV_SbtFfA0_
+- _$s22VisualIntelligenceCore17LoggingSignposterVMa
+- _$s22VisualIntelligenceCore17LoggingSignposterVMn
+- _$s22VisualIntelligenceCore5AngleV13cgOrientationSo015CGImagePropertyF0Vvg
+- _$s2os12OSSignpostIDV8rawValues6UInt64Vvg
+- _$s2os12OSSignpostIDV9exclusiveACvgZ
+- _$s2os12OSSignpostIDVMa
+- _$s2os12OSSignposterV6loggerAcA6LoggerV_tcfC
+- _$s2os12OSSignposterV9logHandleSo03OS_a1_C0Cvg
+- _$s2os12OSSignposterVMa
+- _$s2os12OSSignposterVMn
+- _$s2os15OSSignpostErrorO9doubleEndyA2CmFWC
+- _$s2os15OSSignpostErrorOMa
+- _$s2os23OSSignpostIntervalStateC10signpostIDAA0bF0Vvg
+- _$s2os23OSSignpostIntervalStateC2id6isOpenAcA0B2IDV_Sbtcfc
+- _$s2os23OSSignpostIntervalStateCMa
+- _$s2os23OSSignpostIntervalStateCMn
+- _$s2os28checkForErrorAndConsumeState5stateAA010OSSignpostD0OAA0i8IntervalG0C_tF
+- _$s7Elements10SetAlgebraPTl
+- _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI12_ScaleEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI13_ShadowEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI23_SafeAreaIgnoringLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAWP
+- _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAWP
+- _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI45_AccessibilityIgnoresInvertColorsViewModifierVAA0gH0AAWP
+- _$s7SwiftUI4TextVAA4ViewAAWP
+- _$s7SwiftUI4ViewP8FeedbackE06inlineD010controller10completionQrAA7BindingVyAD23FBKEvaluationControllerCG_ys6ResultOy0D7Service14FBKSEvaluationCs5Error_pGcSgtF
+- _$s7SwiftUI4ViewP8FeedbackE06inlineD010controller10completionQrAA7BindingVyAD23FBKEvaluationControllerCG_ys6ResultOy0D7Service14FBKSEvaluationCs5Error_pGcSgtFQOMQ
+- _$s7SwiftUI5ColorVAA10ShapeStyleAAWP
+- _$s7SwiftUI5ColorVAA4ViewAAWP
+- _$s7SwiftUI5ImageVAA4ViewAAWP
+- _$s7SwiftUI7BindingV8constantyACyxGxFZ
+- _$s7SwiftUI9EmptyViewVAA0D0AAWP
+- _$s8Feedback23FBKEvaluationControllerCMa
+- _$sSYsSERzSu8RawValueSYRtzrlE6encode2toys7Encoder_p_tKF
+- _$sSYsSeRzSu8RawValueSYRtzrlE4fromxs7Decoder_p_tKcfC
+- _$sSo18os_signpost_type_ta0A0E3endABvgZ
+- _$sSo18os_signpost_type_ta0A0E5beginABvgZ
+- _$sSo6CGRectV22VisualIntelligenceCoreE6centerSo7CGPointVvg
+- _$sSo9OS_os_logC0B0E16signpostsEnabledSbvg
+- _$ss10SetAlgebraMp
+- _$ss10SetAlgebraP10isDisjoint4withSbx_tFTq
+- _$ss10SetAlgebraP10isSuperset2ofSbx_tFTq
+- _$ss10SetAlgebraP11subtractingyxxFTq
+- _$ss10SetAlgebraP12intersectionyxxFTq
+- _$ss10SetAlgebraP16formIntersectionyyxFTq
+- _$ss10SetAlgebraP19symmetricDifferenceyxxnFTq
+- _$ss10SetAlgebraP23formSymmetricDifferenceyyxnFTq
+- _$ss10SetAlgebraP5unionyxxnFTq
+- _$ss10SetAlgebraP6insertySb8inserted_7ElementQz17memberAfterInserttAFnFTq
+- _$ss10SetAlgebraP6removey7ElementQzSgAEFTq
+- _$ss10SetAlgebraP6update4with7ElementQzSgAFn_tFTq
+- _$ss10SetAlgebraP7isEmptySbvgTq
+- _$ss10SetAlgebraP8containsySb7ElementQzFTq
+- _$ss10SetAlgebraP8isSubset2ofSbx_tFTq
+- _$ss10SetAlgebraP8subtractyyxFTq
+- _$ss10SetAlgebraP9formUnionyyxnFTq
+- _$ss10SetAlgebraPSQTb
+- _$ss10SetAlgebraPs25ExpressibleByArrayLiteralTb
+- _$ss10SetAlgebraPsEyxqd__ncSTRd__7ElementQyd__ACRtzlufC
+- _$ss10SetAlgebraPxycfCTq
+- _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTq
+- _$ss25ExpressibleByArrayLiteralMp
+- _$ss25ExpressibleByArrayLiteralP05arrayD0x0cD7ElementQzd_tcfCTq
+- _$ss32_diagnoseUnexpectedEnumCaseValue4type03rawE0s5NeverOxm_q_tr0_lF
+- _$ss5NeverO7SwiftUI4ViewACWP
+- _$ss9OptionSetMp
+- _$ss9OptionSetP8rawValuex03RawD0Qz_tcfCTq
+- _$ss9OptionSetPSYTb
+- _$ss9OptionSetPs0B7AlgebraTb
+- _CGRectGetMaxX
+- _CGRectGetMidY
+- _CGRectGetMinX
+- _CGRectGetMinY
+- _CGRectInfinite
+- _CGRectIsInfinite
+- _CGRectIsNull
+- _CGRectNull
+- _CGRectOffset
+- _OBJC_CLASS_$_NSListFormatter
+- _OBJC_CLASS_$_UIImage
+- __os_signpost_emit_with_name_impl
+```

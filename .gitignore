@@ -26,15 +26,16 @@
 *.dll
 *.so
 *.so.*
-*.dylib
+# dylibs under */extracted_dylibs/ are tracked intentionally
 
 # Executables
 *.exe
 *.out
-*.app
 *.i*86
 *.x86_64
 *.hex
+
+# Analysis reports use .app/.appex bundle paths, so do not ignore *.app
 
 # Debug files
 *.dSYM/

@@ -54,9 +54,8 @@ analysis/
       MACHOS/                Per-Mach-O diff reports (AppOS, ExclaveOS,
                              SystemOS, filesystem)
       DYLIBS/                Per-dylib diff reports
-docs/                       Setup and methodology guides
-vphone/log.txt              Captured serial / boot log (optional)
-ghidra.gpr                  Ghidra project file (project database untracked)
+docs/                       Setup, analysis, and assessment guides
+ghidra.gpr                  Local Ghidra project (ignored; recreate per docs/ghidra.md)
 ```
 
 ## Decompiled frameworks
@@ -67,9 +66,9 @@ live in `extracted_dylibs/`:
 
 - `CoreGraphics` (tracked)
 - `ImageIO` (tracked)
-- `IMCore` (must be extracted)
-- `IMDPersistence` (must be extracted)
-- `libxpc.dylib` (must be extracted, ignored by `*.dylib`)
+- `IMCore` (tracked)
+- `IMDPersistence` (tracked)
+- `libxpc.dylib` (tracked)
 
 All binaries are 64-bit `arm64e` Mach-O shared libraries.
 
@@ -98,14 +97,16 @@ summarizes:
 - WebKit and dylib changes in the dyld shared cache
 
 See [analysis.md](docs/analysis.md) for how the report was generated and how
-to read the per-file diffs.
+to read the per-file diffs. For a curated summary, see
+[findings.md](docs/findings.md); for the AppIntents security assessment, see
+[assessment.md](docs/assessment.md).
 
 ## Virtual device
 
 The virtual device is a `vresearch101` iOS guest running through the notarized
 [vphone-launchpad](https://github.com/Lakr233/vphone-cli/releases) build on
-Apple Silicon. `vphone/log.txt` (when present) captures iBoot and kernel output
-from a `test-phone` VM, including boot-chain load messages, panic output, host
+Apple Silicon. Boot and serial logs are captured locally and are not tracked in
+this repository; they include iBoot load messages, kernel panic output, host
 security configuration, and the entitlements used for research guests.
 
 Host setup and VM creation: [vphone.md](docs/vphone.md).
@@ -119,6 +120,7 @@ Host setup and VM creation: [vphone.md](docs/vphone.md).
 | [binaries.md](docs/binaries.md) | Dylib inventory, UUIDs, checksums, and inspection commands |
 | [decompiled-sources.md](docs/decompiled-sources.md) | Structure of the Ghidra C exports and how to search them |
 | [analysis.md](docs/analysis.md) | Generate and read the version diff reports |
+| [assessment.md](docs/assessment.md) | AppIntents binary diff and security assessment (27.0.1 to 27.2) |
 | [findings.md](docs/findings.md) | Curated 27.0.1 to 27.2 release diff highlights |
 | [vphone.md](docs/vphone.md) | Notarized vphone-launchpad setup and VM boot |
 | [glossary.md](docs/glossary.md) | Firmware, Mach-O, and tooling terminology |

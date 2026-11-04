@@ -48,10 +48,10 @@ Firmware and VM bundles are stored outside this repository, normally under
 
 ## Logs
 
-`vphone/log.txt` in this repository (when present) is a captured serial/boot
-log from a `test-phone` VM. It shows iBoot loading, the kernel slide, panic
-output, host security configuration, and the entitlements used for research
-guests. It is a snapshot, not a live log.
+Serial/boot logs are captured locally outside this repository and are not
+committed. A snapshot shows iBoot loading, the kernel slide, panic output, host
+security configuration, and the entitlements used for research guests; it is
+not a live log.
 
 For live output, use the launchpad's console/serial view or the VM's serial
 device, and consult the upstream documentation for the current command-line

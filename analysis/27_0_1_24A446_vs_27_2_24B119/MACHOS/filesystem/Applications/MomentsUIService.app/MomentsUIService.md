@@ -1,0 +1,196 @@
+## MomentsUIService
+
+> `/Applications/MomentsUIService.app/MomentsUIService`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_data`
+
+```diff
+
+-417.0.0.0.0
+-  __TEXT.__text: 0x29063c
+-  __TEXT.__auth_stubs: 0x4aa0
+-  __TEXT.__objc_stubs: 0x9400
+-  __TEXT.__objc_methlist: 0x4064
+-  __TEXT.__const: 0xb3b4
+-  __TEXT.__gcc_except_tab: 0x208
+-  __TEXT.__cstring: 0xa098
+-  __TEXT.__objc_methname: 0x12565
+-  __TEXT.__oslogstring: 0xd723
++502.0.8.0.0
++  __TEXT.__text: 0x291874
++  __TEXT.__auth_stubs: 0x4ab0
++  __TEXT.__objc_stubs: 0x9480
++  __TEXT.__objc_methlist: 0x4094
++  __TEXT.__const: 0xb3c4
++  __TEXT.__gcc_except_tab: 0x230
++  __TEXT.__cstring: 0xa1b8
++  __TEXT.__objc_methname: 0x126b5
++  __TEXT.__oslogstring: 0xda33
+   __TEXT.__objc_classname: 0x2d88
+-  __TEXT.__objc_methtype: 0x3d39
++  __TEXT.__objc_methtype: 0x3d79
+   __TEXT.__swift5_typeref: 0x456e
+   __TEXT.__swift5_entry: 0x8
+   __TEXT.__constg_swiftt: 0x754c
+
+   __TEXT.__swift5_assocty: 0x9c0
+   __TEXT.__swift5_proto: 0x564
+   __TEXT.__swift5_types: 0x4cc
+-  __TEXT.__swift5_capture: 0x3da8
++  __TEXT.__swift5_capture: 0x3e08
+   __TEXT.__swift_as_entry: 0x33c
+   __TEXT.__swift_as_ret: 0x454
+   __TEXT.__swift_as_cont: 0x720
+   __TEXT.__swift5_protos: 0x48
+-  __TEXT.__unwind_info: 0x76f8
+-  __TEXT.__eh_frame: 0x8650
+-  __DATA_CONST.__const: 0x10400
+-  __DATA_CONST.__cfstring: 0x2020
++  __TEXT.__unwind_info: 0x7728
++  __TEXT.__eh_frame: 0x8678
++  __DATA_CONST.__const: 0x10568
++  __DATA_CONST.__cfstring: 0x21a0
+   __DATA_CONST.__objc_classlist: 0x550
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x220
+
+   __DATA_CONST.__objc_intobj: 0x18
+   __DATA_CONST.__objc_arraydata: 0xf8
+   __DATA_CONST.__objc_arrayobj: 0x18
+-  __DATA_CONST.__auth_got: 0x2560
+-  __DATA_CONST.__got: 0x1b98
++  __DATA_CONST.__auth_got: 0x2568
++  __DATA_CONST.__got: 0x1ba0
+   __DATA_CONST.__auth_ptr: 0xf28
+-  __DATA.__objc_const: 0xc960
+-  __DATA.__objc_selrefs: 0x3668
+-  __DATA.__objc_ivar: 0xd4
++  __DATA.__objc_const: 0xca00
++  __DATA.__objc_selrefs: 0x3690
++  __DATA.__objc_ivar: 0xe8
+   __DATA.__objc_data: 0x7848
+-  __DATA.__data: 0x9ba8
++  __DATA.__data: 0x9bb8
+   __DATA.__bss: 0xa2e0
+   __DATA.__common: 0x960
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   - @rpath/MomentsUIServiceCore.framework/MomentsUIServiceCore
+-  Functions: 11028
+-  Symbols:   26530
++  Functions: 11042
++  Symbols:   26557
+   CStrings:  0
+ 
+Symbols:
++ $ss10_NativeSetV6filteryAByxGSbxqd__YKXEqd__YKs5ErrorRd__lFADs13_UnsafeBitsetVqd__YKXEfU_So33BMMomentsEngagementSuggestionTypeV_s5NeverOTG5TA
++ -[MOConfigurationManagerBase initWithDefaultsManager:enableTrialClient:eligibilityProvider:]
++ -[MOConfigurationManagerBase isActionSuggestionsEligible]
++ -[MOConfigurationManagerBase isAutomaticPSSDonationEnabled]
++ -[MOConfigurationManagerBase refreshActionSuggestionsSnapshot]
++ GCC_except_table24
++ GCC_except_table3
++ OBJC_IVAR_$_MOConfigurationManagerBase._asFetchInFlight
++ OBJC_IVAR_$_MOConfigurationManagerBase._cachedActionSuggestionsEligible
++ OBJC_IVAR_$_MOConfigurationManagerBase._cachedExtendedRetentionFeatureEnabled
++ OBJC_IVAR_$_MOConfigurationManagerBase._cachedExtendedRetentionInternalEnabled
++ OBJC_IVAR_$_MOConfigurationManagerBase._cachedExtendedRetentionManualEnable
++ OBJC_IVAR_$_MOConfigurationManagerBase._eligibilityProvider
++ _$s10Foundation4DateV2leoiySbAC_ACtFZ
++ _$s16MomentsUIService24MOSuggestionCarouselViewC13scrollToIndex5index8animated8velocitySo7CGPointVSgSi_SbSdtFyyXEfU_TA
++ _$s16MomentsUIService31MOSuggestionSheetViewControllerC013hideSegmentedF0yyFyyXEfU_
++ _$s16MomentsUIService31MOSuggestionSheetViewControllerC013hideSegmentedF0yyFyyXEfU_TA
++ _$s16MomentsUIService31MOSuggestionSheetViewControllerC013showSegmentedF0yyFyyXEfU_
++ _$s16MomentsUIService31MOSuggestionSheetViewControllerC013showSegmentedF0yyFyyXEfU_TA
++ _$s16MomentsUIService33MOSuggestionSheetInterstitialViewC16updateAssetTypesyyFyyScMYccfU_yyXEfU_
++ _$s16MomentsUIService33MOSuggestionSheetInterstitialViewC16updateAssetTypesyyFyyScMYccfU_yyXEfU_TA
++ _$s16MomentsUIService36MOSuggestionInterstitialCarouselViewC13scrollToIndex5index12shouldScroll8velocitySo7CGPointVSgSi_SbSdtFyyXEfU_TA
++ _$s7SwiftUI5ColorVAA10ShapeStyleAAMc
++ _$s7SwiftUI5ColorVAcA10ShapeStyleAAWL
++ _$s7SwiftUI5ColorVAcA10ShapeStyleAAWl
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_SaySo13MOEventBundleCG_Tg5026$sSa16MomentsUIServiceSo13dE46CRszlE17sortedByStartDateSayACGvgSbAC_ACtXEfU_Tf1nnc_nTm
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_SaySo31NotificationApprovedApplicationCG_Tg5032$s16MomentsUIService29Suggestiond81ManagerC16sortEligibleApps33_1B75BEE923D676B392CA8DB837D3626ALL8appArraySaySo0D19eF21CGAI_tFSbAH_AHtXEfU2_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy16MomentsUIService19MOAssetAndMediaTypeV_SitG_Tg504$s16f61UIService42MOSuggestionInterstitialListAssetViewModelC25assetk44SetToCountStringySSSo09NSCountedK0CFZSbAA015hiJ21J0V_Sit_AH_SittXEfU0_Tf1nnc_nTm
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy16MomentsUIService26MOSuggestionAssetReferenceCG_Tg5022$sSo13MOEventBundleC16fg13E40typeSortedi33ReferencesForInterstitialSayAC012h2G9J19CGSgvgSbAF_AFtXEfU_Tf1nnc_nTm
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy16MomentsUIService31MOSuggestionSheetAssetDateRangeVG_Tg504$s16f11UIService42h16InterstitialListj20ViewModelC23toplevelkL38StringSSSgvgSbAA0c5SheetfjK0V_AGtXEfU_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy16MomentsUIService42MOSuggestionInterstitialListAssetViewModelCG_Tg506$sSa16fg4AA42hijklM50CRszlE21sortedByAscendingTimeSayACGvgSbAC_ACtXEfU_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy9MomentsUI11CloudDeviceV10CapabilityOG_Tg5
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySSG_Tg5
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySo10MOResourceCG_Tg50144$sSo13MOEventBundleC16MomentsUIServiceE23_orderedAssetReferences33_CA39EDEF807D759D646E82273DC41013LLSayAC012MOSuggestionF9ReferenceCGSgyFSbSo10F10C_AKtXEfU_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySo10MOResourceCG_Tg5072$sSo13MOEventBundleC16MomentsUIServiceE6assetsSay0C2UI5AssetCGSgvgSbSo10F10C_AKtXEfU_Tf1nnc_nTm
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySo16CMMotionActivityCG_Tg5087$s16MomentsUIService32NotificationRealTimeCheckManagerC24isInSessionBasedOnMotionAC0M12g46EnumOyYaFyScCyAFs5NeverOGXEfU_yyYacfU_ySaySo08F36N0CGSg_s5Error_pSgtcfU_SbAK_AKtXEfU_Tf1nnc_n
++ _$ss10_NativeSetV6filteryAByxGSbxqd__YKXEqd__YKs5ErrorRd__lFADs13_UnsafeBitsetVqd__YKXEfU_So33BMMomentsEngagementSuggestionTypeV_s5NeverOTG5TA
++ _$ss10_NativeSetV6filteryAByxGSbxqd__YKXEqd__YKs5ErrorRd__lFADs13_UnsafeBitsetVqd__YKXEfU_So33BMMomentsEngagementSuggestionTypeV_s5NeverOTG5TATm
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s10_NativeSetVySo33BMMomentsEngagementSuggestionTypeVG_s5NeverOTg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxv12_YKXEfU_s10_kl6VySo33mnop5VG_s5Q4OTG5ABq_xRi_zRi0_zRi__Ri0__r0_lyApNIsgyrzr_Tf1nc_n
++ _$ss5NeverO7SwiftUI4ViewACMc
++ _$ss5NeverOAB7SwiftUI4ViewACWL
++ _$ss5NeverOAB7SwiftUI4ViewACWl
++ __62-[MOConfigurationManagerBase refreshActionSuggestionsSnapshot]_block_invoke
++ ___62-[MOConfigurationManagerBase refreshActionSuggestionsSnapshot]_block_invoke
++ ___62-[MOConfigurationManagerBase refreshActionSuggestionsSnapshot]_block_invoke_2
++ ___block_descriptor_48_e8_32s40r_e5_v8?0ls32l8r40l8
++ ___block_descriptor_48_e8_32s40s_e20_v24?0q8"NSError"16ls32l8s40l8
++ ___block_descriptor_64_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
++ ___block_descriptor_88_e8_32s40r48r56r64r72r80r_e5_v8?0ls32l8r40l8r48l8r56l8r64l8r72l8r80l8
++ ___kCFBooleanFalse
++ ___kCFBooleanTrue
++ __swift_closure_destructor.57Tm
++ _objc_msgSend$fDefaultsManager
++ _objc_msgSend$fetchFeatureStatusWithCompletion:
++ _objc_msgSend$initWithDefaultsManager:enableTrialClient:eligibilityProvider:
++ _objc_msgSend$isActionSuggestionsEligible
++ _objc_msgSend$refreshActionSuggestionsSnapshot
+- $s16MomentsUIService31MOSuggestionSheetViewControllerC013showSegmentedF0yyFyycfU_TA
+- OBJC_IVAR_$_MOConfigurationManagerBase._cachedMFeatureEnabled
+- _$s10Foundation4DateVACSLAAWL
+- _$s10Foundation4DateVSLAAMc
+- _$s16MomentsUIService24MOSuggestionCarouselViewC13scrollToIndex5index8animated8velocitySo7CGPointVSgSi_SbSdtFyycfU_TA
+- _$s16MomentsUIService31MOSuggestionSheetViewControllerC013hideSegmentedF0yyFyycfU_
+- _$s16MomentsUIService31MOSuggestionSheetViewControllerC013hideSegmentedF0yyFyycfU_TA
+- _$s16MomentsUIService31MOSuggestionSheetViewControllerC013showSegmentedF0yyFTm
+- _$s16MomentsUIService31MOSuggestionSheetViewControllerC013showSegmentedF0yyFyycfU_
+- _$s16MomentsUIService31MOSuggestionSheetViewControllerC013showSegmentedF0yyFyycfU_TA
+- _$s16MomentsUIService33MOSuggestionSheetInterstitialViewC16updateAssetTypesyyFyyScMYccfU_yycfU_
+- _$s16MomentsUIService33MOSuggestionSheetInterstitialViewC16updateAssetTypesyyFyyScMYccfU_yycfU_TA
+- _$s16MomentsUIService36MOSuggestionInterstitialCarouselViewC13scrollToIndex5index12shouldScroll8velocitySo7CGPointVSgSi_SbSdtFyycfU_TA
+- _$s7SwiftUI5ColorVAA10ShapeStyleAAWP
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF16MomentsUIService19MOAssetAndMediaTypeV_Sit_Tg504$s16e61UIService42MOSuggestionInterstitialListAssetViewModelC25assetj44SetToCountStringySSSo09NSCountedK0CFZSbAA015ghI21J0V_Sit_AH_SittXEfU0_Tf1cn_nTm
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF16MomentsUIService26MOSuggestionAssetReferenceC_Tg5022$sSo13MOEventBundleC16ef13E40typeSortedh33ReferencesForInterstitialSayAC012g2G9I19CGSgvgSbAF_AFtXEfU_Tf1cn_nTm
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF16MomentsUIService31MOSuggestionSheetAssetDateRangeV_Tg504$s16e11UIService42g16InterstitialListi20ViewModelC23topleveljK38StringSSSgvgSbAA0c5SheetfjK0V_AGtXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF16MomentsUIService42MOSuggestionInterstitialListAssetViewModelC_Tg506$sSa16ef4AA42ghijkL50CRszlE21sortedByAscendingTimeSayACGvgSbAC_ACtXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF9MomentsUI11CloudDeviceV10CapabilityO_Tg5
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS_Tg5
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSo10MOResourceC_Tg50144$sSo13MOEventBundleC16MomentsUIServiceE23_orderedAssetReferences33_CA39EDEF807D759D646E82273DC41013LLSayAC012MOSuggestionF9ReferenceCGSgyFSbSo10E10C_AKtXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSo10MOResourceC_Tg5072$sSo13MOEventBundleC16MomentsUIServiceE6assetsSay0C2UI5AssetCGSgvgSbSo10E10C_AKtXEfU_Tf1cn_nTm
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSo13MOEventBundleC_Tg5026$sSa16MomentsUIServiceSo13eF46CRszlE17sortedByStartDateSayACGvgSbAC_ACtXEfU_Tf1cn_nTm
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSo16CMMotionActivityC_Tg5087$s16MomentsUIService32NotificationRealTimeCheckManagerC24isInSessionBasedOnMotionAC0M12f46EnumOyYaFyScCyAFs5NeverOGXEfU_yyYacfU_ySaySo08E36N0CGSg_s5Error_pSgtcfU_SbAK_AKtXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSo31NotificationApprovedApplicationC_Tg5032$s16MomentsUIService29Suggestione81ManagerC16sortEligibleApps33_1B75BEE923D676B392CA8DB837D3626ALL8appArraySaySo0D19fG21CGAI_tFSbAH_AHtXEfU2_Tf1cn_n
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s10_NativeSetVySo33BMMomentsEngagementSuggestionTypeVG_s5NeverOTg506$ss10_kl33V6filteryAByxGSbxqd__YKXEqd__YKs5i12Rd__lFADs13_ab16Vqd__YKXEfU_So33mnop4V_s5Q4OTG5ANxSbq_Ri_zRi0_zRi__Ri0__r0_lyAmPIsgndzr_Tf1nc_n
+- _$ss5NeverO7SwiftUI4ViewACWP
+- ___block_descriptor_56_e8_32s40r48r_e5_v8?0ls32l8r40l8r48l8
+- __swift_closure_destructor.53Tm
+- _objc_msgSend$initWithDefaultsManager:enableTrialClient:
+```

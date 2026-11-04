@@ -1,0 +1,427 @@
+## Fitness
+
+> `/private/var/staged_system_apps/Fitness.app/Fitness`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_entry`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_catlist2`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-2027.0.123.1.10
+-  __TEXT.__text: 0x7725ac
+-  __TEXT.__auth_stubs: 0xe970
+-  __TEXT.__objc_stubs: 0x1e580
+-  __TEXT.__objc_methlist: 0xfb98
+-  __TEXT.__const: 0x3fe24
+-  __TEXT.__objc_methname: 0x343f6
+-  __TEXT.__oslogstring: 0xc53c
+-  __TEXT.__objc_classname: 0x688a
+-  __TEXT.__objc_methtype: 0x9355
+-  __TEXT.__cstring: 0x19cab
+-  __TEXT.__gcc_except_tab: 0x24dc
++2027.1.48.0.0
++  __TEXT.__text: 0x765644
++  __TEXT.__auth_stubs: 0xec40
++  __TEXT.__objc_stubs: 0x1b9e0
++  __TEXT.__objc_methlist: 0xe3e8
++  __TEXT.__const: 0x40fa4
++  __TEXT.__objc_methname: 0x30a16
++  __TEXT.__oslogstring: 0xc64c
++  __TEXT.__objc_classname: 0x631a
++  __TEXT.__objc_methtype: 0x8885
++  __TEXT.__cstring: 0x1958b
++  __TEXT.__gcc_except_tab: 0x1b78
+   __TEXT.__ustring: 0x18
+   __TEXT.__dlopen_cstrs: 0xac
+-  __TEXT.__constg_swiftt: 0x177b0
+-  __TEXT.__swift5_typeref: 0x824b6
+-  __TEXT.__swift5_reflstr: 0x15f63
+-  __TEXT.__swift5_fieldmd: 0x113f4
+-  __TEXT.__swift5_builtin: 0x550
+-  __TEXT.__swift5_assocty: 0x3970
+-  __TEXT.__swift5_proto: 0x19ac
+-  __TEXT.__swift5_types: 0xfbc
+-  __TEXT.__swift5_capture: 0xadb4
+-  __TEXT.__swift_as_entry: 0x8d4
+-  __TEXT.__swift_as_cont: 0x1078
+-  __TEXT.__swift_as_ret: 0x840
++  __TEXT.__constg_swiftt: 0x17628
++  __TEXT.__swift5_typeref: 0x84346
++  __TEXT.__swift5_reflstr: 0x15e03
++  __TEXT.__swift5_fieldmd: 0x11390
++  __TEXT.__swift5_builtin: 0x564
++  __TEXT.__swift5_assocty: 0x3ad8
++  __TEXT.__swift5_proto: 0x1a30
++  __TEXT.__swift5_types: 0xfe4
++  __TEXT.__swift5_capture: 0xb0c4
++  __TEXT.__swift_as_entry: 0x910
++  __TEXT.__swift_as_cont: 0x1198
++  __TEXT.__swift_as_ret: 0x8d0
+   __TEXT.__swift5_protos: 0xb8
+   __TEXT.__swift5_mpenum: 0x188
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x15570
+-  __TEXT.__eh_frame: 0x16120
+-  __DATA_CONST.__const: 0x334d8
+-  __DATA_CONST.__cfstring: 0x43a0
+-  __DATA_CONST.__objc_classlist: 0xfa0
++  __TEXT.__unwind_info: 0x15590
++  __TEXT.__eh_frame: 0x17398
++  __DATA_CONST.__const: 0x33758
++  __DATA_CONST.__cfstring: 0x3ba0
++  __DATA_CONST.__objc_classlist: 0xeb0
+   __DATA_CONST.__objc_catlist: 0x88
+   __DATA_CONST.__objc_catlist2: 0x8
+-  __DATA_CONST.__objc_protolist: 0x5e0
++  __DATA_CONST.__objc_protolist: 0x560
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x2b8
+-  __DATA_CONST.__objc_superrefs: 0x248
+-  __DATA_CONST.__objc_intobj: 0x390
++  __DATA_CONST.__objc_protorefs: 0x280
++  __DATA_CONST.__objc_superrefs: 0x220
++  __DATA_CONST.__objc_intobj: 0x378
+   __DATA_CONST.__objc_arraydata: 0x30
+   __DATA_CONST.__objc_arrayobj: 0x30
+-  __DATA_CONST.__objc_doubleobj: 0x50
++  __DATA_CONST.__objc_doubleobj: 0x40
+   __DATA_CONST.__objc_dictobj: 0x28
+-  __DATA_CONST.__auth_got: 0x74c8
+-  __DATA_CONST.__got: 0x4118
+-  __DATA_CONST.__auth_ptr: 0x5488
+-  __DATA.__objc_const: 0x44518
+-  __DATA.__objc_selrefs: 0x9b20
+-  __DATA.__objc_ivar: 0xc00
+-  __DATA.__objc_data: 0x1ca80
+-  __DATA.__data: 0x28118
++  __DATA_CONST.__auth_got: 0x7630
++  __DATA_CONST.__got: 0x4168
++  __DATA_CONST.__auth_ptr: 0x5530
++  __DATA.__objc_const: 0x3e5b0
++  __DATA.__objc_selrefs: 0x9010
++  __DATA.__objc_ivar: 0xa18
++  __DATA.__objc_data: 0x1b7b0
++  __DATA.__data: 0x282d0
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x32038
+-  __DATA.__common: 0x1570
++  __DATA.__bss: 0x330f8
++  __DATA.__common: 0x1548
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /System/Library/PrivateFrameworks/Blackbeard.framework/Blackbeard
+   - /System/Library/PrivateFrameworks/BridgePreferences.framework/BridgePreferences
+   - /System/Library/PrivateFrameworks/CalendarUIKit.framework/CalendarUIKit
++  - /System/Library/PrivateFrameworks/ChronoServices.framework/ChronoServices
+   - /System/Library/PrivateFrameworks/ContactsAutocomplete.framework/ContactsAutocomplete
+   - /System/Library/PrivateFrameworks/ContactsAutocompleteUI.framework/ContactsAutocompleteUI
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 30818
+-  Symbols:   6863
++  Functions: 30665
++  Symbols:   6943
+   CStrings:  0
+ 
+Symbols:
++ _$s10Foundation12CharacterSetV11whitespacesACvgZ
++ _$s10Foundation12CharacterSetV13alphanumericsACvgZ
++ _$s10Foundation12CharacterSetV5unionyA2CF
++ _$s10Foundation12CharacterSetV8invertedACvg
++ _$s10Foundation13CustomNSErrorMp
++ _$s10Foundation13CustomNSErrorP11errorDomainSSvgZTq
++ _$s10Foundation13CustomNSErrorP13errorUserInfoSDySSypGvgTq
++ _$s10Foundation13CustomNSErrorP9errorCodeSivgTq
++ _$s10Foundation13CustomNSErrorPs5ErrorTb
++ _$s10Foundation17URLResourceValuesV12creationDateAA0E0VSgvg
++ _$s10Foundation17URLResourceValuesVMa
++ _$s10Foundation18_ErrorCodeProtocolMp
++ _$s10Foundation18_ErrorCodeProtocolP01_B4TypeAC_AA21_BridgedStoredNSErrorTn
++ _$s10Foundation18_ErrorCodeProtocolPSQTb
++ _$s10Foundation19AttributedSubstringV13dynamicMemberAA24ScopedAttributeContainerVyxGs7KeyPathCyAA0G6ScopesOxmG_tcAA0G5ScopeRzluig
++ _$s10Foundation21_BridgedStoredNSErrorMp
++ _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_8RawValueSYs17FixedWidthIntegerTn
++ _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_AA06_ErrorE8ProtocolTn
++ _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_SYTn
++ _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorSo0D0CvgTq
++ _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorxSo0D0C_tcfCTq
++ _$s10Foundation21_BridgedStoredNSErrorPAA06CustomD0Tb
++ _$s10Foundation21_BridgedStoredNSErrorPAA26_ObjectiveCBridgeableErrorTb
++ _$s10Foundation21_BridgedStoredNSErrorPAAE012_getEmbeddedD0yXlSgyF
++ _$s10Foundation21_BridgedStoredNSErrorPAAE08_bridgedD0xSgSo0D0C_tcfC
++ _$s10Foundation21_BridgedStoredNSErrorPAAE13errorUserInfoSDySSypGvg
++ _$s10Foundation21_BridgedStoredNSErrorPAAE2eeoiySbx_xtFZ
++ _$s10Foundation21_BridgedStoredNSErrorPAAE4code4CodeQzvg
++ _$s10Foundation21_BridgedStoredNSErrorPAAE4hash4intoys6HasherVz_tF
++ _$s10Foundation21_BridgedStoredNSErrorPAAE9errorCodeSivg
++ _$s10Foundation21_BridgedStoredNSErrorPSHTb
++ _$s10Foundation26MeasurementFormatUnitUsageV10asProvidedACyxGvgZ
++ _$s10Foundation3URLV13DirectoryHintO03notC0yA2EmFWC
++ _$s10Foundation3URLV14resourceValues7forKeysAA011URLResourceD0VShySo16NSURLResourceKeyaG_tKF
++ _$s10Foundation3URLV4pathSSvg
++ _$s10Foundation4DataV5write2to7optionsyAA3URLV_So20NSDataWritingOptionsVtKF
++ _$s10Foundation4DateV2geoiySbAC_ACtFZ
++ _$s10Foundation4DateV2leoiySbAC_ACtFZ
++ _$s10Foundation8CalendarV10identifierAC10IdentifierOvg
++ _$s10_ErrorType10Foundation01_A12CodeProtocolPTl
++ _$s11SeymourCore13CatalogLockupV8copyWith18accessibilityTitle10actionTags17artworkDescriptor23availableAudioLanguages19bundleDateRequested0P10LoadStatus0P8Progress0P6Reason14completedCount13contentRating019contextMenuSubtitleJ0011contextMenuhJ014dateBookmarked06detailJ08duration24dynamicBrickDisplayStyle23editorialCardIdentifier22healthKitActivityTypes10identifier23isIncompletePlanWorkout4link9mediaType10recencyTag13referenceType23sampleContentIdentifier16streamingArtwork24streamingArtworkCropCode17streamingSubtitle09streamingH012streamingURL08subtitleJ021subtitleTextAttribute05titleJ018titleTextAttributeACSSSg_SayAA8MediaTagOGSgAA07ArtworkL0OSgShySSGSg10Foundation0Q0VSg0aB10Foundation12PortableEnumOy0a5AssetB005AssetsT0OGSgAA011AssetBundleU0VSgA27_yAA11AssetBundleV0V0OGSgSiSgA27_yAA07ContentZ0OGSgA15_A15_A24_A15_SdSgA27_yAA24DynamicBrickDisplayStyleOGSgA11_SaySuGSgA11_SbSgAA0C4LinkOSgA27_yAA0C9MediaTypeOGSgA11_A27_yAA0C13ReferenceTypeOGSgA11_AA7ArtworkVSgA11_A11_A11_A21_3URLVSgA15_AA13TextAttributeVSgA15_A74_tF
++ _$s11SeymourCore14CatalogWorkoutV10sharingURL10Foundation0F0Vvg
++ _$s11SeymourCore20CatalogWorkoutDetailVMa
++ _$s11SeymourCore24PersonalizationCandidateV13referenceType0aB10Foundation12PortableEnumOyAA0cd9ReferenceF0OGvpMV
++ _$s11SeymourCore30PersonalizationShelfDescriptorV10identifierSSvg
++ _$s11SeymourCore37PersonalizationCandidateReferenceTypeOMn
++ _$s11WorkoutCore19ReadinessScoreModelV06scaledD0SiSgvg
++ _$s11WorkoutCore21ReadinessDataProviderC11healthStore8calendar23startFetchAutomaticallyACSo08HKHealthG0C_10Foundation8CalendarVSbtcfc
++ _$s11WorkoutCore21ReadinessDataProviderC12LoadingStateO7loadingyA2EmFWC
++ _$s11WorkoutCore26MenstrualCycleDataProviderC11healthStoreACSo08HKHealthH0C_tcfc
++ _$s11WorkoutCore26MenstrualCycleDataProviderCAA0cD9ProvidingAAWP
++ _$s11WorkoutCore26MenstrualCycleDataProviderCMa
++ _$s11WorkoutCore39ReadinessCycleTrackingViewModelProviderC11healthStore09menstrualdH0ACSo08HKHealthJ0C_AA09MenstrualD9Providing_ptcfc
++ _$s11WorkoutCore39ReadinessCycleTrackingViewModelProviderCMa
++ _$s12SeymourMedia0B17TagStringBuildingP0A2UIE014makeAttributedC7Strings3for22preferredAudioLanguageAD011ShelfLockuphcI0V0A4Core07CatalogO0V_0aP10Foundation0lM10PreferenceVSgtF
++ _$s13Accessibility0A12NotificationO13ScreenChangedVAA01_A13NotificationsAAWP
++ _$s13Accessibility0A12NotificationO13ScreenChangedVMa
++ _$s13Accessibility0A12NotificationO13ScreenChangedVyAEypSgcfC
++ _$s21SeymourCoreFoundation12PortableEnumO8rawValue03RawG0Qzvg
++ _$s21SeymourCoreFoundation12PortableEnumO8rawValue03RawG0QzvpMV
++ _$s21SeymourCoreFoundation23AudioLanguagePreferenceVMa
++ _$s21SeymourCoreFoundation23AudioLanguagePreferenceVMn
++ _$s23SeymourClientFoundation10UnfairLockC7acquireyxxyKXEKlF
++ _$s23SeymourClientFoundation10UnfairLockCACycfc
++ _$s23SeymourClientFoundation10UnfairLockCMa
++ _$s23SeymourClientFoundation10UnfairLockCMn
++ _$s4Code10Foundation21_BridgedStoredNSErrorPTl
++ _$s5UIKit15UIMutableTraitsPAAE28preferredContentSizeCategorySo09UIContentfG0avs
++ _$s5UIKit34UICollectionViewDiffableDataSourceC9indexPath3for10Foundation05IndexH0VSgq__tFTj
++ _$s7SwiftUI10DatePickerV9selection2in19displayedComponents5labelACyxGAA7BindingVy10Foundation0C0VG_s19PartialRangeThroughVyAMGAA0cdH0VxyXEtcfC
++ _$s7SwiftUI10LazyHStackV9alignment7spacing11pinnedViews7contentACyxGAA17VerticalAlignmentV_12CoreGraphics7CGFloatVSgAA016PinnedScrollableH0VxyXEtcfC
++ _$s7SwiftUI10LazyHStackVMn
++ _$s7SwiftUI10LazyHStackVyxGAA4ViewAAMc
++ _$s7SwiftUI10TapGestureVAA0D0AAMc
++ _$s7SwiftUI11AnyGradientVAA10ShapeStyleAAMc
++ _$s7SwiftUI11_BlurEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI11_BlurEffectVN
++ _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI12_FrameLayoutVN
++ _$s7SwiftUI13ImageRendererC02uiC0So7UIImageCSgvg
++ _$s7SwiftUI13ImageRendererC12proposedSizeAA012ProposedViewF0Vvs
++ _$s7SwiftUI13ImageRendererC5scale12CoreGraphics7CGFloatVvs
++ _$s7SwiftUI13ImageRendererC7contentACyxGx_tcfc
++ _$s7SwiftUI13ImageRendererCMn
++ _$s7SwiftUI13TextAlignmentON
++ _$s7SwiftUI13_OffsetEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI13_ShadowEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI13_ShadowEffectVN
++ _$s7SwiftUI14LinearGradientVAA10ShapeStyleAAMc
++ _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI14_OpacityEffectVN
++ _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI15_HiddenModifierVAA04ViewD0AAMc
++ _$s7SwiftUI15_HiddenModifierVMn
++ _$s7SwiftUI15_HiddenModifierVN
++ _$s7SwiftUI15_RotationEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI15_RotationEffectVN
++ _$s7SwiftUI16ProposedViewSizeV4zeroACvgZ
++ _$s7SwiftUI16_BlendModeEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI16_BlendModeEffectVMa
++ _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FixedSizeLayoutVN
++ _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI18_AspectRatioLayoutVN
++ _$s7SwiftUI19HorizontalAlignmentVN
++ _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAMc
++ _$s7SwiftUI23_GeometryActionModifierV5value6actionACyxGxAA0C5ProxyVc_yxctcfC
++ _$s7SwiftUI23_GeometryActionModifierVMa
++ _$s7SwiftUI25AccessibilityActionResultO7failureyACSbcACmFWC
++ _$s7SwiftUI25AccessibilityActionResultO7successyA2CmFWC
++ _$s7SwiftUI25AccessibilityActionResultOMa
++ _$s7SwiftUI25_AlignmentWritingModifierVAA04ViewE0AAMc
++ _$s7SwiftUI25_AlignmentWritingModifierVN
++ _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAMc
++ _$s7SwiftUI25_AllowsHitTestingModifierVN
++ _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAMc
++ _$s7SwiftUI25_AppearanceActionModifierVN
++ _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI31ViewAlignedScrollTargetBehaviorV05LimitG0V9automaticAEvgZ
++ _$s7SwiftUI31ViewAlignedScrollTargetBehaviorV05LimitG0VMa
++ _$s7SwiftUI31ViewAlignedScrollTargetBehaviorV05limitG0A2C05LimitG0V_tcfC
++ _$s7SwiftUI31ViewAlignedScrollTargetBehaviorVAA0efG0AAWP
++ _$s7SwiftUI31ViewAlignedScrollTargetBehaviorVMa
++ _$s7SwiftUI31ViewAlignedScrollTargetBehaviorVMn
++ _$s7SwiftUI4FontV18uppercaseSmallCapsACyF
++ _$s7SwiftUI4TextVAA4ViewAAMc
++ _$s7SwiftUI4ViewPAAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lF
++ _$s7SwiftUI4ViewPAAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE18scrollTargetLayout9isEnabledQrSb_tF
++ _$s7SwiftUI4ViewPAAE18scrollTargetLayout9isEnabledQrSb_tFQOMQ
++ _$s7SwiftUI4ViewPAAE19accessibilityAction4kind_AA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGAA0iE4KindV_AA0iE6ResultOyctF
++ _$s7SwiftUI4ViewPAAE19accessibilityHidden_9isEnabledAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSb_SbtF
++ _$s7SwiftUI4ViewPAAE28accessibilityCustomAttribute_5valueAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSS_SbtF
++ _$s7SwiftUI5ColorV20FitnessProductDetailE13exerciseGreenACvgZ
++ _$s7SwiftUI5ColorVAA10ShapeStyleAAMc
++ _$s7SwiftUI5ColorVAA4ViewAAMc
++ _$s7SwiftUI5ImageVAA4ViewAAMc
++ _$s7SwiftUI6LayoutPAAyt5CacheRtzrlE04makeD08subviewsyAA0C8SubviewsV_tF
++ _$s7SwiftUI6SpacerVAA4ViewAAMc
++ _$s7SwiftUI7AnyViewVAA0D0AAMc
++ _$s7SwiftUI8MaterialVAA10ShapeStyleAAMc
++ _$s7SwiftUI9EmptyViewVAA0D0AAMc
++ _$s9SeymourUI36NotificationConsentMessageControllerC04makee4ViewF010onContinue19UnifiedMessagingKit0ehF0CyycSg_tF
++ _$s9SeymourUI36NotificationConsentMessageControllerC19contentAvailabilityAC0A4Core07ContentH0O_tcfC
++ _$s9SeymourUI36NotificationConsentMessageControllerCMa
++ _$s9WidgetKit0A6CenterC15reloadTimelines6ofKindySS_tFTj
++ _$s9WorkoutUI0A18ReadinessDataStoreC10startQueryyyF
++ _$s9WorkoutUI0A18ReadinessDataStoreC12loadingState0A4Core0cD8ProviderC07LoadingG0Ovg
++ _$s9WorkoutUI0A18ReadinessDataStoreC19readinessScoreModel0A4Core0cgH0VSgvg
++ _$s9WorkoutUI0A18ReadinessDataStoreC31sleepingSampleViewModelProvider012trainingLoadhiJ0014daytimeMetricshiJ009readinessdJ0013cycleTrackinghiJ08calendarAC013HealthBalanceB008SleepingghiJ0C_AA08TraininglhiJ0CAJ07DaytimenhiJ0CSg0A4Core0cdJ0CAR0c5CycleqhiJ0C10Foundation8CalendarVtcfc
++ _$s9WorkoutUI0A18ReadinessDataStoreC7refreshyyYaF
++ _$s9WorkoutUI0A18ReadinessDataStoreC7refreshyyYaFTu
++ _$s9WorkoutUI0A18ReadinessDataStoreCAA0cdE0AAMc
++ _$s9WorkoutUI0A18ReadinessDataStoreCMa
++ _$s9WorkoutUI0A18ReadinessDataStoreCMn
++ _$s9WorkoutUI23ReadinessScoreViewModelC5scoreACSiSg_tcfc
++ _$s9WorkoutUI24ReadinessDetailViewModelC014createActivitydE020activitySummaryToday0iJ9Yesterday08workoutsK00mL017formattingManager18navigationProvider14rowLinkVariant8onAppearQrSo010HKActivityJ0CSg_AOSaySo9HKWorkoutCGARSo014FIUIFormattingO0CAA0c10NavigationQ0_pAA0chdeF0V03RowsT0OyyScMYcctF
++ _$s9WorkoutUI24ReadinessDetailViewModelC014createActivitydE020activitySummaryToday0iJ9Yesterday08workoutsK00mL017formattingManager18navigationProvider14rowLinkVariant8onAppearQrSo010HKActivityJ0CSg_AOSaySo9HKWorkoutCGARSo014FIUIFormattingO0CAA0c10NavigationQ0_pAA0chdeF0V03RowsT0OyyScMYcctFQOMQ
++ _$s9WorkoutUI24ReadinessDetailViewModelC8calendar9dataStore21componentDataOverrideAC10Foundation8CalendarV_AA0ckI0_pSbAA0C13ComponentTypeOcSgtcfc
++ _$s9WorkoutUI32ReadinessActivityDetailViewModelV14RowLinkVariantO8standardyA2EmFWC
++ _$s9WorkoutUI32ReadinessActivityDetailViewModelV14RowLinkVariantOMa
++ _$sSi7SwiftUI18_FormatSpecifiableAAMc
++ _$sSl5countSivgTj
++ _$sSl5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTj
++ _$sSly11SubSequenceQzSny5IndexQzGcigTj
++ _$sSo17UITraitCollectionC5UIKitE15modifyingTraitsyAByAC09UIMutableE0_pzXEF
++ _$sSo8NSObjectC10ObjectiveCE9hashValueSivg
++ _$sSy10FoundationE10components11separatedBySaySSGAA12CharacterSetV_tF
++ _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE5_codeSivg
++ _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE7_domainSSvg
++ _$ss5NeverO7SwiftUI4ViewACMc
++ _AVPlayerItemFailedToPlayToEndTimeErrorKey
++ _AVPlayerItemFailedToPlayToEndTimeNotification
++ _CFAbsoluteTimeGetCurrent
++ _HKErrorDomain
++ _NSURLCreationDateKey
++ _OBJC_CLASS_$_CHSDescriptorEnablementChangeRequest
++ _OBJC_CLASS_$_CHSDescriptorService
++ _OBJC_CLASS_$_MKPointOfInterestFilter
++ _UIActivityTypeMarkupAsPDF
++ _UIActivityTypePrint
++ _UIActivityTypeSaveToCameraRoll
+- _$s10Foundation26MeasurementFormatUnitUsageV7generalACyxGvgZ
+- _$s10WeatherKit0A9ConditionO24accessibilityDescriptionSSvg
+- _$s11SeymourCore13CatalogLockupV8copyWith18accessibilityTitle10actionTags17artworkDescriptor23availableAudioLanguages19bundleDateRequested0P10LoadStatus0P8Progress0P6Reason14completedCount13contentRating019contextMenuSubtitleJ0011contextMenuhJ014dateBookmarked06detailJ08duration24dynamicBrickDisplayStyle23editorialCardIdentifier22healthKitActivityTypes10identifier23isIncompletePlanWorkout4link9mediaType10recencyTag13referenceType23sampleContentIdentifier16streamingArtwork24streamingArtworkCropCode17streamingSubtitle09streamingH012streamingURL08subtitleJ021subtitleTextAttribute05titleJ018titleTextAttributeACSSSg_SayAA8MediaTagOGSgAA07ArtworkL0OSgShySSGSg10Foundation0Q0VSg0aB10Foundation12PortableEnumOyAA05AssetsT0OGSgAA011AssetBundleU0VSgA27_yAA11AssetBundleV0V0OGSgSiSgA27_yAA07ContentZ0OGSgA15_A15_A24_A15_SdSgA27_yAA24DynamicBrickDisplayStyleOGSgA11_SaySuGSgA11_SbSgAA0C4LinkOSgA27_yAA0C9MediaTypeOGSgA11_A27_yAA0C13ReferenceTypeOGSgA11_AA7ArtworkVSgA11_A11_A11_A21_3URLVSgA15_AA13TextAttributeVSgA15_A73_tF
+- _$s11SeymourCore23AudioLanguagePreferenceVMa
+- _$s11SeymourCore23AudioLanguagePreferenceVMn
+- _$s11SeymourCore37PersonalizationCandidateReferenceTypeOSQAAMc
+- _$s11WorkoutCore21ReadinessDataProviderC013startFetchingC13ScoreIfNeededyyFTj
+- _$s11WorkoutCore21ReadinessDataProviderC11healthStore8calendarACSo08HKHealthG0C_10Foundation8CalendarVtcfc
+- _$s11WorkoutCore21ReadinessDataProviderC12loadingStateAC07LoadingG0OvgTj
+- _$s11WorkoutCore21ReadinessDataProviderC14readinessModelAA0c5ScoreG0VSgvgTj
+- _$s11WorkoutCore21ReadinessDataProviderCMn
+- _$s12SeymourMedia0B17TagStringBuildingP0A2UIE014makeAttributedC7Strings3for22preferredAudioLanguageAD011ShelfLockuphcI0V0A4Core07CatalogO0V_AJ0lM10PreferenceVSgtF
+- _$s13SeymourClient10UnfairLockC7acquireyxxyKXEKlF
+- _$s13SeymourClient10UnfairLockCACycfc
+- _$s13SeymourClient10UnfairLockCMa
+- _$s13SeymourClient10UnfairLockCMn
+- _$s7SwiftUI10DatePickerV9selection19displayedComponents5labelACyxGAA7BindingVy10Foundation0C0VG_AA0cdG0VxyXEtcfC
+- _$s7SwiftUI10TapGestureVAA0D0AAWP
+- _$s7SwiftUI11AnyGradientVAA10ShapeStyleAAWP
+- _$s7SwiftUI11_BlurEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI12VerticalEdgeO8rawValues4Int8Vvg
+- _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI13_OffsetEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI13_ShadowEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI14LinearGradientVAA10ShapeStyleAAWP
+- _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI15_RotationEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI16PageTabViewStyleV16IndexDisplayModeV9automaticAEvgZ
+- _$s7SwiftUI16PageTabViewStyleV16IndexDisplayModeVMa
+- _$s7SwiftUI16PageTabViewStyleV16indexDisplayModeA2C05IndexhI0V_tcfC
+- _$s7SwiftUI16PageTabViewStyleVAA0deF0AAWP
+- _$s7SwiftUI16PageTabViewStyleVMa
+- _$s7SwiftUI16PageTabViewStyleVMn
+- _$s7SwiftUI16_BlendModeEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI17EnvironmentValuesV11lineSpacing12CoreGraphics7CGFloatVvg
+- _$s7SwiftUI17EnvironmentValuesV11lineSpacing12CoreGraphics7CGFloatVvpMV
+- _$s7SwiftUI17EnvironmentValuesV11lineSpacing12CoreGraphics7CGFloatVvs
+- _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI19ConcentricRectangleV7corners9isUniformAcA4EdgeOAAE6CornerO5StyleV_SbtcfC
+- _$s7SwiftUI19ConcentricRectangleVMn
+- _$s7SwiftUI19UIHostingControllerC8rootViewxvgTj
+- _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI25_AlignmentWritingModifierVAA04ViewE0AAWP
+- _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAWP
+- _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAWP
+- _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI4EdgeOAAE6CornerO5StyleV10concentricAGvgZ
+- _$s7SwiftUI4TextVAA4ViewAAWP
+- _$s7SwiftUI4ViewPAAE03tabC5StyleyQrqd__AA03TabcE0Rd__lF
+- _$s7SwiftUI4ViewPAAE03tabC5StyleyQrqd__AA03TabcE0Rd__lFQOMQ
+- _$s7SwiftUI4ViewPAAE15monospacedDigitQryF
+- _$s7SwiftUI4ViewPAAE15monospacedDigitQryFQOMQ
+- _$s7SwiftUI5ColorVAA10ShapeStyleAAWP
+- _$s7SwiftUI5ColorVAA4ViewAAWP
+- _$s7SwiftUI5ImageVAA4ViewAAWP
+- _$s7SwiftUI6SpacerVAA4ViewAAWP
+- _$s7SwiftUI7AnyViewVAA0D0AAWP
+- _$s7SwiftUI7TabViewV9selection7contentACyxq_GAA7BindingVyxGSg_q_yXEtcfC
+- _$s7SwiftUI7TabViewVMn
+- _$s7SwiftUI7TabViewVyxq_GAA0D0AAMc
+- _$s7SwiftUI8MaterialVAA10ShapeStyleAAWP
+- _$s7SwiftUI9EmptyViewVAA0D0AAWP
+- _$s9SeymourUI33NotificationConsentViewControllerC19contentAvailabilityAC0A4Core07ContentH0O_tcfC
+- _$s9SeymourUI33NotificationConsentViewControllerC21continueButtonHandleryycSgvs
+- _$s9SeymourUI33NotificationConsentViewControllerCMa
+- _$s9WorkoutUI24ReadinessDetailViewModelC014createActivitydE020activitySummaryToday0iJ9Yesterday08workoutsK00mL017formattingManager18navigationProvider8onAppearQrSo010HKActivityJ0CSg_ANSaySo9HKWorkoutCGAQSo014FIUIFormattingO0CAA0c10NavigationQ0_pyyScMYcctF
+- _$s9WorkoutUI24ReadinessDetailViewModelC014createActivitydE020activitySummaryToday0iJ9Yesterday08workoutsK00mL017formattingManager18navigationProvider8onAppearQrSo010HKActivityJ0CSg_ANSaySo9HKWorkoutCGAQSo014FIUIFormattingO0CAA0c10NavigationQ0_pyyScMYcctFQOMQ
+- _$s9WorkoutUI24ReadinessDetailViewModelC11healthStore8calendar014sleepingSampleeF8Provider012trainingLoadefL0013readinessDataL017workoutCountTodayACSo08HKHealthH0C_10Foundation8CalendarV013HealthBalanceB008SleepingkefL0CAA08TrainingnefL0C0A4Core0cpL0CSitcfc
+- _$s9WorkoutUI24ReadinessDetailViewModelC11healthStore8calendar014sleepingSampleeF8Provider012trainingLoadefL0014daytimeMetricsefL0013readinessDataL017workoutCountTodayACSo08HKHealthH0C_10Foundation8CalendarV013HealthBalanceB008SleepingkefL0CAA08TrainingnefL0CAP07DaytimepefL0C0A4Core0crL0CSitcfc
+- _$sSi7SwiftUI18_FormatSpecifiableAAWP
+- _$sSo18NSLayoutConstraintC9FitnessUIE8priorityyABXDSo16UILayoutPriorityaF
+- _$sSo18UIFocusEnvironmentP5UIKitE8containsySbSoAA_pF
+- _$sSo23FIUIWorkoutActivityTypeC11WorkoutCoreE5otherABvgZ
+- _$sSo6CGRectV12SeymourMediaE8centered2inA2B_tF
+- _$sSo6UIViewC9FitnessUIE17layerCornerRadiusyABXD12CoreGraphics7CGFloatVF
+- _$sSo8NSNumberC9FitnessUIE5valueAB12CoreGraphics7CGFloatV_tcfC
+- _$ss5NeverO7SwiftUI4ViewACWP
+- _NSTemporaryDirectory
+- _OBJC_CLASS_$_FIUIChartAxisLabel
+- _OBJC_CLASS_$_FIUIChartDashedBackgroundView
+- _OBJC_CLASS_$_FIUIChartDateAnchorRule
+- _OBJC_CLASS_$_FIUIChartFloatingBarSeries
+- _OBJC_CLASS_$_FIUIChartMinMaxValueAxisDescriptor
+- _OBJC_CLASS_$_FIUIChartPointMultiple
+- _OBJC_CLASS_$_FIUIChartTimeAxisDescriptor
+- _OBJC_CLASS_$_FIUIChartView
+- _OBJC_CLASS_$_HKKeyValueDomain
+- _OBJC_CLASS_$_HKSeriesType
+- _OBJC_CLASS_$_MKMapCameraZoomRange
+- _OBJC_CLASS_$_NSDateComponents
+- _OBJC_CLASS_$_NSNull
+- _OBJC_CLASS_$_UIContentSizeCategoryPreference
+- _OBJC_CLASS_$_WKUIRemoteViewServiceAdaptor
+- _OBJC_METACLASS_$_FIUIChartTimeAxisDescriptor
+- __HKPrivateWorkoutBuilderSnapshotMetadataFinalWorkoutUUIDStringKey
+- ___assert_rtn
+- _kHKNanolifestylePreferencesDomain
+- _kHKWorkoutHeartRateRecoveryDisplayInterval
+- _kHKWorkoutHeartRateRecoveryIntervalInMinutes
+- _objc_retain_x5
+```

@@ -67,9 +67,8 @@ ipsw dyld extract "$DSC" libxpc.dylib  -o 27.2/extracted_dylibs
 Repeat with the `24A446__iPhone17,3` cache for the 27.0.1 copies. The result
 is an `arm64e` Mach-O shared library per image, ready to import into Ghidra.
 
-`CoreGraphics` and `ImageIO` are tracked in git. `*.dylib` files and the
-`data/` directories are ignored (see `.gitignore`), so the remaining binaries
-must be extracted locally.
+`CoreGraphics`, `ImageIO`, `IMCore`, `IMDPersistence`, and `libxpc.dylib` are
+tracked in git. The `data/` directories are ignored (see `.gitignore`).
 
 ## Reproduce the diff report
 

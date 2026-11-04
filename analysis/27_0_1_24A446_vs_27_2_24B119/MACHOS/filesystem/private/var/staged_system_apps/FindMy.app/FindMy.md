@@ -1,0 +1,406 @@
+## FindMy
+
+> `/private/var/staged_system_apps/FindMy.app/FindMy`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__objc_floatobj`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-470.30.6.14.34
+-  __TEXT.__text: 0x667650
+-  __TEXT.__auth_stubs: 0xb690
+-  __TEXT.__objc_stubs: 0xad40
+-  __TEXT.__objc_methlist: 0x8f30
+-  __TEXT.__cstring: 0x1a5c4
+-  __TEXT.__objc_classname: 0x50b5
+-  __TEXT.__objc_methtype: 0x4f97
+-  __TEXT.__const: 0x1a314
+-  __TEXT.__objc_methname: 0x191f5
++470.31.6.16.46
++  __TEXT.__text: 0x68a030
++  __TEXT.__auth_stubs: 0xbba0
++  __TEXT.__objc_stubs: 0xaea0
++  __TEXT.__objc_methlist: 0x8f78
++  __TEXT.__cstring: 0x1a984
++  __TEXT.__objc_classname: 0x5105
++  __TEXT.__objc_methtype: 0x4fd7
++  __TEXT.__const: 0x1ab34
++  __TEXT.__objc_methname: 0x19555
+   __TEXT.__ustring: 0x4
+-  __TEXT.__swift5_typeref: 0xe110
++  __TEXT.__swift5_typeref: 0xe444
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0x1bb10
+-  __TEXT.__swift5_builtin: 0x4b0
+-  __TEXT.__swift5_reflstr: 0x12b89
+-  __TEXT.__swift5_fieldmd: 0xf500
+-  __TEXT.__swift5_assocty: 0x13f8
+-  __TEXT.__oslogstring: 0x1d319
+-  __TEXT.__swift5_proto: 0xf94
+-  __TEXT.__swift5_types: 0xb74
+-  __TEXT.__swift5_capture: 0x99d0
+-  __TEXT.__swift5_protos: 0x1c0
+-  __TEXT.__swift_as_entry: 0x1b8
+-  __TEXT.__swift_as_cont: 0x348
++  __TEXT.__constg_swiftt: 0x1bd58
++  __TEXT.__swift5_builtin: 0x4c4
++  __TEXT.__swift5_reflstr: 0x12dd9
++  __TEXT.__swift5_fieldmd: 0xf624
++  __TEXT.__swift5_assocty: 0x1410
++  __TEXT.__oslogstring: 0x1e1a9
++  __TEXT.__swift5_proto: 0xfe8
++  __TEXT.__swift5_types: 0xb8c
++  __TEXT.__swift5_capture: 0xa260
++  __TEXT.__swift_as_entry: 0x1e4
++  __TEXT.__swift_as_cont: 0x3b4
+   __TEXT.__swift5_mpenum: 0x90
+-  __TEXT.__swift_as_ret: 0xec
+-  __TEXT.__unwind_info: 0xbde8
+-  __TEXT.__eh_frame: 0x89e4
+-  __DATA_CONST.__const: 0x2af08
++  __TEXT.__swift_as_ret: 0x128
++  __TEXT.__swift5_protos: 0x1c0
++  __TEXT.__unwind_info: 0xc208
++  __TEXT.__eh_frame: 0x92c0
++  __DATA_CONST.__const: 0x2bdf8
+   __DATA_CONST.__cfstring: 0x400
+-  __DATA_CONST.__objc_classlist: 0xc20
++  __DATA_CONST.__objc_classlist: 0xc30
+   __DATA_CONST.__objc_catlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x388
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   __DATA_CONST.__objc_arraydata: 0x50
+   __DATA_CONST.__objc_arrayobj: 0x48
+   __DATA_CONST.__objc_floatobj: 0x20
+-  __DATA_CONST.__auth_got: 0x5b50
+-  __DATA_CONST.__got: 0x2ae0
+-  __DATA_CONST.__auth_ptr: 0x3128
+-  __DATA.__objc_const: 0x40bf0
+-  __DATA.__objc_selrefs: 0x44f8
++  __DATA_CONST.__auth_got: 0x5dd8
++  __DATA_CONST.__got: 0x2cf0
++  __DATA_CONST.__auth_ptr: 0x32e0
++  __DATA.__objc_const: 0x40ed8
++  __DATA.__objc_selrefs: 0x4580
+   __DATA.__objc_ivar: 0x24
+-  __DATA.__objc_data: 0x2a0d8
+-  __DATA.__data: 0x1a4d0
++  __DATA.__objc_data: 0x2a2a0
++  __DATA.__data: 0x1aa20
+   __DATA.__objc_stublist: 0x68
+-  __DATA.__bss: 0x13cc0
+-  __DATA.__common: 0x10e0
++  __DATA.__bss: 0x146c0
++  __DATA.__common: 0x1110
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/Frameworks/MapKit.framework/MapKit
+-  - /System/Library/Frameworks/MessageUI.framework/MessageUI
+   - /System/Library/Frameworks/NearbyInteraction.framework/NearbyInteraction
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/Frameworks/_AppIntents_SwiftUI.framework/_AppIntents_SwiftUI
++  - /System/Library/Frameworks/_AppIntents_UIKit.framework/_AppIntents_UIKit
+   - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/Frameworks/_MapKit_SwiftUI.framework/_MapKit_SwiftUI
+   - /System/Library/PrivateFrameworks/AppStoreComponents.framework/AppStoreComponents
+
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+   - /System/Library/PrivateFrameworks/BluetoothManager.framework/BluetoothManager
+   - /System/Library/PrivateFrameworks/ChronoServices.framework/ChronoServices
++  - /System/Library/PrivateFrameworks/ContactsAutocompleteUI.framework/ContactsAutocompleteUI
+   - /System/Library/PrivateFrameworks/CoreCDP.framework/CoreCDP
+   - /System/Library/PrivateFrameworks/CoreCDPUI.framework/CoreCDPUI
+   - /System/Library/PrivateFrameworks/CoreDuet.framework/CoreDuet
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   - @rpath/FindMyAppCore.framework/FindMyAppCore
+-  Functions: 19736
+-  Symbols:   4866
++  Functions: 19993
++  Symbols:   5048
+   CStrings:  0
+ 
+Symbols:
++ _$s10AppIntents0aB7PackageMp
++ _$s10AppIntents0aB7PackageP16includedPackagesSayAaB_pXpGvgZTq
++ _$s10AppIntents16EntityIdentifierV3for10identifierACxm_2IDQztcAA0aC0RzlufC
++ _$s10AppIntents28TargetContentProvidingIntentMp
++ _$s10AppIntents28TargetContentProvidingIntentP17contentIdentifierSSvgTq
++ _$s10AppIntents28TargetContentProvidingIntentPAA0aF0Tb
++ _$s10FindMyCore0aB12RelativeDateV10recencyKeyAC07RecencyG0Vvg
++ _$s10FindMyCore0aB12RelativeDateV18forcePastDatesOnly3nowAC10Foundation0E0V_tF
++ _$s10FindMyCore0aB12RelativeDateV4date10Foundation0E0Vvg
++ _$s10FindMyCore0abC14IntentsPackageV03AppD00fdE0AAMc
++ _$s10FindMyCore0abC14IntentsPackageVMa
++ _$s10FindMyCore10ItemEntityV10AppIntents0fE0AAMc
++ _$s10FindMyCore10ItemEntityV11noHydrationAcA0D5ModelV16UniqueIdentifierV_tcfC
++ _$s10FindMyCore10ItemEntityV5modelAA0D5ModelVvg
++ _$s10FindMyCore10ItemEntityVMa
++ _$s10FindMyCore10ItemEntityVMn
++ _$s10FindMyCore11PersonModelV16UniqueIdentifierV8rawValueSSvg
++ _$s10FindMyCore11PersonModelV2idAC16UniqueIdentifierVvg
++ _$s10FindMyCore11PersonModelVMa
++ _$s10FindMyCore12PersonEntityV10AppIntents0fE0AAMc
++ _$s10FindMyCore12PersonEntityV11noHydrationAcA0D5ModelV16UniqueIdentifierV_tcfC
++ _$s10FindMyCore12PersonEntityV5modelAA0D5ModelVvg
++ _$s10FindMyCore12PersonEntityVMa
++ _$s10FindMyCore12PersonEntityVMn
++ _$s10FindMyCore14GeofenceEntityV10AppIntents0fE0AAMc
++ _$s10FindMyCore14GeofenceEntityV16UniqueIdentifierV8rawValueAESS_tcfC
++ _$s10FindMyCore14GeofenceEntityV16UniqueIdentifierVMa
++ _$s10FindMyCore14GeofenceEntityVMa
++ _$s10FindMyCore14IntentDonationO0D0O10findPersonyAeA0G6EntityVcAEmFWC
++ _$s10FindMyCore14IntentDonationO0D0O23setShareLocationSettingyAESbcAEmFWC
++ _$s10FindMyCore14IntentDonationO0D0O24createOutgoingGeofenceOnyAeA12PersonEntityVcAEmFWC
++ _$s10FindMyCore14IntentDonationO0D0O26createIncomingGeofenceFromyAeA12PersonEntityVcAEmFWC
++ _$s10FindMyCore14IntentDonationO0D0O8findItemyAeA0G6EntityVcAEmFWC
++ _$s10FindMyCore14IntentDonationO0D0O9playSoundyAeA10ItemEntityVcAEmFWC
++ _$s10FindMyCore14IntentDonationO0D0OMa
++ _$s10FindMyCore14IntentDonationO6donateyyAC0D0OYaFZ
++ _$s10FindMyCore14IntentDonationO6donateyyAC0D0OYaFZTu
++ _$s10FindMyCore14OpenItemIntentV10AppIntents0dF0AAMc
++ _$s10FindMyCore14OpenItemIntentV10AppIntents0gF0AAMc
++ _$s10FindMyCore14OpenItemIntentV11showDetailsSbvg
++ _$s10FindMyCore14OpenItemIntentV6targetAA0E6EntityVvg
++ _$s10FindMyCore14OpenItemIntentVMa
++ _$s10FindMyCore14OpenItemIntentVMn
++ _$s10FindMyCore16DistanceFromUserV3ETAVSQAAMc
++ _$s10FindMyCore16OpenModuleIntentV10AppIntents0dF0AAMc
++ _$s10FindMyCore16OpenModuleIntentV10AppIntents0gF0AAMc
++ _$s10FindMyCore16OpenModuleIntentV6targetAA0deF6TargetOvg
++ _$s10FindMyCore16OpenModuleIntentVMa
++ _$s10FindMyCore16OpenModuleIntentVMn
++ _$s10FindMyCore16OpenPersonIntentV10AppIntents0dF0AAMc
++ _$s10FindMyCore16OpenPersonIntentV10AppIntents0gF0AAMc
++ _$s10FindMyCore16OpenPersonIntentV11showDetailsSbvg
++ _$s10FindMyCore16OpenPersonIntentV6targetAA0E6EntityVvg
++ _$s10FindMyCore16OpenPersonIntentVMa
++ _$s10FindMyCore16OpenPersonIntentVMn
++ _$s10FindMyCore22LocationSharingDevicesVMa
++ _$s10FindMyCore22OpenModuleIntentTargetO010navigationG0AA0df10NavigationG0Ovg
++ _$s10FindMyCore22OpenModuleIntentTargetOMa
++ _$s10FindMyCore22OpenModuleIntentTargetOMn
++ _$s10FindMyCore23InternalSettingsManagerO21hidesPointsOfInterestSbvgZ
++ _$s10FindMyCore23LocalizedStringResource10separating_10FoundationABVSgAF_AFtF
++ _$s10FindMyCore26OpenIntentNavigationTargetO4itemyAcA9ItemModelV16UniqueIdentifierV_AF4KindOSbtcACmFWC
++ _$s10FindMyCore26OpenIntentNavigationTargetO5itemsyA2CmFWC
++ _$s10FindMyCore26OpenIntentNavigationTargetO6peopleyA2CmFWC
++ _$s10FindMyCore26OpenIntentNavigationTargetO6personyAcA11PersonModelV16UniqueIdentifierV_SbtcACmFWC
++ _$s10FindMyCore26OpenIntentNavigationTargetO7devicesyA2CmFWC
++ _$s10FindMyCore26OpenIntentNavigationTargetO8settingsyA2CmFWC
++ _$s10FindMyCore26OpenIntentNavigationTargetOMa
++ _$s10FindMyCore26OpenIntentNavigationTargetOMn
++ _$s10FindMyCore28OpenIntentNavigationHandlingMp
++ _$s10FindMyCore28OpenIntentNavigationHandlingP8navigate2toyAA0deF6TargetO_tFTj
++ _$s10FindMyCore28OpenIntentNavigationHandlingP8navigate2toyAA0deF6TargetO_tFTq
++ _$s10FindMyCore9ItemModelV16UniqueIdentifierV8rawValueSSvg
++ _$s10FindMyCore9ItemModelV4KindO4itemyA2EmFWC
++ _$s10FindMyCore9ItemModelV4KindO6deviceyA2EmFWC
++ _$s10FindMyCore9ItemModelV4KindOMa
++ _$s10FindMyCore9ItemModelV4KindOMn
++ _$s10FindMyCore9ItemModelV4kindAC4KindOvg
++ _$s10FindMyCore9ItemModelV8uniqueIDAC16UniqueIdentifierVvg
++ _$s10FindMyCore9ItemModelVMa
++ _$s10Foundation3URLV15fileURLWithPath11isDirectoryACSSh_SbtcfC
++ _$s10Foundation4DateV12FindMyLocateE10trustedNowACvgZ
++ _$s10Foundation4DateV2geoiySbAC_ACtFZ
++ _$s10Foundation4DateV2leoiySbAC_ACtFZ
++ _$s11FMFindingUI0A10TechnologyO13precisionBTCSyAcA0A4TypeO_tcACmFWC
++ _$s11FMFindingUI0A7SessionC9findables11findingType02arC0ACSayAA10FMFindable_pG_AA017FindingExperienceF0OSo9ARSessionCSgtKcfC
++ _$s11FMFindingUI12FMNIFindableMp
++ _$s11FMFindingUI12FMNIFindableP14discoveryTokenSo011NIDiscoveryE0CvgTq
++ _$s11FMFindingUI12FMNIFindablePAA10FMFindableTb
++ _$s11FMFindingUI14FMBTCSFindableMp
++ _$s11FMFindingUI14FMBTCSFindableP12peripheralID10Foundation4UUIDVSgvMTq
++ _$s11FMFindingUI14FMBTCSFindableP12peripheralID10Foundation4UUIDVSgvgTq
++ _$s11FMFindingUI14FMBTCSFindableP12peripheralID10Foundation4UUIDVSgvsTq
++ _$s11FMFindingUI14FMBTCSFindableP17supportsPlaySoundSbvgTq
++ _$s11FMFindingUI14FMBTCSFindableP25peripheralIDUpdateHandlery10Foundation4UUIDVSgcSgvMTq
++ _$s11FMFindingUI14FMBTCSFindableP25peripheralIDUpdateHandlery10Foundation4UUIDVSgcSgvgTq
++ _$s11FMFindingUI14FMBTCSFindableP25peripheralIDUpdateHandlery10Foundation4UUIDVSgcSgvsTq
++ _$s11FMFindingUI14FMBTCSFindablePAA12FMNIFindableTb
++ _$s11FMFindingUI16FMExperienceTypeO4btcsyA2CmFWC
++ _$s11FMFindingUI16FindingModelBTCSO17nearbyInteractionyA2CmFWC
++ _$s11FMFindingUI16FindingModelBTCSOMa
++ _$s11FMFindingUI16FindingModelBTCSOMn
++ _$s11FMFindingUI21FindingExperienceTypeO13precisionBTCSyAcA0c5ModelG0O_AA0aE0OtcACmFWC
++ _$s11FMFindingUI21FindingExperienceTypeOMn
++ _$s11FMFindingUI26FMNearbyInteractionManagerC06sharedE0ACvgZ
++ _$s11FMFindingUI26FMNearbyInteractionManagerC20updateAccessoryState5items5errorySayAA10FMFindable_pG_s5Error_ptFTj
++ _$s11FMFindingUI26FMNearbyInteractionManagerC28findingSessionRestoreHandleryycSgvsTj
++ _$s11FMFindingUI26FMNearbyInteractionManagerCMa
++ _$s11FMFindingUI27FMItemBTCSConnectionManagerC16disableReflectoryyYaFTjTu
++ _$s11FMFindingUI27FMItemBTCSConnectionManagerC25connectAndEnableReflector10completionyys6ResultOyyts5Error_pGc_tFTj
++ _$s11FMFindingUI27FMItemBTCSConnectionManagerC25enableReflectorInProgressSbvgTj
++ _$s11FMFindingUI27FMItemBTCSConnectionManagerC9findables17connectionContextACSayAA10FMFindable_pG_AA0A4TypeOtcfc
++ _$s11FMFindingUI27FMItemBTCSConnectionManagerCMa
++ _$s11FMFindingUI27FMItemBTCSConnectionManagerCMn
++ _$s11FMFindingUI31FMNearbyInteractionManagerErrorO28accessoryInitiatedDisconnectyA2CmFWC
++ _$s11FMFindingUI31FMNearbyInteractionManagerErrorO29accessoryConnectedToCompanionyA2CmFWC
++ _$s11FMFindingUI31FMNearbyInteractionManagerErrorOMa
++ _$s11FMFindingUI31FMNearbyInteractionManagerErrorOs0F0AAMc
++ _$s11FMFindingUI32FMDefaultFoundVideoInfoRedStripeAA0a10UIAVPlayereF0Vvg
++ _$s12FindMyLocate12ClientTargetVMa
++ _$s12FindMyLocate12ClientTargetVMn
++ _$s12FindMyLocate13RequestOriginV_12clientTargetAcA06ClientE0O_AA0hG0VSgtcfC
++ _$s12FindMyLocate29LocationSharingCapableDevicesV0aB4CoreE9toDisplayAD0deG0VyF
++ _$s12FindMyUICore0aB23RelativeDateFormatStyleV10Foundation08DiscretefG0AAMc
++ _$s12FindMyUICore11ETAProviderC11GeoHashPairVMa
++ _$s12FindMyUICore11ETAProviderC11GeoHashPairVMn
++ _$s12FindMyUICore11ETAProviderC5cacheSDyAC11GeoHashPairVAC8ETAStateVGvg
++ _$s12FindMyUICore11ETAProviderC8ETAStateV7RequestV9timestamp10Foundation4DateVvg
++ _$s12FindMyUICore5DebugO16InternalSettingsC15cachesDirectory10Foundation3URLVvs
++ _$s12FindMyUICore5DebugO7ManagerC16internalSettingsAC08InternalG0Cvg
++ _$s13FindMyAppCore0B21LocationSharingDeviceV07sharingG021hasAutoMeCapableWatchA2C0fG0OSg_SbtcfC
++ _$s13FindMyAppCore0B21LocationSharingDeviceV0fG0O5otheryAESScAEmFWC
++ _$s13FindMyAppCore0B21LocationSharingDeviceV0fG0OMn
++ _$s13FindMyAppCore0B31LocationSharingSectionViewModelC06updateI002myeF6Status08locationF7Devices17canBecomeMeDevice27friendsOperationsRestricted28hasIndividuallyPausedFriends02isE16PrecisionLimited03areE11ServicesOffy0abD00eF5StateO_AL0efN0VAA03CanpqR0OS4btF
++ _$s13FindMyAppCore28SignificantChangeCoordinatorO013stampOriginalC15VersionIfNeededyyYaFZ
++ _$s13FindMyAppCore28SignificantChangeCoordinatorO013stampOriginalC15VersionIfNeededyyYaFZTu
++ _$s15FindMyBluetooth14CentralManagerC11stateStreamScSyAC5StateOGyYaFTjTu
++ _$s15FindMyBluetooth14CentralManagerC5StateO10restrictedyA2EmFWC
++ _$s15FindMyBluetooth14CentralManagerC5StateO7unknownyA2EmFWC
++ _$s15FindMyBluetooth14CentralManagerC5StateO8rawValueSivg
++ _$s15FindMyBluetooth14CentralManagerC5StateO9poweredOnyA2EmFWC
++ _$s15FindMyBluetooth14CentralManagerC5StateOSQAAMc
++ _$s15FindMyBluetooth14CentralManagerC7OptionsV29needsRestrictedStateOperationAEvgZ
++ _$s15FindMyBluetooth14CentralManagerC7OptionsVMa
++ _$s15FindMyBluetooth14CentralManagerC7OptionsVMn
++ _$s15FindMyBluetooth14CentralManagerC7optionsA2C7OptionsVSg_tYacfC
++ _$s15FindMyBluetooth14CentralManagerC7optionsA2C7OptionsVSg_tYacfCTu
++ _$s15FindMyBluetooth14CentralManagerCMa
++ _$s17_AppIntents_UIKit011UITableViewaB10DataSourceMp
++ _$s17_AppIntents_UIKit011UITableViewaB10DataSourceP05tableE0_27appEntityIdentifierForRowAt0aB00jK0VSgSo0dE0C_10Foundation9IndexPathVtFTq
++ _$s17_AppIntents_UIKit07UISceneA6IntentMp
++ _$s17_AppIntents_UIKit07UISceneA6IntentP0aB0022TargetContentProvidingE0Tb
++ _$s17_AppIntents_UIKit07UISceneA6IntentP17performNavigation8forSceneySo0D0C_tFTj
++ _$s17_AppIntents_UIKit07UISceneA6IntentP17performNavigation8forSceneySo0D0C_tFTq
++ _$s17_AppIntents_UIKit07UISceneA6IntentPAA0aB004OpenE0RzrlE17contentIdentifierSSvg
++ _$s17_AppIntents_UIKit0A19IntentSceneDelegateMp
++ _$s17_AppIntents_UIKit0A19IntentSceneDelegateP5scene_011willPerformaD0ySo7UISceneC_AA0jaD0_ptFTq
++ _$s7SubjectSo20NSNotificationCenterC10FoundationE16MainActorMessagePTl
++ _$s7SwiftUI10TapGestureVAA0D0AAMc
++ _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI13AnyShapeStyleVAA0dE0AAMc
++ _$s7SwiftUI14TimeDataSourceV11currentDateACy10Foundation0G0VGvgZ
++ _$s7SwiftUI14TimeDataSourceVMn
++ _$s7SwiftUI14TintShapeStyleVAA0dE0AAMc
++ _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE23accessibilityIdentifieryACyxAEGSSF
++ _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI18_AspectRatioLayoutVN
++ _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAMc
++ _$s7SwiftUI23AccessibilityActionKindV7defaultACvgZ
++ _$s7SwiftUI23AccessibilityActionKindVMa
++ _$s7SwiftUI31_IndefiniteSymbolEffectModifierVAA04ViewF0AAMc
++ _$s7SwiftUI4TextVAA4ViewAAMc
++ _$s7SwiftUI4TextVAAE_6formatAcA14TimeDataSourceVyxG_q_tc11FormatInputQy_Rsz10Foundation08DiscreteH5StyleR_SS0H6OutputRt_r0_lufC
++ _$s7SwiftUI4ViewPAAE19accessibilityActionyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGAA0hE4KindV_yyctF
++ _$s7SwiftUI5ColorVAA10ShapeStyleAAMc
++ _$s7SwiftUI5ImageVAA4ViewAAMc
++ _$s7SwiftUI5ImageVN
++ _$s7SwiftUI9EmptyViewVAA0D0AAMc
++ _$s8FMIPCore10FMIPDeviceV25companionDeviceIdentifierSSSgvg
++ _$s8FMIPCore15FMIPActionEventV26findButtonDisabledDurationSdSgvg
++ _$s8FMIPCore15FMIPActionEventV26findButtonDisabledDurationSdSgvs
++ _$s8FMIPCore15FMIPActionEventV27findingPresentationDurationSdSgvg
++ _$s8FMIPCore15FMIPActionEventV27findingPresentationDurationSdSgvs
++ _$s8FMIPCore15FMIPProductTypeO16AirTagGenerationO2v2yA2EmFWC
++ _$s8FMIPCore15FMIPProductTypeO16AirTagGenerationOMa
++ _$s8FMIPCore15FMIPProductTypeO16AirTagGenerationOMn
++ _$s8FMIPCore15FMIPProductTypeO16AirTagGenerationOSQAAMc
++ _$s8FMIPCore15FMIPProductTypeO16airTagGenerationAC03AireF0OSgvg
++ _$s8FMIPCore15FMIPProductTypeO26secondGenerationAirTagNameSSvgZ
++ _$s8FMIPCore18FMItemCapabilitiesV14canBTCSFindingACvgZ
++ _$s8FMIPCore23FMIPAnalyticsActionTypeO17precisionFindBTCSyA2CmFWC
++ _$s8FMIPCore23FMIPAnalyticsActionTypeOSQAAMc
++ _$sSS10reflectingSSx_tclufC
++ _$sSS8FMIPCoreE11softWrappedSSvg
++ _$sSo11UITableViewC17_AppIntents_UIKitE03appD10DataSourceAC0abcdgH0_pSgvs
++ _$sSo20NSNotificationCenterC10FoundationE11addObserver2of3for5usingAbCE16ObservationTokenV7SubjectQzSg_xmyxScMYcctAbCE16MainActorMessageRzAKRLClF
++ _$sSo20NSNotificationCenterC10FoundationE14removeObserveryyAbCE16ObservationTokenVF
++ _$sSo20NSNotificationCenterC10FoundationE16MainActorMessageMp
++ _$sSo20NSNotificationCenterC10FoundationE16MainActorMessageP04makeF0yxSgAC12NotificationVFZTq
++ _$sSo20NSNotificationCenterC10FoundationE16MainActorMessageP16makeNotificationyAC0H0VxFZTq
++ _$sSo20NSNotificationCenterC10FoundationE16MainActorMessageP4nameSo0A4NameavgZTq
++ _$sSo20NSNotificationCenterC10FoundationE16MainActorMessagePACE04makeF0yxSgAC12NotificationVFZ
++ _$sSo20NSNotificationCenterC10FoundationE16MainActorMessagePACE16makeNotificationyAC0H0VxFZ
++ _$sSo20NSNotificationCenterC10FoundationE16MainActorMessagePACE4nameSo0A4NameavgZ
++ _$sSo20NSNotificationCenterC10FoundationE16ObservationTokenVMa
++ _$sSo20NSNotificationCenterC10FoundationE16ObservationTokenVMn
++ _$sSo20NSNotificationCenterC10FoundationE4post_7subjectyx_7SubjectQztAbCE16MainActorMessageRzAGRLClF
++ _$sSo24UISceneConnectionOptionsC17_AppIntents_UIKitE9appIntentAC0adH0_pSgvg
++ _$sSo6UIViewC17_AppIntents_UIKitE19appEntityIdentifier0bC00fG0VSgvs
++ _$ss5NeverO7SwiftUI4ViewACMc
++ _$sytWV
++ _OBJC_CLASS_$_CNComposeHeaderView
++ _OBJC_CLASS_$_CNComposeRecipient
++ _OBJC_CLASS_$_CNComposeRecipientTextView
++ _OBJC_CLASS_$_MKPointOfInterestFilter
++ _OBJC_CLASS_$_NINearbyAccessoryConfiguration
+- _$s12FindMyLocate13RequestOriginVyAcA06ClientE0OcfC
+- _$s12FindMyUICore11ETAProviderC12SubscriptionOMa
+- _$s12FindMyUICore11ETAProviderC12SubscriptionOMn
+- _$s12FindMyUICore11ETAProviderC4etasSDyAC12SubscriptionOAC8ETAStateVGvg
+- _$s13FindMyAppCore0B21LocationSharingDeviceV07sharingG021hasAutoMeCapableWatchA2C0fG0O_SbtcfC
+- _$s13FindMyAppCore0B21LocationSharingDeviceV0fG0O5otheryAESSSgcAEmFWC
+- _$s13FindMyAppCore0B31LocationSharingSectionViewModelC06updateI002myeF6Status08locationF7Devices17canBecomeMeDevice27friendsOperationsRestricted28hasIndividuallyPausedFriends02isE16PrecisionLimited03areE11ServicesOffy0abD00eF5StateO_AA0efN0VAA03CanpqR0OS4btF
+- _$s13FindMyAppCore22LocationSharingDevicesV08locationf7CapableG0AC0aB6Locate0efiG0V_tcfC
+- _$s13FindMyAppCore22LocationSharingDevicesVMa
+- _$s13FindMyAppCore33DeviceLostModeManagementViewModelC10isInRepairSbvs
+- _$s7SwiftUI10TapGestureVAA0D0AAWP
+- _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI13AnyShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI14TintShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI31_IndefiniteSymbolEffectModifierVAA04ViewF0AAWP
+- _$s7SwiftUI4TextVAA4ViewAAWP
+- _$s7SwiftUI5ColorVAA10ShapeStyleAAWP
+- _$s7SwiftUI5ImageVAA4ViewAAWP
+- _$s7SwiftUI9EmptyViewVAA0D0AAWP
+- _$s8FMIPCore26FMIPB389ProductInformationV16vendorIdentifierSivg
+- _$s8FMIPCore26FMIPB389ProductInformationV17productIdentifierSivg
+- _$s8FMIPCore26FMIPB389ProductInformationV9modelNameSSvg
+- _$s8FMIPCore26FMIPB389ProductInformationVMa
+- _$s8FMIPCore26FMIPZeusProductInformationV16vendorIdentifierSivg
+- _$s8FMIPCore26FMIPZeusProductInformationV17productIdentifierSivg
+- _$s8FMIPCore26FMIPZeusProductInformationV9modelNameSSvg
+- _$sSL2geoiySbx_xtFZTj
+- _$sSL2leoiySbx_xtFZTj
+- _$ss5NeverO7SwiftUI4ViewACWP
+- _OBJC_CLASS_$_MFComposeHeaderView
+- _OBJC_CLASS_$_MFComposeRecipient
+- _OBJC_CLASS_$_MFComposeRecipientTextView
+```

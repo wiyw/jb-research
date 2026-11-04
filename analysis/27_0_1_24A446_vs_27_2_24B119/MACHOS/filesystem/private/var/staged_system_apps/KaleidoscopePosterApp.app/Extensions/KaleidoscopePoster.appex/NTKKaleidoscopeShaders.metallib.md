@@ -1,0 +1,9 @@
+## NTKKaleidoscopeShaders.metallib
+
+> `/private/var/staged_system_apps/KaleidoscopePosterApp.app/Extensions/KaleidoscopePoster.appex/NTKKaleidoscopeShaders.metallib`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__vertex`
+- `__TEXT.__descriptor`
+- `__TEXT.__metallib`

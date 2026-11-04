@@ -97,7 +97,7 @@ Other notable additions:
 `ExclavesStats` is removed as a standalone filesystem Mach-O and appears in
 the shared cache instead.
 
-## Frameworks tracked in this repository
+## Framework source versions
 
 | Framework | 27.0.1 source | 27.2 source |
 | :-------- | :------------ | :---------- |
@@ -106,9 +106,11 @@ the shared cache instead.
 | IMCore / IMDPersistence | 1491.100.1.2.28 | 1491.200.101.2.5 |
 | libxpc.dylib | 3298.2.1 | 3298.42.1 |
 
-CoreGraphics and ImageIO are the focus of the committed Ghidra exports. Their
-section-level changes are in the `analysis/.../DYLIBS/` reports if those image
-names are present in the generated diff.
+`CoreGraphics`, `ImageIO`, `IMCore`, `IMDPersistence`, and `libxpc.dylib` are
+tracked in this repository. CoreGraphics and ImageIO are the focus of the
+committed Ghidra exports. Their section-level changes are in the
+`analysis/.../DYLIBS/` reports if those image names are present in the
+generated diff.
 
 ## Caveats
 

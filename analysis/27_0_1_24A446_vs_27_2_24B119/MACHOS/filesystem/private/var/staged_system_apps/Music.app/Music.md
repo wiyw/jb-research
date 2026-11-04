@@ -1,0 +1,467 @@
+## Music
+
+> `/private/var/staged_system_apps/Music.app/Music`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_entry`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_doubleobj`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-4026.110.1.0.0
+-  __TEXT.__text: 0xffeed4
+-  __TEXT.__auth_stubs: 0x11500
+-  __TEXT.__objc_stubs: 0x1bb20
+-  __TEXT.__objc_methlist: 0x11ee4
+-  __TEXT.__objc_methname: 0x3826a
+-  __TEXT.__cstring: 0x5fbd8
+-  __TEXT.__objc_classname: 0xb106
+-  __TEXT.__objc_methtype: 0xb7a2
+-  __TEXT.__const: 0x717c0
+-  __TEXT.__oslogstring: 0x1ca1a
++4026.210.3.0.0
++  __TEXT.__text: 0x1028fac
++  __TEXT.__auth_stubs: 0x11a30
++  __TEXT.__objc_stubs: 0x1c260
++  __TEXT.__objc_methlist: 0x1254c
++  __TEXT.__objc_methname: 0x393aa
++  __TEXT.__cstring: 0x5dad8
++  __TEXT.__objc_classname: 0xb536
++  __TEXT.__objc_methtype: 0xbb42
++  __TEXT.__const: 0x72b40
++  __TEXT.__oslogstring: 0x1ceda
+   __TEXT.__gcc_except_tab: 0x6fc
+   __TEXT.__ustring: 0x148
+-  __TEXT.__constg_swiftt: 0x35e48
+-  __TEXT.__swift5_typeref: 0x62cc0
+-  __TEXT.__swift5_reflstr: 0x2b721
+-  __TEXT.__swift5_fieldmd: 0x27268
++  __TEXT.__constg_swiftt: 0x37104
++  __TEXT.__swift5_typeref: 0x62a9e
++  __TEXT.__swift5_reflstr: 0x2c201
++  __TEXT.__swift5_fieldmd: 0x27b44
+   __TEXT.__swift5_builtin: 0x1360
+-  __TEXT.__swift5_assocty: 0x62d8
+-  __TEXT.__swift5_capture: 0x1d544
+-  __TEXT.__swift5_proto: 0x3a84
+-  __TEXT.__swift5_types: 0x270c
++  __TEXT.__swift5_assocty: 0x6318
++  __TEXT.__swift5_capture: 0x1e138
++  __TEXT.__swift5_proto: 0x3ac0
++  __TEXT.__swift5_types: 0x2770
+   __TEXT.__swift5_protos: 0x318
+   __TEXT.__swift5_mpenum: 0x3f0
+-  __TEXT.__swift_as_entry: 0x15c0
+-  __TEXT.__swift_as_ret: 0x15e8
+-  __TEXT.__swift_as_cont: 0x3124
++  __TEXT.__swift_as_entry: 0x159c
++  __TEXT.__swift_as_ret: 0x1530
++  __TEXT.__swift_as_cont: 0x305c
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x2cc28
+-  __TEXT.__eh_frame: 0x40398
+-  __DATA_CONST.__const: 0x7afe8
+-  __DATA_CONST.__cfstring: 0x19e0
+-  __DATA_CONST.__objc_classlist: 0x1830
+-  __DATA_CONST.__objc_catlist: 0x138
+-  __DATA_CONST.__objc_protolist: 0xa88
++  __TEXT.__unwind_info: 0x2d2c8
++  __TEXT.__eh_frame: 0x403a8
++  __DATA_CONST.__const: 0x7c690
++  __DATA_CONST.__cfstring: 0x1a00
++  __DATA_CONST.__objc_classlist: 0x18a0
++  __DATA_CONST.__objc_catlist: 0x140
++  __DATA_CONST.__objc_protolist: 0xac8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x508
+-  __DATA_CONST.__objc_superrefs: 0x1c0
++  __DATA_CONST.__objc_protorefs: 0x528
++  __DATA_CONST.__objc_superrefs: 0x1c8
+   __DATA_CONST.__objc_intobj: 0x48
+   __DATA_CONST.__objc_doubleobj: 0x20
+-  __DATA_CONST.__auth_got: 0x8a90
+-  __DATA_CONST.__got: 0x7150
+-  __DATA_CONST.__auth_ptr: 0xcb98
+-  __DATA.__objc_const: 0x3ecc8
+-  __DATA.__objc_selrefs: 0x9870
+-  __DATA.__objc_ivar: 0x344
+-  __DATA.__objc_data: 0x30d08
+-  __DATA.__data: 0x4db50
++  __DATA_CONST.__auth_got: 0x8d28
++  __DATA_CONST.__got: 0x73b0
++  __DATA_CONST.__auth_ptr: 0xcc10
++  __DATA.__objc_const: 0x40440
++  __DATA.__objc_selrefs: 0x9b40
++  __DATA.__objc_ivar: 0x354
++  __DATA.__objc_data: 0x31db0
++  __DATA.__data: 0x4f340
+   __DATA.__objc_stublist: 0x38
+-  __DATA.__bss: 0x63178
+-  __DATA.__common: 0x6170
++  __DATA.__bss: 0x63b48
++  __DATA.__common: 0x6120
++  - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 63837
+-  Symbols:   9262
++  Functions: 64670
++  Symbols:   9385
+   CStrings:  0
+ 
+Symbols:
++ _$s10Foundation16AttributedStringVyAA0B9SubstringVxcSXRzAC5IndexV5BoundRtzluiM
++ _$s10Foundation19AttributedSubstringVy5ValueQzSgxmcAA0B9StringKeyRzluis
++ _$s10Foundation21_BridgedStoredNSErrorPAAE_8userInfox4CodeQz_SDySSypGtcfC
++ _$s10Foundation4DateV2leoiySbAC_ACtFZ
++ _$s10Foundation8URLErrorV4CodeV6badURLAEvgZ
++ _$s10Foundation8URLErrorV4CodeVMa
++ _$s10Foundation8URLErrorV8_nsErrorSo7NSErrorCvg
++ _$s10Foundation8URLErrorVAA21_BridgedStoredNSErrorAAMc
++ _$s10Foundation8URLErrorVMa
++ _$s11MediaCoreUI52NowPlayingCustomArtworkBackgroundEffectConfigurationV4BlurV4leftAE4EdgeVvs
++ _$s11Observation12ObservationsV17makeAsyncIteratorAC0E0Vyxq__GyF
++ _$s11Observation12ObservationsV8IteratorV4next9isolationxSgScA_pSgYi_tYaq_YKF
++ _$s11Observation12ObservationsV8IteratorV4next9isolationxSgScA_pSgYi_tYaq_YKFTu
++ _$s11Observation12ObservationsV8IteratorVMn
++ _$s11Observation12ObservationsVMn
++ _$s11Observation12ObservationsVyACyxq_GxyYbq_YKYAccfC
++ _$s12CoreGraphics7CGFloatV05MediaA2UI22ApproximatelyEquatableADMc
++ _$s12CoreGraphics7CGFloatV05MediaA2UI23ApproximatelyComparableADMc
++ _$s16MusicKitInternal0A14LibraryMappingV7RequestV8responseAC8ResponseVy_xGyYaKF
++ _$s16MusicKitInternal0A14LibraryMappingV7RequestV8responseAC8ResponseVy_xGyYaKFTu
++ _$s16MusicKitInternal0A19LibraryPinsObserverC015hasSeenDownloadE5AlertSbvs
++ _$s16MusicKitInternal0A19LibraryPinsObserverC018shouldShowDownloadE5AlertSbvg
++ _$s16MusicKitInternal0A21AlbumDetailDataSourceC4KindO7catalogyAE0aB00D0V_AG0A22CatalogResourceRequestVyAIGtcAEmFWC
++ _$s16MusicKitInternal0A21AlbumDetailDataSourceC4KindOMa
++ _$s16MusicKitInternal0A21AlbumDetailDataSourceC4kindA2C4KindO_tcfc
++ _$s16MusicKitInternal0A21AlbumDetailDataSourceC5album0aB00D0Vvg
++ _$s16MusicKitInternal0A21AlbumDetailDataSourceCMa
++ _$s16MusicKitInternal0A21AlbumDetailDataSourceCMn
++ _$s16MusicKitInternal0A5AlertO10ActionRoleO11destructiveyA2EmFWC
++ _$s16MusicKitInternal0A5AlertO10ActionRoleO6cancelyA2EmFWC
++ _$s16MusicKitInternal0A5AlertO10ActionRoleO7defaultyA2EmFWC
++ _$s16MusicKitInternal0A5AlertO10ActionRoleOMa
++ _$s16MusicKitInternal0A5AlertO12DownloadPinsVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO12DownloadPinsVMa
++ _$s16MusicKitInternal0A5AlertO13ConfigurationP15preferredAction0G0QzSgvgTj
++ _$s16MusicKitInternal0A5AlertO13ConfigurationP5styleAC5StyleOvgTj
++ _$s16MusicKitInternal0A5AlertO13ConfigurationP5titleSSSgvgTj
++ _$s16MusicKitInternal0A5AlertO13ConfigurationP6ActionAE_AC0fE0Tn
++ _$s16MusicKitInternal0A5AlertO13ConfigurationP7actionsSay6ActionQzGvgTj
++ _$s16MusicKitInternal0A5AlertO13ConfigurationP7messageSSSgvgTj
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC12DownloadPinsVRszrlE08downloadG024enableAutomaticDownloads6notNowAGyyYbScMYcc_yyYbScMYcctFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC15AccountRequiredVRszrlE07accountG012openSettings6notNowAGyyYbScMYcc_yyYbScMYcctFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC15AccountRequiredVRszrlE07accountG02okAGyyYbScMYcc_tFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC15AgeVerificationVRszrlE03ageG02okAGyyYbScMYcc_tFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC15UnexpectedErrorVRszrlE010unexpectedG02okAGyyYbScMYcc_tFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC17RemoveFromLibraryVRszrlE06removegH0_05musicH0AH0I8Download6cancelAGqd___0aB00aH0CyyYbScMYccyyYbScMYccyyYbScMYcctAL0aH7AddableRd__lFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC17RemoveFromLibraryVRszrlE06removegH0_05musicH0AH6cancelAGqd___0aB00aH0CyyYbScMYccyyYbScMYcctAK0aH7AddableRd__lFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC17RemoveFromLibraryVRszrlE14removeDownload_AH6cancelAGqd___yyYbScMYccyyYbScMYcct0aB00aH7AddableRd__lFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC18CellularRestrictedVRszrlE08cellularG006enableF9Downloads6notNowAGyyYbScMYcc_yyYbScMYcctFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC18CellularRestrictedVRszrlE08cellularG012mediaContext06enableF9Streaming6notNowA2G05MediaJ0O_yyYbScMYccyyYbScMYcctFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC18ContentUnavailableVRszrlE07contentG02okAGyyYbScMYcc_tFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC18ExplicitRestrictedVRszrlE08explicitG005allowF7Content6notNowAGyyYbScMYcc_yyYbScMYcctFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC18ExplicitRestrictedVRszrlE08explicitG023openContentRestrictions6notNowAGyyYbScMYcc_yyYbScMYcctFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC18ExplicitRestrictedVRszrlE08explicitG02okAGyyYbScMYcc_tFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC18MaximumPinsReachedVRszrlE07maximumgH02okAGyyYbScMYcc_tFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC18NetworkUnavailableVRszrlE07networkG012mediaContext12openSettings6notNowA2G05MediaJ0O_yyYbScMYccyyYbScMYcctFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC18NetworkUnavailableVRszrlE07networkG012mediaContext2okA2G05MediaJ0O_yyYbScMYcctFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC18UserUploadRequiredVRszrlE04usergH02okAGyyYbScMYcc_tFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC20CloudLibraryDisabledVRszrlE05cloudgH07context06enablefG06cancelA2G7ContextO_yyYbScMYccSgyyYbScMYcctFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC20SubscriptionRequiredVRszrlE012subscriptionG012openSettings6notNowAGyyYbScMYcc_yyYbScMYcctFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC20SubscriptionRequiredVRszrlE012subscriptionG02okAGyyYbScMYcc_tFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC21SyncLibraryInProgressVRszrlE04syncghI02okAGyyYbScMYcc_tFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC23PinnedArtistNotPlayableVRszrlE06pinnedghI02okAGyyYbScMYcc_tFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationPAaC24DuplicateSongsInPlaylistVRszrlE09duplicateghI00J5Count17isAddingContainer8addAgain14skipDuplicatesAGSi_SbyyYbScMYccyyYbScMYcctFZ
++ _$s16MusicKitInternal0A5AlertO13ConfigurationTL
++ _$s16MusicKitInternal0A5AlertO14StandardActionVAC0F13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO14StandardActionVMa
++ _$s16MusicKitInternal0A5AlertO14StandardActionVMn
++ _$s16MusicKitInternal0A5AlertO15AccountRequiredVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO15AccountRequiredVMa
++ _$s16MusicKitInternal0A5AlertO15AgeVerificationVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO15AgeVerificationVMa
++ _$s16MusicKitInternal0A5AlertO15UnexpectedErrorVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO15UnexpectedErrorVMa
++ _$s16MusicKitInternal0A5AlertO16ActionIdentifierV8rawValueSSvg
++ _$s16MusicKitInternal0A5AlertO16ActionIdentifierVMa
++ _$s16MusicKitInternal0A5AlertO16ActionIdentifierVMn
++ _$s16MusicKitInternal0A5AlertO16ActionIdentifierVSQAAMc
++ _$s16MusicKitInternal0A5AlertO17RemoveFromLibraryVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO17RemoveFromLibraryVMa
++ _$s16MusicKitInternal0A5AlertO18CellularRestrictedV12MediaContextO5musicyA2GmFWC
++ _$s16MusicKitInternal0A5AlertO18CellularRestrictedV12MediaContextO5radioyA2GmFWC
++ _$s16MusicKitInternal0A5AlertO18CellularRestrictedV12MediaContextO5videoyA2GmFWC
++ _$s16MusicKitInternal0A5AlertO18CellularRestrictedV12MediaContextOMa
++ _$s16MusicKitInternal0A5AlertO18CellularRestrictedV12MediaContextOMn
++ _$s16MusicKitInternal0A5AlertO18CellularRestrictedVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO18CellularRestrictedVMa
++ _$s16MusicKitInternal0A5AlertO18ContentUnavailableVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO18ContentUnavailableVMa
++ _$s16MusicKitInternal0A5AlertO18ExplicitRestrictedVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO18ExplicitRestrictedVMa
++ _$s16MusicKitInternal0A5AlertO18MaximumPinsReachedV7messageSSSgvg
++ _$s16MusicKitInternal0A5AlertO18MaximumPinsReachedVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO18MaximumPinsReachedVMa
++ _$s16MusicKitInternal0A5AlertO18NetworkUnavailableV12MediaContextO5musicyA2GmFWC
++ _$s16MusicKitInternal0A5AlertO18NetworkUnavailableV12MediaContextO5radioyA2GmFWC
++ _$s16MusicKitInternal0A5AlertO18NetworkUnavailableV12MediaContextOMa
++ _$s16MusicKitInternal0A5AlertO18NetworkUnavailableVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO18NetworkUnavailableVMa
++ _$s16MusicKitInternal0A5AlertO18UserUploadRequiredVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO18UserUploadRequiredVMa
++ _$s16MusicKitInternal0A5AlertO19ActionConfigurationP2idAC0E10IdentifierVvgTj
++ _$s16MusicKitInternal0A5AlertO19ActionConfigurationP4roleAC0E4RoleOvgTj
++ _$s16MusicKitInternal0A5AlertO19ActionConfigurationP5titleSSvgTj
++ _$s16MusicKitInternal0A5AlertO19ActionConfigurationP7handler7HandlerQzvgTj
++ _$s16MusicKitInternal0A5AlertO20CloudLibraryDisabledV7ContextO05addToF0yA2GmFWC
++ _$s16MusicKitInternal0A5AlertO20CloudLibraryDisabledV7ContextOMa
++ _$s16MusicKitInternal0A5AlertO20CloudLibraryDisabledVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO20CloudLibraryDisabledVMa
++ _$s16MusicKitInternal0A5AlertO20SubscriptionRequiredVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO20SubscriptionRequiredVMa
++ _$s16MusicKitInternal0A5AlertO21SyncLibraryInProgressVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO21SyncLibraryInProgressVMa
++ _$s16MusicKitInternal0A5AlertO23PinnedArtistNotPlayableVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO23PinnedArtistNotPlayableVMa
++ _$s16MusicKitInternal0A5AlertO24DuplicateSongsInPlaylistVAC13ConfigurationAAMc
++ _$s16MusicKitInternal0A5AlertO24DuplicateSongsInPlaylistVMa
++ _$s16MusicKitInternal0A5AlertO5StyleO18confirmationDialogyA2EmFWC
++ _$s16MusicKitInternal0A5AlertO5StyleO5alertyA2EmFWC
++ _$s16MusicKitInternal0A5AlertO5StyleOMa
++ _$s23AsyncAlgorithmsInternal0A17CompactedSequenceV8IteratorVMn
++ _$s25_MusicKitInternal_SwiftUI05AppleA0V4LogoV5imageSo7UIImageCSgyF
++ _$s25_MusicKitInternal_SwiftUI05AppleA0V4LogoV7VariantV8wordmarkAGvgZ
++ _$s25_MusicKitInternal_SwiftUI05AppleA0V4LogoV7VariantVMa
++ _$s25_MusicKitInternal_SwiftUI05AppleA0V4LogoVMa
++ _$s25_MusicKitInternal_SwiftUI05AppleA0V4LogoVyA2E7VariantVcfC
++ _$s5UIKit35UICollectionLayoutListConfigurationV10AppearanceO12sidebarPlainyA2EmFWC
++ _$s6Action16MusicKitInternal0B5AlertO13ConfigurationPTl
++ _$s7SwiftUI10TapGestureVAA0D0AAMc
++ _$s7SwiftUI11_BlurEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI11_BlurEffectVN
++ _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI12_ScaleEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI13AnyShapeStyleVAA0dE0AAMc
++ _$s7SwiftUI13_OffsetEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI13_OffsetEffectVN
++ _$s7SwiftUI13_ShadowEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI14LinearGradientVAA10ShapeStyleAAMc
++ _$s7SwiftUI14TintShapeStyleVAA0dE0AAMc
++ _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI14_OpacityEffectVN
++ _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_BlendModeEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI17ContentTransitionV11numericText10countsDownACSb_tFZ
++ _$s7SwiftUI17EnvironmentValuesV07CarPlayB0E16isRightHandDriveSbvg
++ _$s7SwiftUI17EnvironmentValuesV07CarPlayB0E16isRightHandDriveSbvpMV
++ _$s7SwiftUI17EnvironmentValuesV07CarPlayB0E16isRightHandDriveSbvs
++ _$s7SwiftUI18LocalizedStringKeyV0D13InterpolationV06appendF0yyAA4TextVF
++ _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI18_AspectRatioLayoutVN
++ _$s7SwiftUI19UIHostingControllerC8rootViewxvsTj
++ _$s7SwiftUI20_TransactionModifierVAA04ViewD0AAMc
++ _$s7SwiftUI20_TransactionModifierVN
++ _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAMc
++ _$s7SwiftUI23_CompositingGroupEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI25_AlignmentWritingModifierVAA04ViewE0AAMc
++ _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAMc
++ _$s7SwiftUI25_AllowsHitTestingModifierVN
++ _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAMc
++ _$s7SwiftUI27_TextBaselineRelativeSpacerVAA4ViewAAMc
++ _$s7SwiftUI27_TextBaselineRelativeSpacerVN
++ _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVN
++ _$s7SwiftUI31_IndefiniteSymbolEffectModifierVAA04ViewF0AAMc
++ _$s7SwiftUI45_AccessibilityIgnoresInvertColorsViewModifierVAA0gH0AAMc
++ _$s7SwiftUI45_AccessibilityIgnoresInvertColorsViewModifierVN
++ _$s7SwiftUI4FontV15monospacedDigitACyF
++ _$s7SwiftUI4TextVAA4ViewAAMc
++ _$s7SwiftUI4ViewPAAE7opacityyQrSdF
++ _$s7SwiftUI5ColorVAA10ShapeStyleAAMc
++ _$s7SwiftUI5ColorVAA4ViewAAMc
++ _$s7SwiftUI5ImageVAA4ViewAAMc
++ _$s7SwiftUI6SpacerVAA4ViewAAMc
++ _$s7SwiftUI7BindingV8constantyACyxGxFZ
++ _$s7SwiftUI8MaterialVAA10ShapeStyleAAMc
++ _$s7SwiftUI9EmptyViewVAA0D0AAMc
++ _$s7Symbols18AppearSymbolEffectVAA0cD0AAMc
++ _$s7Symbols18AppearSymbolEffectVACycfC
++ _$s7Symbols18AppearSymbolEffectVMa
++ _$s7Symbols19ReplaceSymbolEffectVAA0cD0AAMc
++ _$s7Symbols19ReplaceSymbolEffectVACycfC
++ _$s7Symbols19ReplaceSymbolEffectVMa
++ _$s7Symbols21DisappearSymbolEffectVAA0cD0AAMc
++ _$s7Symbols21DisappearSymbolEffectVACycfC
++ _$s7Symbols21DisappearSymbolEffectVMa
++ _$s8MusicKit07PartialA8PropertyC0aB8InternalAA5AlbumVRszlE11versionHashAA0a17ExtendedAttributeD0CyAFSSGvgZ
++ _$s8MusicKit07PartialA8PropertyC0aB8InternalAA5AlbumVRszlE25pushNotificationChannelIDAA0a17ExtendedAttributeD0CyAFSSGvgZ
++ _$s8MusicKit0A11DataRequestV18currentCountryCodeSSvgZ
++ _$s8MusicKit0A11DataRequestV18currentCountryCodeSSvgZTu
++ _$s8MusicKit0A23CatalogResourceResponseVyxGSeAASeRzrlMc
++ _$s8MusicKit0A7LibraryC0aB8InternalE16GenericItemStateC15$downloadStatus7Combine9PublishedV9PublisherVyAcDE08DownloadI0OSg_GvgTj
++ _$s8MusicKit0A7LibraryC0aB8InternalE16GenericItemStateCMn
++ _$s8MusicKit5AlbumV0aB8InternalE25isReleaseCountdownEnabledSbvg
++ _$s8MusicKit5AlbumV0aB8InternalE25pushNotificationChannelIDSSSgvg
++ _$sSJ8isNumberSbvg
++ _$sSd7SwiftUI10AnimatableAAMc
++ _$sSd7SwiftUI16VectorArithmeticAAMc
++ _$sSf7SwiftUI16VectorArithmeticAAMc
++ _$sSi7SwiftUI18_FormatSpecifiableAAMc
++ _$sSl20_failEarlyRangeCheck_6boundsy5IndexQz_SnyADGtFTj
++ _$sSl5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTj
++ _$sSo15UIBarButtonItemC5UIKitE14setSymbolImage_17contentTransition7optionsySo7UIImageC_x7Symbols0F13EffectOptionsVtAI07ContentifM0RzAI0fM0RzlF
++ _$ss12_AnyIndexBoxP7_typeIDSOvgTj
++ _$ss12_AnyIndexBoxP8_isEqual2toSbsAA_p_tFTj
++ _$ss15_AnySequenceBoxC13_makeIterators0aE0VyxGyFTj
++ _$ss16AsyncMapSequenceV_9transformAByxq_Gx_q_7ElementQzYactcfC
++ _$ss19_AnyIteratorBoxBaseC4nextxSgyFTj
++ _$ss5NeverO7SwiftUI4ViewACMc
++ _$ss6MirrorV010superclassA0ABSgvg
++ _$ss6MirrorV8childrens13AnyCollectionVySSSg5label_yp5valuetGvg
++ _$ss6MirrorVMn
++ _AVAudioSessionCategoryPlayback
++ _AVPlayerItemDidPlayToEndTimeNotification
++ _MPModelPropertyRadioStationEditorialArtworks
++ _MPStoreItemMetadataEditorialArtworkKindSuperHeroTall
++ _OBJC_CLASS_$_AVAudioSession
++ _OBJC_CLASS_$_AVPlayerItem
++ _OBJC_CLASS_$_AVQueuePlayer
++ _OBJC_CLASS_$_CADisplayLink
++ _OBJC_CLASS_$_ICRadioGetTracksRequest
++ _OBJC_CLASS_$_ICRadioStationTrack
++ _OBJC_CLASS_$_ICStorePlatformOffer
++ _OBJC_CLASS_$_ICStorePlatformOfferAsset
++ _OBJC_CLASS_$_NSHashTable
++ _OBJC_CLASS_$_UIPresentationController
++ _OBJC_CLASS_$__UIClickPresentation
++ _OBJC_CLASS_$__UIClickPresentationInteraction
++ _OBJC_METACLASS_$__UIClickPresentationInteraction
++ _UIAccessibilityScreenChangedNotification
++ _kCMTimeZero
++ _object_getClass
+- _$s10Foundation6LocaleV6ScriptVSQAAMc
+- _$s12CoreGraphics7CGFloatV05MediaA2UI22ApproximatelyEquatableADWP
+- _$s12CoreGraphics7CGFloatV05MediaA2UI23ApproximatelyComparableADWP
+- _$s16MusicKitInternal011FavoritableA4ItemP14favoriteStatusAA0a8FavoriteG0OvgTj
+- _$s16MusicKitInternal0A27CatalogAlbumDetailViewModelC6sharedACvgZ
+- _$s16MusicKitInternal0A27CatalogAlbumDetailViewModelCMa
+- _$s16MusicKitInternal0A5MovieV0aB00A14LibraryAddableAAMc
+- _$s16MusicKitInternal0cA6PlayerC10RepeatModeO3allyA2EmFWC
+- _$s16MusicKitInternal0cA6PlayerC10RepeatModeO3offyA2EmFWC
+- _$s16MusicKitInternal0cA6PlayerC10RepeatModeO3oneyA2EmFWC
+- _$s16MusicKitInternal0cA6PlayerC10RepeatModeOMa
+- _$s16MusicKitInternal0cA6PlayerC10RepeatModeOMn
+- _$s16MusicKitInternal0cA6PlayerC11ShuffleModeO11collectionsyA2EmFWC
+- _$s16MusicKitInternal0cA6PlayerC11ShuffleModeO3offyA2EmFWC
+- _$s16MusicKitInternal0cA6PlayerC11ShuffleModeO5itemsyA2EmFWC
+- _$s16MusicKitInternal0cA6PlayerC11ShuffleModeOMa
+- _$s16MusicKitInternal0cA6PlayerC11ShuffleModeOMn
+- _$s16MusicKitInternal0cA6PlayerC5QueueC22EntryInsertionPositionO012afterCurrentF0yA2GmFWC
+- _$s16MusicKitInternal0cA6PlayerC5QueueC22EntryInsertionPositionO11endOfUpNextyA2GmFWC
+- _$s16MusicKitInternal0cA6PlayerC5QueueC22EntryInsertionPositionO18afterLastContaineryA2GmFWC
+- _$s16MusicKitInternal0cA6PlayerC5QueueC22EntryInsertionPositionO4tailyA2GmFWC
+- _$s16MusicKitInternal0cA6PlayerC5QueueC22EntryInsertionPositionOMa
+- _$s16MusicKitInternal9TVEpisodeV0aB00A14LibraryAddableAAMc
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV10AttributesV10repeatMode0abC00caG0C06RepeatJ0OSgvg
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV10AttributesV11shuffleMode0abC00caG0C07ShuffleJ0OSgvg
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV10AttributesVMa
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV19PlaybackControllingMp
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV19PlaybackControllingP12startStationyyYaAC5ErrorOYKFZTq
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV19PlaybackControllingP15currentRouteUIDSSvgZTq
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV19PlaybackControllingP15setDefaultQueue05startH0ySb_tYaAC5ErrorOYKFZTq
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV19PlaybackControllingP3set10descriptor16playerAttributesy01_abc6_MediaH4Core0aH16IntentDescriptorV_AC0M0VtYaAC5ErrorOYKFZTq
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV19PlaybackControllingP3set16playerAttributesyAC0L0V_tYaAC5ErrorOYKFZTq
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV19PlaybackControllingP4playyyYaAC5ErrorOYKFZTq
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV19PlaybackControllingP6insert10descriptor8position16playerAttributesy01_abc6_MediaH4Core0aH16IntentDescriptorV_0abC00caG0C5QueueC22EntryInsertionPositionOAC0N0VtYaAC5ErrorOYKFZTq
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV5ErrorO14nothingPlayingyA2EmFWC
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV5ErrorO5otheryAEsAD_pcAEmFWC
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV5ErrorOMa
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV5ErrorOsAdAMc
+- _$s28_MusicKitInternal_AppIntents0A10SiriPlayerV8delegateAC19PlaybackControlling_pXpSgvsZ
+- _$s5UIKit24UIViewConfigurationStateV10isSelectedSbvg
+- _$s5UIKit25UIBackgroundConfigurationV26listAccompaniedSidebarCellACyFZ
+- _$s5UIKit6_GlassV01_B7VariantV8adaptive5styleAESo20UIUserInterfaceStyleV_tF
+- _$s5UIKit6_GlassV8flexibleyACSbF
+- _$s7MusicUI0A12PageProviderC12presentAlertyyAA0F5ModelVF
+- _$s7SubjectSo20NSNotificationCenterC10FoundationE16MainActorMessagePTl
+- _$s7SwiftUI10TapGestureVAA0D0AAWP
+- _$s7SwiftUI11_BlurEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI12_ScaleEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI13AnyShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI13GeometryProxyVMa
+- _$s7SwiftUI13GeometryProxyVMn
+- _$s7SwiftUI13_OffsetEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI13_ShadowEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI14LinearGradientVAA10ShapeStyleAAWP
+- _$s7SwiftUI14SubmitTriggersV4textACvgZ
+- _$s7SwiftUI14SubmitTriggersVMa
+- _$s7SwiftUI14TintShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI16_BlendModeEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI20_TransactionModifierVAA04ViewD0AAWP
+- _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI23_CompositingGroupEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI25_AlignmentWritingModifierVAA04ViewE0AAWP
+- _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAWP
+- _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAWP
+- _$s7SwiftUI27_TextBaselineRelativeSpacerVAA4ViewAAWP
+- _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI31_IndefiniteSymbolEffectModifierVAA04ViewF0AAWP
+- _$s7SwiftUI45_AccessibilityIgnoresInvertColorsViewModifierVAA0gH0AAWP
+- _$s7SwiftUI4TextVAA4ViewAAWP
+- _$s7SwiftUI4ViewPAAE19hoverEffectDisabledyQrSbF
+- _$s7SwiftUI4ViewPAAE19hoverEffectDisabledyQrSbFQOMQ
+- _$s7SwiftUI4ViewPAAE8onSubmit2of_QrAA0E8TriggersV_yyctF
+- _$s7SwiftUI4ViewPAAE8onSubmit2of_QrAA0E8TriggersV_yyctFQOMQ
+- _$s7SwiftUI5ColorVAA10ShapeStyleAAWP
+- _$s7SwiftUI5ColorVAA4ViewAAWP
+- _$s7SwiftUI5ImageVAA4ViewAAWP
+- _$s7SwiftUI6SpacerVAA4ViewAAWP
+- _$s7SwiftUI8MaterialVAA10ShapeStyleAAWP
+- _$s7SwiftUI9EmptyViewVAA0D0AAWP
+- _$s7SwiftUI9TextFieldVA2A0C0VRszrlE_4text6prompt4axisACyAEGqd___AA7BindingVySSGAESgAA4AxisOtcSyRd__lufC
+- _$s8MusicKit0A5VideoV0aB8Internal011FavoritableA4ItemADWP
+- _$s8MusicKit4SongV0aB8Internal011FavoritableA4ItemADWP
+- _$s8MusicKit5TrackO0aB8Internal011FavoritableA4ItemADWP
+- _$sSS15replaceSubrange_4withySnySS5IndexVG_xtSlRzSJ7ElementRtzlF
+- _$sSS6remove2atSJSS5IndexV_tF
+- _$sSSSlsMc
+- _$sSd7SwiftUI10AnimatableAAWP
+- _$sSd7SwiftUI16VectorArithmeticAAWP
+- _$sSf7SwiftUI16VectorArithmeticAAWP
+- _$sSi7SwiftUI18_FormatSpecifiableAAWP
+- _$sSo20NSNotificationCenterC10FoundationE11addObserver2of3for5usingAbCE16ObservationTokenV7SubjectQy_m_xyq_ScMYcctAbCE17MessageIdentifierRzAbCE09MainActorL0R_0L4TypeQzRs_r0_lF
+- _$sSo20NSNotificationCenterC10FoundationE16MainActorMessageMp
+- _$sSo20NSNotificationCenterC10FoundationE16MainActorMessageP04makeF0yxSgAC12NotificationVFZTq
+- _$sSo20NSNotificationCenterC10FoundationE16MainActorMessageP16makeNotificationyAC0H0VxFZTq
+- _$sSo20NSNotificationCenterC10FoundationE16MainActorMessageP4nameSo0A4NameavgZTq
+- _$sSo20NSNotificationCenterC10FoundationE16MainActorMessagePACE04makeF0yxSgAC12NotificationVFZ
+- _$sSo20NSNotificationCenterC10FoundationE16MainActorMessagePACE16makeNotificationyAC0H0VxFZ
+- _$sSo20NSNotificationCenterC10FoundationE16ObservationTokenVMa
+- _$sSo20NSNotificationCenterC10FoundationE16ObservationTokenVMn
+- _$sSo20NSNotificationCenterC10FoundationE21BaseMessageIdentifierVAEy_xGycAbCE09MainActorE0RzlufC
+- _$sSo20NSNotificationCenterC10FoundationE21BaseMessageIdentifierVMn
+- _$sSo20NSNotificationCenterC10FoundationE21BaseMessageIdentifierVy_xGAbCE0eF0ACMc
+- _$sSo20NSNotificationCenterC10FoundationE4postyyxAbCE16MainActorMessageRzlF
+- _$ss5NeverO7SwiftUI4ViewACWP
+```

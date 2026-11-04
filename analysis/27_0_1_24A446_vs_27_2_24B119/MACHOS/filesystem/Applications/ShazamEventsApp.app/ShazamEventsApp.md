@@ -1,0 +1,178 @@
+## ShazamEventsApp
+
+> `/Applications/ShazamEventsApp.app/ShazamEventsApp`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__objc_classname`
+- `__TEXT.__cstring`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_entry`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+
+```diff
+
+-427.0.9.0.0
+-  __TEXT.__text: 0x1e0e38
+-  __TEXT.__auth_stubs: 0x4e50
++427.2.2.0.0
++  __TEXT.__text: 0x1e32ec
++  __TEXT.__auth_stubs: 0x4e90
+   __TEXT.__objc_stubs: 0x1600
+   __TEXT.__objc_methlist: 0x694
+-  __TEXT.__const: 0x10c84
+-  __TEXT.__constg_swiftt: 0x4f64
+-  __TEXT.__swift5_typeref: 0x21630
+-  __TEXT.__swift5_reflstr: 0x4538
++  __TEXT.__const: 0x10e04
++  __TEXT.__constg_swiftt: 0x4fec
++  __TEXT.__swift5_typeref: 0x216d0
++  __TEXT.__swift5_reflstr: 0x45b8
+   __TEXT.__swift5_assocty: 0x1278
+-  __TEXT.__swift5_fieldmd: 0x3d10
++  __TEXT.__swift5_fieldmd: 0x3da4
+   __TEXT.__swift5_builtin: 0x104
+-  __TEXT.__swift5_protos: 0x9c
+-  __TEXT.__swift5_proto: 0x568
+-  __TEXT.__swift5_types: 0x38c
++  __TEXT.__swift5_protos: 0xa4
++  __TEXT.__swift5_proto: 0x570
++  __TEXT.__swift5_types: 0x394
+   __TEXT.__objc_classname: 0x65f
+-  __TEXT.__objc_methname: 0x31a1
++  __TEXT.__objc_methname: 0x31d1
+   __TEXT.__objc_methtype: 0xd1d
+-  __TEXT.__swift_as_entry: 0x240
+-  __TEXT.__swift_as_ret: 0x210
+-  __TEXT.__swift_as_cont: 0x6c0
+-  __TEXT.__oslogstring: 0xac5
+-  __TEXT.__swift5_capture: 0x20e8
++  __TEXT.__swift_as_entry: 0x250
++  __TEXT.__swift_as_ret: 0x220
++  __TEXT.__swift_as_cont: 0x6e8
++  __TEXT.__oslogstring: 0xb05
++  __TEXT.__swift5_capture: 0x2140
+   __TEXT.__cstring: 0x4a1f
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x56a8
+-  __TEXT.__eh_frame: 0x7278
+-  __DATA_CONST.__const: 0x9148
++  __TEXT.__unwind_info: 0x5758
++  __TEXT.__eh_frame: 0x7460
++  __DATA_CONST.__const: 0x92c0
+   __DATA_CONST.__objc_classlist: 0xb8
+   __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x58
+-  __DATA_CONST.__auth_got: 0x2730
+-  __DATA_CONST.__got: 0x1538
+-  __DATA_CONST.__auth_ptr: 0x17d8
+-  __DATA.__objc_const: 0x3490
++  __DATA_CONST.__auth_got: 0x2750
++  __DATA_CONST.__got: 0x15a0
++  __DATA_CONST.__auth_ptr: 0x17f0
++  __DATA.__objc_const: 0x3510
+   __DATA.__objc_selrefs: 0x8b0
+   __DATA.__objc_data: 0x788
+-  __DATA.__data: 0xb8d0
++  __DATA.__data: 0xb9f0
+   __DATA.__bss: 0xb340
+   __DATA.__common: 0x118
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /System/Library/PrivateFrameworks/ShazamCore.framework/ShazamCore
+   - /System/Library/PrivateFrameworks/ShazamEvents.framework/ShazamEvents
+   - /System/Library/PrivateFrameworks/ShazamEventsUI.framework/ShazamEventsUI
++  - /System/Library/PrivateFrameworks/SportsKit.framework/SportsKit
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7581
+-  Symbols:   2222
++  Functions: 7643
++  Symbols:   2239
+   CStrings:  0
+ 
+Symbols:
++ _$s7SwiftUI11_BlurEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI11_BlurEffectVN
++ _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI13_ShadowEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI13_ShadowEffectVN
++ _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI14_OpacityEffectVN
++ _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI15_RotationEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI15_RotationEffectVN
++ _$s7SwiftUI16_BlendModeEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI16_BlendModeEffectVMa
++ _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FixedSizeLayoutVN
++ _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI20_TransactionModifierVAA04ViewD0AAMc
++ _$s7SwiftUI20_TransactionModifierVN
++ _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAMc
++ _$s7SwiftUI25_AlignmentWritingModifierVAA04ViewE0AAMc
++ _$s7SwiftUI25_AlignmentWritingModifierVN
++ _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAMc
++ _$s7SwiftUI25_AllowsHitTestingModifierVN
++ _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAMc
++ _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI45_AccessibilityIgnoresInvertColorsViewModifierVAA0gH0AAMc
++ _$s7SwiftUI45_AccessibilityIgnoresInvertColorsViewModifierVN
++ _$s7SwiftUI4TextVAA4ViewAAMc
++ _$s7SwiftUI5ColorVAA10ShapeStyleAAMc
++ _$s7SwiftUI5ColorVAA4ViewAAMc
++ _$s7SwiftUI5ImageVAA4ViewAAMc
++ _$s7SwiftUI6SpacerVAA4ViewAAMc
++ _$s7SwiftUI8MaterialVAA10ShapeStyleAAMc
++ _$s7SwiftUI9EmptyViewVAA0D0AAMc
++ _$s9SportsKit0A31EntityConfigurationAvailabilityO12notSupportedyA2CmFWC
++ _$s9SportsKit0A31EntityConfigurationAvailabilityO16installedLocallyyA2CmFWC
++ _$s9SportsKit0A31EntityConfigurationAvailabilityO8appStoreyA2CmFWC
++ _$s9SportsKit0A31EntityConfigurationAvailabilityOMa
++ _$s9SportsKit0A7ManagerC18entityAvailability11canonicalIdAA0a19EntityConfigurationE0OSS_tYaKFTjTu
++ _$s9SportsKit0A7ManagerC6sharedACvgZ
++ _$s9SportsKit0A7ManagerCMa
++ _$ss5NeverO7SwiftUI4ViewACMc
++ _objc_retain_x27
+- _$s10Foundation3URLV14absoluteStringSSvg
+- _$s7SwiftUI11_BlurEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI13_ShadowEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI15_RotationEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI16_BlendModeEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI20_TransactionModifierVAA04ViewD0AAWP
+- _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI25_AlignmentWritingModifierVAA04ViewE0AAWP
+- _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAWP
+- _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAWP
+- _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI45_AccessibilityIgnoresInvertColorsViewModifierVAA0gH0AAWP
+- _$s7SwiftUI4TextVAA4ViewAAWP
+- _$s7SwiftUI5ColorVAA10ShapeStyleAAWP
+- _$s7SwiftUI5ColorVAA4ViewAAWP
+- _$s7SwiftUI5ImageVAA4ViewAAWP
+- _$s7SwiftUI6SpacerVAA4ViewAAWP
+- _$s7SwiftUI8MaterialVAA10ShapeStyleAAWP
+- _$s7SwiftUI9EmptyViewVAA0D0AAWP
+- _$ss5NeverO7SwiftUI4ViewACWP
+```

@@ -1,0 +1,150 @@
+## HashtagImagesExtension
+
+> `/Applications/HashtagImages.app/PlugIns/HashtagImagesExtension.appex/HashtagImagesExtension`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift_as_ret`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__got`
+
+```diff
+
+-3400.1.6.30.0
+-  __TEXT.__text: 0xc4c8
+-  __TEXT.__auth_stubs: 0x920
+-  __TEXT.__objc_stubs: 0xec0
+-  __TEXT.__objc_methlist: 0x46c
+-  __TEXT.__const: 0x210
+-  __TEXT.__cstring: 0x399
+-  __TEXT.__objc_methname: 0x10b6
+-  __TEXT.__swift5_typeref: 0x2ae
+-  __TEXT.__swift5_capture: 0x2ac
+-  __TEXT.__objc_methtype: 0x496
+-  __TEXT.__objc_classname: 0x132
+-  __TEXT.__constg_swiftt: 0x80
+-  __TEXT.__swift5_reflstr: 0x11a
+-  __TEXT.__swift5_fieldmd: 0xd8
+-  __TEXT.__swift5_proto: 0x8
+-  __TEXT.__swift5_types: 0xc
+-  __TEXT.__swift_as_entry: 0x10
++3400.1.6.40.0
++  __TEXT.__text: 0xa1e4
++  __TEXT.__auth_stubs: 0xb60
++  __TEXT.__objc_stubs: 0xaa0
++  __TEXT.__objc_methlist: 0x1e8
++  __TEXT.__const: 0x1a8
++  __TEXT.__cstring: 0x320
++  __TEXT.__objc_methname: 0xa43
++  __TEXT.__objc_classname: 0xcf
++  __TEXT.__objc_methtype: 0x1bd
++  __TEXT.__constg_swiftt: 0x64
++  __TEXT.__swift5_typeref: 0x1ff
++  __TEXT.__swift5_reflstr: 0x73
++  __TEXT.__swift5_fieldmd: 0x68
++  __TEXT.__swift5_capture: 0x16c
++  __TEXT.__swift5_types: 0x8
++  __TEXT.__swift_as_entry: 0x14
+   __TEXT.__swift_as_ret: 0x8
+-  __TEXT.__swift_as_cont: 0x8
+-  __TEXT.__unwind_info: 0x3b8
+-  __TEXT.__eh_frame: 0x178
+-  __DATA_CONST.__const: 0x6a0
++  __TEXT.__swift_as_cont: 0xc
++  __TEXT.__unwind_info: 0x318
++  __TEXT.__eh_frame: 0x208
++  __DATA_CONST.__const: 0x408
+   __DATA_CONST.__objc_classlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x60
++  __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x30
+-  __DATA_CONST.__auth_got: 0x498
++  __DATA_CONST.__objc_protorefs: 0x10
++  __DATA_CONST.__auth_got: 0x5b8
+   __DATA_CONST.__got: 0x128
+-  __DATA_CONST.__auth_ptr: 0x80
+-  __DATA.__objc_const: 0xa28
+-  __DATA.__objc_selrefs: 0x578
+-  __DATA.__objc_data: 0x1c0
+-  __DATA.__data: 0x418
+-  __DATA.__bss: 0x100
+-  - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
++  __DATA_CONST.__auth_ptr: 0x60
++  __DATA.__objc_const: 0x278
++  __DATA.__objc_selrefs: 0x360
++  __DATA.__objc_data: 0x190
++  __DATA.__data: 0x128
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+-  - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+-  - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+-  - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /System/Library/Frameworks/MessageUI.framework/MessageUI
+   - /System/Library/Frameworks/Messages.framework/Messages
+-  - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+-  - /System/Library/PrivateFrameworks/AggregateDictionary.framework/AggregateDictionary
+   - /System/Library/PrivateFrameworks/CoreParsec.framework/CoreParsec
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /System/Library/PrivateFrameworks/SearchToShareCore.framework/SearchToShareCore
+-  - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 301
+-  Symbols:   150
++  Functions: 207
++  Symbols:   156
+   CStrings:  0
+ 
+Symbols:
++ _NSLocalizedDescriptionKey
++ _NSSearchPathForDirectoriesInDomains
++ _NSURLErrorDomain
++ _OBJC_CLASS_$_NSFileManager
++ _OBJC_CLASS_$_STSImageCache
++ _OBJC_CLASS_$_UIAlertAction
++ _OBJC_CLASS_$_UIAlertController
++ _OBJC_CLASS_$_UIGraphicsImageRenderer
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ _objc_retain_x1
++ _objc_retain_x28
++ _swift_dynamicCastClass
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_initStackObject
++ _swift_isEscapingClosureAtFileLocation
++ _swift_setDeallocating
++ _swift_willThrow
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$_STSFeedbackReporter
+- _OBJC_CLASS_$_STSPicker
+- _OBJC_CLASS_$_STSSearchBrowserRootViewController
+- _OBJC_CLASS_$_STSSearchModel
+- _OBJC_CLASS_$_STSZKWBrowserHeaderView
+- _objc_retain_x2
+- _objc_retain_x24
+- _objc_retain_x25
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_release_n
+- _swift_retain_x23
+- _swift_retain_x26
+```
